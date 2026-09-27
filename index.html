@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="TAURON Liga K" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>TAURON Liga Kobiet 2026/27</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="apple-touch-icon" href="./icons/icon.svg" />
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <header class="app">
+    <div class="brand">
+      <div class="logo">TL</div>
+      <h1>TAURON Liga Kobiet<span>Sezon 2026/2027 · 12 drużyn</span></h1>
+    </div>
+    <div class="meta">
+      <span class="pill live" id="updated">Ładowanie…</span>
+      <span class="pill">Mistrzynie: PGE Budowlani Łódź</span>
+    </div>
+  </header>
+  <nav class="tabs">
+    <button class="active" data-tab="sec-table">Tabela</button>
+    <button data-tab="sec-r1">1. kolejka</button>
+    <button data-tab="sec-r2">2. kolejka</button>
+    <button data-tab="sec-news">Relacje</button>
+    <button data-tab="sec-rules">Regulamin</button>
+    <button data-tab="sec-input">Wynik</button>
+  </nav>
+  <section id="sec-table" class="active">
+    <div class="ios-banner">
+      <strong>Stały adres (GitHub Pages):</strong> Safari → Udostępnij → „Dodaj do ekranu początkowego”.
+      Wyniki zapisują się na telefonie. Hosting bez daty wygaśnięcia.
+    </div>
+    <div class="note">
+      Faza zasadnicza jeszcze się nie zaczęła (start 2 października 2026, 17:30, Kalisz).
+      Tabela jest pusta i będzie liczona automatycznie po wpisaniu wyników zgodnie z punktacją PLS.
+    </div>
+    <div class="card">
+      <h2>Tabela — faza zasadnicza</h2>
+      <div id="table-wrap"></div>
+    </div>
+    <div class="card">
+      <h2>Absencje i kontuzje</h2>
+      <div id="injuries"></div>
+    </div>
+  </section>
+  <section id="sec-r1">
+    <div class="card">
+      <h2>Zapowiedzi 1. kolejki</h2>
+      <p class="muted">2–4.10.2026 · prognozy na podstawie sparingów, Grand Prix PGE, Gigantów Siatkówki i komunikatów klubów.</p>
+    </div>
+    <div id="round1"></div>
+  </section>
+  <section id="sec-r2">
+    <div class="card">
+      <h2>Ramówka 2. kolejki</h2>
+      <p class="muted">Szczegółowe zapowiedzi po 1. kolejce (siatka.org, WP SportoweFakty, strona ligi, social media klubów).</p>
+    </div>
+    <div id="round2"></div>
+  </section>
+  <section id="sec-news">
+    <div class="card">
+      <h2>Przegląd relacji przedsezonowych</h2>
+      <p class="muted">Źródła: tauronligakobiet.pl, siatka.org, sportowefakty.wp.pl</p>
+    </div>
+    <div id="news"></div>
+  </section>
+  <section id="sec-rules">
+    <div class="card">
+      <h2>Punktacja (oficjalna, sezon 2026/27)</h2>
+      <ul>
+        <li>3 pkt — wygrana 3:0 lub 3:1</li>
+        <li>2 pkt — wygrana 3:2</li>
+        <li>1 pkt — porażka 2:3</li>
+        <li>0 pkt — porażka 1:3 lub 0:3</li>
+      </ul>
+      <h3>Kolejność w tabeli</h3>
+      <ol>
+        <li>punkty meczowe</li>
+        <li>liczba wygranych meczów</li>
+        <li>stosunek setów</li>
+        <li>stosunek małych punktów</li>
+        <li>bilans bezpośredni</li>
+      </ol>
+    </div>
+  </section>
+  <section id="sec-input">
+    <div class="card">
+      <h2>Wpisz wynik meczu</h2>
+      <select id="match-select"></select>
+      <div class="form-row">
+        <div><label class="muted">Sety gospodarza</label><input id="home-sets" type="number" min="0" max="3" value="3" /></div>
+        <div><label class="muted">Sety gościa</label><input id="away-sets" type="number" min="0" max="3" value="0" /></div>
+      </div>
+      <input id="set-points" placeholder="25-20,25-18,25-16" />
+      <button class="primary" id="save-btn">Zapisz i przelicz tabelę</button>
+      <button class="ghost" id="reset-btn">Wyczyść lokalne wyniki</button>
+    </div>
+  </section>
+  <footer class="hint">Nieoficjalne narzędzie kibicowskie. Wyniki zapisują się na telefonie.</footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
