@@ -6,30 +6,109 @@
       "window": "2–4 października 2026",
       "status": "zaplanowana",
       "matches": [
-        {"id": "r1m1", "date": "2026-10-02", "time": "17:30", "home": "kal", "away": "bud", "venue": "Kalisz", "sets": null, "score": null,
-          "preview": {"headline": "Inauguracja w Kaliszu: beniaminek kontra mistrzynie Polski", "prediction": "0:3", "confidence": "wysoka",
-            "text": "NETLAND MKS Kalisz otwiera sezon u siebie przeciwko PGE Budowlanym Łódź — obrończyniom tytułu. Różnica potencjału na papierze jest wyraźna. Faworyt: łodzianki Biernata.",
-            "keys": ["forma mistrzyń", "atak Storck/Buterez", "inauguracja beniaminka"]}},
-        {"id": "r1m2", "date": "2026-10-02", "time": "20:30", "home": "opo", "away": "che", "venue": "Opole", "sets": null, "score": null,
-          "preview": {"headline": "Brązowe medalistki witają przebudowany Chemik", "prediction": "3:1", "confidence": "średnia",
-            "text": "UNI Opole ma medal 2025/26 i ciągłość projektu. Chemik po dużych zmianach musi potwierdzić jakość. Lekki faworyt: Opole.",
-            "keys": ["ciągłość Opola", "nowy Chemik"]}},
-        {"id": "r1m3", "date": "2026-10-03", "time": "12:00", "home": "mog", "away": "rad", "venue": "Mogilno", "sets": null, "score": null,
-          "preview": {"headline": "Waleczny Sokół kontra Radomka po rewolucji", "prediction": "2:3", "confidence": "średnia",
-            "text": "Trener Michor zapowiada najwaleczniejszą drużynę ligi. Radomka po letniej przebudowie wygrywała przygotowania. Wyjazd do Mogilna o 12:00 to pułapka.",
-            "keys": ["hala w Mogilnie", "forma turniejowa Radomki"]}},
-        {"id": "r1m4", "date": "2026-10-03", "time": "15:00", "home": "byd", "away": "bks", "venue": "Bydgoszcz", "sets": null, "score": null,
-          "preview": {"headline": "Pałac próbuje zatrzymać BKS", "prediction": "1:3", "confidence": "średnia+",
-            "text": "BKS to stały play-off. Pałac u siebie gryzie wyżej notowanych, ale doświadczenie bielszczanek powinno wystarczyć.",
-            "keys": ["doświadczenie BKS", "gra u siebie Pałacu"]}},
-        {"id": "r1m5", "date": "2026-10-04", "time": "15:00", "home": "wro", "away": "mie", "venue": "Wrocław", "sets": null, "score": null,
-          "preview": {"headline": "Wzmocniony Wrocław startuje ze Stalą", "prediction": "3:1", "confidence": "średnia",
-            "text": "#VolleyWrocław komunikuje wzmocnienia. W Grand Prix PGE wygrał ze Stalą 2:0. Mecz otwarty, lekki faworyt gospodynie.",
-            "keys": ["wzmocnienia Wrocławia", "rutyna play-off Stali"]}},
-        {"id": "r1m6", "date": "2026-10-04", "time": "18:00", "home": "lks", "away": "dev", "venue": "Łódź (ŁKS)", "sets": null, "score": null,
-          "preview": {"headline": "ŁKS — DevelopRes. Cień kontuzji Jurczyk", "prediction": "1:3", "confidence": "średnia+",
-            "text": "Hit kolejki. ŁKS wygrał Twardogórę, ale Magdalena Jurczyk jest kontuzjowana. DevelopRes z nową kapitan Grabką. Faworyt: Rzeszów.",
-            "keys": ["kontuzja Jurczyk", "jakość DevelopRes", "nowa rola Grabki"]}}
+        {
+          "id": "r1m1",
+          "date": "2026-10-02",
+          "time": "17:30",
+          "home": "kal",
+          "away": "bud",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "pointsAwarded": null,
+          "preview": {
+            "headline": "Inauguracja w Kaliszu: beniaminek kontra mistrzynie Polski",
+            "text": "NETLAND MKS Kalisz wraca do elity i jako gospodarz otwiera sezon. Przeciwnik to PGE Budowlani Łódź — obrończynie tytułu po historycznym mistrzostwie z kwietnia 2026 (finał z DevelopResem 3–2 w serii, decydujący mecz 3:1 w Rzeszowie). Kalisz ma tradycje (Energa MKS to jeden z najbardziej utytułowanych klubów w historii), ale różnica potencjału na papierze jest wyraźna. W Grand Prix PGE (sierpień) Radomka wygrała z Kaliszem 2:0 (25:12, 25:8), a Budowlani regularnie ogrywali ligowych rywali w sparingach — m.in. pokonali #VolleyWrocław w ostatnim sprawdzianie. Atut hali i emocje inauguracji mogą dać gospodyniom set, ale faworytem są łodzianki Biernata (Storck, Buterez, Planinšec, Grajber-Nowakowska, Wenerska).",
+            "prediction": "0:3",
+            "confidence": "wysoka",
+            "keys": ["forma mistrzyń", "jakość ataku Storck/Buterez", "doświadczenie play-off", "presja inauguracji u beniaminka"]
+          }
+        },
+        {
+          "id": "r1m2",
+          "date": "2026-10-02",
+          "time": "20:30",
+          "home": "opo",
+          "away": "che",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Brązowe medalistki witają przebudowany Chemik",
+            "text": "UNI Opole zakończyło sezon 2025/26 na podium — pierwszy medal w historii klubu. Chemik Police, dziewięciokrotne mistrzynie z minionej dekady, po słabszym sezonie (walka o play-off) przeprowadziły duże zmiany kadrowe i zapowiadają powrót ambicji. Opole u siebie bywa bardzo niewygodne; Chemik musi potwierdzić, że rewolucja daje natychmiastowy efekt. Faworyt nieznacznie po stronie gospodyń ze względu na ciągłość projektu i medalowy bagaż.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": ["ciągłość Opola", "nowy Chemik bez rozegranych ligowych meczów", "jakość środka i przyjęcia"]
+          }
+        },
+        {
+          "id": "r1m3",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "home": "mog",
+          "away": "rad",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Waleczny Sokół kontra Radomka po rewolucji",
+            "text": "Trener Dawid Michor zapowiedział, że Sokół chce być najwaleczniejszą drużyną ligi. Skład uzupełniły m.in. Karolina Drużkowska i zawodniczki z zagranicy (m.in. Melis Durul). MOYA Radomka przeszła letnią przebudowę; w przygotowaniach wygrywała turnieje (Solna Piłka w Wieliczce — finał z UNI Opole) i była skuteczna w Grand Prix PGE. Na papierze Radomka ma szerszy wachlarz, ale wyjazd do Mogilna na południe już o 12:00 to klasyczny „mecz-pułapka”.",
+            "prediction": "2:3",
+            "confidence": "średnia",
+            "keys": ["rewolucja kadrowa Radomki", "czynnik hali w Mogilnie", "waleczność Sokoła", "rytm turniejowy Radomki"]
+          }
+        },
+        {
+          "id": "r1m4",
+          "date": "2026-10-03",
+          "time": "15:00",
+          "home": "byd",
+          "away": "bks",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Pałac próbuje zatrzymać BKS",
+            "text": "Metalkas Pałac Bydgoszcz regularnie gryzie się o miejsca 6–9. BKS ZGO Bielsko-Biała to klub ze stałym miejscem w górnej połowie i doświadczeniem play-off. W poprzednim sezonie BKS był wyżej w tabeli zasadniczej. Bydgoszcz u siebie potrafi zaskoczyć faworyta, ale BKS powinien kontrolować mecz jakością bloku i przyjęcia.",
+            "prediction": "1:3",
+            "confidence": "średnia+",
+            "keys": ["doświadczenie BKS", "gra u siebie Pałacu", "stabilność składu bielszczanek"]
+          }
+        },
+        {
+          "id": "r1m5",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "wro",
+          "away": "mie",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Wzmocniony Wrocław startuje ze Stalą",
+            "text": "#VolleyWrocław oficjalnie komunikuje wzmocnienia i patrzy wyżej niż na walkę o utrzymanie. ITA TOOLS Stal Mielec w poprzednim sezonie była w strefie play-off. W sierpniowym Grand Prix PGE Wrocław wygrał ze Stalą 2:0 (26:24, 25:10) — to tylko plażówka/skrócony format, ale pokazuje, że wrocławianki potrafią narzucić tempo. Mecz otwarty; lekki faworyt gospodynie z racji nowych nabytków i hali.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": ["wzmocnienia Wrocławia", "rutyna play-off Stali", "Grand Prix jako sygnał formy"]
+          }
+        },
+        {
+          "id": "r1m6",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "home": "lks",
+          "away": "dev",
+          "venue": "Łódź (ŁKS)",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Derby ambicji: ŁKS kontra DevelopRes. Cień kontuzji Jurczyk",
+            "text": "Hit 1. kolejki. ŁKS Commercecon wygrał turniej w Twardogórze i pewnie przeszedł Zeren w półfinale LOTTO Gigantów Siatkówki, ale Magdalena Jurczyk doznała kontuzji — to istotna strata w środku. DevelopRes Rzeszów, wicemistrz i lider fazy zasadniczej 2025/26, ma nową kapitan Alicję Grabkę (przeszła z Budowlanych). Jelena Blagojević kompletuje atak i rozegranie po dużych odejściach. ŁKS u siebie zawsze jest trudny, ale jakość Rzeszowa plus znak zapytania przy Jurczyk przechyla szalę na DevelopRes. Prognoza: wygrana gości, ale nie gładka.",
+            "prediction": "1:3",
+            "confidence": "średnia+",
+            "keys": ["kontuzja Jurczyk", "jakość przyjęcia DevelopRes (Jasper, Piasecka, Jansen)", "nowa rola Grabki", "forma ŁKS na Gigantach"]
+          }
+        }
       ]
     },
     {
