@@ -1,4 +1,4 @@
-const CACHE = "tlk-2026-27-v3";
+const CACHE = "tlk-2026-27-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -7,7 +7,10 @@ const ASSETS = [
   "./js/app.js",
   "./data/season.json",
   "./data/matches.json",
-  "./data/scorers.json"
+  "./data/scorers.json",
+  "./data/news.json",
+  "./data/sources.json",
+  "./data/feed-status.json"
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));

@@ -1,0 +1,49 @@
+{
+  "updated": "2026-09-27T18:10:00+02:00",
+  "policy": "Aplikacja jest narzędziem kibicowskim. Wyniki ligowe wpisuje użytkownik lub (po starcie sezonu) ręczna aktualizacja JSON. Źródła zewnętrzne są sprawdzane, ale żadne nie daje publicznego REST API bez blokad.",
+  "sources": [
+    {
+      "id": "pls",
+      "name": "PLS / tauronligakobiet.pl",
+      "role": "oficjalne wyniki, tabela, ranking punktujących",
+      "url": "https://www.tauronligakobiet.pl",
+      "ajax": "https://www.tauronligakobiet.pl/ajax/gameList",
+      "apiPublic": false,
+      "browserUsable": false,
+      "reason": "Wewnętrzny AJAX + CSRF. Z GitHub Pages CORS i 403 bez sesji.",
+      "useFor": ["wyniki", "tabela"]
+    },
+    {
+      "id": "siatka",
+      "name": "siatka.org",
+      "role": "relacje, analizy, wynik-tab HTML",
+      "url": "https://siatka.org",
+      "wyniki": "https://siatka.org/wyniki/",
+      "live": "https://siatka.org/live/",
+      "apiPublic": false,
+      "browserUsable": false,
+      "reason": "WordPress. REST /wp-json zablokowany (401). RSS 404. Wyniki tylko jako HTML.",
+      "useFor": ["relacje", "wyniki-html"]
+    },
+    {
+      "id": "volleybox",
+      "name": "Volleybox Women",
+      "role": "terminarz i wyniki społecznościowe",
+      "url": "https://women.volleybox.net/pl/matches",
+      "liga2026": "https://women.volleybox.net/pl/matches",
+      "apiPublic": false,
+      "browserUsable": false,
+      "reason": "Cloudflare Turnstile. Bezrozwiązaniowy GET zwraca 403 Just a moment. Brak publicznego API JSON.",
+      "useFor": ["terminarz", "wyniki"]
+    },
+    {
+      "id": "wp",
+      "name": "WP SportoweFakty",
+      "role": "relacje i newsy",
+      "url": "https://sportowefakty.wp.pl",
+      "apiPublic": false,
+      "browserUsable": false,
+      "useFor": ["relacje"]
+    }
+  ]
+}

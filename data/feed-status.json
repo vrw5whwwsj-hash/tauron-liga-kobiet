@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-09-27T18:10:00+02:00",
+  "seasonStart": "2026-10-02",
+  "liveResultsAvailable": false,
+  "checks": [
+    {
+      "id": "pls-ajax",
+      "url": "https://www.tauronligakobiet.pl/ajax/gameList",
+      "ok": false,
+      "http": 403,
+      "note": "Wymaga csrf z sesji strony ligi."
+    },
+    {
+      "id": "siatka-rest",
+      "url": "https://siatka.org/wp-json/wp/v2/posts",
+      "ok": false,
+      "http": 401,
+      "note": "REST tylko dla zalogowanych."
+    },
+    {
+      "id": "siatka-rss",
+      "url": "https://siatka.org/feed/",
+      "ok": false,
+      "http": 404,
+      "note": "Klasyczny RSS nie istnieje."
+    },
+    {
+      "id": "siatka-wyniki",
+      "url": "https://siatka.org/wyniki/",
+      "ok": true,
+      "http": 200,
+      "note": "HTML działa, ale nie JSON. Do ręcznego odczytu relacji."
+    },
+    {
+      "id": "volleybox-matches",
+      "url": "https://women.volleybox.net/pl/matches",
+      "ok": false,
+      "http": 403,
+      "note": "Cloudflare Turnstile — Just a moment. Brak publicznego API."
+    }
+  ]
+}
