@@ -1,0 +1,14 @@
+{
+  "name": "TAURON Liga Kobiet 2026/27",
+  "short_name": "TAURON Liga K",
+  "description": "Wyniki, tabela, zapowiedzi i relacje TAURON Ligi Kobiet sezon 2026/2027",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "orientation": "portrait",
+  "lang": "pl",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

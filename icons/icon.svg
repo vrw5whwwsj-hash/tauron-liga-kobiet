@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+<rect width="192" height="192" rx="36" fill="#0b1220"/>
+<rect x="18" y="18" width="156" height="156" rx="28" fill="#e8b84a"/>
+<circle cx="96" cy="82" r="28" fill="none" stroke="#1a1204" stroke-width="6"/>
+<text x="96" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#1a1204">TL</text>
+</svg>
