@@ -1,15 +1,95 @@
 {
   "updated": "2026-09-27",
   "items": [
-    { "d": "2026-09-26", "t": "\u0141KS najlepszy w Twardog\u00f3rze; kontuzja Magdaleny Jurczyk", "te": "\u0141KS win Twardog\u00f3ra tournament; Magdalena Jurczyk injured", "s": "tauronligakobiet.pl" },
-    { "d": "2026-09-26", "t": "PGE Budowlani lepsi od #VolleyWroc\u0142aw w ostatnim sparingu", "te": "PGE Budowlani beat #VolleyWroc\u0142aw in the last friendly", "s": "tauronligakobiet.pl" },
-    { "d": "2026-09-25", "t": "LOTTO Chemik Police: du\u017ce zmiany i du\u017ce ambicje", "te": "LOTTO Chemik Police: major roster changes and big ambitions", "s": "tauronligakobiet.pl / siatka.org" },
-    { "d": "2026-09-25", "t": "MOYA Radomka Radom \u2014 klub po letniej rewolucji", "te": "MOYA Radomka Radom after a summer rebuild", "s": "tauronligakobiet.pl / siatka.org" },
-    { "d": "2026-09-25", "t": "\u0141KS pewnie pokonuje Zeren w p\u00f3\u0142finale LOTTO Gigant\u00f3w", "te": "\u0141KS beat Zeren in the LOTTO Volleyball Giants semi-final", "s": "tauronligakobiet.pl" },
-    { "d": "2026-09-24", "t": "Inauguracja sezonu 2026/27 w Kaliszu", "te": "2026/27 season opener in Kalisz", "s": "tauronligakobiet.pl" },
-    { "d": "2026-09-24", "t": "Trener Soko\u0142a: chcemy by\u0107 najwaleczniejsi w lidze", "te": "Sok\u00f3\u0142 coach: we want to be the toughest team in the league", "s": "tauronligakobiet.pl / siatka.org" },
-    { "d": "2026-09-24", "t": "Alicja Grabka now\u0105 kapitan DevelopResu", "te": "Alicja Grabka named new DevelopRes captain", "s": "tauronligakobiet.pl" },
-    { "d": "2026-09-23", "t": "Wzmocniony #VolleyWroc\u0142aw patrzy w g\u00f3r\u0119 tabeli", "te": "Reinforced #VolleyWroc\u0142aw aims higher in the table", "s": "siatka.org" },
-    { "d": "2026-09-22", "t": "NETLAND MKS Kalisz \u2014 beniaminek z wielkimi tradycjami", "te": "NETLAND MKS Kalisz \u2014 promoted side with a rich history", "s": "tauronligakobiet.pl / siatka.org" }
+    {
+      "d": "2026-09-26",
+      "t": "ŁKS najlepszy w Twardogórze; kontuzja Magdaleny Jurczyk",
+      "te": "ŁKS win Twardogóra tournament; Magdalena Jurczyk injured",
+      "tt": "ŁKS Twardogóra turnuvasını kazandı; Jurczyk sakat",
+      "b": "ŁKS Commercecon wygrał przedsezonowy turniej w Twardogórze i potwierdził formę przed ligą. Cieniem na starcie jest uraz środkowej Magdaleny Jurczyk — to strata w bloku i ataku ze środka przed 1. kolejką z DevelopResem.",
+      "be": "ŁKS Commercecon won the pre-season tournament in Twardogóra. The downside is an injury to middle blocker Magdalena Jurczyk — a loss in block and middle attack before Round 1 against DevelopRes.",
+      "bt": "ŁKS Twardogóra'daki hazırlık turnuvasını kazandı. Orta oyuncu Magdalena Jurczyk'in sakatlığı, DevelopRes maçı öncesi blok ve orta hücumda önemli kayıp."
+    },
+    {
+      "d": "2026-09-26",
+      "t": "PGE Budowlani lepsi od #VolleyWrocław w ostatnim sparingu",
+      "te": "PGE Budowlani beat #VolleyWrocław in the last friendly",
+      "tt": "PGE Budowlani son hazırlıkta Wrocław'ı geçti",
+      "b": "Mistrzynie Polski wygrały ostatni sprawdzian przed ligą z #VolleyWrocław. Łodzianki pokazały rytm ataku Storck i Buterez. Wrocław szuka jeszcze stałych zestawień przed otwarciem sezonu ze Stalą.",
+      "be": "The Polish champions won their last tune-up against #VolleyWrocław, with Storck and Buterez setting the attacking rhythm. Wrocław are still settling combinations before they open against Stal.",
+      "bt": "Polonya şampiyonu son antrenman maçında Wrocław'ı yendi. Storck ve Buterez ritmi verdi. Wrocław, Stal maçı öncesi kombinasyon arıyor."
+    },
+    {
+      "d": "2026-09-25",
+      "t": "LOTTO Chemik Police: duże zmiany i duże ambicje",
+      "te": "LOTTO Chemik Police: major roster changes and big ambitions",
+      "tt": "Chemik Police: büyük kadro değişikliği",
+      "b": "Chemik po słabszym sezonie przebudował skład i wraca z ambicją walki o górną część tabeli. Dziewięciokrotne mistrzynie muszą szybko zgrać nowy zestaw — pierwszy ligowy test to wyjazd do Opola.",
+      "be": "After a weaker season Chemik rebuilt the roster and aim for the top half. The nine-time champions must gel quickly — first league test is away in Opole.",
+      "bt": "Chemik zayıf sezonun ardından kadroyu yeniledi. İlk lig sınavı Opole deplasmanı."
+    },
+    {
+      "d": "2026-09-25",
+      "t": "MOYA Radomka Radom — klub po letniej rewolucji",
+      "te": "MOYA Radomka Radom after a summer rebuild",
+      "tt": "Radomka yaz reorganizesi sonrası",
+      "b": "Radomka zmieniła kadrę latem, ale w przygotowaniach wyglądała pewnie: turniej Solna Piłka i dobre mecze w Grand Prix PGE. Sezon zaczyna wyjazdem do Mogilna — klasyczny mecz-pułapka o 12:00.",
+      "be": "Radomka rebuilt in the summer but looked sharp in pre-season (Solna Piłka, PGE Grand Prix). They open away in Mogilno at noon — a classic banana-skin fixture.",
+      "bt": "Radomka yazın kadroyu yeniledi, hazırlıkta iyidir. Sezona öğlen Mogilno deplasmanıyla başlıyor."
+    },
+    {
+      "d": "2026-09-25",
+      "t": "ŁKS pewnie pokonuje Zeren w półfinale LOTTO Gigantów",
+      "te": "ŁKS beat Zeren in the LOTTO Volleyball Giants semi-final",
+      "tt": "ŁKS, Giganci yarı finalinde Zeren'i geçti",
+      "b": "ŁKS ograł turecki Zeren w półfinale LOTTO Gigantów Siatkówki. To mocny sygnał przed ligą, nawet jeśli skład na turniej różnił się od docelowego zestawu na TAURON Ligę Kobiet.",
+      "be": "ŁKS beat Turkish side Zeren in the LOTTO Volleyball Giants semi-final — a strong signal before the league, even if the tournament lineup was not the full league roster.",
+      "bt": "ŁKS, LOTTO Giganci yarı finalinde Zeren'i net geçti. Lig öncesi olumlu sinyal."
+    },
+    {
+      "d": "2026-09-24",
+      "t": "Inauguracja sezonu 2026/27 w Kaliszu",
+      "te": "2026/27 season opener in Kalisz",
+      "tt": "Sezon açılışı Kalisz'de",
+      "b": "Sezon TAURON Ligi Kobiet startuje 2 października o 17:30 w Arenie Kalisz. Beniaminek NETLAND MKS podejmuje mistrzynie PGE Budowlani Łódź. Transmisja Polsat Sport 1.",
+      "be": "The TAURON Liga Kobiet season opens on 2 October at 17:30 in Arena Kalisz. Promoted NETLAND MKS host champions PGE Budowlani Łódź. On Polsat Sport 1.",
+      "bt": "Sezon 2 Ekim 17:30'da Arena Kalisz'de açılıyor. NETLAND MKS, şampiyon Budowlani'’yi ağırlıyor. Polsat Sport 1."
+    },
+    {
+      "d": "2026-09-24",
+      "t": "Trener Sokoła: chcemy być najwaleczniejsi w lidze",
+      "te": "Sokół coach: we want to be the toughest team in the league",
+      "tt": "Sokół hocası: ligin en savaşçı takımı olmak istiyoruz",
+      "b": "Dawid Michor zapowiedział, że Sokół & Hagric chce wyróżniać się walecznością. Skład uzupełniły m.in. Karolina Drużkowska i Melis Durul. Pierwszy mecz u siebie z Radomką 3 października o 12:00.",
+      "be": "Dawid Michor said Sokół want to stand out for fight. Additions include Karolina Drużkowska and Melis Durul. First home match is vs Radomka on 3 October at 12:00.",
+      "bt": "Michor, Sokół'ün mücadeleyle öne çıkmasını istiyor. İlk iç saha maçı 3 Ekim'de Radomka karşısında."
+    },
+    {
+      "d": "2026-09-24",
+      "t": "Alicja Grabka nową kapitan DevelopResu",
+      "te": "Alicja Grabka named new DevelopRes captain",
+      "tt": "Alicja Grabka yeni DevelopRes kaptanı",
+      "b": "Alicja Grabka, po transferze z Budowlanych, dostała opaskę kapitana w Rzeszowie. Wicemistrzynie zaczynają sezon wyjazdem do ŁKS. Jelena Blagojević dokończa układ ataku po dużych zmianach kadrowych.",
+      "be": "Alicja Grabka, signed from Budowlani, is the new DevelopRes captain. The runners-up open away at ŁKS. Jelena Blagojević is still shaping the attack after major roster changes.",
+      "bt": "Grabka, Budowlani'den gelerek Rzeszów kaptanı oldu. DevelopRes sezona ŁKS deplasmanıyla başlıyor."
+    },
+    {
+      "d": "2026-09-23",
+      "t": "Wzmocniony #VolleyWrocław patrzy w górę tabeli",
+      "te": "Reinforced #VolleyWrocław aims higher in the table",
+      "tt": "Wrocław kadroyu güçlendirdi, hedef yukarı",
+      "b": "Wrocław nie chce kończyć sezonu tylko walką o utrzymanie. Po wzmocnieniach klub mówi o wyższych miejscach. Inauguracja u siebie ze Stalą Mielec 4 października.",
+      "be": "Wrocław do not want another survival season. After reinforcements the club talks about a higher finish. They open at home vs Stal Mielec on 4 October.",
+      "bt": "Wrocław bu sezon sadece küme düşmeme derdinde olmak istemiyor. 4 Ekim'de Stal'i ağırlıyor."
+    },
+    {
+      "d": "2026-09-22",
+      "t": "NETLAND MKS Kalisz — beniaminek z wielkimi tradycjami",
+      "te": "NETLAND MKS Kalisz — promoted side with a rich history",
+      "tt": "Kalisz: köklü tarih, yeni elit sezon",
+      "b": "Kalisz wraca do elity z bagażem historii klubu, ale skład na ligę buduje od nowa. Arena Kalisz da hałas przy inauguracji z mistrzyniami. Na papierze Łódź jest faworytem, gospodynie liczą na set i emocje otwarcia.",
+      "be": "Kalisz return to the top flight with club history behind them, but the league roster is new. Arena Kalisz will be loud for the opener vs the champions. Łódź are favourites on paper; the hosts want a set and opening-night energy.",
+      "bt": "Kalisz köklü kulüp tarihiyle elite döndü. Açılışta şampiyon Łódź favori, ev sahibi set ve atmosfer peşinde."
+    }
   ]
 }
