@@ -46,6 +46,7 @@ function renderTable(rows) {
 }
 function renderScorers() {
   const wrap = document.getElementById("scorers-wrap");
+  if (!wrap) return;
   if (!SCORERS) { wrap.innerHTML = "<p class='muted'>Brak danych.</p>"; return; }
   const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
   if (!players.length) {
@@ -70,16 +71,18 @@ function renderRound(roundObj) {
 }
 function renderNews() {
   const items = [
-    { d: "2026-09-26", t: "ŁKS najlepszy w Twardogórze; kontuzja Magdaleny Jurczyk" },
-    { d: "2026-09-26", t: "PGE Budowlani lepsi od #VolleyWrocław w ostatnim sparingu" },
-    { d: "2026-09-25", t: "LOTTO Chemik Police: duże zmiany i duże ambicje" },
-    { d: "2026-09-25", t: "MOYA Radomka Radom — klub po letniej rewolucji" },
-    { d: "2026-09-24", t: "Inauguracja sezonu 2026/27 w Kaliszu" },
-    { d: "2026-09-24", t: "Trener Sokoła: chcemy być najwaleczniejsi w lidze" },
-    { d: "2026-09-24", t: "Alicja Grabka nową kapitan DevelopResu" },
-    { d: "2026-09-23", t: "Wzmocniony #VolleyWrocław patrzy w górę tabeli" }
+    { d: "2026-09-26", t: "ŁKS najlepszy w Twardogórze; kontuzja Magdaleny Jurczyk", s: "tauronligakobiet.pl" },
+    { d: "2026-09-26", t: "PGE Budowlani lepsi od #VolleyWrocław w ostatnim sparingu", s: "tauronligakobiet.pl" },
+    { d: "2026-09-25", t: "LOTTO Chemik Police: duże zmiany i duże ambicje", s: "tauronligakobiet.pl" },
+    { d: "2026-09-25", t: "MOYA Radomka Radom — klub po letniej rewolucji", s: "tauronligakobiet.pl" },
+    { d: "2026-09-25", t: "ŁKS pewnie pokonuje Zeren w półfinale LOTTO Gigantów", s: "tauronligakobiet.pl" },
+    { d: "2026-09-24", t: "Inauguracja sezonu 2026/27 w Kaliszu", s: "tauronligakobiet.pl" },
+    { d: "2026-09-24", t: "Trener Sokoła: chcemy być najwaleczniejsi w lidze", s: "tauronligakobiet.pl" },
+    { d: "2026-09-24", t: "Alicja Grabka nową kapitan DevelopResu", s: "tauronligakobiet.pl" },
+    { d: "2026-09-23", t: "Wzmocniony #VolleyWrocław patrzy w górę tabeli", s: "tauronligakobiet.pl" },
+    { d: "2026-09-22", t: "NETLAND MKS Kalisz — beniaminek z wielkimi tradycjami", s: "tauronligakobiet.pl" }
   ];
-  return items.map((n) => `<div class="card"><div class="muted">${n.d}</div><p>${n.t}</p></div>`).join("");
+  return items.map((n) => `<div class="card"><div class="muted">${n.d} · ${n.s}</div><p>${n.t}</p></div>`).join("");
 }
 function fillResultSelect() {
   const sel = document.getElementById("match-select");

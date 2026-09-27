@@ -63,16 +63,25 @@
   <section id="sec-r2">
     <div class="card">
       <h2>Ramówka 2. kolejki</h2>
-      <p class="muted">Szczegółowe zapowiedzi po 1. kolejce (siatka.org, WP SportoweFakty, strona ligi, social media klubów).</p>
+      <p class="muted">Szczegółowe zapowiedzi i korekta prognoz — po rozegraniu 1. kolejki (relacje siatka.org, WP SportoweFakty, strona ligi, social media klubów).</p>
     </div>
     <div id="round2"></div>
   </section>
   <section id="sec-news">
     <div class="card">
       <h2>Przegląd relacji przedsezonowych</h2>
-      <p class="muted">Źródła: tauronligakobiet.pl, siatka.org, sportowefakty.wp.pl</p>
+      <p class="muted">Źródła: tauronligakobiet.pl, siatka.org, sportowefakty.wp.pl, komunikaty klubów.</p>
     </div>
     <div id="news"></div>
+    <div class="card sources">
+      <h2>Stały monitoring po każdej kolejce</h2>
+      <ul>
+        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — wyniki, komunikaty, składy</li>
+        <li><a href="https://siatka.org" target="_blank" rel="noopener">siatka.org</a> — relacje i analizy</li>
+        <li><a href="https://sportowefakty.wp.pl" target="_blank" rel="noopener">WP SportoweFakty</a></li>
+        <li>X / Instagram / Facebook klubów: Budowlani, DevelopRes, Chemik, ŁKS, Radomka, Sokół, Kalisz, BKS, Pałac, Stal, Opole, #VolleyWrocław</li>
+      </ul>
+    </div>
   </section>
   <section id="sec-rules">
     <div class="card">
@@ -87,26 +96,32 @@
       <ol>
         <li>punkty meczowe</li>
         <li>liczba wygranych meczów</li>
-        <li>stosunek setów</li>
+        <li>stosunek setów (wygrane/przegrane)</li>
         <li>stosunek małych punktów</li>
-        <li>bilans bezpośredni</li>
+        <li>bilans bezpośredni w sezonie</li>
       </ol>
+      <h3>System</h3>
+      <p>12 drużyn, faza zasadnicza: mecz i rewanż (22 kolejki). Play-off miejsc 1–8 do dwóch zwycięstw (pary 1–8, 2–7, 3–6, 4–5). Półfinały: zwycięzca 1–8 vs 4–5 oraz 2–7 vs 3–6. Finał do dwóch zwycięstw. Mistrzynię Polski poznamy najwcześniej 21 kwietnia 2027. Ostatnie miejsce traci prawa do gry w sezonie 2027/28.</p>
+      <p class="muted" style="margin-top:8px">Źródło: tauronligakobiet.pl/table.html — system rozgrywek 2026/2027.</p>
     </div>
   </section>
   <section id="sec-input">
     <div class="card">
       <h2>Wpisz wynik meczu</h2>
+      <p class="muted">Po zakończeniu spotkania uzupełnij wynik. Tabela i bilanse przeliczą się automatycznie.</p>
+      <label class="muted">Mecz</label>
       <select id="match-select"></select>
       <div class="form-row">
         <div><label class="muted">Sety gospodarza</label><input id="home-sets" type="number" min="0" max="3" value="3" /></div>
         <div><label class="muted">Sety gościa</label><input id="away-sets" type="number" min="0" max="3" value="0" /></div>
       </div>
+      <label class="muted">Małe punkty setów (np. 25-20,25-18,25-16)</label>
       <input id="set-points" placeholder="25-20,25-18,25-16" />
       <button class="primary" id="save-btn">Zapisz i przelicz tabelę</button>
       <button class="ghost" id="reset-btn">Wyczyść lokalne wyniki</button>
     </div>
   </section>
-  <footer class="hint">Nieoficjalne narzędzie kibicowskie. Wyniki zapisują się na telefonie.</footer>
+  <footer class="hint">Nieoficjalne narzędzie kibicowskie. Dane za PLS / tauronligakobiet.pl. Wyniki zapisują się tylko na tym telefonie.</footer>
   <script src="./js/app.js"></script>
 </body>
 </html>

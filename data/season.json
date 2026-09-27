@@ -3,7 +3,7 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-09-27T14:00:00+02:00",
+  "updatedAt": "2026-09-27T18:00:00+02:00",
   "status": "przed sezonem",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
@@ -14,7 +14,7 @@
   },
   "system": {
     "teams": 12,
-    "regularSeason": "Dwie rundy systemem każdy z każdym (mecz i rewanż) — 22 kolejki.",
+    "regularSeason": "Dwie rundy systemem każdy z każdym (mecz i rewanż) — 22 kolejki, 22 mecze na zespół.",
     "playoffStart": "koniec marca 2027",
     "championEarliest": "21 kwietnia 2027",
     "points": { "win30or31": 3, "win32": 2, "loss23": 1, "loss13or03": 0 },
@@ -24,32 +24,40 @@
       "Lepszy stosunek setów zdobytych do straconych",
       "Lepszy stosunek małych punktów zdobytych do straconych",
       "Wyniki bezpośrednich meczów w danym sezonie"
-    ]
+    ],
+    "playoffs": {
+      "qf": "Miejsca 1–8: pary 1–8, 2–7, 3–6, 4–5. Do dwóch zwycięstw, pierwszy mecz u wyżej sklasyfikowanej.",
+      "sf": "Zwycięzca 1–8 vs zwycięzca 4–5; zwycięzca 2–7 vs zwycięzca 3–6. Do dwóch zwycięstw.",
+      "final": "Do dwóch zwycięstw. Gospodarzem pierwszego meczu zespół wyżej po fazie zasadniczej.",
+      "relegation": "Ostatnie miejsce traci prawa do gry w sezonie 2027/28. Miejsca 11–12 kończą sezon na tych pozycjach."
+    }
   },
   "teams": [
-    {"id": "bud", "short": "PGE BUD", "name": "PGE Budowlani Łódź", "city": "Łódź", "coach": "Maciej Biernat", "note": "Obrończynie tytułu.", "color": "#1a365d"},
-    {"id": "dev", "short": "DEV RZE", "name": "KS DevelopRes Rzeszów", "city": "Rzeszów", "coach": "Jelena Blagojević", "note": "Wicemistrzynie. Kapitan: Alicja Grabka.", "color": "#7c2d12"},
-    {"id": "opo", "short": "UNI OPO", "name": "UNI Opole", "city": "Opole", "coach": "Bartłomiej Dąbrowski", "note": "Brąz 2025/26.", "color": "#1e3a8a"},
-    {"id": "bks", "short": "BKS BIA", "name": "BKS ZGO Bielsko-Biała", "city": "Bielsko-Biała", "coach": "", "note": "Pretendent do czołówki.", "color": "#7f1d1d"},
-    {"id": "lks", "short": "ŁKS ŁÓD", "name": "ŁKS Commercecon Łódź", "city": "Łódź", "coach": "", "note": "Kontuzja Magdaleny Jurczyk.", "color": "#9a3412"},
-    {"id": "che", "short": "CHEMIK", "name": "LOTTO Chemik Police", "city": "Police", "coach": "", "note": "Duże zmiany kadrowe.", "color": "#0f766e"},
-    {"id": "mie", "short": "STAL MIE", "name": "ITA TOOLS Stal Mielec", "city": "Mielec", "coach": "", "note": "Walka o play-off.", "color": "#365314"},
+    {"id": "bud", "short": "PGE BUD", "name": "PGE Budowlani Łódź", "city": "Łódź", "coach": "Maciej Biernat", "note": "Obrończynie tytułu. Historyczne pierwsze MP w kwietniu 2026.", "color": "#1a365d"},
+    {"id": "dev", "short": "DEV RZE", "name": "KS DevelopRes Rzeszów", "city": "Rzeszów", "coach": "Jelena Blagojević", "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka.", "color": "#7c2d12"},
+    {"id": "opo", "short": "UNI OPO", "name": "UNI Opole", "city": "Opole", "coach": "Bartłomiej Dąbrowski", "note": "Brąz 2025/26. Stabilny projekt.", "color": "#1e3a8a"},
+    {"id": "bks", "short": "BKS BIA", "name": "BKS ZGO Bielsko-Biała", "city": "Bielsko-Biała", "coach": "", "note": "Stały pretendent do czołówki.", "color": "#7f1d1d"},
+    {"id": "lks", "short": "ŁKS ŁÓD", "name": "ŁKS Commercecon Łódź", "city": "Łódź", "coach": "", "note": "Kontuzja Magdaleny Jurczyk przed sezonem.", "color": "#9a3412"},
+    {"id": "che", "short": "CHEMIK", "name": "LOTTO Chemik Police", "city": "Police", "coach": "", "note": "Duże zmiany kadrowe i nowe ambicje.", "color": "#0f766e"},
+    {"id": "mie", "short": "STAL MIE", "name": "ITA TOOLS Stal Mielec", "city": "Mielec", "coach": "", "note": "Środek tabeli, walka o play-off.", "color": "#365314"},
     {"id": "byd", "short": "PAŁAC", "name": "Metalkas Pałac Bydgoszcz", "city": "Bydgoszcz", "coach": "", "note": "Walka o ósemkę.", "color": "#1e40af"},
     {"id": "rad", "short": "RADOMKA", "name": "MOYA Radomka Radom", "city": "Radom", "coach": "", "note": "Letnia rewolucja kadrowa.", "color": "#b45309"},
-    {"id": "kal", "short": "MKS KAL", "name": "NETLAND MKS Kalisz", "city": "Kalisz", "coach": "", "note": "Beniaminek. Inauguracja u siebie.", "color": "#4338ca"},
-    {"id": "mog", "short": "SOKÓŁ", "name": "Sokół & Hagric Mogilno", "city": "Mogilno", "coach": "Dawid Michor", "note": "Najwaleczniejsza drużyna ligi.", "color": "#166534"},
-    {"id": "wro", "short": "#VOLLEY", "name": "#VolleyWrocław", "city": "Wrocław", "coach": "", "note": "Wzmocniony skład.", "color": "#9f1239"}
+    {"id": "kal", "short": "MKS KAL", "name": "NETLAND MKS Kalisz", "city": "Kalisz", "coach": "", "note": "Beniaminek. Inauguracja sezonu u siebie.", "color": "#4338ca"},
+    {"id": "mog", "short": "SOKÓŁ", "name": "Sokół & Hagric Mogilno", "city": "Mogilno", "coach": "Dawid Michor", "note": "Cel: najwaleczniejsza drużyna ligi. Trzeci sezon w elicie.", "color": "#166534"},
+    {"id": "wro", "short": "#VOLLEY", "name": "#VolleyWrocław", "city": "Wrocław", "coach": "", "note": "Wzmocniony skład, ambicje wyżej niż rok temu.", "color": "#9f1239"}
   ],
   "injuries": [
     {
       "player": "Magdalena Jurczyk",
       "team": "ŁKS Commercecon Łódź",
-      "note": "Kontuzja na turnieju w Twardogórze. Status na 1. kolejkę do potwierdzenia.",
+      "note": "Kontuzja odniesiona na turnieju w Twardogórze (wrzesień 2026). Status na 1. kolejkę do potwierdzenia.",
       "updated": "2026-09-26"
     }
   ],
   "sources": [
     "https://www.tauronligakobiet.pl",
+    "https://www.tauronligakobiet.pl/table.html",
+    "https://www.tauronligakobiet.pl/games.html",
     "https://siatka.org",
     "https://sportowefakty.wp.pl"
   ]
