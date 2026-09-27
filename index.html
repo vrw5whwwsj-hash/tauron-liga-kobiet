@@ -49,7 +49,7 @@
   <section id="sec-scorers">
     <div class="card">
       <h2>Najlepiej punktujące</h2>
-      <p class="muted">Suma punktów ligowych (atak + blok + as). Źródło: ranking PLS, uzupełniane z siatka.org i Volleybox po starcie sezonu.</p>
+      <p class="muted">Suma punktów ligowych (atak + blok + as). Źródło: ranking PLS, uzupełniane po starcie sezonu.</p>
     </div>
     <div id="scorers-wrap"></div>
   </section>
@@ -63,24 +63,25 @@
   <section id="sec-r2">
     <div class="card">
       <h2>Ramówka 2. kolejki</h2>
-      <p class="muted">Szczegółowe zapowiedzi po 1. kolejce (siatka.org, Volleybox, WP SportoweFakty, strona ligi).</p>
+      <p class="muted">Zapowiedzi po 1. kolejce (siatka.org, Volleybox, Polsat Sport, WP, strona ligi).</p>
     </div>
     <div id="round2"></div>
   </section>
   <section id="sec-news">
     <div class="card">
       <h2>Przegląd relacji przedsezonowych</h2>
-      <p class="muted">Źródła: tauronligakobiet.pl, siatka.org, women.volleybox.net, sportowefakty.wp.pl</p>
+      <p class="muted">Źródła: tauronligakobiet.pl, siatka.org, Volleybox, polsatsport.pl, sportowefakty.wp.pl</p>
     </div>
     <div id="feed-status"></div>
     <div id="news"></div>
     <div class="card sources">
       <h2>Stały monitoring po każdej kolejce</h2>
       <ul>
-        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — oficjalne wyniki, komunikaty, składy</li>
-        <li><a href="https://siatka.org/wyniki/" target="_blank" rel="noopener">siatka.org/wyniki</a> — relacje, analizy, tabele HTML</li>
-        <li><a href="https://siatka.org/live/" target="_blank" rel="noopener">siatka.org/live</a> — relacje punkt po punkcie</li>
-        <li><a href="https://women.volleybox.net/pl/matches" target="_blank" rel="noopener">women.volleybox.net/pl/matches</a> — terminarz i wyniki społecznościowe</li>
+        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — oficjalne wyniki</li>
+        <li><a href="https://siatka.org/wyniki/" target="_blank" rel="noopener">siatka.org/wyniki</a> — relacje HTML</li>
+        <li><a href="https://women.volleybox.net/pl/matches" target="_blank" rel="noopener">Volleybox</a> — terminarz</li>
+        <li><a href="https://www.polsatsport.pl" target="_blank" rel="noopener">polsatsport.pl</a> — transmisje, skróty, plan TV</li>
+        <li><a href="https://www.polsatsport.pl/rss/siatkowka.xml" target="_blank" rel="noopener">RSS Polsat Sport — siatkówka</a></li>
         <li><a href="https://sportowefakty.wp.pl" target="_blank" rel="noopener">WP SportoweFakty</a></li>
       </ul>
     </div>
@@ -98,19 +99,18 @@
       <ol>
         <li>punkty meczowe</li>
         <li>liczba wygranych meczów</li>
-        <li>stosunek setów (wygrane/przegrane)</li>
+        <li>stosunek setów</li>
         <li>stosunek małych punktów</li>
-        <li>bilans bezpośredni w sezonie</li>
+        <li>bilans bezpośredni</li>
       </ol>
       <h3>System</h3>
-      <p>12 drużyn, faza zasadnicza: mecz i rewanż (22 kolejki). Play-off miejsc 1–8 do dwóch zwycięstw (pary 1–8, 2–7, 3–6, 4–5). Półfinały: zwycięzca 1–8 vs 4–5 oraz 2–7 vs 3–6. Finał do dwóch zwycięstw. Mistrzynię Polski poznamy najwcześniej 21 kwietnia 2027. Ostatnie miejsce traci prawa do gry w sezonie 2027/28.</p>
-      <p class="muted" style="margin-top:8px">Źródło: tauronligakobiet.pl/table.html — system rozgrywek 2026/2027.</p>
+      <p>12 drużyn, faza zasadnicza mecz i rewanż (22 kolejki). Play-off 1–8 do dwóch zwycięstw. Mistrzynię Polski poznamy najwcześniej 21 kwietnia 2027. Ostatnie miejsce spada.</p>
     </div>
   </section>
   <section id="sec-input">
     <div class="card">
       <h2>Wpisz wynik meczu</h2>
-      <p class="muted">Po zakończeniu spotkania uzupełnij wynik. Tabela i bilanse przeliczą się automatycznie.</p>
+      <p class="muted">Po zakończeniu spotkania uzupełnij wynik. Tabela przeliczy się automatycznie.</p>
       <label class="muted">Mecz</label>
       <select id="match-select"></select>
       <div class="form-row">
@@ -123,7 +123,7 @@
       <button class="ghost" id="reset-btn">Wyczyść lokalne wyniki</button>
     </div>
   </section>
-  <footer class="hint">Nieoficjalne narzędzie kibicowskie. Źródła: PLS, siatka.org, Volleybox. Wyniki zapisują się na tym telefonie.</footer>
+  <footer class="hint">Nieoficjalne narzędzie kibicowskie. Źródła: PLS, siatka.org, Volleybox, Polsat Sport. Wyniki na tym telefonie.</footer>
   <script src="./js/app.js"></script>
 </body>
 </html>
