@@ -1,6 +1,7 @@
 const TEAM = {};
 let SEASON = null;
 let MATCHES = null;
+let SCORERS = null;
 const emptyStats = () => ({ played: 0, pts: 0, w: 0, l: 0, sw: 0, sl: 0, pw: 0, pl: 0 });
 function setRatio(a, b) { if (!b && !a) return 0; if (!b) return a > 0 ? 999 : 0; return a / b; }
 function computeTable(teams, rounds) {
@@ -42,6 +43,20 @@ function renderTable(rows) {
     return `<tr class="${cls}"><td class="pos">${i + 1}</td><td class="team">${t.name}</td><td>${t.played}</td><td><strong>${t.pts}</strong></td><td>${t.w}-${t.l}</td><td>${t.sw}:${t.sl}</td><td>${fmtRatio(t.sw, t.sl)}</td><td>${fmtRatio(t.pw, t.pl)}</td></tr>`;
   }).join("");
   document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>play-off (1–8)</span><span><i class="dot" style="background:var(--loss)"></i>strefa spadkowa (12)</span></div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>Drużyna</th><th>M</th><th>Pkt</th><th>W-P</th><th>Sety</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
+}
+function renderScorers() {
+  const wrap = document.getElementById("scorers-wrap");
+  if (!SCORERS) { wrap.innerHTML = "<p class='muted'>Brak danych.</p>"; return; }
+  const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
+  if (!players.length) {
+    wrap.innerHTML = `<div class="note">${SCORERS.note || "Ranking pojawi się po 1. kolejce."}</div><div class="card"><p class="muted">Aktualizacja: ${SCORERS.updated}. Źródło: ${SCORERS.source}.</p></div>`;
+    return;
+  }
+  const body = players.map((p, i) => {
+    const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "—");
+    return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "—"}</td><td>${p.block ?? "—"}</td><td>${p.ace ?? "—"}</td></tr>`;
+  }).join("");
+  wrap.innerHTML = `<div class="note">Akt. ${SCORERS.updated} · ${SCORERS.phase}. Źródło: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>Zawodniczka</th><th>Klub</th><th>Poz.</th><th>M</th><th>Pkt</th><th>Śr./set</th><th>Atak</th><th>Blok</th><th>As</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderRound(roundObj) {
   if (!roundObj) return "<p class='muted'>Brak danych.</p>";
@@ -97,6 +112,7 @@ function applyResult() {
 }
 function refresh() {
   renderTable(computeTable(SEASON.teams, MATCHES.rounds));
+  renderScorers();
   document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
@@ -108,8 +124,12 @@ function show(tab) {
   document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
 }
 async function init() {
-  const [s, m] = await Promise.all([fetch("./data/season.json").then((r) => r.json()), fetch("./data/matches.json").then((r) => r.json())]);
-  SEASON = s; MATCHES = m; s.teams.forEach((t) => { TEAM[t.id] = t; });
+  const [s, m, sc] = await Promise.all([
+    fetch("./data/season.json").then((r) => r.json()),
+    fetch("./data/matches.json").then((r) => r.json()),
+    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "—", players: [] }))
+  ]);
+  SEASON = s; MATCHES = m; SCORERS = sc; s.teams.forEach((t) => { TEAM[t.id] = t; });
   loadResults(); fillResultSelect();
   document.getElementById("updated").textContent = "Stan na 27.09.2026 · sezon jeszcze nie wystartował";
   document.getElementById("save-btn").addEventListener("click", applyResult);

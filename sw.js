@@ -1,4 +1,4 @@
-const CACHE = "tlk-2026-27-v1";
+const CACHE = "tlk-2026-27-v2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,7 +6,8 @@ const ASSETS = [
   "./css/app.css",
   "./js/app.js",
   "./data/season.json",
-  "./data/matches.json"
+  "./data/matches.json",
+  "./data/scorers.json"
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
@@ -28,7 +29,7 @@ self.addEventListener("fetch", (e) => {
           return res;
         })
         .catch(() => cached);
-      return cached || net;
+      return net.catch(() => cached);
     })
   );
 });
