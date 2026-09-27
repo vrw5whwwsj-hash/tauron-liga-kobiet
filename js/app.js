@@ -2,6 +2,8 @@ const TEAM = {};
 let SEASON = null;
 let MATCHES = null;
 let SCORERS = null;
+let NEWS = { items: [] };
+let FEED = null;
 const emptyStats = () => ({ played: 0, pts: 0, w: 0, l: 0, sw: 0, sl: 0, pw: 0, pl: 0 });
 function setRatio(a, b) { if (!b && !a) return 0; if (!b) return a > 0 ? 999 : 0; return a / b; }
 function computeTable(teams, rounds) {
@@ -70,19 +72,17 @@ function renderRound(roundObj) {
   }).join("");
 }
 function renderNews() {
-  const items = [
-    { d: "2026-09-26", t: "ŁKS najlepszy w Twardogórze; kontuzja Magdaleny Jurczyk", s: "tauronligakobiet.pl" },
-    { d: "2026-09-26", t: "PGE Budowlani lepsi od #VolleyWrocław w ostatnim sparingu", s: "tauronligakobiet.pl" },
-    { d: "2026-09-25", t: "LOTTO Chemik Police: duże zmiany i duże ambicje", s: "tauronligakobiet.pl" },
-    { d: "2026-09-25", t: "MOYA Radomka Radom — klub po letniej rewolucji", s: "tauronligakobiet.pl" },
-    { d: "2026-09-25", t: "ŁKS pewnie pokonuje Zeren w półfinale LOTTO Gigantów", s: "tauronligakobiet.pl" },
-    { d: "2026-09-24", t: "Inauguracja sezonu 2026/27 w Kaliszu", s: "tauronligakobiet.pl" },
-    { d: "2026-09-24", t: "Trener Sokoła: chcemy być najwaleczniejsi w lidze", s: "tauronligakobiet.pl" },
-    { d: "2026-09-24", t: "Alicja Grabka nową kapitan DevelopResu", s: "tauronligakobiet.pl" },
-    { d: "2026-09-23", t: "Wzmocniony #VolleyWrocław patrzy w górę tabeli", s: "tauronligakobiet.pl" },
-    { d: "2026-09-22", t: "NETLAND MKS Kalisz — beniaminek z wielkimi tradycjami", s: "tauronligakobiet.pl" }
-  ];
+  const items = NEWS.items || [];
   return items.map((n) => `<div class="card"><div class="muted">${n.d} · ${n.s}</div><p>${n.t}</p></div>`).join("");
+}
+function renderFeedStatus() {
+  const el = document.getElementById("feed-status");
+  if (!el || !FEED) return;
+  const rows = (FEED.checks || []).map((c) => {
+    const st = c.ok ? "HTML OK" : "brak API (" + c.http + ")";
+    return `<li><strong>${c.id}</strong> — ${st}. ${c.note}</li>`;
+  }).join("");
+  el.innerHTML = `<div class="note">Auto-pobieranie wyników: wyłączone do startu sezonu (2.10.2026). Żadne z źródeł nie daje publicznego JSON-a z GitHub Pages.<ul>${rows}</ul></div>`;
 }
 function fillResultSelect() {
   const sel = document.getElementById("match-select");
@@ -119,6 +119,7 @@ function refresh() {
   document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
+  renderFeedStatus();
   const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> · ${i.team}<p>${i.note}</p><div class="muted">akt. ${i.updated}</div></div>`).join("") || "<p class='muted'>Brak zgłoszonych absencji.</p>";
   document.getElementById("injuries").innerHTML = inj;
 }
@@ -127,12 +128,15 @@ function show(tab) {
   document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
 }
 async function init() {
-  const [s, m, sc] = await Promise.all([
+  const [s, m, sc, nw, fd] = await Promise.all([
     fetch("./data/season.json").then((r) => r.json()),
     fetch("./data/matches.json").then((r) => r.json()),
-    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "—", players: [] }))
+    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "—", players: [] })),
+    fetch("./data/news.json").then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/feed-status.json").then((r) => r.json()).catch(() => null)
   ]);
-  SEASON = s; MATCHES = m; SCORERS = sc; s.teams.forEach((t) => { TEAM[t.id] = t; });
+  SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw; FEED = fd;
+  s.teams.forEach((t) => { TEAM[t.id] = t; });
   loadResults(); fillResultSelect();
   document.getElementById("updated").textContent = "Stan na 27.09.2026 · sezon jeszcze nie wystartował";
   document.getElementById("save-btn").addEventListener("click", applyResult);
