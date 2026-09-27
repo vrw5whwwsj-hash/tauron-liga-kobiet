@@ -87,8 +87,9 @@ function renderRound(roundObj) {
 }
 function renderNews() {
   return (NEWS.items || []).map((n) => {
-    const title = LANG === "tr" && n.tt ? n.tt : (LANG === "en" && n.te ? n.te : n.t);
-    return `<div class="card"><div class="muted">${n.d}</div><p>${title}</p></div>`;
+    const title = pick(n, "t", "te", "tt");
+    const body = pick(n, "b", "be", "bt");
+    return `<article class="card news-card"><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">›</span></div>${body ? `<div class="news-body">${body}</div>` : ""}</article>`;
   }).join("");
 }
 function fillResultSelect() {
@@ -161,6 +162,14 @@ async function init() {
   document.getElementById("reset-btn").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
   document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
+  const newsBox = document.getElementById("news");
+  if (newsBox && !newsBox.dataset.bound) {
+    newsBox.dataset.bound = "1";
+    newsBox.addEventListener("click", (e) => {
+      const card = e.target.closest(".news-card");
+      if (card) card.classList.toggle("open");
+    });
+  }
   refresh();
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
