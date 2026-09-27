@@ -52,6 +52,17 @@ h1 span[data-i18n="subtitle"], h1 span:last-child {
 .meta { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
 .pill { background: var(--card); border: 1px solid var(--line); padding: 4px 8px; border-radius: 999px; font-size: 11px; }
 .pill.live { color: var(--gold); border-color: #5a4618; }
+.stats-bar {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin-top: 8px; font-size: 12px; color: var(--muted);
+}
+.stats-bar strong { color: var(--gold2); }
+.stats-bar .heat {
+  margin-left: auto; border-radius: 999px; padding: 3px 8px; font-weight: 700; font-size: 11px;
+}
+.stats-bar .heat.low { background: #1a2740; color: var(--muted); }
+.stats-bar .heat.mid { background: #243049; color: var(--gold2); }
+.stats-bar .heat.hot { background: #3a2e14; color: var(--gold); }
 .lang { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-top: 10px; width: 100%; }
 .lang button {
   border: 1px solid var(--line); background: var(--card); color: var(--muted);
