@@ -1,36 +1,36 @@
 Object.assign(I18N.pl, {
-  verifyNote: "Ka\u017cdy r\u0119czny zapis trzeba p\u00f3\u017aniej potwierdzi\u0107 na stronie TAURON Liga Kobiet i Polsat Sport.",
-  verifyH2: "Weryfikacja oficjalna",
-  verifyHelp: "Otw\u00f3rz komunikat, por\u00f3wnaj wynik i odhacz oba \u017ar\u00f3d\u0142a.",
-  verifyEmpty: "Brak zapisanych wynik\u00f3w do sprawdzenia.",
-  verifyPending: "Do weryfikacji",
-  verifyOk: "Potwierdzone PLS + Polsat",
-  verifyPls: "Zgodne z TAURON Liga",
-  verifyPolsat: "Zgodne z Polsat Sport",
-  verifyOpen: "Wyniki czekaj\u0105ce na potwierdzenie",
-  alertSavedVerify: "Zapisano lokalnie. Potwierd\u017a p\u00f3\u017aniej na stronie ligi i Polsat Sport."
+  verifyNote: "Zapis r\u0119czny jest tymczasowy. Grok sam potwierdza wynik, gdy TAURON Liga Kobiet i Polsat Sport poka\u017c\u0105 ten sam rezultat.",
+  verifyH2: "Weryfikacja Grok",
+  verifyHelp: "Codziennie o 21:00 i w weekendy co godzin\u0119 (16\u201323) Grok sprawdza oficjalne strony i oznacza wynik jako potwierdzony.",
+  verifyEmpty: "Brak zapisanych wynik\u00f3w.",
+  verifyPending: "Czeka na Grok (PLS + Polsat)",
+  verifyOk: "Grok: zgodne z PLS i Polsat Sport",
+  verifyPls: "R\u0119cznie: TAURON Liga",
+  verifyPolsat: "R\u0119cznie: Polsat Sport",
+  verifyOpen: "Wyniki czekaj\u0105ce na Grok",
+  alertSavedVerify: "Zapisano lokalnie. Grok potwierdzi po zgodno\u015bci wyniku na stronie ligi i Polsat Sport."
 });
 Object.assign(I18N.en, {
-  verifyNote: "Every manual result must later be checked against TAURON Liga Kobiet and Polsat Sport.",
-  verifyH2: "Official check",
-  verifyHelp: "Open the official report, compare the score, then tick both sources.",
-  verifyEmpty: "No saved results to check.",
-  verifyPending: "Needs verification",
-  verifyOk: "Confirmed PLS + Polsat",
-  verifyPls: "Matches TAURON Liga",
-  verifyPolsat: "Matches Polsat Sport",
-  verifyOpen: "Results waiting for confirmation",
-  alertSavedVerify: "Saved locally. Confirm later on the league site and Polsat Sport."
+  verifyNote: "A manual save is temporary. Grok confirms the score when TAURON Liga Kobiet and Polsat Sport publish the same result.",
+  verifyH2: "Grok verification",
+  verifyHelp: "Every day at 21:00 and hourly on weekends (16\u201323) Grok checks the official sites and marks the result confirmed.",
+  verifyEmpty: "No saved results.",
+  verifyPending: "Waiting for Grok (PLS + Polsat)",
+  verifyOk: "Grok: matches PLS and Polsat Sport",
+  verifyPls: "Manual: TAURON Liga",
+  verifyPolsat: "Manual: Polsat Sport",
+  verifyOpen: "Results waiting for Grok",
+  alertSavedVerify: "Saved locally. Grok will confirm when both official sites agree."
 });
 Object.assign(I18N.tr, {
-  verifyNote: "Elle girilen her skor sonra resmi lig sitesi ve Polsat Sport ile do\u011frulanmal\u0131.",
-  verifyH2: "Resmi kontrol",
-  verifyHelp: "Resmi sonucu a\u00e7, skoru kar\u015f\u0131la\u015ft\u0131r, iki kayna\u011f\u0131 i\u015faretle.",
-  verifyEmpty: "Kontrol edilecek skor yok.",
-  verifyPending: "Do\u011frulama bekliyor",
-  verifyOk: "PLS + Polsat onayl\u0131",
-  verifyPls: "TAURON Liga uyumlu",
-  verifyPolsat: "Polsat Sport uyumlu",
-  verifyOpen: "Onay bekleyen sonu\u00e7lar",
-  alertSavedVerify: "Yerel kaydedildi. Sonra lig sitesi ve Polsat Sport ile onayla."
+  verifyNote: "Elle kay\u0131t ge\u00e7icidir. Grok, TAURON Liga ve Polsat Sport ayn\u0131 skoru yay\u0131nlay\u0131nca onaylar.",
+  verifyH2: "Grok do\u011frulamas\u0131",
+  verifyHelp: "Her g\u00fcn 21:00 ve hafta sonu saatlik (16\u201323) Grok resmi siteleri kontrol eder.",
+  verifyEmpty: "Kay\u0131tl\u0131 skor yok.",
+  verifyPending: "Grok bekleniyor",
+  verifyOk: "Grok: PLS + Polsat uyumlu",
+  verifyPls: "Elle: TAURON Liga",
+  verifyPolsat: "Elle: Polsat Sport",
+  verifyOpen: "Grok bekleyen sonu\u00e7lar",
+  alertSavedVerify: "Yerel kaydedildi. Grok iki resmi kaynak uyu\u015funca onaylar."
 });
