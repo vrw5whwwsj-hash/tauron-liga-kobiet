@@ -89,7 +89,7 @@ function renderNews() {
   return (NEWS.items || []).map((n) => {
     const title = pick(n, "t", "te", "tt");
     const body = pick(n, "b", "be", "bt");
-    return `<article class="card news-card"><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">›</span></div>${body ? `<div class="news-body">${body}</div>` : ""}</article>`;
+    return `<details class="card news-card"><summary><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">›</span></div></summary>${body ? `<div class="news-body">${body}</div>` : ""}</details>`;
   }).join("");
 }
 function fillResultSelect() {
@@ -149,11 +149,12 @@ function show(tab) {
 }
 async function init() {
   LANG = detectLang();
+  const bust = { cache: "no-store" };
   const [s, m, sc, nw] = await Promise.all([
-    fetch("./data/season.json").then((r) => r.json()),
-    fetch("./data/matches.json").then((r) => r.json()),
-    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json").then((r) => r.json()).catch(() => ({ items: [] }))
+    fetch("./data/season.json?v=17", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=17", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=17", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=17", bust).then((r) => r.json()).catch(() => ({ items: [] }))
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
@@ -162,16 +163,11 @@ async function init() {
   document.getElementById("reset-btn").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
   document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
-  const newsBox = document.getElementById("news");
-  if (newsBox && !newsBox.dataset.bound) {
-    newsBox.dataset.bound = "1";
-    newsBox.addEventListener("click", (e) => {
-      const card = e.target.closest(".news-card");
-      if (card) card.classList.toggle("open");
-    });
-  }
   refresh();
   if (typeof trackVisit === "function") trackVisit();
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
+    navigator.serviceWorker.register("./sw.js?v=17");
+  }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
