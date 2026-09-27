@@ -81,7 +81,8 @@ function renderRound(roundObj) {
     const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
     const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
     const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
-    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div><h3>${headline}</h3>${pred}${body}</article>`;
+    const tv = typeof tvLine === "function" ? tvLine(m) : "";
+    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}<h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
