@@ -1,4 +1,4 @@
-const CACHE = "tlk-2026-27-v5";
+const CACHE = "tlk-2026-27-v6";
 const ASSETS = [
   "./",
   "./index.html",
