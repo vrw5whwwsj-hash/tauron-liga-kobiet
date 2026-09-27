@@ -1,0 +1,11 @@
+.pred.wait { background: #3a2418; color: #f3d38a; }
+.pred.ok { background: #163226; color: #3dd68c; }
+.verify-actions { display: grid; gap: 8px; margin-top: 10px; }
+.verify-actions a.ghost-link, .verify-actions button {
+  display: block; text-align: center; text-decoration: none;
+  border: 1px solid var(--line); background: var(--card); color: var(--gold2);
+  border-radius: 10px; padding: 10px; font-size: 13px; font-weight: 700;
+}
+.verify-actions button.on { background: var(--gold); color: #1a1204; border-color: var(--gold); }
+.verify-card.wait { border-color: #5a4618; }
+.verify-card.ok { border-color: #24553a; }
