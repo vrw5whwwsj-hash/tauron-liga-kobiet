@@ -63,10 +63,7 @@ function renderScorers() {
   if (!SCORERS) { wrap.innerHTML = `<p class='muted'>${t("noData")}</p>`; return; }
   const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
   const note = pick(SCORERS, "note", "noteEn", "noteTr") || t("scorersEmpty");
-  if (!players.length) {
-    wrap.innerHTML = `<div class="note">${note}</div>`;
-    return;
-  }
+  if (!players.length) { wrap.innerHTML = `<div class="note">${note}</div>`; return; }
   const body = players.map((p, i) => {
     const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
     return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
@@ -124,7 +121,9 @@ function applyResult() {
   const sets = parts.map((p) => p.split(/[-:]/).map(Number));
   if (sets.length !== hs + as || sets.some((s) => s.length !== 2 || Number.isNaN(s[0]))) { alert(t("alertSets")); return; }
   MATCHES.rounds.forEach((r) => r.matches.forEach((m) => { if (m.id === id) { m.score = [hs, as]; m.sets = sets; } }));
-  persistResults(); refresh(); alert(t("alertSaved"));
+  persistResults(); refresh();
+  if (typeof trackUse === "function") trackUse();
+  alert(t("alertSaved"));
 }
 function refresh() {
   applyI18n();
@@ -157,6 +156,7 @@ async function init() {
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
   document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
   refresh();
+  if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
