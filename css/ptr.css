@@ -1,0 +1,11 @@
+#ptr-bar {
+  position: fixed; left: 0; right: 0; top: 0; height: 0;
+  overflow: hidden; z-index: 80;
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 6px;
+  color: #e8b84a; font-size: 18px; font-weight: 800;
+  background: linear-gradient(#162036, transparent);
+  pointer-events: none;
+  transition: height .12s ease-out;
+}
+#ptr-bar.busy { height: 48px !important; }
