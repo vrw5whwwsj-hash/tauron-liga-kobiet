@@ -1,42 +1,13 @@
 {
-  "checkedAt": "2026-09-27T18:10:00+02:00",
+  "checkedAt": "2026-09-27T18:15:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": false,
   "checks": [
-    {
-      "id": "pls-ajax",
-      "url": "https://www.tauronligakobiet.pl/ajax/gameList",
-      "ok": false,
-      "http": 403,
-      "note": "Wymaga csrf z sesji strony ligi."
-    },
-    {
-      "id": "siatka-rest",
-      "url": "https://siatka.org/wp-json/wp/v2/posts",
-      "ok": false,
-      "http": 401,
-      "note": "REST tylko dla zalogowanych."
-    },
-    {
-      "id": "siatka-rss",
-      "url": "https://siatka.org/feed/",
-      "ok": false,
-      "http": 404,
-      "note": "Klasyczny RSS nie istnieje."
-    },
-    {
-      "id": "siatka-wyniki",
-      "url": "https://siatka.org/wyniki/",
-      "ok": true,
-      "http": 200,
-      "note": "HTML działa, ale nie JSON. Do ręcznego odczytu relacji."
-    },
-    {
-      "id": "volleybox-matches",
-      "url": "https://women.volleybox.net/pl/matches",
-      "ok": false,
-      "http": 403,
-      "note": "Cloudflare Turnstile — Just a moment. Brak publicznego API."
-    }
+    { "id": "pls-ajax", "url": "https://www.tauronligakobiet.pl/ajax/gameList", "ok": false, "http": 403, "note": "CSRF." },
+    { "id": "siatka-rest", "url": "https://siatka.org/wp-json/wp/v2/posts", "ok": false, "http": 401, "note": "REST tylko po zalogowaniu." },
+    { "id": "siatka-wyniki", "url": "https://siatka.org/wyniki/", "ok": true, "http": 200, "note": "HTML." },
+    { "id": "volleybox-matches", "url": "https://women.volleybox.net/pl/matches", "ok": false, "http": 403, "note": "Cloudflare." },
+    { "id": "polsat-api", "url": "https://www.polsatsport.pl/api/", "ok": false, "http": 404, "note": "Brak publicznego REST API." },
+    { "id": "polsat-rss-siatkowka", "url": "https://www.polsatsport.pl/rss/siatkowka.xml", "ok": true, "http": 200, "note": "RSS XML działa (~50 newsów). Bez CORS — nie z PWA. Dziś głównie ME mężczyzn." }
   ]
 }
