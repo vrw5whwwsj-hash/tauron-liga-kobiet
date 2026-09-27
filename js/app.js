@@ -3,7 +3,6 @@ let SEASON = null;
 let MATCHES = null;
 let SCORERS = null;
 let NEWS = { items: [] };
-let FEED = null;
 const emptyStats = () => ({ played: 0, pts: 0, w: 0, l: 0, sw: 0, sl: 0, pw: 0, pl: 0 });
 function setRatio(a, b) { if (!b && !a) return 0; if (!b) return a > 0 ? 999 : 0; return a / b; }
 function computeTable(teams, rounds) {
@@ -56,7 +55,7 @@ function renderTable(rows) {
     const cls = i < 8 ? "po" : i === 11 ? "rel" : "";
     return `<tr class="${cls}"><td class="pos">${i + 1}</td><td class="team">${x.name}</td><td>${x.played}</td><td><strong>${x.pts}</strong></td><td>${x.w}-${x.l}</td><td>${x.sw}:${x.sl}</td><td>${fmtRatio(x.sw, x.sl)}</td><td>${fmtRatio(x.pw, x.pl)}</td></tr>`;
   }).join("");
-  document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>${t("legendPo")}</span><span><i class="dot" style="background:var(--loss)"></i>${t("legendRel")}</span></div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("thTeam")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("thWL")}</th><th>${t("thSets")}</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>${t("legendPo")}</span><span><i class="dot" style="background:var(--loss)"></i>${t("legendRel")}</span></div><div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("thTeam")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("thWL")}</th><th>${t("thSets")}</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderScorers() {
   const wrap = document.getElementById("scorers-wrap");
@@ -65,14 +64,14 @@ function renderScorers() {
   const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
   const note = pick(SCORERS, "note", "noteEn", "noteTr") || t("scorersEmpty");
   if (!players.length) {
-    wrap.innerHTML = `<div class="note">${note}</div><div class="card"><p class="muted">${t("update")}: ${SCORERS.updated}. ${t("source")}: ${SCORERS.source}.</p></div>`;
+    wrap.innerHTML = `<div class="note">${note}</div>`;
     return;
   }
   const body = players.map((p, i) => {
     const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
     return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
   }).join("");
-  wrap.innerHTML = `<div class="note">${t("updatedShort")} ${SCORERS.updated} \u00b7 ${pick(SCORERS, "phase", "phaseEn", "phaseTr")}. ${t("source")}: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  wrap.innerHTML = `<div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderRound(roundObj) {
   if (!roundObj) return `<p class='muted'>${t("noData")}</p>`;
@@ -91,18 +90,8 @@ function renderRound(roundObj) {
 function renderNews() {
   return (NEWS.items || []).map((n) => {
     const title = LANG === "tr" && n.tt ? n.tt : (LANG === "en" && n.te ? n.te : n.t);
-    return `<div class="card"><div class="muted">${n.d} \u00b7 ${n.s}</div><p>${title}</p></div>`;
+    return `<div class="card"><div class="muted">${n.d}</div><p>${title}</p></div>`;
   }).join("");
-}
-function renderFeedStatus() {
-  const el = document.getElementById("feed-status");
-  if (!el || !FEED) return;
-  const rows = (FEED.checks || []).map((c) => {
-    const st = c.ok ? t("apiOk") : `${t("apiNo")} (${c.http})`;
-    const note = LANG === "tr" && c.noteTr ? c.noteTr : (LANG === "en" && c.noteEn ? c.noteEn : c.note);
-    return `<li><strong>${c.id}</strong> \u2014 ${st}. ${note}</li>`;
-  }).join("");
-  el.innerHTML = `<div class="note">${t("feedNote")}<ul>${rows}</ul></div>`;
 }
 function fillResultSelect() {
   const sel = document.getElementById("match-select");
@@ -144,7 +133,6 @@ function refresh() {
   document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
-  renderFeedStatus();
   fillResultSelect();
   const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn", "noteTr")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
@@ -155,14 +143,13 @@ function show(tab) {
 }
 async function init() {
   LANG = detectLang();
-  const [s, m, sc, nw, fd] = await Promise.all([
+  const [s, m, sc, nw] = await Promise.all([
     fetch("./data/season.json").then((r) => r.json()),
     fetch("./data/matches.json").then((r) => r.json()),
     fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json").then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/feed-status.json").then((r) => r.json()).catch(() => null)
+    fetch("./data/news.json").then((r) => r.json()).catch(() => ({ items: [] }))
   ]);
-  SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw; FEED = fd;
+  SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
   loadResults();
   document.getElementById("save-btn").addEventListener("click", applyResult);
