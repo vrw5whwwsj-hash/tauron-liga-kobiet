@@ -1,7 +1,9 @@
 {
   "updated": "2026-09-27",
   "phase": "faza zasadnicza",
-  "note": "Oficjalny ranking punktujących PLS startuje po 1. kolejce (2–4.10.2026). W tabeli tylko mecze ligowe — bez sparingów i Grand Prix.",
+  "phaseEn": "regular season",
+  "note": "Oficjalny ranking punktuj\u0105cych PLS startuje po 1. kolejce (2\u20134.10.2026). W tabeli tylko mecze ligowe \u2014 bez sparing\u00f3w i Grand Prix.",
+  "noteEn": "The official PLS scoring ranking starts after Round 1 (2\u20134 Oct 2026). League matches only \u2014 no friendlies or Grand Prix.",
   "source": "tauronligakobiet.pl / statsRanking ScoreRanking, siatka.org, sportowefakty.wp.pl",
   "players": []
 }

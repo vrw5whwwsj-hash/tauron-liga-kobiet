@@ -8,7 +8,7 @@ const emptyStats = () => ({ played: 0, pts: 0, w: 0, l: 0, sw: 0, sl: 0, pw: 0, 
 function setRatio(a, b) { if (!b && !a) return 0; if (!b) return a > 0 ? 999 : 0; return a / b; }
 function computeTable(teams, rounds) {
   const map = {};
-  teams.forEach((t) => { map[t.id] = { ...t, ...emptyStats() }; });
+  teams.forEach((x) => { map[x.id] = { ...x, ...emptyStats() }; });
   rounds.forEach((r) => {
     (r.matches || []).forEach((m) => {
       if (!m.score || !Array.isArray(m.sets) || m.sets.length < 3) return;
@@ -32,63 +32,85 @@ function computeTable(teams, rounds) {
     if (srB !== srA) return srB - srA;
     const prA = setRatio(a.pw, a.pl), prB = setRatio(b.pw, b.pl);
     if (prB !== prA) return prB - prA;
-    return a.name.localeCompare(b.name, "pl");
+    return a.name.localeCompare(b.name, LANG === "en" ? "en" : "pl");
   });
   return rows;
 }
-function fmtRatio(a, b) { if (!a && !b) return "—"; return setRatio(a, b).toFixed(3); }
+function fmtRatio(a, b) { if (!a && !b) return "\u2014"; return setRatio(a, b).toFixed(3); }
 function teamName(id) { return TEAM[id]?.name || id; }
 function teamShort(id) { return TEAM[id]?.short || id; }
+function pick(obj, plKey, enKey) {
+  if (!obj) return "";
+  if (LANG === "en" && obj[enKey]) return obj[enKey];
+  return obj[plKey] || obj[enKey] || "";
+}
+function confLabel(c) {
+  if (LANG !== "en") return c || "";
+  const map = { wysoka: "high", "\u015brednia": "medium", "\u015brednia+": "medium+", niska: "low" };
+  return map[c] || c || "";
+}
 function renderTable(rows) {
-  const body = rows.map((t, i) => {
+  const body = rows.map((x, i) => {
     const cls = i < 8 ? "po" : i === 11 ? "rel" : "";
-    return `<tr class="${cls}"><td class="pos">${i + 1}</td><td class="team">${t.name}</td><td>${t.played}</td><td><strong>${t.pts}</strong></td><td>${t.w}-${t.l}</td><td>${t.sw}:${t.sl}</td><td>${fmtRatio(t.sw, t.sl)}</td><td>${fmtRatio(t.pw, t.pl)}</td></tr>`;
+    return `<tr class="${cls}"><td class="pos">${i + 1}</td><td class="team">${x.name}</td><td>${x.played}</td><td><strong>${x.pts}</strong></td><td>${x.w}-${x.l}</td><td>${x.sw}:${x.sl}</td><td>${fmtRatio(x.sw, x.sl)}</td><td>${fmtRatio(x.pw, x.pl)}</td></tr>`;
   }).join("");
-  document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>play-off (1–8)</span><span><i class="dot" style="background:var(--loss)"></i>strefa spadkowa (12)</span></div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>Drużyna</th><th>M</th><th>Pkt</th><th>W-P</th><th>Sety</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>${t("legendPo")}</span><span><i class="dot" style="background:var(--loss)"></i>${t("legendRel")}</span></div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("thTeam")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("thWL")}</th><th>${t("thSets")}</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderScorers() {
   const wrap = document.getElementById("scorers-wrap");
   if (!wrap) return;
-  if (!SCORERS) { wrap.innerHTML = "<p class='muted'>Brak danych.</p>"; return; }
+  if (!SCORERS) { wrap.innerHTML = `<p class='muted'>${t("noData")}</p>`; return; }
   const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
+  const note = pick(SCORERS, "note", "noteEn") || t("scorersEmpty");
   if (!players.length) {
-    wrap.innerHTML = `<div class="note">${SCORERS.note || "Ranking pojawi się po 1. kolejce."}</div><div class="card"><p class="muted">Aktualizacja: ${SCORERS.updated}. Źródło: ${SCORERS.source}.</p></div>`;
+    wrap.innerHTML = `<div class="note">${note}</div><div class="card"><p class="muted">${t("update")}: ${SCORERS.updated}. ${t("source")}: ${SCORERS.source}.</p></div>`;
     return;
   }
   const body = players.map((p, i) => {
-    const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "—");
-    return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "—"}</td><td>${p.block ?? "—"}</td><td>${p.ace ?? "—"}</td></tr>`;
+    const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
+    return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
   }).join("");
-  wrap.innerHTML = `<div class="note">Akt. ${SCORERS.updated} · ${SCORERS.phase}. Źródło: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>Zawodniczka</th><th>Klub</th><th>Poz.</th><th>M</th><th>Pkt</th><th>Śr./set</th><th>Atak</th><th>Blok</th><th>As</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  wrap.innerHTML = `<div class="note">${t("updatedShort")} ${SCORERS.updated} \u00b7 ${pick(SCORERS, "phase", "phaseEn")}. ${t("source")}: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderRound(roundObj) {
-  if (!roundObj) return "<p class='muted'>Brak danych.</p>";
+  if (!roundObj) return `<p class='muted'>${t("noData")}</p>`;
   return (roundObj.matches || []).map((m) => {
-    const score = m.score ? `${m.score[0]}:${m.score[1]}` : "– : –";
-    const pred = m.preview?.prediction && m.preview.prediction !== "—" ? `<div class="pred">Prognoza: ${m.preview.prediction} · ${m.preview.confidence || ""}</div>` : "";
-    const keys = (m.preview?.keys || []).map((k) => `<span>${k}</span>`).join("");
-    const body = m.preview ? `<div class="preview-body">${m.preview.text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
-    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} · ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div><h3>${m.preview?.headline || "Mecz"}</h3>${pred}${body}</article>`;
+    const score = m.score ? `${m.score[0]}:${m.score[1]}` : "\u2013 : \u2013";
+    const headline = pick(m.preview || {}, "headline", "headlineEn") || t("match");
+    const text = pick(m.preview || {}, "text", "textEn");
+    const keysArr = LANG === "en" && m.preview?.keysEn ? m.preview.keysEn : (m.preview?.keys || []);
+    const predRaw = m.preview?.prediction;
+    const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
+    const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
+    const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
+    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div><h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
-  const items = NEWS.items || [];
-  return items.map((n) => `<div class="card"><div class="muted">${n.d} · ${n.s}</div><p>${n.t}</p></div>`).join("");
+  return (NEWS.items || []).map((n) => {
+    const title = LANG === "en" && n.te ? n.te : n.t;
+    return `<div class="card"><div class="muted">${n.d} \u00b7 ${n.s}</div><p>${title}</p></div>`;
+  }).join("");
 }
 function renderFeedStatus() {
   const el = document.getElementById("feed-status");
   if (!el || !FEED) return;
   const rows = (FEED.checks || []).map((c) => {
-    const st = c.ok ? "HTML OK" : "brak API (" + c.http + ")";
-    return `<li><strong>${c.id}</strong> — ${st}. ${c.note}</li>`;
+    const st = c.ok ? t("apiOk") : `${t("apiNo")} (${c.http})`;
+    const note = LANG === "en" && c.noteEn ? c.noteEn : c.note;
+    return `<li><strong>${c.id}</strong> \u2014 ${st}. ${note}</li>`;
   }).join("");
-  el.innerHTML = `<div class="note">Auto-pobieranie wyników: wyłączone do startu sezonu (2.10.2026). Żadne z źródeł nie daje publicznego JSON-a z GitHub Pages.<ul>${rows}</ul></div>`;
+  el.innerHTML = `<div class="note">${t("feedNote")}<ul>${rows}</ul></div>`;
 }
 function fillResultSelect() {
   const sel = document.getElementById("match-select");
+  if (!sel || !MATCHES) return;
+  const prefix = LANG === "en" ? "R" : "K";
   const opts = [];
-  MATCHES.rounds.forEach((r) => r.matches.forEach((m) => opts.push(`<option value="${m.id}">K${r.round}: ${teamShort(m.home)} – ${teamShort(m.away)}</option>`)));
+  MATCHES.rounds.forEach((r) => r.matches.forEach((m) => opts.push(`<option value="${m.id}">${prefix}${r.round}: ${teamShort(m.home)} \u2013 ${teamShort(m.away)}</option>`)));
+  const prev = sel.value;
   sel.innerHTML = opts.join("");
+  if (prev) sel.value = prev;
 }
 function persistResults() { localStorage.setItem("tlk-results", JSON.stringify(MATCHES)); }
 function loadResults() {
@@ -106,21 +128,23 @@ function applyResult() {
   const hs = +document.getElementById("home-sets").value;
   const as = +document.getElementById("away-sets").value;
   const raw = document.getElementById("set-points").value.trim();
-  if (![3,2,1,0].includes(hs) || ![3,2,1,0].includes(as) || hs === as || Math.max(hs, as) !== 3) { alert("Wynik setowy musi być 3:0, 3:1, 3:2 lub odwrotnie."); return; }
+  if (![3,2,1,0].includes(hs) || ![3,2,1,0].includes(as) || hs === as || Math.max(hs, as) !== 3) { alert(t("alertScore")); return; }
   const parts = raw.split(/[,\s]+/).filter(Boolean);
   const sets = parts.map((p) => p.split(/[-:]/).map(Number));
-  if (sets.length !== hs + as || sets.some((s) => s.length !== 2 || Number.isNaN(s[0]))) { alert("Podaj małe punkty setów, np. 25-20,25-18,25-16"); return; }
+  if (sets.length !== hs + as || sets.some((s) => s.length !== 2 || Number.isNaN(s[0]))) { alert(t("alertSets")); return; }
   MATCHES.rounds.forEach((r) => r.matches.forEach((m) => { if (m.id === id) { m.score = [hs, as]; m.sets = sets; } }));
-  persistResults(); refresh(); alert("Zapisano wynik. Tabela przeliczona wg regulaminu PLS.");
+  persistResults(); refresh(); alert(t("alertSaved"));
 }
 function refresh() {
+  applyI18n();
   renderTable(computeTable(SEASON.teams, MATCHES.rounds));
   renderScorers();
   document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
   renderFeedStatus();
-  const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> · ${i.team}<p>${i.note}</p><div class="muted">akt. ${i.updated}</div></div>`).join("") || "<p class='muted'>Brak zgłoszonych absencji.</p>";
+  fillResultSelect();
+  const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
 }
 function show(tab) {
@@ -128,21 +152,22 @@ function show(tab) {
   document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
 }
 async function init() {
+  LANG = detectLang();
   const [s, m, sc, nw, fd] = await Promise.all([
     fetch("./data/season.json").then((r) => r.json()),
     fetch("./data/matches.json").then((r) => r.json()),
-    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "—", players: [] })),
+    fetch("./data/scorers.json").then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
     fetch("./data/news.json").then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("./data/feed-status.json").then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw; FEED = fd;
-  s.teams.forEach((t) => { TEAM[t.id] = t; });
-  loadResults(); fillResultSelect();
-  document.getElementById("updated").textContent = "Stan na 27.09.2026 · sezon jeszcze nie wystartował";
+  s.teams.forEach((x) => { TEAM[x.id] = x; });
+  loadResults();
   document.getElementById("save-btn").addEventListener("click", applyResult);
   document.getElementById("reset-btn").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
+  document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
   refresh();
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js");
 }
-init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>Błąd wczytania danych: " + e.message + "</p>"; });
+init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
