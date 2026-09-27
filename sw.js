@@ -1,10 +1,11 @@
-const CACHE = "tlk-2026-27-v4";
+const CACHE = "tlk-2026-27-v5";
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./css/app.css",
   "./js/app.js",
+  "./js/i18n.js",
   "./data/season.json",
   "./data/matches.json",
   "./data/scorers.json",
