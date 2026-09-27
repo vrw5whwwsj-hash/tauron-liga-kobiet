@@ -50,19 +50,12 @@ function confLabel(c) {
   if (LANG === "tr") return ({ wysoka: "y\u00fcksek", "\u015brednia": "orta", "\u015brednia+": "orta+", niska: "d\u00fc\u015f\u00fck" }[c]) || c || "";
   return c || "";
 }
-function verifyBadge(m) {
-  if (!m.score) return "";
-  if (typeof isVerified === "function" && isVerified(m)) return `<div class="pred ok">${t("verifyOk")}</div>`;
-  return `<div class="pred wait">${t("verifyPending")}</div>`;
-}
 function renderTable(rows) {
   const body = rows.map((x, i) => {
     const cls = i < 8 ? "po" : i === 11 ? "rel" : "";
     return `<tr class="${cls}"><td class="pos">${i + 1}</td><td class="team">${x.name}</td><td>${x.played}</td><td><strong>${x.pts}</strong></td><td>${x.w}-${x.l}</td><td>${x.sw}:${x.sl}</td><td>${fmtRatio(x.sw, x.sl)}</td><td>${fmtRatio(x.pw, x.pl)}</td></tr>`;
   }).join("");
-  const pending = listedResults().filter((x) => !isVerified(x.match)).length;
-  const warn = pending ? `<div class="note">${t("verifyOpen")}: ${pending}</div>` : "";
-  document.getElementById("table-wrap").innerHTML = warn + `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>${t("legendPo")}</span><span><i class="dot" style="background:var(--loss)"></i>${t("legendRel")}</span></div><div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("thTeam")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("thWL")}</th><th>${t("thSets")}</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  document.getElementById("table-wrap").innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--gold)"></i>${t("legendPo")}</span><span><i class="dot" style="background:var(--loss)"></i>${t("legendRel")}</span></div><div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("thTeam")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("thWL")}</th><th>${t("thSets")}</th><th>S-ratio</th><th>P-ratio</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderScorers() {
   const wrap = document.getElementById("scorers-wrap");
@@ -88,7 +81,7 @@ function renderRound(roundObj) {
     const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
     const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
     const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
-    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong>${verifyBadge(m)}</div><div class="side away">${teamName(m.away)}</div></div><h3>${headline}</h3>${pred}${body}</article>`;
+    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div><h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
@@ -117,7 +110,7 @@ function loadResults() {
     saved.rounds.forEach((r) => r.matches.forEach((m) => { byId[m.id] = m; }));
     MATCHES.rounds.forEach((r) => r.matches.forEach((m) => {
       const s = byId[m.id];
-      if (s && s.score) { m.score = s.score; m.sets = s.sets; m.verify = s.verify || emptyVerify(); }
+      if (s && s.score) { m.score = s.score; m.sets = s.sets; }
     }));
   } catch (e) {}
 }
@@ -131,16 +124,11 @@ function applyResult() {
   const sets = parts.map((p) => p.split(/[-:]/).map(Number));
   if (sets.length !== hs + as || sets.some((s) => s.length !== 2 || Number.isNaN(s[0]))) { alert(t("alertSets")); return; }
   MATCHES.rounds.forEach((r) => r.matches.forEach((m) => {
-    if (m.id === id) {
-      m.score = [hs, as];
-      m.sets = sets;
-      m.verify = emptyVerify();
-    }
+    if (m.id === id) { m.score = [hs, as]; m.sets = sets; }
   }));
   persistResults(); refresh();
   if (typeof trackUse === "function") trackUse();
-  show("sec-input");
-  alert(t("alertSavedVerify"));
+  alert(t("alertSaved"));
 }
 function refresh() {
   applyI18n();
@@ -150,7 +138,6 @@ function refresh() {
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
   fillResultSelect();
-  if (typeof renderVerify === "function") renderVerify();
   const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn", "noteTr")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
 }
