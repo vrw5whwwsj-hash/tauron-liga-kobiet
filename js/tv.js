@@ -6,7 +6,11 @@ const TV_MAP = {
   r1m5: "Polsat Sport 1",
   r1m6: "Polsat Sport 1",
   r2m1: "Polsat Sport 1",
-  r2m2: "Polsat Sport 1"
+  r2m2: "Polsat Sport 1",
+  r2m3: "Polsat Sport 3",
+  r2m4: "Polsat Sport 1",
+  r2m5: "Polsat Sport 1",
+  r2m6: "Polsat Sport 1"
 };
 function tvLine(m) {
   const ch = (m && (m.tv || TV_MAP[m.id])) || "";
