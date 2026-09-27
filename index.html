@@ -5,15 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="TAURON Liga K" />
+  <meta name="apple-mobile-web-app-title" content="VolleyNews" />
   <meta name="theme-color" content="#0b1220" />
-  <title>TAURON Liga Kobiet 2026/27</title>
+  <title>VolleyNews · TAURON Liga Kobiet 2026/27</title>
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./icons/icon.svg" />
   <link rel="stylesheet" href="./css/app.css" />
 </head>
 <body>
   <header class="app">
+    <a class="hero" href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">
+      <div class="hero-mark">VN</div>
+      <div class="hero-text">
+        <strong>Volley<span>News</span></strong>
+        <em>Radoslaw Dubik</em>
+        <small>TAURON Liga Kobiet · 2026/27</small>
+      </div>
+    </a>
+    <a class="x-link" href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">X · @Z_Ligowych_Hal</a>
     <div class="brand">
       <div class="logo">TL</div>
       <h1><span data-i18n="title">TAURON Liga Kobiet</span><span data-i18n="subtitle">Sezon 2026/2027 · 12 drużyn</span></h1>
@@ -43,7 +52,7 @@
     <div class="card"><h2 data-i18n="injH2">Absencje</h2><div id="injuries"></div></div>
   </section>
   <section id="sec-scorers">
-    <div class="card"><h2 data-i18n="scorersH2">Punktujące</h2><p class="muted" data-i18n="scorersP">Ranking PLS.</p></div>
+    <div class="card"><h2 data-i18n="scorersH2">Punktujące</h2><p class="muted" data-i18n="scorersP">Ranking ligowy.</p></div>
     <div id="scorers-wrap"></div>
   </section>
   <section id="sec-r1">
@@ -55,20 +64,8 @@
     <div id="round2"></div>
   </section>
   <section id="sec-news">
-    <div class="card"><h2 data-i18n="newsH2">Relacje</h2><p class="muted" data-i18n="newsP">Źródła</p></div>
-    <div id="feed-status"></div>
+    <div class="card"><h2 data-i18n="newsH2">Relacje</h2><p class="muted" data-i18n="newsP">VolleyNews</p></div>
     <div id="news"></div>
-    <div class="card sources">
-      <h2 data-i18n="monH2">Monitoring</h2>
-      <ul>
-        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — <span data-i18n="srcPls">wyniki</span></li>
-        <li><a href="https://siatka.org/wyniki/" target="_blank" rel="noopener">siatka.org</a> — <span data-i18n="srcSiatka">relacje</span></li>
-        <li><a href="https://women.volleybox.net/pl/matches" target="_blank" rel="noopener">Volleybox</a> — <span data-i18n="srcVb">terminarz</span></li>
-        <li><a href="https://www.polsatsport.pl" target="_blank" rel="noopener">polsatsport.pl</a> — <span data-i18n="srcPolsat">TV</span></li>
-        <li><a href="https://www.polsatsport.pl/rss/siatkowka.xml" target="_blank" rel="noopener" data-i18n="srcRss">RSS</a></li>
-        <li><a href="https://sportowefakty.wp.pl" target="_blank" rel="noopener">WP SportoweFakty</a></li>
-      </ul>
-    </div>
   </section>
   <section id="sec-rules">
     <div class="card">
@@ -107,7 +104,7 @@
       <button class="ghost" id="reset-btn" data-i18n="resetBtn">Wyczyść</button>
     </div>
   </section>
-  <footer class="hint" data-i18n="footer">Narzędzie kibicowskie.</footer>
+  <footer class="hint"><a href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">VolleyNews · @Z_Ligowych_Hal</a></footer>
   <script src="./js/i18n.js"></script>
   <script src="./js/app.js"></script>
 </body>

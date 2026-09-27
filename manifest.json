@@ -1,7 +1,7 @@
 {
-  "name": "TAURON Liga Kobiet 2026/27",
-  "short_name": "TAURON Liga K",
-  "description": "Wyniki, tabela, zapowiedzi i relacje TAURON Ligi Kobiet sezon 2026/2027",
+  "name": "VolleyNews · TAURON Liga Kobiet",
+  "short_name": "VolleyNews",
+  "description": "VolleyNews — Radoslaw Dubik (@Z_Ligowych_Hal). TAURON Liga Kobiet 2026/27.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0b1220",
