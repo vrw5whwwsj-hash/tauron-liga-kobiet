@@ -32,22 +32,24 @@ function computeTable(teams, rounds) {
     if (srB !== srA) return srB - srA;
     const prA = setRatio(a.pw, a.pl), prB = setRatio(b.pw, b.pl);
     if (prB !== prA) return prB - prA;
-    return a.name.localeCompare(b.name, LANG === "en" ? "en" : "pl");
+    return a.name.localeCompare(b.name, LANG === "tr" ? "tr" : LANG === "en" ? "en" : "pl");
   });
   return rows;
 }
 function fmtRatio(a, b) { if (!a && !b) return "\u2014"; return setRatio(a, b).toFixed(3); }
 function teamName(id) { return TEAM[id]?.name || id; }
 function teamShort(id) { return TEAM[id]?.short || id; }
-function pick(obj, plKey, enKey) {
+function pick(obj, plKey, enKey, trKey) {
   if (!obj) return "";
+  if (LANG === "tr" && trKey && obj[trKey]) return obj[trKey];
+  if (LANG === "tr" && obj[enKey]) return obj[enKey];
   if (LANG === "en" && obj[enKey]) return obj[enKey];
   return obj[plKey] || obj[enKey] || "";
 }
 function confLabel(c) {
-  if (LANG !== "en") return c || "";
-  const map = { wysoka: "high", "\u015brednia": "medium", "\u015brednia+": "medium+", niska: "low" };
-  return map[c] || c || "";
+  if (LANG === "en") return ({ wysoka: "high", "\u015brednia": "medium", "\u015brednia+": "medium+", niska: "low" }[c]) || c || "";
+  if (LANG === "tr") return ({ wysoka: "y\u00fcksek", "\u015brednia": "orta", "\u015brednia+": "orta+", niska: "d\u00fc\u015f\u00fck" }[c]) || c || "";
+  return c || "";
 }
 function renderTable(rows) {
   const body = rows.map((x, i) => {
@@ -61,7 +63,7 @@ function renderScorers() {
   if (!wrap) return;
   if (!SCORERS) { wrap.innerHTML = `<p class='muted'>${t("noData")}</p>`; return; }
   const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
-  const note = pick(SCORERS, "note", "noteEn") || t("scorersEmpty");
+  const note = pick(SCORERS, "note", "noteEn", "noteTr") || t("scorersEmpty");
   if (!players.length) {
     wrap.innerHTML = `<div class="note">${note}</div><div class="card"><p class="muted">${t("update")}: ${SCORERS.updated}. ${t("source")}: ${SCORERS.source}.</p></div>`;
     return;
@@ -70,15 +72,15 @@ function renderScorers() {
     const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
     return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
   }).join("");
-  wrap.innerHTML = `<div class="note">${t("updatedShort")} ${SCORERS.updated} \u00b7 ${pick(SCORERS, "phase", "phaseEn")}. ${t("source")}: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  wrap.innerHTML = `<div class="note">${t("updatedShort")} ${SCORERS.updated} \u00b7 ${pick(SCORERS, "phase", "phaseEn", "phaseTr")}. ${t("source")}: ${SCORERS.source}</div><div style="overflow-x:auto"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderRound(roundObj) {
   if (!roundObj) return `<p class='muted'>${t("noData")}</p>`;
   return (roundObj.matches || []).map((m) => {
     const score = m.score ? `${m.score[0]}:${m.score[1]}` : "\u2013 : \u2013";
-    const headline = pick(m.preview || {}, "headline", "headlineEn") || t("match");
-    const text = pick(m.preview || {}, "text", "textEn");
-    const keysArr = LANG === "en" && m.preview?.keysEn ? m.preview.keysEn : (m.preview?.keys || []);
+    const headline = pick(m.preview || {}, "headline", "headlineEn", "headlineTr") || t("match");
+    const text = pick(m.preview || {}, "text", "textEn", "textTr");
+    const keysArr = LANG === "tr" && m.preview?.keysTr ? m.preview.keysTr : (LANG === "en" && m.preview?.keysEn ? m.preview.keysEn : (m.preview?.keys || []));
     const predRaw = m.preview?.prediction;
     const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
     const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
@@ -88,7 +90,7 @@ function renderRound(roundObj) {
 }
 function renderNews() {
   return (NEWS.items || []).map((n) => {
-    const title = LANG === "en" && n.te ? n.te : n.t;
+    const title = LANG === "tr" && n.tt ? n.tt : (LANG === "en" && n.te ? n.te : n.t);
     return `<div class="card"><div class="muted">${n.d} \u00b7 ${n.s}</div><p>${title}</p></div>`;
   }).join("");
 }
@@ -97,7 +99,7 @@ function renderFeedStatus() {
   if (!el || !FEED) return;
   const rows = (FEED.checks || []).map((c) => {
     const st = c.ok ? t("apiOk") : `${t("apiNo")} (${c.http})`;
-    const note = LANG === "en" && c.noteEn ? c.noteEn : c.note;
+    const note = LANG === "tr" && c.noteTr ? c.noteTr : (LANG === "en" && c.noteEn ? c.noteEn : c.note);
     return `<li><strong>${c.id}</strong> \u2014 ${st}. ${note}</li>`;
   }).join("");
   el.innerHTML = `<div class="note">${t("feedNote")}<ul>${rows}</ul></div>`;
@@ -105,7 +107,7 @@ function renderFeedStatus() {
 function fillResultSelect() {
   const sel = document.getElementById("match-select");
   if (!sel || !MATCHES) return;
-  const prefix = LANG === "en" ? "R" : "K";
+  const prefix = LANG === "pl" ? "K" : (LANG === "tr" ? "H" : "R");
   const opts = [];
   MATCHES.rounds.forEach((r) => r.matches.forEach((m) => opts.push(`<option value="${m.id}">${prefix}${r.round}: ${teamShort(m.home)} \u2013 ${teamShort(m.away)}</option>`)));
   const prev = sel.value;
@@ -144,7 +146,7 @@ function refresh() {
   document.getElementById("news").innerHTML = renderNews();
   renderFeedStatus();
   fillResultSelect();
-  const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
+  const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn", "noteTr")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
 }
 function show(tab) {
