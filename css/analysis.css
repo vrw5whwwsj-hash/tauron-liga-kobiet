@@ -1,0 +1,15 @@
+.src-card { border-color: #3a2e14; background: linear-gradient(135deg,#1a2740,#162036 55%,#2a2410); }
+.src-card a { color: #f3d38a; font-weight: 800; text-decoration: none; }
+.src-handle { display: inline-block; margin-top: 6px; background: #3a2e14; color: #e8b84a; border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 800; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { background: #1a2740; border: 1px solid var(--line); border-radius: 999px; padding: 4px 9px; font-size: 11px; color: #9aa6b8; }
+.chip b { color: #f3d38a; }
+.bar-row { margin: 10px 0 14px; }
+.bar-lab { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; margin-bottom: 4px; }
+.bar-lab small { color: var(--muted); }
+.bar-track { height: 12px; background: #0f1728; border-radius: 999px; overflow: hidden; border: 1px solid #243049; }
+.bar-fill { height: 100%; border-radius: 999px; min-width: 4px; }
+.donut-wrap { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+.donut { width: 86px; text-align: center; }
+.donut svg { display: block; margin: 0 auto 4px; }
+.donut span { font-size: 11px; color: var(--muted); }

@@ -1,0 +1,101 @@
+{
+  "updated": "2026-09-28",
+  "source": {
+    "name": "Patryk Wojciech Gęsicki",
+    "handle": "@PatrykWGesicki",
+    "url": "https://x.com/PatrykWGesicki"
+  },
+  "seasonLive": "2026/27",
+  "seasonLiveNote": "Sezon ligowy startuje 2.10.2026. Wykresy 2026/27 uzupełnimy po pierwszych kolejkach, w oparciu o wpisy @PatrykWGesicki.",
+  "seasonLiveNoteEn": "The league starts on 2 Oct 2026. 2026/27 charts will be filled after the first rounds, from @PatrykWGesicki posts.",
+  "seasonLiveNoteTr": "Lig 2 Ekim 2026'da başlıyor. 2026/27 grafikleri ilk haftalardan sonra @PatrykWGesicki paylaşımlarına göre doldurulacak.",
+  "legend": [
+    { "k": "BP", "pl": "Break Point — punkty zdobyte w kontrze przy własnej zagrywce", "en": "Break Point — points won on own serve (transition)", "tr": "Break Point — kendi servisinde kontra sayı" },
+    { "k": "Bal/Ratio", "pl": "bilans zysków i strat punktowych", "en": "point gain/loss balance", "tr": "sayı kazanç/kayıp dengesi" },
+    { "k": "Przyjęcie*", "pl": "(przyjęcie pozytywne − błędy) : suma przyjęć", "en": "(positive reception − errors) / total receptions", "tr": "(pozitif karşılama − hata) / toplam karşılama" },
+    { "k": "Atak", "pl": "(ataki skończone − błędy − zablokowane) : suma ataków", "en": "(kills − errors − blocked) / total attacks", "tr": "(sayı − hata − blok) / toplam hücum" }
+  ],
+  "baselineSeason": "2025/26",
+  "charts": [
+    {
+      "id": "libero-eff",
+      "unit": "%",
+      "max": 70,
+      "title": "Libero — efektywność przyjęcia*",
+      "titleEn": "Libero — reception efficiency*",
+      "titleTr": "Libero — karşılama verimi*",
+      "note": "Minimum 150 prób. Sezon 2025/26.",
+      "noteEn": "Min. 150 attempts. 2025/26 season.",
+      "noteTr": "En az 150 deneme. 2025/26 sezonu.",
+      "color": "#4fd1c5",
+      "rows": [
+        { "name": "A. Szczygłowska", "team": "DevelopRes", "v": 58.2, "extra": "237" },
+        { "name": "K. Pancewicz", "team": "Sokół Mogilno", "v": 52.9, "extra": "366" },
+        { "name": "A. Nowak", "team": "Chemik Police", "v": 50.53, "extra": "402" }
+      ]
+    },
+    {
+      "id": "libero-err",
+      "unit": "%",
+      "max": 8,
+      "invert": true,
+      "title": "Libero — % błędów w przyjęciu",
+      "titleEn": "Libero — reception error %",
+      "titleTr": "Libero — karşılama hata %",
+      "note": "Im niżej, tym lepiej. Min. 150 przyjęć. 2025/26.",
+      "noteEn": "Lower is better. Min. 150 receptions. 2025/26.",
+      "noteTr": "Düşük daha iyi. Min. 150. 2025/26.",
+      "color": "#f6ad55",
+      "rows": [
+        { "name": "J. Łysiak", "team": "Budowlani", "v": 3.69, "extra": "271" },
+        { "name": "A. Szczygłowska", "team": "DevelopRes", "v": 3.8, "extra": "237" },
+        { "name": "K. Pancewicz", "team": "Sokół Mogilno", "v": 4.1, "extra": "366" }
+      ]
+    },
+    {
+      "id": "mb-stuff",
+      "unit": "/set",
+      "max": 1.8,
+      "title": "Środkowe — wybloki / set",
+      "titleEn": "Middles — stuff blocks / set",
+      "titleTr": "Orta — blok sayısı / set",
+      "note": "Minimum 40 wybloków. 2025/26.",
+      "noteEn": "Min. 40 stuff blocks. 2025/26.",
+      "noteTr": "En az 40 blok. 2025/26.",
+      "color": "#9f7aea",
+      "rows": [
+        { "name": "S. Dorsman", "team": "DevelopRes", "v": 1.54, "extra": "149" },
+        { "name": "A. Gryka", "team": "BKS", "v": 1.26, "extra": "122" },
+        { "name": "S. Planinšec", "team": "Budowlani", "v": 1.22, "extra": "122" }
+      ]
+    },
+    {
+      "id": "mb-blk",
+      "unit": "/set",
+      "max": 1.1,
+      "title": "Środkowe — bloki / set",
+      "titleEn": "Middles — blocks / set",
+      "titleTr": "Orta — blok / set",
+      "note": "Minimum 40 bloków. 2025/26.",
+      "noteEn": "Min. 40 blocks. 2025/26.",
+      "noteTr": "En az 40 blok. 2025/26.",
+      "color": "#fc8181",
+      "rows": [
+        { "name": "D. Pierzchała", "team": "DevelopRes", "v": 0.91, "extra": "41" },
+        { "name": "R. Moszyńska", "team": "Stal Mielec", "v": 0.87, "extra": "92" },
+        { "name": "N. Dróżdż", "team": "#VolleyWrocław", "v": 0.86, "extra": "66" }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "d": "2026-09-28",
+      "t": "Zakładka startuje od definicji i punktu odniesienia 2025/26",
+      "te": "Tab starts with definitions and a 2025/26 baseline",
+      "tt": "Sekme 2025/26 referansıyla açılıyor",
+      "b": "Analizy 2026/27 będą dopisywane po meczach ligowych. Do startu sezonu zostawiamy rankingi i wzory z podsumowania 2025/26 konta @PatrykWGesicki (m.in. 7.05.2026).",
+      "be": "2026/27 match analyses will be added after league games. Until then we keep 2025/26 rankings and formulas from @PatrykWGesicki (e.g. 7 May 2026).",
+      "bt": "2026/27 analizleri lig maçlarından sonra eklenecek. Şimdilik 2025/26 özeti ve formüller @PatrykWGesicki."
+    }
+  ]
+}
