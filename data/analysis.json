@@ -12,8 +12,8 @@
   "legend": [
     { "k": "BP", "pl": "Break Point — punkty zdobyte w kontrze przy własnej zagrywce", "en": "Break Point — points won on own serve (transition)", "tr": "Break Point — kendi servisinde kontra sayı" },
     { "k": "Bal/Ratio", "pl": "bilans zysków i strat punktowych", "en": "point gain/loss balance", "tr": "sayı kazanç/kayıp dengesi" },
-    { "k": "Przyjęcie*", "pl": "(przyjęcie pozytywne − błędy) : suma przyjęć", "en": "(positive reception − errors) / total receptions", "tr": "(pozitif karşılama − hata) / toplam karşılama" },
-    { "k": "Atak", "pl": "(ataki skończone − błędy − zablokowane) : suma ataków", "en": "(kills − errors − blocked) / total attacks", "tr": "(sayı − hata − blok) / toplam hücum" }
+    { "k": "Przyjęcie*", "pl": "efektywność: (przyjęcie pozytywne − błędy) : suma przyjęć", "en": "efficiency: (positive reception − errors) / total receptions", "tr": "verim: (pozitif karşılama − hata) / toplam karşılama" },
+    { "k": "Efektywność ataku", "pl": "(ataki skończone − błędy − ataki zablokowane) : suma ataków — nie skuteczność", "en": "(kills − errors − blocked attacks) / total attacks — efficiency, not kill %", "tr": "(sayı − hata − bloklanan hücum) / toplam hücum — verim, başarı % değil" }
   ],
   "baselineSeason": "2025/26",
   "charts": [
@@ -90,12 +90,12 @@
   "notes": [
     {
       "d": "2026-09-28",
-      "t": "Zakładka startuje od definicji i punktu odniesienia 2025/26",
-      "te": "Tab starts with definitions and a 2025/26 baseline",
-      "tt": "Sekme 2025/26 referansıyla açılıyor",
-      "b": "Analizy 2026/27 będą dopisywane po meczach ligowych. Do startu sezonu zostawiamy rankingi i wzory z podsumowania 2025/26 konta @PatrykWGesicki (m.in. 7.05.2026).",
-      "be": "2026/27 match analyses will be added after league games. Until then we keep 2025/26 rankings and formulas from @PatrykWGesicki (e.g. 7 May 2026).",
-      "bt": "2026/27 analizleri lig maçlarından sonra eklenecek. Şimdilik 2025/26 özeti ve formüller @PatrykWGesicki."
+      "t": "Atak liczymy jako efektywność, nie skuteczność",
+      "te": "Attack is efficiency, not kill percentage",
+      "tt": "Hücum verimdir, isabet değil",
+      "b": "Efektywność ataku = (ataki skończone − błędy − ataki zablokowane) : suma ataków. Skuteczność (same skończone / suma) nie jest używana w tej zakładce.",
+      "be": "Attack efficiency = (kills − errors − blocked attacks) / total attacks. Kill % (kills / total) is not used here.",
+      "bt": "Hücum verimi = (sayı − hata − bloklanan) / toplam hücum."
     }
   ]
 }
