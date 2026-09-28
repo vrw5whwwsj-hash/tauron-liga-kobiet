@@ -139,6 +139,7 @@ function refresh() {
   document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
   document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
   document.getElementById("news").innerHTML = renderNews();
+  if (typeof renderAnalysis === "function") renderAnalysis();
   fillResultSelect();
   const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn", "noteTr")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
@@ -150,13 +151,15 @@ function show(tab) {
 async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
-  const [s, m, sc, nw] = await Promise.all([
-    fetch("./data/season.json?v=17", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=17", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=17", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=17", bust).then((r) => r.json()).catch(() => ({ items: [] }))
+  const [s, m, sc, nw, an] = await Promise.all([
+    fetch("./data/season.json?v=19", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=19", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=19", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=19", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=19", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] }))
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
+  if (typeof ANALYSIS !== "undefined") ANALYSIS = an; else window.ANALYSIS = an;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
   loadResults();
   document.getElementById("save-btn").addEventListener("click", applyResult);
@@ -167,7 +170,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=17");
+    navigator.serviceWorker.register("./sw.js?v=19");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
