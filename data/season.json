@@ -3,42 +3,42 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-09-27T19:40:00+02:00",
+  "updatedAt": "2026-09-28T20:00:00+02:00",
   "status": "przed sezonem",
-  "championDefending": "PGE Budowlani \u0141\u00f3d\u017a",
+  "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
-    "champion": "PGE Budowlani \u0141\u00f3d\u017a",
-    "runnerUp": "KS DevelopRes Rzesz\u00f3w",
+    "champion": "PGE Budowlani Łódź",
+    "runnerUp": "KS DevelopRes Rzeszów",
     "third": "UNI Opole",
-    "relegated": "EcoHarpoon NOWEL LOS Nowy Dw\u00f3r Mazowiecki"
+    "relegated": "EcoHarpoon NOWEL LOS Nowy Dwór Mazowiecki"
   },
   "system": {
     "teams": 12,
-    "regularSeason": "Dwie rundy systemem ka\u017cdy z ka\u017cdym (mecz i rewan\u017c) \u2014 22 kolejki, 22 mecze na zesp\u00f3\u0142.",
+    "regularSeason": "Dwie rundy systemem każdy z każdym (mecz i rewanż) — 22 kolejki, 22 mecze na zespół.",
     "playoffStart": "koniec marca 2027",
     "championEarliest": "21 kwietnia 2027"
   },
   "teams": [
-    {"id": "bud", "short": "PGE BUD", "name": "PGE Budowlani \u0141\u00f3d\u017a", "city": "\u0141\u00f3d\u017a", "coach": "Maciej Biernat", "note": "Obro\u0144czynie tytu\u0142u. Historyczne pierwsze MP w kwietniu 2026.", "noteEn": "Defending champions. First Polish title in club history (April 2026).", "color": "#1a365d"},
-    {"id": "dev", "short": "DEV RZE", "name": "KS DevelopRes Rzesz\u00f3w", "city": "Rzesz\u00f3w", "coach": "Jelena Blagojevi\u0107", "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka.", "noteEn": "Runners-up. New captain: Alicja Grabka.", "color": "#7c2d12"},
-    {"id": "opo", "short": "UNI OPO", "name": "UNI Opole", "city": "Opole", "coach": "Bart\u0142omiej D\u0105browski", "note": "Br\u0105z 2025/26. Stabilny projekt.", "noteEn": "Bronze in 2025/26. Stable project.", "color": "#1e3a8a"},
-    {"id": "bks", "short": "BKS BIA", "name": "BKS ZGO Bielsko-Bia\u0142a", "city": "Bielsko-Bia\u0142a", "coach": "", "note": "Sta\u0142y pretendent do czo\u0142\u00f3wki.", "noteEn": "Regular top-half contender.", "color": "#7f1d1d"},
-    {"id": "lks", "short": "\u0141KS \u0141\u00d3D", "name": "\u0141KS Commercecon \u0141\u00f3d\u017a", "city": "\u0141\u00f3d\u017a", "coach": "", "note": "Kontuzja Magdaleny Jurczyk przed sezonem.", "noteEn": "Magdalena Jurczyk injured before the season.", "color": "#9a3412"},
-    {"id": "che", "short": "CHEMIK", "name": "LOTTO Chemik Police", "city": "Police", "coach": "", "note": "Du\u017ce zmiany kadrowe i nowe ambicje.", "noteEn": "Major roster changes and renewed ambition.", "color": "#0f766e"},
-    {"id": "mie", "short": "STAL MIE", "name": "ITA TOOLS Stal Mielec", "city": "Mielec", "coach": "", "note": "\u015arodek tabeli, walka o play-off.", "noteEn": "Mid-table, fighting for the play-offs.", "color": "#365314"},
-    {"id": "byd", "short": "PA\u0141AC", "name": "Metalkas Pa\u0142ac Bydgoszcz", "city": "Bydgoszcz", "coach": "", "note": "Walka o \u00f3semk\u0119.", "noteEn": "Fighting for the top eight.", "color": "#1e40af"},
+    {"id": "bud", "short": "PGE BUD", "name": "PGE Budowlani Łódź", "city": "Łódź", "coach": "Maciej Biernat", "note": "Obrończynie tytułu. Historyczne pierwsze MP w kwietniu 2026.", "noteEn": "Defending champions. First Polish title in club history (April 2026).", "color": "#1a365d"},
+    {"id": "dev", "short": "DEV RZE", "name": "KS DevelopRes Rzeszów", "city": "Rzeszów", "coach": "Jelena Blagojević", "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka.", "noteEn": "Runners-up. New captain: Alicja Grabka.", "color": "#7c2d12"},
+    {"id": "opo", "short": "UNI OPO", "name": "UNI Opole", "city": "Opole", "coach": "Bartłomiej Dąbrowski", "note": "Brąz 2025/26. Stabilny projekt.", "noteEn": "Bronze in 2025/26. Stable project.", "color": "#1e3a8a"},
+    {"id": "bks", "short": "BKS BIA", "name": "BKS ZGO Bielsko-Biała", "city": "Bielsko-Biała", "coach": "", "note": "Stały pretendent do czołówki.", "noteEn": "Regular top-half contender.", "color": "#7f1d1d"},
+    {"id": "lks", "short": "ŁKS ŁÓD", "name": "ŁKS Commercecon Łódź", "city": "Łódź", "coach": "Adrian Chyliński", "note": "Rewolucja kadrowa. Kontuzja Magdaleny Jurczyk przed sezonem.", "noteEn": "Roster overhaul. Magdalena Jurczyk injured before the season.", "color": "#9a3412"},
+    {"id": "che", "short": "CHEMIK", "name": "LOTTO Chemik Police", "city": "Police", "coach": "", "note": "Duże zmiany kadrowe i nowe ambicje.", "noteEn": "Major roster changes and renewed ambition.", "color": "#0f766e"},
+    {"id": "mie", "short": "STAL MIE", "name": "ITA TOOLS Stal Mielec", "city": "Mielec", "coach": "", "note": "Środek tabeli, walka o play-off.", "noteEn": "Mid-table, fighting for the play-offs.", "color": "#365314"},
+    {"id": "byd", "short": "PAŁAC", "name": "Metalkas Pałac Bydgoszcz", "city": "Bydgoszcz", "coach": "", "note": "Walka o ósemkę.", "noteEn": "Fighting for the top eight.", "color": "#1e40af"},
     {"id": "rad", "short": "RADOMKA", "name": "MOYA Radomka Radom", "city": "Radom", "coach": "", "note": "Letnia rewolucja kadrowa.", "noteEn": "Summer roster overhaul.", "color": "#b45309"},
     {"id": "kal", "short": "MKS KAL", "name": "NETLAND MKS Kalisz", "city": "Kalisz", "coach": "", "note": "Beniaminek. Inauguracja sezonu u siebie.", "noteEn": "Promoted side. Hosts the season opener.", "color": "#4338ca"},
-    {"id": "mog", "short": "SOK\u00d3\u0141", "name": "Sok\u00f3\u0142 & Hagric Mogilno", "city": "Mogilno", "coach": "Dawid Michor", "note": "Cel: najwaleczniejsza dru\u017cyna ligi. Trzeci sezon w elicie.", "noteEn": "Aim: toughest team in the league. Third season in the elite.", "color": "#166534"},
-    {"id": "wro", "short": "#VOLLEY", "name": "#VolleyWroc\u0142aw", "city": "Wroc\u0142aw", "coach": "", "note": "Wzmocniony sk\u0142ad, ambicje wy\u017cej ni\u017c rok temu.", "noteEn": "Reinforced roster, aiming higher than last year.", "color": "#9f1239"}
+    {"id": "mog", "short": "SOKÓŁ", "name": "Sokół & Hagric Mogilno", "city": "Mogilno", "coach": "Dawid Michor", "note": "Cel: najwaleczniejsza drużyna ligi. Trzeci sezon w elicie.", "noteEn": "Aim: toughest team in the league. Third season in the elite.", "color": "#166534"},
+    {"id": "wro", "short": "#VOLLEY", "name": "#VolleyWrocław", "city": "Wrocław", "coach": "", "note": "Wzmocniony skład, ambicje wyżej niż rok temu.", "noteEn": "Reinforced roster, aiming higher than last year.", "color": "#9f1239"}
   ],
   "injuries": [
     {
       "player": "Magdalena Jurczyk",
-      "team": "\u0141KS Commercecon \u0141\u00f3d\u017a",
-      "note": "Kontuzja odniesiona na turnieju w Twardog\u00f3rze (wrzesie\u0144 2026). Status na 1. kolejk\u0119 do potwierdzenia.",
-      "noteEn": "Injury sustained at the Twardog\u00f3ra tournament (September 2026). Status for Round 1 to be confirmed.",
-      "updated": "2026-09-26"
+      "team": "ŁKS Commercecon Łódź",
+      "note": "Kontuzja kolana odniesiona na turnieju w Twardogórze (wrzesień 2026). Status na 1. kolejkę do potwierdzenia.",
+      "noteEn": "Knee injury sustained at the Twardogóra tournament (September 2026). Status for Round 1 to be confirmed.",
+      "updated": "2026-09-28"
     }
   ]
 }
