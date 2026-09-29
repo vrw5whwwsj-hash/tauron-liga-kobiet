@@ -47,7 +47,7 @@ function pick(obj, plKey, enKey, trKey) {
 }
 function clipBtn(url, label) {
   if (!url) return "";
-  const lab = label || (LANG === "en" ? "Match highlights" : LANG === "tr" ? "Maç özeti" : "Skrót meczu");
+  const lab = label || (LANG === "en" ? "Match highlights" : LANG === "tr" ? "Ma\u00e7 \u00f6zeti" : "Skr\u00f3t meczu");
   return `<p class="clip-wrap"><a class="clip-btn" href="${url}" target="_blank" rel="noopener">${lab}</a></p>`;
 }
 function confLabel(c) {
@@ -88,7 +88,8 @@ function renderRound(roundObj) {
     const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
     const tv = typeof tvLine === "function" ? tvLine(m) : "";
     const clip = clipBtn(m.clip);
-    return `<article class="card"><div class="muted">${m.date || ""} ${m.time || ""} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clip}<h3>${headline}</h3>${pred}${body}</article>`;
+    const when = [m.date || "", m.time || ""].filter(Boolean).join(" ");
+    return `<article class="card"><div class="muted">${when} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clip}<h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
@@ -96,7 +97,7 @@ function renderNews() {
     const title = pick(n, "t", "te", "tt");
     const body = pick(n, "b", "be", "bt");
     const clip = clipBtn(n.clip, n.clipL);
-    return `<details class="card news-card"><summary><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">›</span></div></summary>${body ? `<div class="news-body">${body}${clip}</div>` : clip}</details>`;
+    return `<details class="card news-card"><summary><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">\u203a</span></div></summary>${body ? `<div class="news-body">${body}${clip}</div>` : clip}</details>`;
   }).join("");
 }
 function fillResultSelect() {
@@ -140,12 +141,17 @@ function applyResult() {
   if (typeof trackUse === "function") trackUse();
   alert(t("alertSaved"));
 }
+function paintRound(id, n) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === n));
+}
 function refresh() {
   applyI18n();
   renderTable(computeTable(SEASON.teams, MATCHES.rounds));
   renderScorers();
-  document.getElementById("round1").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 1));
-  document.getElementById("round2").innerHTML = renderRound(MATCHES.rounds.find((r) => r.round === 2));
+  paintRound("round1", 1);
+  paintRound("round2", 2);
+  paintRound("round3", 3);
   document.getElementById("news").innerHTML = renderNews();
   if (typeof renderAnalysis === "function") renderAnalysis();
   fillResultSelect();
@@ -159,14 +165,16 @@ function show(tab) {
 async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
-  const [s, m, sc, nw, an] = await Promise.all([
-    fetch("./data/season.json?v=20", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=20", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=20", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=20", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=20", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] }))
+  const [s, m, sc, nw, an, r3] = await Promise.all([
+    fetch("./data/season.json?v=21", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=21", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=21", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=21", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=21", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=21", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
+  if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
   if (typeof ANALYSIS !== "undefined") ANALYSIS = an; else window.ANALYSIS = an;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
   loadResults();
@@ -178,7 +186,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=20");
+    navigator.serviceWorker.register("./sw.js?v=21");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
