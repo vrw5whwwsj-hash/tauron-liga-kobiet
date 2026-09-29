@@ -1,0 +1,103 @@
+{
+  "round": 3,
+  "label": "3. kolejka",
+  "window": "15\u201317 pa\u017adziernika 2026",
+  "matches": [
+    {
+      "id": "r3m1",
+      "date": "2026-10-15",
+      "time": "17:30",
+      "home": "lks",
+      "away": "mie",
+      "venue": "\u0141\u00f3d\u017a (\u0141KS)",
+      "preview": {
+        "headline": "\u0141KS — Stal. Pierwsza potwierdzona godzina 3. kolejki",
+        "headlineEn": "\u0141KS vs Stal. First confirmed Round 3 kick-off",
+        "text": "Czwartek 15.10, 17:30. \u0141KS po rewolucji kadrowej i wygranych Gigantach, Stal z nowym sk\u0142adem G\u0142uszaka. Godzina z oficjalnego kalendarza ligi.",
+        "textEn": "Thu 15 Oct, 17:30. \u0141KS after a summer rebuild and the Giants title; Stal with G\u0142uszak's new roster. Time from the official calendar.",
+        "prediction": "\u2014",
+        "keys": ["17:30 oficjalnie", "forma \u0141KS po Twardog\u00f3rze", "nowy sk\u0142ad Stali"]
+      }
+    },
+    {
+      "id": "r3m2",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "home": "wro",
+      "away": "che",
+      "venue": "Wroc\u0142aw",
+      "preview": {
+        "headline": "Wroc\u0142aw — Chemik, pi\u0105tek 19:00",
+        "headlineEn": "Wroc\u0142aw vs Chemik, Friday 19:00",
+        "text": "Jedyny pi\u0105tkowy mecz serii. #VolleyWroc\u0142aw u siebie, przebudowany LOTTO Chemik na wyje\u017adzie. Godzina z kalendarza ligi.",
+        "textEn": "The Friday fixture of the round. #VolleyWroc\u0142aw at home, rebuilt Chemik away. Time from the official calendar.",
+        "prediction": "\u2014",
+        "keys": ["19:00 oficjalnie", "hala Wroc\u0142awia", "nowy Chemik"]
+      }
+    },
+    {
+      "id": "r3m3",
+      "date": "2026-10-17",
+      "time": "",
+      "home": "byd",
+      "away": "kal",
+      "venue": "Bydgoszcz",
+      "preview": {
+        "headline": "Pa\u0142ac — Kalisz (sobota, godz. do potwierdzenia)",
+        "headlineEn": "Pa\u0142ac vs Kalisz (Saturday, time TBC)",
+        "text": "Data sobota 17.10 jest na stronie ligi, godziny kick-off jeszcze nie podano.",
+        "textEn": "Saturday 17 Oct is on the official site; kick-off time not published yet.",
+        "prediction": "\u2014",
+        "keys": ["17.10", "godzina do potwierdzenia"]
+      }
+    },
+    {
+      "id": "r3m4",
+      "date": "2026-10-17",
+      "time": "",
+      "home": "dev",
+      "away": "rad",
+      "venue": "Rzesz\u00f3w",
+      "preview": {
+        "headline": "DevelopRes — Radomka (termin ramowy 17.10)",
+        "headlineEn": "DevelopRes vs Radomka (window 17 Oct)",
+        "text": "Para z terminarza 3. kolejki. Dok\u0142adna godzina jeszcze nie jest na stronie ligi.",
+        "textEn": "Round 3 pairing. Exact kick-off not yet on the official site.",
+        "prediction": "\u2014",
+        "keys": ["termin ramowy", "godzina do potwierdzenia"]
+      }
+    },
+    {
+      "id": "r3m5",
+      "date": "2026-10-17",
+      "time": "",
+      "home": "opo",
+      "away": "bud",
+      "venue": "Opole",
+      "preview": {
+        "headline": "Opole — mistrzynie Polski (termin ramowy 17.10)",
+        "headlineEn": "Opole vs Polish champions (window 17 Oct)",
+        "text": "Br\u0105zowe medalistki witaj\u0105 PGE Budowlani. Para z 3. kolejki; godzina do potwierdzenia na tauronligakobiet.pl.",
+        "textEn": "Bronze medallists host PGE Budowlani. Round 3 pair; kick-off TBC on the official site.",
+        "prediction": "\u2014",
+        "keys": ["hit kolejki", "godzina do potwierdzenia"]
+      }
+    },
+    {
+      "id": "r3m6",
+      "date": "2026-10-17",
+      "time": "",
+      "home": "mog",
+      "away": "bks",
+      "venue": "Mogilno",
+      "preview": {
+        "headline": "Sok\u00f3\u0142 — BKS (termin ramowy 17.10)",
+        "headlineEn": "Sok\u00f3\u0142 vs BKS (window 17 Oct)",
+        "text": "Mogilno u siebie, BKS jako faworyt na papierze. Godzina jeszcze nieopublikowana.",
+        "textEn": "Sok\u00f3\u0142 at home, BKS favourites on paper. Kick-off not published yet.",
+        "prediction": "\u2014",
+        "keys": ["hala Mogilna", "godzina do potwierdzenia"]
+      }
+    }
+  ]
+}
