@@ -7,3 +7,5 @@ details.news-card .news-head p { flex: 1; margin: 0; }
 details.news-card .chev { color: #e8b84a; font-weight: 800; }
 details.news-card[open] .chev { transform: rotate(90deg); }
 details.news-card .news-body { margin-top: 8px; font-size: 13.5px; line-height: 1.45; color: #d7deea; }
+.clip-wrap { margin: 10px 0 0; }
+.clip-btn { display: inline-block; background: #3a2e14; color: #f3d38a; border: 1px solid #5a4a20; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800; text-decoration: none; }
