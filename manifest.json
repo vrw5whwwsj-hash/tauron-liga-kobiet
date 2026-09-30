@@ -1,7 +1,7 @@
 {
   "name": "VolleyNews · TAURON Liga Kobiet",
   "short_name": "VolleyNews",
-  "description": "VolleyNews — Radoslaw Dubik (@Z_Ligowych_Hal). TAURON Liga Kobiet 2026/27.",
+  "description": "VolleyNews (@Z_Ligowych_Hal). TAURON Liga Kobiet i Liga Mistrzyń CEV 2026/27.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0b1220",

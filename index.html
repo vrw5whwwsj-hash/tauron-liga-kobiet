@@ -14,10 +14,10 @@
   <link rel="canonical" href="https://zligowychhal.pl/" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./icons/icon.svg" />
-  <link rel="stylesheet" href="./css/app.css?v=27" />
-  <link rel="stylesheet" href="./css/ptr.css?v=27" />
-  <link rel="stylesheet" href="./css/news.css?v=27" />
-  <link rel="stylesheet" href="./css/analysis.css?v=27" />
+  <link rel="stylesheet" href="./css/app.css?v=28" />
+  <link rel="stylesheet" href="./css/ptr.css?v=28" />
+  <link rel="stylesheet" href="./css/news.css?v=28" />
+  <link rel="stylesheet" href="./css/analysis.css?v=28" />
 </head>
 <body>
   <header class="app">
@@ -87,8 +87,8 @@
     <div class="card">
       <h2 data-i18n="cevH2">Liga Mistrzyń CEV 2026/27</h2>
       <p class="muted" data-i18n="cevP">Faza grupowa — 5 grup × 4 zespoły, mecz i rewanż. Start 24–26.11.2026.</p>
-      <p>Punktacja CEV: 3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 0:3/1:3. Kolejność: wygrane, punkty, stosunek setów, stosunek małych punktów, mecz bezpośredni.</p>
-      <p>1. miejsce grupy — ćwierćfinał. Drugie miejsca i najlepsza trzecia — baraż. Pozostałe trzecie — Puchar CEV.</p>
+      <p data-i18n="cevRules">Punktacja CEV: 3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 0:3/1:3. Kolejność: wygrane, punkty rankingowe, stosunek setów, stosunek małych punktów, mecz bezpośredni.</p>
+      <p data-i18n="cevAdv">1. miejsce grupy — ćwierćfinał. Drugie miejsca i najlepsza trzecia — baraż. Pozostałe trzecie — Puchar CEV.</p>
     </div>
     <div class="lang cev-subs" role="group">
       <button type="button" class="cev-sub active" data-g="A">A</button>
@@ -97,20 +97,20 @@
       <button type="button" class="cev-sub" data-g="D">D</button>
       <button type="button" class="cev-sub" data-g="E">E</button>
     </div>
-    <div class="card"><h2>Tabela grupy</h2><div id="cev-table"></div></div>
+    <div class="card"><h2 data-i18n="cevTableH2">Tabela grupy</h2><div id="cev-table"></div></div>
     <div id="cev-matches"></div>
     <div class="card">
-      <h2>Wpisz wynik grupy</h2>
-      <label class="muted">Mecz</label>
+      <h2 data-i18n="cevInputH2">Wpisz wynik grupy</h2>
+      <label class="muted" data-i18n="labelMatch">Mecz</label>
       <select id="cev-match-select"></select>
       <div class="form-row">
-        <div><label class="muted">Sety gospodarza</label><input id="cev-home-sets" type="number" min="0" max="3" value="3" /></div>
-        <div><label class="muted">Sety gościa</label><input id="cev-away-sets" type="number" min="0" max="3" value="0" /></div>
+        <div><label class="muted" data-i18n="labelHome">Sety gospodarza</label><input id="cev-home-sets" type="number" min="0" max="3" value="3" /></div>
+        <div><label class="muted" data-i18n="labelAway">Sety gościa</label><input id="cev-away-sets" type="number" min="0" max="3" value="0" /></div>
       </div>
-      <label class="muted">Małe punkty (np. 25-20,25-18,25-16)</label>
+      <label class="muted" data-i18n="labelSets">Małe punkty (np. 25-20,25-18,25-16)</label>
       <input id="cev-set-points" placeholder="25-20,25-18,25-16" />
-      <button class="primary" id="cev-save" type="button">Zapisz i przelicz</button>
-      <button class="ghost" id="cev-reset" type="button">Wyczyść wyniki LM</button>
+      <button class="primary" id="cev-save" type="button" data-i18n="cevSave">Zapisz i przelicz</button>
+      <button class="ghost" id="cev-reset" type="button" data-i18n="cevReset">Wyczyść wyniki LM</button>
     </div>
   </section>
   <section id="sec-news">
@@ -118,19 +118,19 @@
       <h2 data-i18n="newsH2">Newsy</h2>
       <p class="muted" data-i18n="newsP">Bieżące informacje o sezonie</p>
     </div>
-    <div class="card">
-      <h2>Źródła</h2>
-      <p>Dziękujemy redakcjom i serwisom, z których korzystamy przy aktualizacji strony. Bez ich pracy nie byłoby tu bieżących informacji.</p>
-      <ul>
-        <li>tauronligakobiet.pl</li>
-        <li>polsatsport.pl</li>
-        <li>siatka.org</li>
-        <li>przegladsportowy.onet.pl</li>
-        <li>women.volleybox.net</li>
-        <li>inside.volleycountry.com</li>
-        <li>cev.eu — Liga Mistrzyń</li>
+    <div class="card sources-card">
+      <h2 data-i18n="srcH2">Źródła</h2>
+      <p data-i18n="srcThanks">Dziękujemy redakcjom i serwisom, z których korzystamy przy aktualizacji strony. Bez ich codziennej pracy nie byłoby tu bieżących informacji o lidze i Lidze Mistrzyń.</p>
+      <ul class="src-list">
+        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — wyniki, tabela, komunikaty PLS</li>
+        <li><a href="https://www.polsatsport.pl" target="_blank" rel="noopener">polsatsport.pl</a> — transmisje, skróty, plan TV</li>
+        <li><a href="https://siatka.org" target="_blank" rel="noopener">siatka.org</a> — relacje i analizy</li>
+        <li><a href="https://przegladsportowy.onet.pl" target="_blank" rel="noopener">Przegląd Sportowy</a> — newsy ligowe</li>
+        <li><a href="https://women.volleybox.net" target="_blank" rel="noopener">women.volleybox.net</a> — transfery i składy</li>
+        <li><a href="https://inside.volleycountry.com" target="_blank" rel="noopener">inside.volleycountry.com</a> — kontekst europejski</li>
+        <li><a href="https://www.cev.eu" target="_blank" rel="noopener">cev.eu</a> — Liga Mistrzyń, regulamin i grupy</li>
       </ul>
-      <p class="muted">Wyniki ligowe weryfikujemy z oficjalnymi komunikatami TAURON Ligi Kobiet i Polsat Sport.</p>
+      <p class="muted" data-i18n="srcNote">Wyniki ligowe weryfikujemy z oficjalnymi komunikatami TAURON Ligi Kobiet i Polsat Sport. Dziękujemy za możliwość korzystania z Waszych informacji.</p>
     </div>
     <div id="news"></div>
   </section>
@@ -176,12 +176,12 @@
     </div>
   </section>
   <footer class="hint"><a href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">VolleyNews · @Z_Ligowych_Hal</a></footer>
-  <script src="./js/i18n.js?v=27"></script>
-  <script src="./js/tv.js?v=27"></script>
-  <script src="./js/stats.js?v=27"></script>
-  <script src="./js/analysis.js?v=27"></script>
-  <script src="./js/cev.js?v=27"></script>
-  <script src="./js/app.js?v=27"></script>
-  <script src="./js/ptr.js?v=27"></script>
+  <script src="./js/i18n.js?v=28"></script>
+  <script src="./js/tv.js?v=28"></script>
+  <script src="./js/stats.js?v=28"></script>
+  <script src="./js/analysis.js?v=28"></script>
+  <script src="./js/cev.js?v=28"></script>
+  <script src="./js/app.js?v=28"></script>
+  <script src="./js/ptr.js?v=28"></script>
 </body>
 </html>
