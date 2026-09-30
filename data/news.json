@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "items": [
+    {
+      "d": "2026-09-30",
+      "t": "Rynek transferowy przed 1. kolejką",
+      "te": "Transfer market before round 1",
+      "tt": "1. hafta öncesi transfer piyasası",
+      "b": "Przed startem ligi 2.10: Aleksandra Gryka przeszła z BKS do DevelopResu. Nina Nesimović odeszła ze Stali Mielec do Arisu Saloniki. Hanna Hellvig z UNI Opole do LOVB Houston. Iga Wasilewska wraca do BKS (Atlanta Vibe). Do #VolleyWrocław: Sobolska-Tarasova, Stautz, Hryshchuk, Szczyrba, Hochołowska, Mazur. Magdalena Jurczyk (ŁKS) — uraz kolana z finału Gigantów, diagnostyka, start sezonu pod znakiem zapytania. Forumowe spekulacje o ACL bez oficjalnego potwierdzenia klubu.",
+      "be": "Before the 2 Oct opener: Gryka BKS→DevelopRes. Nesimović Stal→Aris. Hellvig UNI→LOVB Houston. Wasilewska back at BKS. Wrocław additions include Sobolska-Tarasova, Stautz, Hryshchuk, Szczyrba, Hochołowska, Mazur. Jurczyk (ŁKS) knee injury from Giants final; diagnosis pending — ACL talk is unofficial.",
+      "bt": "Lig öncesi: Gryka BKS’ten DevelopRes’e. Nesimović Stal’dan Aris’e. Hellvig UNI’den Houston’a. Wasilewska BKS’e döndü. Jurczyk diz sakatlığı — teşhis bekleniyor."
+    },
     {
       "d": "2026-09-29",
       "t": "Cztery ligi, nowa energia — TAURON sponsorem Polskiej Ligi Siatkówki",
       "te": "Four leagues, new energy — TAURON title sponsor of Polish Volleyball League",
       "tt": "Dört lig, yeni enerji — TAURON PLS'nin unvan sponsoru",
-      "b": "Polska Liga Siatkówki i TAURON Polska Energia podpisały historyczną umowę sponsoringową obejmującą cztery zawodowe ligi (TAURON Liga, TAURON Liga Kobiet, TAURON 1. Liga, TAURON 1. Liga Kobiet) co najmniej do sezonu 2029/2030. Prezes PLS Artur Popko podkreślił stabilizację rozwoju i nowe technologie. Prezes TAURON Grzegorz Lot: fenomen oglądalności siatkówki.",
-      "be": "The Polish Volleyball League and TAURON Polska Energia signed a historic title-sponsorship deal covering all four professional leagues (TAURON Liga, TAURON Liga Kobiet, TAURON 1. Liga, TAURON 1. Liga Kobiet) at least through 2029/30. PLS president Artur Popko highlighted development stability and new technology. TAURON CEO Grzegorz Lot pointed to volleyball’s viewing phenomenon.",
-      "bt": "Polonya Voleybol Ligi ve TAURON, dört profesyonel ligi (2029/30’a kadar) kapsayan tarihi unvan sponsorluğu anlaşması imzaladı."
+      "b": "Polska Liga Siatkówki i TAURON Polska Energia podpisały historyczną umowę sponsorskową obejmującą cztery zawodowe ligi (TAURON Liga, TAURON Liga Kobiet, TAURON 1. Liga, TAURON 1. Liga Kobiet) co najmniej do sezonu 2029/2030. Prezes PLS Artur Popko podkreślił stabilizację rozwoju i nowe technologie. Prezes TAURON Grzegorz Lot: fenomen oglądalności siatkówki.",
+      "be": "The Polish Volleyball League and TAURON Polska Energia signed a historic title-sponsorship deal covering all four professional leagues at least through 2029/30.",
+      "bt": "Polonya Voleybol Ligi ve TAURON dört profesyonel ligi kapsayan unvan sponsorluğu imzaladı."
     },
     {
       "d": "2026-09-29",
@@ -16,8 +25,8 @@
       "te": "ŁKS Commercecon Łódź team presentation for fans",
       "tt": "ŁKS Commercecon kadro sunumu",
       "b": "W środę 30 września o 19:00 w łódzkiej Sport Arenie oficjalna prezentacja mocno przebudowanego składu ŁKS przed sezonem 2026/27. Nowe twarze: Elles Dambrink, Suvi Kokkonen, Karla Antunović, Oleksandra Milenko oraz Polki (m.in. Nowakowska, Sobalska, Szymańska). Trzon: Obiała, Jurczyk (kontuzja), Stefanik, Bidias, Pawłowska. Prezentacja strojów Keeza, sprzedaż karnetów od 18:00.",
-      "be": "On Wednesday 30 September at 19:00 in Sport Arena Łódź the heavily rebuilt ŁKS squad will be officially presented. New faces: Elles Dambrink, Suvi Kokkonen, Karla Antunović, Oleksandra Milenko plus Polish players (Nowakowska, Sobalska, Szymańska and others). Core: Obiała, Jurczyk (injured), Stefanik, Bidias, Pawłowska. New Keeza kits on show; season tickets on sale from 18:00.",
-      "bt": "30 Eylül Çarşamba 19:00'de Sport Arena Łódź'de büyük ölçüde yenilenen ŁKS kadrosunun resmi tanıtımı. Yeni yüzler: Dambrink, Kokkonen, Antunović, Milenko ve Polonyalı oyuncular. Çekirdek: Obiała, Jurczyk (sakat), Stefanik, Bidias, Pawłowska."
+      "be": "On Wednesday 30 September at 19:00 in Sport Arena Łódź the rebuilt ŁKS squad is presented. Jurczyk listed as injured.",
+      "bt": "30 Eylül 19:00 Sport Arena Łódź — ŁKS kadro tanıtımı. Jurczyk sakat."
     },
     {
       "d": "2026-09-29",
@@ -25,143 +34,53 @@
       "te": "UNI Opole: repeat last season",
       "tt": "UNI Opole: geçen sezonu tekrarlamak",
       "b": "Brązowe medalistki 2025/26 celują w powtórkę wyniku. Odeszły Guereca, Hellvig, Speaks, McCall; Paluszkiewicz zawiesiła karierę. Dołączyły: Daria Wieczorek, Andriana Pavlyk, Sydney Palazzolo, Vasja Filipović. Trener Dąbrowski. Debiut w Lidze Mistrzyń. Pierwszy mecz 2.10 u siebie z Chemikiem (20:30).",
-      "be": "The 2025/26 bronze medallists aim to repeat. Departures: Guereca, Hellvig, Speaks, McCall; Paluszkiewicz retired. Arrivals: Daria Wieczorek, Andriana Pavlyk, Sydney Palazzolo, Vasja Filipović. Coach Dąbrowski. First-ever Champions League. Opener 2 Oct at home vs Chemik (20:30).",
-      "bt": "2025/26 bronz madalyalılar aynı sonucu hedefliyor. Ayrılanlar: Guereca, Hellvig, Speaks, McCall. Gelenler: Wieczorek, Pavlyk, Palazzolo, Filipović. İlk Şampiyonlar Ligi. Açılış 2 Ekim evinde Chemik."
+      "be": "The 2025/26 bronze medallists aim to repeat. Opener 2 Oct at home vs Chemik (20:30).",
+      "bt": "Bronz madalyalılar aynı sonucu hedefliyor. Açılış 2 Ekim evinde Chemik."
     },
     {
       "d": "2026-09-28",
       "t": "BKS ZGO Bielsko-Biała: W stabilności siła",
       "te": "BKS ZGO Bielsko-Biała: strength in stability",
-      "tt": "BKS ZGO Bielsko-Biała: istikrarda güç",
-      "b": "Ostatnie dwa sezony BKS zakończył na 4. miejscu, ale ma większe ambicje — po letnich wzmocnieniach chce wrócić na podium. Trener Piekarczyk, mało zmian: odeszło 6, dołączyły Piotrowska (powrót), Gajer (po 11 latach), Iris Vos. Do końca listopada Wasilewska. Powrót Miilen i Szewczyk po kontuzjach; Nowakowska na libero. Dobre sparingi (m.in. 2×3:1 z ŁKS, finał Jarocina z Budowlanymi). Pierwszy mecz 3.10 wyjazd do Bydgoszczy.",
-      "be": "BKS finished the last two seasons 4th but aims higher — after summer reinforcements they want a return to the podium. Coach Piekarczyk, few changes: 6 left, Piotrowska (return), Gajer (after 11 years) and Iris Vos joined. Wasilewska until end of November. Miilen and Szewczyk back from injury; Nowakowska to libero. Solid friendlies (incl. 2×3–1 vs ŁKS, Jarocin final vs Budowlani). First match 3 Oct away in Bydgoszcz.",
-      "bt": "BKS son iki sezonu 4. bitirdi ama hedef podyum. Piekarczyk, az değişiklik: Piotrowska, Gajer, Iris Vos eklendi. Wasilewska kasım sonuna kadar. İlk maç 3 Ekim Bydgoszcz deplasmanı."
+      "tt": "BKS: istikrarda güç",
+      "b": "Ostatnie dwa sezony BKS zakończył na 4. miejscu, ale ma większe ambicje. Trener Piekarczyk. Do końca listopada Wasilewska. Pierwszy mecz 3.10 wyjazd do Bydgoszczy.",
+      "be": "BKS finished 4th two seasons running and aims higher. First match 3 Oct away in Bydgoszcz.",
+      "bt": "BKS son iki sezonu 4. bitirdi. İlk maç 3 Ekim Bydgoszcz."
     },
     {
       "d": "2026-09-28",
       "t": "ŁKS Commercecon Łódź: Duży potencjał i powrót do walki o medale",
-      "te": "ŁKS Commercecon Łódź: big potential and a return to medal contention",
-      "tt": "ŁKS Commercecon: büyük potansiyel, madalya hedefi",
-      "b": "ŁKS przeszedł latem prawdziwą rewolucję. Ze starego składu zostały Bidias, Obiała, Stefanik i Pawłowska; dołączyły m.in. Nowakowska, Jurczyk, Antunović, Sobalska, Dambrink, Szymańska, Kokkonen, Milenko. Ambicje — walka o podium. Potwierdzają to wyniki kontroli (Memoriał Cichego, finał LOTTO Gigantów 3:1 z DevelopResem). Pech: kontuzja kolana Jurczyk — strata na start sezonu. Pierwszy mecz 4.10 z DevelopResem.",
-      "be": "ŁKS underwent a true summer rebuild. Only Bidias, Obiała, Stefanik and Pawłowska remained; additions include Nowakowska, Jurczyk, Antunović, Sobalska, Dambrink, Szymańska, Kokkonen, Milenko. Ambition: podium. Confirmed by pre-season results (Cichy Memorial, LOTTO Giants final 3–1 vs DevelopRes). Setback: Jurczyk’s knee injury — out for the opening. First match 4 Oct vs DevelopRes.",
-      "bt": "ŁKS yazın büyük değişim yaşadı. Eski kadrodan Bidias, Obiała, Stefanik, Pawłowska kaldı; Nowakowska, Jurczyk, Antunović ve diğerleri eklendi. Hedef podyum. Hazırlık sonuçları (Cichy Memorial, LOTTO Gigants finali DevelopRes’e 3-1) bunu doğruluyor. Jurczyk diz sakatlığı — sezon başı kayıp. İlk maç 4 Ekim DevelopRes."
-    },
-    {
-      "d": "2026-09-27",
-      "t": "ITA TOOLS Stal Mielec: cel — poprawić wynik z poprzedniego sezonu",
-      "te": "ITA TOOLS Stal Mielec: aim to improve on last season",
-      "tt": "ITA TOOLS Stal Mielec: hedef geçen sezonu geçmek",
-      "b": "Po dwóch sezonach na 8. miejscu Stal awansowała o dwie lokaty. Spore zmiany kadrowe (m.in. Grabowska, Lutsenko, Jovanović, Wieland, Andersson) i nowy trener Jakub Głuszak. Cel: dynamiczna siatkówka i lepszy wynik. Ostatni test — wygrana w turnieju o Puchar Prezydenta Mielca.",
-      "be": "After two seasons finishing 8th, Stal moved up two places. Major roster changes (Grabowska, Lutsenko, Jovanović, Wieland, Andersson) and new coach Jakub Głuszak. Aim: dynamic volleyball and a better finish. Last tune-up — win at the Mielec President's Cup.",
-      "bt": "İki sezon 8. olduktan sonra Stal iki basamak yükseldi. Büyük kadro değişikliği ve yeni hoca Jakub Głuszak. Hedef: dinamik oyun ve daha iyi sıralama."
-    },
-    {
-      "d": "2026-09-27",
-      "t": "Metalkas Pałac Bydgoszcz: nowy skład i nowe nadzieje",
-      "te": "Metalkas Pałac Bydgoszcz: new roster and new hopes",
-      "tt": "Metalkas Pałac Bydgoszcz: yeni kadro, yeni umutlar",
-      "b": "Po 7. miejscu w poprzednim sezonie Pałac odmłodził skład (Hewelt, Bartkowska-Kluza, Wróbel, Kołakowska) i zatrudnił trenera Bartłomieja Łyczakowskiego. Ambicje wyższe niż środek tabeli. Dobrze przepracowane przygotowania — m.in. 1. miejsce w Pile.",
-      "be": "After finishing 7th last season Pałac rejuvenated the roster (Hewelt, Bartkowska-Kluza, Wróbel, Kołakowska) and hired coach Bartłomiej Łyczakowski. Ambitions beyond mid-table. Solid pre-season — including 1st place in Piła.",
-      "bt": "Geçen sezon 7. olan Pałac kadroyu gençleştirdi ve Bartłomiej Łyczakowski'yi getirdi. Hedef orta sıra üstü."
+      "te": "ŁKS: big potential and a return to medal contention",
+      "tt": "ŁKS: büyük potansiyel",
+      "b": "ŁKS przeszedł latem rewolucję. Finał LOTTO Gigantów 3:1 z DevelopResem. Pech: kontuzja kolana Jurczyk. Pierwszy mecz 4.10 z DevelopResem.",
+      "be": "ŁKS rebuilt in summer, won Giants final 3–1 vs DevelopRes. Jurczyk knee injury. First match 4 Oct vs DevelopRes.",
+      "bt": "ŁKS yazın yenilendi, Giganci finalini 3-1 kazandı. Jurczyk sakat. İlk maç 4 Ekim."
     },
     {
       "d": "2026-09-26",
       "t": "ŁKS wygrywa LOTTO Gigantów — finał 3:1 z DevelopResem",
       "te": "ŁKS win LOTTO Volleyball Giants — final 3–1 vs DevelopRes",
-      "tt": "ŁKS LOTTO Giganci'yi kazandı — final 3-1 DevelopRes",
-      "b": "W Twardogórze ŁKS Commercecon wziął rewanż za zeszłoroczny finał i pokonał KS DevelopRes 3:1 (25:22, 20:25, 25:21, 25:19). Półfinały: ŁKS–Zeren 3:0, DevelopRes–Mladost 3:0. Brąz dla Zeren Spor (3:1 z Mladostem). MVP turnieju: Karla Antunović (ŁKS). Kolejny przystanek Gigantów: turniej mężczyzn 9–10.10 w Wałbrzychu.",
-      "be": "In Twardogóra ŁKS Commercecon reversed last year’s final and beat KS DevelopRes 3–1 (25–22, 20–25, 25–21, 25–19). Semis: ŁKS 3–0 Zeren, DevelopRes 3–0 Mladost. Bronze to Zeren (3–1 vs Mladost). Tournament MVP: Karla Antunović (ŁKS). Men’s Giants: 9–10 Oct in Wałbrzych.",
-      "bt": "Twardogóra'da ŁKS, geçen yılın rövanşını aldı ve DevelopRes'i 3-1 yendi (25-22, 20-25, 25-21, 25-19). Yarı final: ŁKS 3-0 Zeren, DevelopRes 3-0 Mladost. Bronz Zeren. MVP: Karla Antunović. Erkekler turnuvası 9–10 Ekim Wałbrzych."
-    },
-    {
-      "d": "2026-09-26",
-      "t": "PGE Budowlani lepsi od #VolleyWrocław w ostatnim sparingu",
-      "te": "PGE Budowlani beat #VolleyWrocław in the last friendly",
-      "tt": "PGE Budowlani son hazırlıkta Wrocław'ı geçti",
-      "b": "Mistrzynie Polski wygrały ostatni sprawdzian przed ligą z #VolleyWrocław. Łodzianki pokazały rytm ataku Storck i Buterez. Wrocław szuka jeszcze stałych zestawień przed otwarciem sezonu ze Stalą.",
-      "be": "The Polish champions won their last tune-up against #VolleyWrocław, with Storck and Buterez setting the attacking rhythm. Wrocław are still settling combinations before they open against Stal.",
-      "bt": "Polonya şampiyonu son antrenman maçında Wrocław'ı yendi. Storck ve Buterez ritmi verdi. Wrocław, Stal maçı öncesi kombinasyon arıyor."
+      "tt": "ŁKS LOTTO Giganci'yi kazandı",
+      "b": "W Twardogórze ŁKS pokonał KS DevelopRes 3:1. MVP: Karla Antunović.",
+      "be": "In Twardogóra ŁKS beat DevelopRes 3–1. MVP: Karla Antunović.",
+      "bt": "Twardogóra'da ŁKS DevelopRes'i 3-1 yendi. MVP: Antunović."
     },
     {
       "d": "2026-09-26",
       "t": "Kontuzja Magdaleny Jurczyk przed startem ligi",
       "te": "Magdalena Jurczyk injured before the league starts",
-      "tt": "Magdalena Jurczyk lig öncesi sakat",
-      "b": "Środkowa Magdalena Jurczyk nabawiła się urazu w okresie przygotowawczym. To strata w bloku i ataku ze środka przed 1. kolejką ŁKS–DevelopRes (4.10, 18:00).",
-      "be": "Middle blocker Magdalena Jurczyk picked up an injury in pre-season — a loss in block and middle attack before ŁKS vs DevelopRes on 4 October (18:00).",
-      "bt": "Orta oyuncu Jurczyk hazırlıkta sakatlandı. 4 Ekim ŁKS–DevelopRes öncesi blok ve orta hücumda kayıp."
-    },
-    {
-      "d": "2026-09-25",
-      "t": "LOTTO Chemik Police: duże zmiany i duże ambicje",
-      "te": "LOTTO Chemik Police: major roster changes and big ambitions",
-      "tt": "Chemik Police: büyük kadro değişikliği",
-      "b": "Chemik po słabszym sezonie przebudował skład i wraca z ambicją walki o górną część tabeli. Dziewięciokrotne mistrzynie muszą szybko zgrać nowy zestaw — pierwszy ligowy test to wyjazd do Opola.",
-      "be": "After a weaker season Chemik rebuilt the roster and aim for the top half. The nine-time champions must gel quickly — first league test is away in Opole.",
-      "bt": "Chemik zayıf sezonun ardından kadroyu yeniledi. İlk lig sınavı Opole deplasmanı."
-    },
-    {
-      "d": "2026-09-25",
-      "t": "MOYA Radomka Radom — klub po letniej rewolucji",
-      "te": "MOYA Radomka Radom after a summer rebuild",
-      "tt": "Radomka yaz reorganizesi sonrası",
-      "b": "Radomka zmieniła kadrę latem, ale w przygotowaniach wyglądała pewnie: turniej Solna Piłka i dobre mecze w Grand Prix PGE. Sezon zaczyna wyjazdem do Mogilna — klasyczny mecz-pułapka o 12:00.",
-      "be": "Radomka rebuilt in the summer but looked sharp in pre-season (Solna Piłka, PGE Grand Prix). They open away in Mogilno at noon — a classic banana-skin fixture.",
-      "bt": "Radomka yazın kadroyu yeniledi, hazırlıkta iyidir. Sezona öğlen Mogilno deplasmanıyla başlıyor."
-    },
-    {
-      "d": "2026-09-25",
-      "t": "Półfinały Gigantów: ŁKS 3:0 Zeren, DevelopRes 3:0 Mladost",
-      "te": "Giants semis: ŁKS 3–0 Zeren, DevelopRes 3–0 Mladost",
-      "tt": "Giganci yarı final: ŁKS 3-0 Zeren, DevelopRes 3-0 Mladost",
-      "b": "Piatek w Twardogórze bez niespodzianek. ŁKS ograł turecki Zeren 3:0, DevelopRes mistrza Chorwacji Mladost Zagrzeb 3:0. Finał — powtórka z 2025, ale ze zwycięstwem ŁKS.",
-      "be": "Friday in Twardogóra went to form: ŁKS beat Zeren 3–0, DevelopRes beat Croatian champions Mladost 3–0. The final repeated 2025 — this time ŁKS won.",
-      "bt": "Cuma günü sürpriz yok: ŁKS Zeren'i, DevelopRes Mladost'ı 3-0 geçti."
+      "tt": "Jurczyk lig öncesi sakat",
+      "b": "Środkowa Magdalena Jurczyk doznała urazu kolana w finale Gigantów z DevelopResem. Klub zapowiedział diagnostykę. Start 1. kolejki (ŁKS–DevelopRes 4.10) pod znakiem zapytania. Doniesienia o zerwaniu ACL nie są oficjalne.",
+      "be": "Jurczyk suffered a knee injury in the Giants final. Club diagnosis pending. ACL reports are unofficial.",
+      "bt": "Jurczyk Giganci finalinde dizinden sakatlandı. Teşhis bekleniyor."
     },
     {
       "d": "2026-09-24",
       "t": "Inauguracja sezonu 2026/27 w Kaliszu",
       "te": "2026/27 season opener in Kalisz",
       "tt": "Sezon açılışı Kalisz'de",
-      "b": "Sezon TAURON Ligi Kobiet startuje 2 października o 17:30 w Arenie Kalisz. Beniaminek NETLAND MKS podejmuje mistrzynie PGE Budowlani Łódź. Transmisja Polsat Sport 1.",
-      "be": "The TAURON Liga Kobiet season opens on 2 October at 17:30 in Arena Kalisz. Promoted NETLAND MKS host champions PGE Budowlani Łódź. On Polsat Sport 1.",
-      "bt": "Sezon 2 Ekim 17:30'da Arena Kalisz'de açılıyor. NETLAND MKS, şampiyon Budowlani'yi ağırlıyor. Polsat Sport 1."
-    },
-    {
-      "d": "2026-09-24",
-      "t": "Trener Sokoła: chcemy być najwaleczniejsi w lidze",
-      "te": "Sokół coach: we want to be the toughest team in the league",
-      "tt": "Sokół hocası: ligin en savaşçı takımı olmak istiyoruz",
-      "b": "Dawid Michor zapowiedział, że Sokół & Hagric chce wyróżniać się walecznością. Skład uzupełniły m.in. Karolina Drużkowska i Melis Durul. Pierwszy mecz u siebie z Radomką 3 października o 12:00.",
-      "be": "Dawid Michor said Sokół want to stand out for fight. Additions include Karolina Drużkowska and Melis Durul. First home match is vs Radomka on 3 October at 12:00.",
-      "bt": "Michor, Sokół'ün mücadeleyle öne çıkmasını istiyor. İlk iç saha maçı 3 Ekim'de Radomka karşısında."
-    },
-    {
-      "d": "2026-09-24",
-      "t": "Alicja Grabka nową kapitan DevelopResu",
-      "te": "Alicja Grabka named new DevelopRes captain",
-      "tt": "Alicja Grabka yeni DevelopRes kaptanı",
-      "b": "Alicja Grabka, po transferze z Budowlanych, dostała opaskę kapitana w Rzeszowie. Wicemistrzynie zaczynają sezon wyjazdem do ŁKS. Jelena Blagojević dokończa układ ataku po dużych zmianach kadrowych.",
-      "be": "Alicja Grabka, signed from Budowlani, is the new DevelopRes captain. The runners-up open away at ŁKS. Jelena Blagojević is still shaping the attack after major roster changes.",
-      "bt": "Grabka, Budowlani'den gelerek Rzeszów kaptanı oldu. DevelopRes sezona ŁKS deplasmanıyla başlıyor."
-    },
-    {
-      "d": "2026-09-23",
-      "t": "Wzmocniony #VolleyWrocław patrzy w górę tabeli",
-      "te": "Reinforced #VolleyWrocław aims higher in the table",
-      "tt": "Wrocław kadroyu güçlendirdi, hedef yukarı",
-      "b": "Wrocław nie chce kończyć sezonu tylko walką o utrzymanie. Po wzmocnieniach klub mówi o wyższych miejscach. Inauguracja u siebie ze Stalą Mielec 4 października.",
-      "be": "Wrocław do not want another survival season. After reinforcements the club talks about a higher finish. They open at home vs Stal Mielec on 4 October.",
-      "bt": "Wrocław bu sezon sadece küme düşmeme derdinde olmak istemiyor. 4 Ekim'de Stal'i ağırlıyor."
-    },
-    {
-      "d": "2026-09-22",
-      "t": "NETLAND MKS Kalisz — beniaminek z wielkimi tradycjami",
-      "te": "NETLAND MKS Kalisz — promoted side with a rich history",
-      "tt": "Kalisz: köklü tarih, yeni elit sezon",
-      "b": "Kalisz wraca do elity z bagażem historii klubu, ale skład na ligę buduje od nowa. Arena Kalisz da hałas przy inauguracji z mistrzyniami. Na papierze Łódź jest faworytem, gospodynie liczą na set i emocje otwarcia.",
-      "be": "Kalisz return to the top flight with club history behind them, but the league roster is new. Arena Kalisz will be loud for the opener vs the champions. Łódź are favourites on paper; the hosts want a set and opening-night energy.",
-      "bt": "Kalisz köklü kulüp tarihiyle elite döndü. Açılışta şampiyon Łódź favori, ev sahibi set ve atmosfer peşinde."
+      "b": "Sezon startuje 2 października o 17:30 w Arenie Kalisz. NETLAND MKS — PGE Budowlani Łódź. Transmisja Polsat Sport 1.",
+      "be": "Season opens 2 October 17:30 in Arena Kalisz. NETLAND MKS vs PGE Budowlani. Polsat Sport 1.",
+      "bt": "Sezon 2 Ekim 17:30 Arena Kalisz. Polsat Sport 1."
     }
   ]
 }
