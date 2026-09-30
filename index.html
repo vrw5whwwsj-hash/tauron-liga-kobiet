@@ -9,16 +9,15 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="VolleyNews" />
   <meta name="theme-color" content="#0b1220" />
-  <title>TAURON Liga Kobiet 2026/27 — tabela, wyniki, zapowiedzi | VolleyNews</title>
-  <meta name="description" content="TAURON Liga Kobiet 2026/27: tabela, wyniki, zapowiedzi kolejek, transmisje Polsat Sport i newsy siatkówki kobiet. VolleyNews · @Z_Ligowych_Hal." />
+  <title>TAURON Liga Kobiet 2026/27 — tabela, wyniki, Liga Mistrzyń | VolleyNews</title>
+  <meta name="description" content="TAURON Liga Kobiet i Liga Mistrzyń CEV 2026/27: tabela, wyniki, zapowiedzi. VolleyNews · @Z_Ligowych_Hal." />
   <link rel="canonical" href="https://zligowychhal.pl/" />
-  <meta name="google-site-verification" content="DUh99yh-3nEhQCIDu4Cd1ADAZdMBXlXmfuxvChucZZA" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./icons/icon.svg" />
-  <link rel="stylesheet" href="./css/app.css?v=25" />
-  <link rel="stylesheet" href="./css/ptr.css?v=25" />
-  <link rel="stylesheet" href="./css/news.css?v=25" />
-  <link rel="stylesheet" href="./css/analysis.css?v=25" />
+  <link rel="stylesheet" href="./css/app.css?v=27" />
+  <link rel="stylesheet" href="./css/ptr.css?v=27" />
+  <link rel="stylesheet" href="./css/news.css?v=27" />
+  <link rel="stylesheet" href="./css/analysis.css?v=27" />
 </head>
 <body>
   <header class="app">
@@ -26,8 +25,7 @@
       <div class="hero-mark">VN</div>
       <div class="hero-text">
         <strong>Volley<span>News</span></strong>
-        <em>Radoslaw Dubik</em>
-        <small>TAURON Liga Kobiet · 2026/27</small>
+        <small>TAURON Liga Kobiet · Liga Mistrzyń CEV · 2026/27</small>
       </div>
     </a>
     <a class="x-link" href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">X · @Z_Ligowych_Hal</a>
@@ -54,6 +52,7 @@
     <button data-tab="sec-r1" data-i18n="tabR1">1. kolejka</button>
     <button data-tab="sec-r2" data-i18n="tabR2">2. kolejka</button>
     <button data-tab="sec-r3" data-i18n="tabR3">3. kolejka</button>
+    <button data-tab="sec-cev" data-i18n="tabCev">LM CEV</button>
     <button data-tab="sec-news" data-i18n="tabNews">Newsy</button>
     <button data-tab="sec-analysis" data-i18n="tabAnalysis">Analizy</button>
     <button data-tab="sec-rules" data-i18n="tabRules">Regulamin</button>
@@ -73,7 +72,7 @@
     <div id="scorers-wrap"></div>
   </section>
   <section id="sec-r1">
-    <div class="card"><h2 data-i18n="r1H2">1. kolejka</h2><p class="muted" data-i18n="r1P">2–4.10.2026 · po meczu tu relacja</p></div>
+    <div class="card"><h2 data-i18n="r1H2">1. kolejka</h2><p class="muted" data-i18n="r1P">2–4.10.2026</p></div>
     <div id="round1"></div>
   </section>
   <section id="sec-r2">
@@ -84,8 +83,55 @@
     <div class="card"><h2 data-i18n="r3H2">3. kolejka</h2><p class="muted" data-i18n="r3P">15–17.10.2026</p></div>
     <div id="round3"></div>
   </section>
+  <section id="sec-cev">
+    <div class="card">
+      <h2 data-i18n="cevH2">Liga Mistrzyń CEV 2026/27</h2>
+      <p class="muted" data-i18n="cevP">Faza grupowa — 5 grup × 4 zespoły, mecz i rewanż. Start 24–26.11.2026.</p>
+      <p>Punktacja CEV: 3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 0:3/1:3. Kolejność: wygrane, punkty, stosunek setów, stosunek małych punktów, mecz bezpośredni.</p>
+      <p>1. miejsce grupy — ćwierćfinał. Drugie miejsca i najlepsza trzecia — baraż. Pozostałe trzecie — Puchar CEV.</p>
+    </div>
+    <div class="lang cev-subs" role="group">
+      <button type="button" class="cev-sub active" data-g="A">A</button>
+      <button type="button" class="cev-sub" data-g="B">B</button>
+      <button type="button" class="cev-sub" data-g="C">C</button>
+      <button type="button" class="cev-sub" data-g="D">D</button>
+      <button type="button" class="cev-sub" data-g="E">E</button>
+    </div>
+    <div class="card"><h2>Tabela grupy</h2><div id="cev-table"></div></div>
+    <div id="cev-matches"></div>
+    <div class="card">
+      <h2>Wpisz wynik grupy</h2>
+      <label class="muted">Mecz</label>
+      <select id="cev-match-select"></select>
+      <div class="form-row">
+        <div><label class="muted">Sety gospodarza</label><input id="cev-home-sets" type="number" min="0" max="3" value="3" /></div>
+        <div><label class="muted">Sety gościa</label><input id="cev-away-sets" type="number" min="0" max="3" value="0" /></div>
+      </div>
+      <label class="muted">Małe punkty (np. 25-20,25-18,25-16)</label>
+      <input id="cev-set-points" placeholder="25-20,25-18,25-16" />
+      <button class="primary" id="cev-save" type="button">Zapisz i przelicz</button>
+      <button class="ghost" id="cev-reset" type="button">Wyczyść wyniki LM</button>
+    </div>
+  </section>
   <section id="sec-news">
-    <div class="card"><h2 data-i18n="newsH2">Newsy</h2><p class="muted" data-i18n="newsP">Bieżące informacje o sezonie</p></div>
+    <div class="card">
+      <h2 data-i18n="newsH2">Newsy</h2>
+      <p class="muted" data-i18n="newsP">Bieżące informacje o sezonie</p>
+    </div>
+    <div class="card">
+      <h2>Źródła</h2>
+      <p>Dziękujemy redakcjom i serwisom, z których korzystamy przy aktualizacji strony. Bez ich pracy nie byłoby tu bieżących informacji.</p>
+      <ul>
+        <li>tauronligakobiet.pl</li>
+        <li>polsatsport.pl</li>
+        <li>siatka.org</li>
+        <li>przegladsportowy.onet.pl</li>
+        <li>women.volleybox.net</li>
+        <li>inside.volleycountry.com</li>
+        <li>cev.eu — Liga Mistrzyń</li>
+      </ul>
+      <p class="muted">Wyniki ligowe weryfikujemy z oficjalnymi komunikatami TAURON Ligi Kobiet i Polsat Sport.</p>
+    </div>
     <div id="news"></div>
   </section>
   <section id="sec-analysis">
@@ -116,7 +162,7 @@
   <section id="sec-input">
     <div class="card">
       <h2 data-i18n="inputH2">Wynik</h2>
-      <p class="muted" data-i18n="inputP">Wpisz wynik.</p>
+      <p class="muted" data-i18n="inputP">Wpisz wynik ligowy.</p>
       <label class="muted" data-i18n="labelMatch">Mecz</label>
       <select id="match-select"></select>
       <div class="form-row">
@@ -130,11 +176,12 @@
     </div>
   </section>
   <footer class="hint"><a href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">VolleyNews · @Z_Ligowych_Hal</a></footer>
-  <script src="./js/i18n.js?v=25"></script>
-  <script src="./js/tv.js?v=25"></script>
-  <script src="./js/stats.js?v=25"></script>
-  <script src="./js/analysis.js?v=25"></script>
-  <script src="./js/app.js?v=25"></script>
-  <script src="./js/ptr.js?v=25"></script>
+  <script src="./js/i18n.js?v=27"></script>
+  <script src="./js/tv.js?v=27"></script>
+  <script src="./js/stats.js?v=27"></script>
+  <script src="./js/analysis.js?v=27"></script>
+  <script src="./js/cev.js?v=27"></script>
+  <script src="./js/app.js?v=27"></script>
+  <script src="./js/ptr.js?v=27"></script>
 </body>
 </html>
