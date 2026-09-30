@@ -134,12 +134,23 @@
       "window": "9\u201313 pa\u017adziernika 2026",
       "status": "zaplanowana",
       "matches": [
-        {"id": "r2m1", "date": "2026-10-09", "time": "17:30", "home": "mie", "away": "byd", "preview": {"headline": "Stal \u2014 Pa\u0142ac", "headlineEn": "Stal \u2014 Pa\u0142ac", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
-        {"id": "r2m2", "date": "2026-10-09", "time": "20:30", "home": "bud", "away": "lks", "preview": {"headline": "Derby \u0141odzi: mistrzynie vs \u0141KS", "headlineEn": "\u0141\u00f3d\u017a derby: champions vs \u0141KS", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
-        {"id": "r2m3", "date": "2026-10-11", "time": "15:00", "home": "opo", "away": "bks", "preview": {"headline": "Opole \u2014 BKS", "headlineEn": "Opole \u2014 BKS", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
-        {"id": "r2m4", "date": "2026-10-12", "time": "17:30", "home": "dev", "away": "mog", "preview": {"headline": "DevelopRes \u2014 Sok\u00f3\u0142", "headlineEn": "DevelopRes \u2014 Sok\u00f3\u0142", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
-        {"id": "r2m5", "date": "2026-10-12", "time": "20:30", "home": "che", "away": "kal", "preview": {"headline": "Chemik \u2014 Kalisz", "headlineEn": "Chemik \u2014 Kalisz", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
-        {"id": "r2m6", "date": "2026-10-13", "time": "17:30", "home": "rad", "away": "wro", "preview": {"headline": "Radomka \u2014 Wroc\u0142aw", "headlineEn": "Radomka \u2014 Wroc\u0142aw", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}}
+        {"id": "r2m1", "date": "2026-10-09", "time": "17:30", "home": "mie", "away": "byd", "venue": "Mielec", "sets": null, "score": null, "preview": {"headline": "Stal \u2014 Pa\u0142ac", "headlineEn": "Stal \u2014 Pa\u0142ac", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r2m2", "date": "2026-10-09", "time": "20:30", "home": "bud", "away": "lks", "venue": "\u0141\u00f3d\u017a (Budowlani)", "sets": null, "score": null, "preview": {"headline": "Derby \u0141odzi: mistrzynie vs \u0141KS", "headlineEn": "\u0141\u00f3d\u017a derby: champions vs \u0141KS", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r2m3", "date": "2026-10-11", "time": "15:00", "home": "opo", "away": "bks", "venue": "Opole", "sets": null, "score": null, "preview": {"headline": "Opole \u2014 BKS", "headlineEn": "Opole \u2014 BKS", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r2m4", "date": "2026-10-12", "time": "17:30", "home": "dev", "away": "mog", "venue": "Rzesz\u00f3w", "sets": null, "score": null, "preview": {"headline": "DevelopRes \u2014 Sok\u00f3\u0142", "headlineEn": "DevelopRes \u2014 Sok\u00f3\u0142", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r2m5", "date": "2026-10-12", "time": "20:30", "home": "che", "away": "kal", "venue": "Police", "sets": null, "score": null, "preview": {"headline": "Chemik \u2014 Kalisz", "headlineEn": "Chemik \u2014 Kalisz", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r2m6", "date": "2026-10-13", "time": "17:30", "home": "rad", "away": "wro", "venue": "Radom", "sets": null, "score": null, "preview": {"headline": "Radomka \u2014 Wroc\u0142aw", "headlineEn": "Radomka \u2014 Wroc\u0142aw", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}}
+      ]
+    },
+    {
+      "round": 3,
+      "label": "3. kolejka",
+      "window": "15\u201317 pa\u017adziernika 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {"id": "r3m1", "date": "2026-10-15", "time": "17:30", "home": "lks", "away": "mie", "venue": "\u0141\u00f3d\u017a (\u0141KS)", "sets": null, "score": null, "preview": {"headline": "\u0141KS \u2014 Stal", "headlineEn": "\u0141KS \u2014 Stal", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r3m2", "date": "2026-10-16", "time": "19:00", "home": "wro", "away": "che", "venue": "Wroc\u0142aw", "sets": null, "score": null, "preview": {"headline": "Wroc\u0142aw \u2014 Chemik", "headlineEn": "Wroc\u0142aw \u2014 Chemik", "prediction": "\u2014", "text": "Zapowied\u017a po 1. kolejce.", "textEn": "Preview after Round 1."}},
+        {"id": "r3m3", "date": "2026-10-17", "home": "byd", "away": "kal", "venue": "Bydgoszcz", "sets": null, "score": null, "preview": {"headline": "Pa\u0142ac \u2014 Kalisz", "headlineEn": "Pa\u0142ac \u2014 Kalisz", "prediction": "\u2014", "text": "Godzina do og\u0142oszenia na stronie ligi.", "textEn": "Kick-off time still to be published by the league."}}
       ]
     }
   ]
