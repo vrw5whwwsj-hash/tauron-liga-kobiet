@@ -50,6 +50,12 @@ function clipBtn(url, label) {
   const lab = label || (LANG === "en" ? "Match highlights" : LANG === "tr" ? "Maç özeti" : "Skrót meczu");
   return `<p class="clip-wrap"><a class="clip-btn" href="${url}" target="_blank" rel="noopener">${lab}</a></p>`;
 }
+function setLine(m) {
+  if (!Array.isArray(m.sets) || !m.sets.length) return "";
+  const line = m.sets.map((s, i) => `${i + 1}. ${s[0]}:${s[1]}`).join(" \u00b7 ");
+  const lab = LANG === "en" ? "Sets" : LANG === "tr" ? "Setler" : "Sety";
+  return `<div class="sets"><span class="muted">${lab}:</span> ${line}</div>`;
+}
 function confLabel(c) {
   if (LANG === "en") return ({ wysoka: "high", "\u015brednia": "medium", "\u015brednia+": "medium+", niska: "low" }[c]) || c || "";
   if (LANG === "tr") return ({ wysoka: "yüksek", "\u015brednia": "orta", "\u015brednia+": "orta+", niska: "düşük" }[c]) || c || "";
@@ -57,7 +63,7 @@ function confLabel(c) {
 }
 function topList(arr) {
   if (!arr || !arr.length) return "";
-  return arr.slice(0, 3).map((p) => `<li><strong>${p.n || p.name}</strong> · ${p.p ?? p.pts} pkt</li>`).join("");
+  return arr.slice(0, 3).map((p) => `<li><strong>${p.n || p.name}</strong> \u00b7 ${p.p ?? p.pts} pkt</li>`).join("");
 }
 function renderTable(rows) {
   const body = rows.map((x, i) => {
@@ -91,18 +97,19 @@ function renderRound(roundObj) {
     const homeTop = topList(rec.homeTop || rec.home);
     const awayTop = topList(rec.awayTop || rec.away);
     const tops = (homeTop || awayTop) ? `<div class="recap-tops"><div><div class="muted">${teamShort(m.home)}</div><ul>${homeTop}</ul></div><div><div class="muted">${teamShort(m.away)}</div><ul>${awayTop}</ul></div></div>` : "";
-    if (played && (recText || homeTop || m.clip)) {
+    const head = `<div class="muted">${when} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${setLine(m)}${tv}`;
+    if (played) {
       const title = pick(rec, "title", "titleEn", "titleTr") || t("match");
-      return `<article class="card"><div class="muted">${when} · ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clipBtn(m.clip || rec.clip)}<h3>${title}</h3><div class="preview-body">${recText || ""}</div>${tops}</article>`;
+      return `<article class="card">${head}${clipBtn(m.clip || rec.clip)}<h3>${title}</h3><div class="preview-body">${recText || ""}</div>${tops}</article>`;
     }
     const headline = pick(m.preview || {}, "headline", "headlineEn", "headlineTr") || t("match");
     const text = pick(m.preview || {}, "text", "textEn", "textTr");
     const keysArr = LANG === "tr" && m.preview?.keysTr ? m.preview.keysTr : (LANG === "en" && m.preview?.keysEn ? m.preview.keysEn : (m.preview?.keys || []));
     const predRaw = m.preview?.prediction;
-    const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} · ${confLabel(m.preview.confidence)}</div>` : "";
+    const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
     const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
     const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
-    return `<article class="card"><div class="muted">${when} · ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clipBtn(m.clip)}<h3>${headline}</h3>${pred}${body}</article>`;
+    return `<article class="card">${head}${clipBtn(m.clip)}<h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
@@ -180,12 +187,12 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3] = await Promise.all([
-    fetch("./data/season.json?v=25", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=25", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=25", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=25", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=25", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=25", bust).then((r) => r.json()).catch(() => null)
+    fetch("./data/season.json?v=26", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=26", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=26", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=26", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=26", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=26", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
@@ -200,7 +207,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=25");
+    navigator.serviceWorker.register("./sw.js?v=26");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
