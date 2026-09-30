@@ -47,13 +47,17 @@ function pick(obj, plKey, enKey, trKey) {
 }
 function clipBtn(url, label) {
   if (!url) return "";
-  const lab = label || (LANG === "en" ? "Match highlights" : LANG === "tr" ? "Ma\u00e7 \u00f6zeti" : "Skr\u00f3t meczu");
+  const lab = label || (LANG === "en" ? "Match highlights" : LANG === "tr" ? "Maç özeti" : "Skrót meczu");
   return `<p class="clip-wrap"><a class="clip-btn" href="${url}" target="_blank" rel="noopener">${lab}</a></p>`;
 }
 function confLabel(c) {
   if (LANG === "en") return ({ wysoka: "high", "\u015brednia": "medium", "\u015brednia+": "medium+", niska: "low" }[c]) || c || "";
-  if (LANG === "tr") return ({ wysoka: "y\u00fcksek", "\u015brednia": "orta", "\u015brednia+": "orta+", niska: "d\u00fc\u015f\u00fck" }[c]) || c || "";
+  if (LANG === "tr") return ({ wysoka: "yüksek", "\u015brednia": "orta", "\u015brednia+": "orta+", niska: "düşük" }[c]) || c || "";
   return c || "";
+}
+function topList(arr) {
+  if (!arr || !arr.length) return "";
+  return arr.slice(0, 3).map((p) => `<li><strong>${p.n || p.name}</strong> · ${p.p ?? p.pts} pkt</li>`).join("");
 }
 function renderTable(rows) {
   const body = rows.map((x, i) => {
@@ -78,18 +82,27 @@ function renderScorers() {
 function renderRound(roundObj) {
   if (!roundObj) return `<p class='muted'>${t("noData")}</p>`;
   return (roundObj.matches || []).map((m) => {
-    const score = m.score ? `${m.score[0]}:${m.score[1]}` : "\u2013 : \u2013";
+    const played = Array.isArray(m.score) && m.score.length === 2;
+    const score = played ? `${m.score[0]}:${m.score[1]}` : "\u2013 : \u2013";
+    const tv = typeof tvLine === "function" ? tvLine(m) : "";
+    const when = [m.date || "", m.time || ""].filter(Boolean).join(" ");
+    const rec = m.recap || {};
+    const recText = pick(rec, "text", "textEn", "textTr");
+    const homeTop = topList(rec.homeTop || rec.home);
+    const awayTop = topList(rec.awayTop || rec.away);
+    const tops = (homeTop || awayTop) ? `<div class="recap-tops"><div><div class="muted">${teamShort(m.home)}</div><ul>${homeTop}</ul></div><div><div class="muted">${teamShort(m.away)}</div><ul>${awayTop}</ul></div></div>` : "";
+    if (played && (recText || homeTop || m.clip)) {
+      const title = pick(rec, "title", "titleEn", "titleTr") || t("match");
+      return `<article class="card"><div class="muted">${when} · ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clipBtn(m.clip || rec.clip)}<h3>${title}</h3><div class="preview-body">${recText || ""}</div>${tops}</article>`;
+    }
     const headline = pick(m.preview || {}, "headline", "headlineEn", "headlineTr") || t("match");
     const text = pick(m.preview || {}, "text", "textEn", "textTr");
     const keysArr = LANG === "tr" && m.preview?.keysTr ? m.preview.keysTr : (LANG === "en" && m.preview?.keysEn ? m.preview.keysEn : (m.preview?.keys || []));
     const predRaw = m.preview?.prediction;
-    const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} \u00b7 ${confLabel(m.preview.confidence)}</div>` : "";
+    const pred = predRaw && predRaw !== "\u2014" ? `<div class="pred">${t("pred")}: ${predRaw} · ${confLabel(m.preview.confidence)}</div>` : "";
     const keys = keysArr.map((k) => `<span>${k}</span>`).join("");
     const body = m.preview ? `<div class="preview-body">${text || ""}</div>${keys ? `<div class="keys">${keys}</div>` : ""}` : "";
-    const tv = typeof tvLine === "function" ? tvLine(m) : "";
-    const clip = clipBtn(m.clip);
-    const when = [m.date || "", m.time || ""].filter(Boolean).join(" ");
-    return `<article class="card"><div class="muted">${when} \u00b7 ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clip}<h3>${headline}</h3>${pred}${body}</article>`;
+    return `<article class="card"><div class="muted">${when} · ${m.venue || ""}</div><div class="match"><div class="side">${teamName(m.home)}</div><div class="mid"><strong>${score}</strong></div><div class="side away">${teamName(m.away)}</div></div>${tv}${clipBtn(m.clip)}<h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
 function renderNews() {
@@ -122,6 +135,7 @@ function loadResults() {
       const s = byId[m.id];
       if (s && s.score) { m.score = s.score; m.sets = s.sets; }
       if (s && s.clip) m.clip = s.clip;
+      if (s && s.recap) m.recap = s.recap;
     }));
   } catch (e) {}
 }
@@ -166,12 +180,12 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3] = await Promise.all([
-    fetch("./data/season.json?v=21", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=21", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=21", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=21", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=21", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=21", bust).then((r) => r.json()).catch(() => null)
+    fetch("./data/season.json?v=25", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=25", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=25", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=25", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=25", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=25", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
@@ -186,7 +200,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=21");
+    navigator.serviceWorker.register("./sw.js?v=25");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
