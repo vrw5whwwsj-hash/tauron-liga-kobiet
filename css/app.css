@@ -69,6 +69,11 @@ h1 span[data-i18n="subtitle"], h1 span:last-child {
   border-radius: 12px; min-height: 44px; font-size: 15px; font-weight: 800;
 }
 .lang button.active { color: #1a1204; background: var(--gold); border-color: var(--gold); }
+.cev-subs { grid-template-columns: repeat(5, 1fr); margin: 0 0 10px; }
+.src-list { list-style: none; margin: 10px 0; }
+.src-list li { margin: 0 0 8px; font-size: 13.5px; }
+.src-list a { color: var(--gold2); text-decoration: none; font-weight: 700; }
+.sources-card p { margin-bottom: 8px; }
 nav.tabs {
   display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px 10px;
   background: var(--bg); position: sticky; top: 0; z-index: 18;

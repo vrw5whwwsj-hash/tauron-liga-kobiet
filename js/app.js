@@ -175,6 +175,7 @@ function refresh() {
   paintRound("round3", 3);
   document.getElementById("news").innerHTML = renderNews();
   if (typeof renderAnalysis === "function") renderAnalysis();
+  if (typeof renderCev === "function") renderCev();
   fillResultSelect();
   const inj = (SEASON.injuries || []).map((i) => `<div class="card"><strong>${i.player}</strong> \u00b7 ${i.team}<p>${pick(i, "note", "noteEn", "noteTr")}</p><div class="muted">${t("updatedShort")} ${i.updated}</div></div>`).join("") || `<p class='muted'>${t("noInj")}</p>`;
   document.getElementById("injuries").innerHTML = inj;
@@ -182,32 +183,39 @@ function refresh() {
 function show(tab) {
   document.querySelectorAll("section").forEach((s) => s.classList.toggle("active", s.id === tab));
   document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+  if (tab === "sec-cev" && typeof renderCev === "function") renderCev();
 }
 async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
-  const [s, m, sc, nw, an, r3] = await Promise.all([
-    fetch("./data/season.json?v=26", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=26", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=26", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=26", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=26", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=26", bust).then((r) => r.json()).catch(() => null)
+  const [s, m, sc, nw, an, r3, cev] = await Promise.all([
+    fetch("./data/season.json?v=28", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=28", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=28", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=28", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=28", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=28", bust).then((r) => r.json()).catch(() => null),
+    fetch("./data/cev.json?v=28", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
   if (typeof ANALYSIS !== "undefined") ANALYSIS = an; else window.ANALYSIS = an;
+  if (cev) CEV = cev;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
   loadResults();
   document.getElementById("save-btn").addEventListener("click", applyResult);
   document.getElementById("reset-btn").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
-  document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
+  document.querySelectorAll(".lang button").forEach((b) => {
+    if (b.classList.contains("cev-sub")) return;
+    b.addEventListener("click", () => setLang(b.dataset.lang));
+  });
+  if (typeof cevBind === "function") cevBind();
   refresh();
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=26");
+    navigator.serviceWorker.register("./sw.js?v=28");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
