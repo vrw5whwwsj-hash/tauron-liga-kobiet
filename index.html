@@ -14,10 +14,10 @@
   <link rel="canonical" href="https://zligowychhal.pl/" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./icons/icon.svg" />
-  <link rel="stylesheet" href="./css/app.css?v=28" />
-  <link rel="stylesheet" href="./css/ptr.css?v=28" />
-  <link rel="stylesheet" href="./css/news.css?v=28" />
-  <link rel="stylesheet" href="./css/analysis.css?v=28" />
+  <link rel="stylesheet" href="./css/app.css?v=29" />
+  <link rel="stylesheet" href="./css/ptr.css?v=29" />
+  <link rel="stylesheet" href="./css/news.css?v=29" />
+  <link rel="stylesheet" href="./css/analysis.css?v=29" />
 </head>
 <body>
   <header class="app">
@@ -87,8 +87,32 @@
     <div class="card">
       <h2 data-i18n="cevH2">Liga Mistrzyń CEV 2026/27</h2>
       <p class="muted" data-i18n="cevP">Faza grupowa — 5 grup × 4 zespoły, mecz i rewanż. Start 24–26.11.2026.</p>
-      <p data-i18n="cevRules">Punktacja CEV: 3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 0:3/1:3. Kolejność: wygrane, punkty rankingowe, stosunek setów, stosunek małych punktów, mecz bezpośredni.</p>
-      <p data-i18n="cevAdv">1. miejsce grupy — ćwierćfinał. Drugie miejsca i najlepsza trzecia — baraż. Pozostałe trzecie — Puchar CEV.</p>
+
+      <h3 data-i18n="cevPtsH">Punktacja</h3>
+      <ul class="rule-list pts">
+        <li><span class="score">3:0 / 3:1</span><span data-i18n="cevPts3">3 punkty dla zwycięzcy</span></li>
+        <li><span class="score">3:2</span><span data-i18n="cevPts2">2 punkty dla zwycięzcy</span></li>
+        <li><span class="score">2:3</span><span data-i18n="cevPts1">1 punkt dla przegranego</span></li>
+        <li><span class="score">1:3 / 0:3</span><span data-i18n="cevPts0">0 punktów dla przegranego</span></li>
+      </ul>
+
+      <h3 data-i18n="cevOrdH">Kolejność w tabeli grupy</h3>
+      <ol class="rule-list ord">
+        <li data-i18n="cevOrd1">liczba wygranych meczów</li>
+        <li data-i18n="cevOrd2">punkty rankingowe (3 / 2 / 1 / 0)</li>
+        <li data-i18n="cevOrd3">stosunek setów (wygrane ÷ przegrane)</li>
+        <li data-i18n="cevOrd4">stosunek małych punktów</li>
+        <li data-i18n="cevOrd5">bilans bezpośredni</li>
+      </ol>
+
+      <h3 data-i18n="cevAdvH">Awans z grupy</h3>
+      <ul class="rule-list adv">
+        <li><span class="place">1.</span><span data-i18n="cevAdv1">ćwierćfinał Ligi Mistrzyń</span></li>
+        <li><span class="place">2.</span><span data-i18n="cevAdv2">baraż (play-off) o ćwierćfinał</span></li>
+        <li><span class="place">3.*</span><span data-i18n="cevAdv3">najlepsza trzecia też do barażu; pozostałe trzecie — Puchar CEV</span></li>
+        <li><span class="place">4.</span><span data-i18n="cevAdv4">koniec gry w pucharach CEV tej edycji LM</span></li>
+      </ul>
+      <p class="muted" data-i18n="cevAdvNote">* Najlepsza trzecia liczona jest po wszystkich grupach: wygrane → punkty → sety → małe punkty.</p>
     </div>
     <div class="lang cev-subs" role="group">
       <button type="button" class="cev-sub active" data-g="A">A</button>
@@ -176,12 +200,12 @@
     </div>
   </section>
   <footer class="hint"><a href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">VolleyNews · @Z_Ligowych_Hal</a></footer>
-  <script src="./js/i18n.js?v=28"></script>
-  <script src="./js/tv.js?v=28"></script>
-  <script src="./js/stats.js?v=28"></script>
-  <script src="./js/analysis.js?v=28"></script>
-  <script src="./js/cev.js?v=28"></script>
-  <script src="./js/app.js?v=28"></script>
-  <script src="./js/ptr.js?v=28"></script>
+  <script src="./js/i18n.js?v=29"></script>
+  <script src="./js/tv.js?v=29"></script>
+  <script src="./js/stats.js?v=29"></script>
+  <script src="./js/analysis.js?v=29"></script>
+  <script src="./js/cev.js?v=29"></script>
+  <script src="./js/app.js?v=29"></script>
+  <script src="./js/ptr.js?v=29"></script>
 </body>
 </html>

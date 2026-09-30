@@ -74,6 +74,33 @@ h1 span[data-i18n="subtitle"], h1 span:last-child {
 .src-list li { margin: 0 0 8px; font-size: 13.5px; }
 .src-list a { color: var(--gold2); text-decoration: none; font-weight: 700; }
 .sources-card p { margin-bottom: 8px; }
+.rule-list { list-style: none; margin: 0 0 12px; }
+.rule-list.ord { list-style: decimal; padding-left: 22px; }
+.rule-list.ord li { margin: 4px 0; font-size: 14px; }
+.rule-list.pts li,
+.rule-list.adv li {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #1e2a40;
+  font-size: 14px;
+}
+.rule-list.pts li:last-child,
+.rule-list.adv li:last-child { border-bottom: 0; }
+.rule-list .score,
+.rule-list .place {
+  display: inline-block;
+  background: #1a2740;
+  border: 1px solid var(--line);
+  color: var(--gold2);
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 6px;
+}
 nav.tabs {
   display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px 10px;
   background: var(--bg); position: sticky; top: 0; z-index: 18;
@@ -88,7 +115,7 @@ section { display: none; padding: 6px 12px 20px; }
 section.active { display: block; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 10px; overflow: hidden; }
 .card h2 { font-size: 14px; margin-bottom: 8px; }
-.card h3 { font-size: 13px; color: var(--gold2); margin: 10px 0 6px; }
+.card h3 { font-size: 13px; color: var(--gold2); margin: 12px 0 6px; }
 p, li { font-size: 14px; line-height: 1.45; color: #d7deea; }
 .muted { color: var(--muted); font-size: 12px; }
 table.standings { width: 100%; border-collapse: collapse; font-size: 11px; }
