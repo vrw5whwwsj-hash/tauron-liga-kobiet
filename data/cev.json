@@ -1,29 +1,35 @@
 {
   "season": "2026/27",
-  "note": "Losowanie lipiec 2026. Grupy A i D: 4. miejsce z kwalifikacji. Faza grupowa od 24–26.11.2026.",
+  "updated": "2026-09-30",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyników grup jeszcze nie ma. Kwalifikacje 20.10–12.11.2026.",
+  "sources": [
+    { "name": "CEV Champions League", "url": "https://championsleague.cev.eu/en/", "x": "https://x.com/CEVolleyballCL" },
+    { "name": "CEV", "url": "https://www.cev.eu", "x": "https://x.com/CEVolleyball" },
+    { "name": "Gibby", "url": "https://x.com/gibbybaris" }
+  ],
   "rules": {
     "pts": "3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 1:3/0:3",
     "order": ["wygrane mecze", "punkty rankingowe", "stosunek setów", "stosunek małych punktów", "bezpośredni"],
     "advance": "1. miejsce grupy — ćwierćfinał. 2. miejsca + najlepsza 3. — baraż. Pozostałe 3. — Puchar CEV."
   },
   "teams": {
-    "vakif": { "name": "VakıfBank Stambuł", "short": "VakıfBank", "cc": "TUR" },
+    "vakif": { "name": "VakıfBank Stambuł", "short": "VakıfBank", "cc": "TUR", "x": "https://x.com/VakifBankSK" },
     "opole": { "name": "UNI Opole", "short": "UNI Opole", "cc": "POL" },
     "mulhouse": { "name": "Volley Mulhouse Alsace", "short": "Mulhouse", "cc": "FRA" },
     "qa": { "name": "Kwalifikant A", "short": "Kwal. A", "cc": "—" },
-    "conegliano": { "name": "Prosecco DOC Conegliano", "short": "Conegliano", "cc": "ITA" },
-    "rzeszow": { "name": "KS DevelopRes Rzeszów", "short": "DevelopRes", "cc": "POL" },
+    "conegliano": { "name": "Prosecco DOC Conegliano", "short": "Conegliano", "cc": "ITA", "x": "https://x.com/imocovolley" },
+    "rzeszow": { "name": "KS DevelopRes Rzeszów", "short": "DevelopRes", "cc": "POL", "x": "https://x.com/KSDevelopres" },
     "dresden": { "name": "Dresdner SC", "short": "Dresden", "cc": "GER" },
     "novara": { "name": "Igor Gorgonzola Novara", "short": "Novara", "cc": "ITA" },
-    "fener": { "name": "Fenerbahçe Medicana", "short": "Fenerbahçe", "cc": "TUR" },
+    "fener": { "name": "Fenerbahçe Medicana", "short": "Fenerbahçe", "cc": "TUR", "x": "https://x.com/FenerbahceSK" },
     "milano": { "name": "Numia Vero Volley Milano", "short": "Milano", "cc": "ITA" },
     "levallois": { "name": "Levallois Paris Saint-Cloud", "short": "Levallois", "cc": "FRA" },
     "vasas": { "name": "Vasas Óbuda Budapeszt", "short": "Vasas", "cc": "HUN" },
-    "scandicci": { "name": "Savino Del Bene Scandicci", "short": "Scandicci", "cc": "ITA" },
-    "eczaci": { "name": "Eczacıbaşı Dynavit", "short": "Eczacıbaşı", "cc": "TUR" },
+    "scandicci": { "name": "Savino Del Bene Scandicci", "short": "Scandicci", "cc": "ITA", "x": "https://x.com/savinodelbenevolley" },
+    "eczaci": { "name": "Eczacıbaşı Dynavit", "short": "Eczacıbaşı", "cc": "TUR", "x": "https://x.com/EczacibasiSK" },
     "tent": { "name": "Tent Obrenovac", "short": "Obrenovac", "cc": "SRB" },
     "qd": { "name": "Kwalifikant D", "short": "Kwal. D", "cc": "—" },
-    "budowlani": { "name": "PGE Budowlani Łódź", "short": "Budowlani", "cc": "POL" },
+    "budowlani": { "name": "PGE Budowlani Łódź", "short": "Budowlani", "cc": "POL", "x": "https://x.com/budowlani_lodz" },
     "suhl": { "name": "VfB Suhl Thüringen", "short": "Suhl", "cc": "GER" },
     "voluntari": { "name": "C.S.O. Voluntari 2005", "short": "Voluntari", "cc": "ROU" },
     "gala": { "name": "Galatasaray Daikin", "short": "Galatasaray", "cc": "TUR" }
@@ -34,5 +40,24 @@
     { "id": "C", "teams": ["fener", "milano", "levallois", "vasas"] },
     { "id": "D", "teams": ["scandicci", "eczaci", "tent", "qd"] },
     { "id": "E", "teams": ["budowlani", "suhl", "voluntari", "gala"] }
-  ]
+  ],
+  "qualifiers": {
+    "window": "2. runda 20–22.10 i 27–29.10; 3. runda 3–5.11 i 10–12.11.2026",
+    "poolA": ["FC Porto", "Fundacion Cajasol Andalucia", "Asterix Avo Beveren", "OTP Banka Branik Maribor"],
+    "note": "Dwóch zwycięzców 3. rundy wchodzi do grup A i D."
+  },
+  "fixtures": [
+    { "id": "opole-mulhouse", "home": "opole", "away": "mulhouse", "date": "2026-11-26", "time": "18:00", "venue": "Stegu Arena, Opole", "leg": 1 },
+    { "id": "rzeszow-dresden", "home": "rzeszow", "away": "dresden", "date": "2026-11-24", "leg": 1 },
+    { "id": "conegliano-novara", "home": "conegliano", "away": "novara", "date": "2026-11-24", "leg": 1 },
+    { "id": "fener-vasas", "home": "fener", "away": "vasas", "date": "2026-11-24", "leg": 1 },
+    { "id": "milano-levallois", "home": "milano", "away": "levallois", "date": "2026-11-24", "leg": 1 },
+    { "id": "eczaci-tent", "home": "eczaci", "away": "tent", "date": "2026-11-24", "leg": 1 },
+    { "id": "budowlani-gala", "home": "budowlani", "away": "gala", "date": "2026-11-24", "leg": 1 },
+    { "id": "suhl-voluntari", "home": "suhl", "away": "voluntari", "date": "2026-11-24", "leg": 1 },
+    { "id": "dresden-conegliano", "home": "dresden", "away": "conegliano", "date": "2026-12-01", "leg": 2 },
+    { "id": "gala-suhl", "home": "gala", "away": "suhl", "date": "2026-12-01", "leg": 2 },
+    { "id": "levallois-fener", "home": "levallois", "away": "fener", "date": "2026-12-01", "leg": 2 }
+  ],
+  "results": {}
 }

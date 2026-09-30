@@ -13,13 +13,22 @@ function cevLoad() {
   try { return JSON.parse(localStorage.getItem("tlk-cev") || "{}"); } catch (e) { return {}; }
 }
 function cevSave(map) { localStorage.setItem("tlk-cev", JSON.stringify(map)); }
+function cevFix(id) {
+  return ((CEV && CEV.fixtures) || []).find((f) => f.id === id) || null;
+}
+function cevResult(id) {
+  const off = CEV && CEV.results && CEV.results[id];
+  if (off && off.score) return Object.assign({ official: true }, off);
+  const loc = cevLoad()[id];
+  if (loc && loc.score) return loc;
+  return null;
+}
 function cevEmpty() { return { played: 0, w: 0, l: 0, pts: 0, sw: 0, sl: 0, pw: 0, pl: 0 }; }
 function cevTable(g) {
   const map = {};
   g.teams.forEach((id) => { map[id] = { id, ...(CEV.teams[id] || { name: id, short: id }), ...cevEmpty() }; });
-  const saved = cevLoad();
   cevPairs(g.teams).forEach((m) => {
-    const r = saved[m.id];
+    const r = cevResult(m.id);
     if (!r || !r.score || !r.sets) return;
     const H = map[m.home], A = map[m.away];
     if (!H || !A) return;
@@ -49,7 +58,6 @@ function renderCevGroup(gid) {
   if (!CEV) return;
   const g = CEV.groups.find((x) => x.id === gid);
   if (!g) return;
-  const saved = cevLoad();
   const rows = cevTable(g);
   const body = rows.map((x, i) => {
     const cls = i === 0 ? "po" : i === 1 ? "" : "";
@@ -60,12 +68,15 @@ function renderCevGroup(gid) {
   const list = document.getElementById("cev-matches");
   if (list) {
     list.innerHTML = cevPairs(g.teams).map((m) => {
-      const r = saved[m.id];
+      const r = cevResult(m.id);
+      const fx = cevFix(m.id);
       const sc = r && r.score ? r.score[0] + ":" + r.score[1] : "– : –";
       const st = r && r.sets ? r.sets.map((s) => s[0] + ":" + s[1]).join(" · ") : "";
       const hn = CEV.teams[m.home]?.short || m.home;
       const an = CEV.teams[m.away]?.short || m.away;
-      return `<article class="card"><div class="match"><div class="side">${hn}</div><div class="mid"><strong>${sc}</strong></div><div class="side away">${an}</div></div>${st ? `<div class="muted sets">Sety: ${st}</div>` : ""}<button type="button" class="ghost cev-pick" data-id="${m.id}">${LANG === "en" ? "Enter score" : "Wpisz wynik"}</button></article>`;
+      const when = fx ? [fx.date, fx.time, fx.venue].filter(Boolean).join(" · ") : "";
+      const tag = r && r.official ? `<div class="muted">CEV</div>` : "";
+      return `<article class="card">${when ? `<div class="muted">${when}</div>` : ""}<div class="match"><div class="side">${hn}</div><div class="mid"><strong>${sc}</strong></div><div class="side away">${an}</div></div>${st ? `<div class="muted sets">Sety: ${st}</div>` : ""}${tag}<button type="button" class="ghost cev-pick" data-id="${m.id}">${LANG === "en" ? "Enter score" : LANG === "tr" ? "Sonuç gir" : "Wpisz wynik"}</button></article>`;
     }).join("");
     list.querySelectorAll(".cev-pick").forEach((b) => b.addEventListener("click", () => {
       const sel = document.getElementById("cev-match-select");
