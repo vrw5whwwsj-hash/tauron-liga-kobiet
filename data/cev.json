@@ -1,0 +1,38 @@
+{
+  "season": "2026/27",
+  "note": "Losowanie lipiec 2026. Grupy A i D: 4. miejsce z kwalifikacji. Faza grupowa od 24–26.11.2026.",
+  "rules": {
+    "pts": "3 pkt za 3:0/3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 za 1:3/0:3",
+    "order": ["wygrane mecze", "punkty rankingowe", "stosunek setów", "stosunek małych punktów", "bezpośredni"],
+    "advance": "1. miejsce grupy — ćwierćfinał. 2. miejsca + najlepsza 3. — baraż. Pozostałe 3. — Puchar CEV."
+  },
+  "teams": {
+    "vakif": { "name": "VakıfBank Stambuł", "short": "VakıfBank", "cc": "TUR" },
+    "opole": { "name": "UNI Opole", "short": "UNI Opole", "cc": "POL" },
+    "mulhouse": { "name": "Volley Mulhouse Alsace", "short": "Mulhouse", "cc": "FRA" },
+    "qa": { "name": "Kwalifikant A", "short": "Kwal. A", "cc": "—" },
+    "conegliano": { "name": "Prosecco DOC Conegliano", "short": "Conegliano", "cc": "ITA" },
+    "rzeszow": { "name": "KS DevelopRes Rzeszów", "short": "DevelopRes", "cc": "POL" },
+    "dresden": { "name": "Dresdner SC", "short": "Dresden", "cc": "GER" },
+    "novara": { "name": "Igor Gorgonzola Novara", "short": "Novara", "cc": "ITA" },
+    "fener": { "name": "Fenerbahçe Medicana", "short": "Fenerbahçe", "cc": "TUR" },
+    "milano": { "name": "Numia Vero Volley Milano", "short": "Milano", "cc": "ITA" },
+    "levallois": { "name": "Levallois Paris Saint-Cloud", "short": "Levallois", "cc": "FRA" },
+    "vasas": { "name": "Vasas Óbuda Budapeszt", "short": "Vasas", "cc": "HUN" },
+    "scandicci": { "name": "Savino Del Bene Scandicci", "short": "Scandicci", "cc": "ITA" },
+    "eczaci": { "name": "Eczacıbaşı Dynavit", "short": "Eczacıbaşı", "cc": "TUR" },
+    "tent": { "name": "Tent Obrenovac", "short": "Obrenovac", "cc": "SRB" },
+    "qd": { "name": "Kwalifikant D", "short": "Kwal. D", "cc": "—" },
+    "budowlani": { "name": "PGE Budowlani Łódź", "short": "Budowlani", "cc": "POL" },
+    "suhl": { "name": "VfB Suhl Thüringen", "short": "Suhl", "cc": "GER" },
+    "voluntari": { "name": "C.S.O. Voluntari 2005", "short": "Voluntari", "cc": "ROU" },
+    "gala": { "name": "Galatasaray Daikin", "short": "Galatasaray", "cc": "TUR" }
+  },
+  "groups": [
+    { "id": "A", "teams": ["vakif", "opole", "mulhouse", "qa"] },
+    { "id": "B", "teams": ["conegliano", "rzeszow", "dresden", "novara"] },
+    { "id": "C", "teams": ["fener", "milano", "levallois", "vasas"] },
+    { "id": "D", "teams": ["scandicci", "eczaci", "tent", "qd"] },
+    { "id": "E", "teams": ["budowlani", "suhl", "voluntari", "gala"] }
+  ]
+}
