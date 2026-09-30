@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-30T08:20:00+02:00",
+  "checkedAt": "2026-09-30T14:12:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": false,
   "checks": [
@@ -8,6 +8,6 @@
     { "id": "siatka-wyniki", "url": "https://siatka.org/wyniki/", "ok": true, "http": 200, "note": "HTML." },
     { "id": "volleybox-matches", "url": "https://women.volleybox.net/pl/matches", "ok": false, "http": 403, "note": "Cloudflare." },
     { "id": "polsat-api", "url": "https://www.polsatsport.pl/api/", "ok": false, "http": 404, "note": "Brak publicznego REST API." },
-    { "id": "polsat-rss-siatkowka", "url": "https://www.polsatsport.pl/rss/siatkowka.xml", "ok": true, "http": 200, "note": "RSS XML działa. Bez CORS — nie z PWA." }
+    { "id": "polsat-rss-siatkowka", "url": "https://www.polsatsport.pl/rss/siatkowka.xml", "ok": true, "http": 200, "note": "RSS XML dzia\u0142a. Bez CORS \u2014 nie z PWA." }
   ]
 }
