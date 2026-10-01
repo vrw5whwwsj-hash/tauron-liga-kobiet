@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T18:15:00+02:00",
+  "updated": "2026-10-01T19:45:00+02:00",
   "policy": "Wyniki ligowe wpisuje użytkownik. Źródła zewnętrzne są monitorowane, żadne nie daje publicznego REST API wyników TAURON Ligi Kobiet do użycia z GitHub Pages.",
   "sources": [
     {
@@ -32,13 +32,13 @@
     {
       "id": "polsat",
       "name": "Polsat Sport",
-      "role": "transmisje, skróty, relacje, plan TV",
+      "role": "zapowiedzi spotkań TAURON Ligi Kobiet, relacje pomeczowe, sytuacja w klubach, transmisje, skróty, plan TV",
       "url": "https://www.polsatsport.pl",
       "rssAll": "https://www.polsatsport.pl/rss/",
       "rssSiatkowka": "https://www.polsatsport.pl/rss/siatkowka.xml",
       "apiPublic": false,
       "browserUsable": false,
-      "reason": "Brak REST API. Jest RSS /rss/siatkowka.xml (działa, XML). Brak nagłówka CORS — przeglądarka z GitHub Pages go nie wczyta. Treść obecnie głównie kadra męska / ME, nie tabela ligi kobiet."
+      "reason": "Źródło zapowiedzi, relacji pomeczowych i informacji o bieżącej sytuacji w klubach TAURON Ligi Kobiet. RSS /rss/siatkowka.xml bez CORS — wpisy wczytujemy ręcznie."
     },
     {
       "id": "wp",
