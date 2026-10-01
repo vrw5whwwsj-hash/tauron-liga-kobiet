@@ -112,12 +112,19 @@ function renderRound(roundObj) {
     return `<article class="card">${head}${clipBtn(m.clip)}<h3>${headline}</h3>${pred}${body}</article>`;
   }).join("");
 }
+function newsSource(n) {
+  if (!n.u) return "";
+  const label = LANG === "tr" ? "Kaynak" : (LANG === "en" ? "Source" : "Źródło");
+  const name = n.un || n.u;
+  return `<p class="news-src"><a href="${n.u}" target="_blank" rel="noopener">${label}: ${name}</a></p>`;
+}
 function renderNews() {
   return (NEWS.items || []).map((n) => {
     const title = pick(n, "t", "te", "tt");
     const body = pick(n, "b", "be", "bt");
     const clip = clipBtn(n.clip, n.clipL);
-    return `<details class="card news-card"><summary><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">\u203a</span></div></summary>${body ? `<div class="news-body">${body}${clip}</div>` : clip}</details>`;
+    const src = newsSource(n);
+    return `<details class="card news-card"><summary><div class="muted">${n.d}</div><div class="news-head"><p>${title}</p><span class="chev">\u203a</span></div></summary>${body ? `<div class="news-body">${body}${clip}${src}</div>` : `${clip}${src}`}</details>`;
   }).join("");
 }
 function fillResultSelect() {
@@ -189,13 +196,13 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
-    fetch("./data/season.json?v=28", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=28", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=28", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=28", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=28", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=28", bust).then((r) => r.json()).catch(() => null),
-    fetch("./data/cev.json?v=28", bust).then((r) => r.json()).catch(() => null)
+    fetch("./data/season.json?v=31", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=31", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=31", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=31", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=31", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=31", bust).then((r) => r.json()).catch(() => null),
+    fetch("./data/cev.json?v=31", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
@@ -215,7 +222,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=28");
+    navigator.serviceWorker.register("./sw.js?v=31");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });

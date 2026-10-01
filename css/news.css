@@ -9,3 +9,6 @@ details.news-card[open] .chev { transform: rotate(90deg); }
 details.news-card .news-body { margin-top: 8px; font-size: 13.5px; line-height: 1.45; color: #d7deea; }
 .clip-wrap { margin: 10px 0 0; }
 .clip-btn { display: inline-block; background: #3a2e14; color: #f3d38a; border: 1px solid #5a4a20; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 800; text-decoration: none; }
+
+.news-src { margin: 10px 0 0; }
+.news-src a { color: #f3d38a; font-weight: 700; font-size: 13px; text-decoration: underline; text-underline-offset: 2px; }
