@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "items": [
+    {
+      "d": "2026-10-01",
+      "t": "PZPS zmienia przepisy przed startem sezonu",
+      "te": "PZPS rule changes before the season starts",
+      "tt": "PZPS sezon öncesi kural değişikliği yaptı",
+      "b": "Polski Związek Piłki Siatkowej ogłosił trzy zmiany ze skutkiem natychmiastowym, także w TAURON Lidze Kobiet: osobne 90 sekund na zagrywkę w rozgrzewce, limit zmian w secie z 6 do 8 oraz brak obowiązku zgłoszenia drugiego libero w składzie 13- lub 14-osobowym. Komunikat podał m.in. Przegląd Sportowy (1.10).",
+      "be": "PZPS announced three immediate rule changes, including the women’s league: a separate 90-second serve slot in the warm-up, substitutions per set raised from 6 to 8, and no requirement for a second libero in a 13- or 14-player roster.",
+      "bt": "PZPS üç kuralı hemen yürürlüğe soktu: ısınmada 90 sn servis, set başına 8 değişiklik, 13-14 kişilik kadroda ikinci libero zorunlu değil."
+    },
+    {
+      "d": "2026-09-30",
+      "t": "PGE Budowlani Łódź przed sezonem: utrzymać się na szczycie",
+      "te": "PGE Budowlani Łódź before the season: stay on top",
+      "tt": "Budowlani: zirvede kalmak",
+      "b": "Oficjalna zapowiedź ligi: mistrzynie i zdobywczynie Pucharu Polski 2025/26 zamknęły skład jako pierwsze. Odeszły Paulina Damaske (Włochy) i Alicja Grabka (DevelopRes). Przyszły Katarzyna Wenerska, Martyna Grajber-Nowakowska, Julita Molenda, Aleksandra Kazała, Polina Herasymchuk i Iuna Zadorojnai. Zostały m.in. Siuda, Storck, Buterez, Łysiak, Lelonkiewicz, Planinšec. Trener Maciej Biernat. W Grand Prix PGE: wygrana ze Stalą, porażka z Wrocławiem i półfinał z Radomką, potem 3. miejsce po rewanżu z Wrocławiem. Cel: powtórzyć dublet. Inauguracja 2.10 w Kaliszu (17:30).",
+      "be": "League preview: the 2025/26 champions and cup winners closed their roster first. Damaske (Italy) and Grabka (DevelopRes) left; Wenerska, Grajber-Nowakowska, Molenda, Kazała, Herasymchuk and Zadorojnai arrived. Biernat stays. Goal: repeat the double. Opener 2 Oct in Kalisz (17:30).",
+      "bt": "Şampiyon kadroyu ilk kapatan oldu. Damaske ve Grabka ayrıldı, Wenerska geldi. Hedef çifte kupa. Açılış 2 Ekim Kalisz."
+    },
     {
       "d": "2026-09-30",
       "t": "Skarb Kibica TAURON Ligi i TAURON Ligi Kobiet z \u201ePrzegl\u0105dem Sportowym\u201d",
