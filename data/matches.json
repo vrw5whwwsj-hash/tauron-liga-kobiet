@@ -68,8 +68,14 @@
           "home": "opo",
           "away": "che",
           "venue": "Opole",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [21, 25],
+            [23, 25],
+            [25, 9],
+            [25, 15],
+            [13, 15]
+          ],
+          "score": [2, 3],
           "preview": {
             "headline": "Brązowe medalistki witają przebudowany Chemik",
             "headlineEn": "Bronze medallists welcome a rebuilt Chemik",
@@ -88,7 +94,15 @@
               "middle and reception quality"
             ]
           },
-          "tv": "Polsat Sport 3"
+          "tv": "Polsat Sport 3",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-02T21:12:00Z",
+            "note": "Oba źródła: 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). PLS karta 1104991 (przebieg 21:25, 23:25, 25:9, 25:15, 13:15, widzów 1530; relacja: przyjezdne wygrały 3:2). Polsat Sport: mecz zakończony, widget 2:3, sety 21-25, 23-25, 25-9, 25-15, 13-15."
+          }
         },
         {
           "id": "r1m3",
