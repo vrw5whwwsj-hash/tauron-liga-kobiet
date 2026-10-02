@@ -13,8 +13,24 @@
           "home": "kal",
           "away": "bud",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              7,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              12,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Inauguracja w Kaliszu: beniaminek kontra mistrzynie Polski",
             "headlineEn": "Season opener in Kalisz: promoted side vs Polish champions",
@@ -34,6 +50,13 @@
               "play-off experience",
               "opener pressure on the promoted side"
             ]
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-02T17:15:00Z"
           }
         },
         {
