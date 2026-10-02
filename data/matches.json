@@ -59,7 +59,37 @@
             "checkedAt": "2026-10-02T18:12:00Z",
             "note": "Oba źródła: 0:3 (7:25, 17:25, 12:25). PLS kafelek 2.10 17:30 i karta 1104990 (przebieg 7:25, 17:25, 12:25, widzów 1489, relacja: bardzo pewnie 3:0). Polsat Sport: mecz zakończony, widget 0:3, sety 7-25, 17-25, 12-25."
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Mistrzynie bezlitosne. Kalisz 0:3",
+            "titleEn": "Champions ruthless. Kalisz 0:3",
+            "titleTr": "Şampiyon acımasız. Kalisz 0:3",
+            "text": "NETLAND MKS Kalisz przegrał z PGE Budowlanymi Łódź 0:3 (7:25, 17:25, 12:25). Pierwszy punkt sezonu zdobyła blokiem Paulina Majkowska, a przy zagrywkach Mai Storck poszła seria od 3:3 do 3:16. Seta zamknęła Rodica Buterez. W drugiej partii łodzianki odskoczyły na 10:19, w trzeciej Martyna Grajber-Nowakowska dała dwa asy (4:11), a błąd gospodyń zakończył mecz. Arena Kalisz: 1489 widzów. Najwięcej punktów: Jelena Vulin 10 (Kalisz); Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11 (Budowlani). MVP: Maja Storck. Atak 28%–53%, blok 4–12.",
+            "textEn": "NETLAND MKS Kalisz lost to PGE Budowlani Łódź 0–3 (7–25, 17–25, 12–25). Maja Storck served a run from 3–3 to 3–16 in set one. Arena Kalisz drew 1,489. Top scorers: Jelena Vulin 10; Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11. MVP Storck. Attack 28%–53%, block 4–12.",
+            "textTr": "Kalisz, Budowlani'ye 0-3 kaybetti (7-25, 17-25, 12-25). Storck 14, Buterez 13, Planinšec 11 sayı. MVP Storck.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 14
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 11
+              }
+            ],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
+          },
+          "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
         },
         {
           "id": "r1m2",
@@ -69,13 +99,31 @@
           "away": "che",
           "venue": "Opole",
           "sets": [
-            [21, 25],
-            [23, 25],
-            [25, 9],
-            [25, 15],
-            [13, 15]
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              9
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              13,
+              15
+            ]
           ],
-          "score": [2, 3],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Brązowe medalistki witają przebudowany Chemik",
             "headlineEn": "Bronze medallists welcome a rebuilt Chemik",
@@ -102,7 +150,17 @@
             "by": "grok",
             "checkedAt": "2026-10-02T21:12:00Z",
             "note": "Oba źródła: 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). PLS karta 1104991 (przebieg 21:25, 23:25, 25:9, 25:15, 13:15, widzów 1530; relacja: przyjezdne wygrały 3:2). Polsat Sport: mecz zakończony, widget 2:3, sety 21-25, 23-25, 25-9, 25-15, 13-15."
-          }
+          },
+          "recap": {
+            "title": "Chemik wywozi z Opola tie-breaka",
+            "titleEn": "Chemik take the tie-break in Opole",
+            "titleTr": "Chemik tie-break'i aldı",
+            "text": "UNI Opole przegrało u siebie z LOTTO Chemikiem Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Przyjezdne wygrały dwa pierwsze sety, gospodynie odpowiedziały 25:9 i 25:15, a tie-breaka wzięły policzanki 15:13. Stegu Arena: 1530 widzów. Na parkiecie m.in. Gabriela Makarowska-Kulej, Natalia Kecher i Katarzyna Zaroślińska-Król oraz Pola Janicka, Natalia Mędrzyk i Oliwia Sieradzka po stronie Chemika. Oficjalna karta ligi: 1104991.",
+            "textEn": "UNI Opole lost at home to LOTTO Chemik Police 2–3 (21–25, 23–25, 25–9, 25–15, 13–15). Chemik took the first two sets, Opole answered 25–9 and 25–15, and Police won the tie-break 15–13. Stegu Arena: 1,530.",
+            "textTr": "UNI Opole evinde Chemik'e 2-3 kaybetti (21-25, 23-25, 25-9, 25-15, 13-15). Tie-break 13-15.",
+            "clip": "https://www.tauronligakobiet.pl/games/id/1104991.html"
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/id/1104991.html"
         },
         {
           "id": "r1m3",

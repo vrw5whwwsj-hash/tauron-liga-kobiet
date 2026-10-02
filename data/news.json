@@ -1,16 +1,27 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "items": [
     {
       "d": "2026-10-02",
-      "t": "Kalisz–Budowlani 0:3. Liga wpisała sety, Opole jeszcze bez wyniku",
-      "te": "Kalisz–Budowlani 0–3. League posted the sets, Opole still open",
-      "tt": "Kalisz-Budowlani 0-3. Lig setleri yazdı, Opole hâlâ skorsuz",
-      "b": "TAURON Liga Kobiet (2.10, ok. 20:00): kafelki i karta meczu 001 podają NETLAND MKS Kalisz–PGE Budowlani Łódź 0:3 (7:25, 17:25, 12:25). Relacja ligi (aktualizacja po meczu): Budowlani wygrały „bardzo pewnie 3:0”. Widzów 1489, Arena Kalisz. Sędziowie Aleksandra Szydełko i Marcin Bartłomiejczak, komisarz Krzysztof Ratajczak. Galeria ligi (19:17): mistrzynie nie dały Kaliszowi cienia szansy. UNI Opole–LOTTO Chemik (20:30, Polsat Sport 3) wciąż bez wyniku.",
-      "be": "League tiles and match card 001 (about 20:00): NETLAND MKS Kalisz vs PGE Budowlani Łódź 0–3 (7–25, 17–25, 12–25). The live blog now says Budowlani won very clearly 3–0. Attendance 1,489 at Arena Kalisz. Referees Aleksandra Szydełko and Marcin Bartłomiejczak. UNI Opole vs Chemik (20:30, Polsat Sport 3) still has no score.",
-      "bt": "Lig kafelkesi: Kalisz-Budowlani 0-3 (7-25, 17-25, 12-25). Arena Kalisz'de 1489 seyirci. Opole-Chemik 20:30 hâlâ skorsuz.",
-      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1104990.html",
+      "t": "Chemik wywozi z Opola 3:2 po tie-breaku",
+      "te": "Chemik leave Opole with a 3–2 tie-break win",
+      "tt": "Chemik Opole'den 3-2 ile döndü",
+      "b": "TAURON Liga Kobiet, karta 1104991: UNI Opole – LOTTO Chemik Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15), Stegu Arena, 1530 widzów. Chemik wygrał dwa pierwsze sety, Wilczyce odpowiedziały 25:9 i 25:15, a decydującą partię wzięły policzanki 15:13. W składach m.in. Makarowska-Kulej, Kecher i Zaroślińska-Król oraz Janicka, Mędrzyk i Sieradzka.",
+      "be": "Official card 1104991: UNI Opole lost 2–3 to LOTTO Chemik Police (21–25, 23–25, 25–9, 25–15, 13–15) in front of 1,530 at Stegu Arena.",
+      "bt": "Resmi kart: UNI Opole 2-3 Chemik (21-25, 23-25, 25-9, 25-15, 13-15).",
+      "u": "https://www.tauronligakobiet.pl/games/id/1104991.html",
       "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-02",
+      "t": "Inauguracja: Budowlani rozbijają Kalisz 3:0, MVP Storck",
+      "te": "Opener: Budowlani sweep Kalisz 3–0, Storck MVP",
+      "tt": "Açılış: Budowlani Kalisz'i 3-0 yendi, MVP Storck",
+      "b": "Polsat Sport / Robert Murawski i karta ligi 1104990: NETLAND MKS Kalisz – PGE Budowlani Łódź 0:3 (7:25, 17:25, 12:25), Arena Kalisz, 1489 widzów. Seria Mai Storck od 3:3 do 3:16 otworzyła mecz, seta zamknęła Rodica Buterez. W trzeciej partii dwa asy Martyny Grajber-Nowakowskiej. Najskuteczniejsze: Vulin 10; Storck 14, Buterez 13, Planinšec 11. MVP: Maja Storck. Atak 28% do 53%, blok 4–12.",
+      "be": "Polsat Sport and league card 1104990: Kalisz 0–3 Budowlani (7–25, 17–25, 12–25), 1,489 fans. Storck 14, Buterez 13, Planinšec 11; Vulin 10. MVP Maja Storck.",
+      "bt": "Kalisz 0-3 Budowlani (7-25, 17-25, 12-25). MVP Storck, 14 sayı.",
+      "u": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/",
+      "un": "Polsat Sport"
     },
     {
       "d": "2026-10-02",
