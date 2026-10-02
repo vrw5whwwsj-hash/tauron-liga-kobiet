@@ -3,6 +3,50 @@
   "items": [
     {
       "d": "2026-10-02",
+      "t": "Kalisz–Budowlani 0:3. Liga wpisała sety, Opole jeszcze bez wyniku",
+      "te": "Kalisz–Budowlani 0–3. League posted the sets, Opole still open",
+      "tt": "Kalisz-Budowlani 0-3. Lig setleri yazdı, Opole hâlâ skorsuz",
+      "b": "TAURON Liga Kobiet (2.10, ok. 20:00): kafelki i karta meczu 001 podają NETLAND MKS Kalisz–PGE Budowlani Łódź 0:3 (7:25, 17:25, 12:25). Relacja ligi (aktualizacja po meczu): Budowlani wygrały „bardzo pewnie 3:0”. Widzów 1489, Arena Kalisz. Sędziowie Aleksandra Szydełko i Marcin Bartłomiejczak, komisarz Krzysztof Ratajczak. Galeria ligi (19:17): mistrzynie nie dały Kaliszowi cienia szansy. UNI Opole–LOTTO Chemik (20:30, Polsat Sport 3) wciąż bez wyniku.",
+      "be": "League tiles and match card 001 (about 20:00): NETLAND MKS Kalisz vs PGE Budowlani Łódź 0–3 (7–25, 17–25, 12–25). The live blog now says Budowlani won very clearly 3–0. Attendance 1,489 at Arena Kalisz. Referees Aleksandra Szydełko and Marcin Bartłomiejczak. UNI Opole vs Chemik (20:30, Polsat Sport 3) still has no score.",
+      "bt": "Lig kafelkesi: Kalisz-Budowlani 0-3 (7-25, 17-25, 12-25). Arena Kalisz'de 1489 seyirci. Opole-Chemik 20:30 hâlâ skorsuz.",
+      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1104990.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-02",
+      "t": "Kafelki TV: 1. kolejka głównie Polsat Sport 1, Opole na trójce",
+      "te": "TV tiles: Round 1 mostly Polsat Sport 1, Opole on channel 3",
+      "tt": "TV kafelkeleri: 1. hafta çoğunlukla Polsat Sport 1, Opole 3'te",
+      "b": "Karty meczów ligi (sekcja Transmisje, 2.10): 1. kolejka — Kalisz–Budowlani, Mogilno–Radomka, Pałac–BKS, Wrocław–Stal i ŁKS–DevelopRes mają kafelek Polsat Sport 1. Opole–Chemik: Polsat Sport 3. Polsat Sport osobno podawał przy inauguracji także Extra 2 i Box Go (start relacji 17:20); na kafelku ligi jest tylko Sport 1. 2. kolejka: Stal–Pałac, Budowlani–ŁKS, DevelopRes–Mogilno, Chemik–Kalisz i Radomka–Wrocław — Sport 1; Opole–BKS — Sport 3. 3. kolejka: ŁKS–Stal — Sport 2; Pałac–Kalisz, DevelopRes–Radomka, Opole–Budowlani i Sokół–BKS — Sport 1. Wrocław–Chemik (16.10, 19:00) bez kafelka TV.",
+      "be": "League match cards (broadcast section): Round 1 tiles are Polsat Sport 1 except Opole–Chemik on Polsat Sport 3. Polsat also listed Extra 2 and Box Go for the opener; the league tile shows only Sport 1. Round 2: Sport 1 except Opole–BKS on Sport 3. Round 3: ŁKS–Stal on Sport 2; Pałac–Kalisz, DevelopRes–Radomka, Opole–Budowlani and Sokół–BKS on Sport 1. Wrocław–Chemik (16 Oct, 19:00) has no TV tile.",
+      "bt": "Lig kartları: 1. hafta Opole-Chemik Polsat Sport 3, diğerleri Sport 1. 3. haftada ŁKS-Stal Sport 2. Wrocław-Chemik kafelksiz.",
+      "u": "https://www.tauronligakobiet.pl/games.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-02",
+      "t": "3. kolejka: na kafelku także DevelopRes–Radomka, 17.10 o 20:30",
+      "te": "Round 3 tile adds DevelopRes–Radomka, 17 Oct at 20:30",
+      "tt": "3. hafta: DevelopRes-Radomka 17 Ekim 20:30",
+      "b": "Strona ligi (lista meczów, 2.10): 3. kolejka na kafelku ma cztery godziny — 15.10, 17:30 ŁKS–Stal (Polsat Sport 2); 16.10, 19:00 Wrocław–Chemik (bez kafelka TV); 17.10, 12:00 Pałac–Kalisz (Polsat Sport 1); 17.10, 20:30 DevelopRes–Radomka (Polsat Sport 1). Karty meczów dopisują do tej kolejki także UNI Opole–PGE Budowlani (Polsat Sport 1) i Sokół & Hagric Mogilno–BKS (Polsat Sport 1); ich godzin nie ma jeszcze na liście strony głównej, więc nie wpisujemy terminu.",
+      "be": "League list (2 Oct): Round 3 tiles show ŁKS–Stal (15 Oct, 17:30, Polsat Sport 2), Wrocław–Chemik (16 Oct, 19:00, no TV tile), Pałac–Kalisz (17 Oct, 12:00, Sport 1) and DevelopRes–Radomka (17 Oct, 20:30, Sport 1). Match cards also place UNI Opole–Budowlani and Sokół–BKS in Round 3, both Sport 1, but kick-off times are not on the homepage list yet, so no time is stored.",
+      "bt": "3. hafta kafelki: ŁKS-Stal 15 Ekim 17:30 Sport 2; Wrocław-Chemik 16 Ekim 19:00 TV yok; Pałac-Kalisz 17 Ekim 12:00; DevelopRes-Radomka 17 Ekim 20:30 Sport 1. Opole-Budowlani ve Mogilno-BKS saatleri yok.",
+      "u": "https://www.tauronligakobiet.pl/games.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-02",
+      "t": "KRISHOME: osiem kadrowiczek z Euro, Jurczyk wraca po roku",
+      "te": "KRISHOME: eight Euro squad players, Jurczyk back after a year",
+      "tt": "KRISHOME: Avrupa kadrosundan sekiz isim, Jurczyk bir yıl sonra döndü",
+      "b": "Liga (2.10, 16:39, informacja prasowa): 22. sezon zawodowy pod egidą PLS. Z 14-osobowej kadry na Euro 2026 w klubach ligi jest osiem zawodniczek. Grabka i Wenerska zamieniły się klubami; Magdalena Jurczyk wraca po rocznej nieobecności. Bez zmiany klubu: Maja Koput, Justyna Łysiak, Anna Obiała, Julita Piasecka, Sonia Stefanik. Młodzież: Nadia Siuda, Wiktoria Szewczyk, Daria Wieczorek i Liliana Wójcik z brązu U19 2025. Obcokrajowe kadry: 6 Ukrainek, 4 Holenderki, po 2 Chorwatki, Estonki i Szwajcarki. Jedyna trenerka i jedyna spoza Polski: Jelena Blagojević. Głuszak w Mielcu prowadził latem kadrę Ukrainy.",
+      "be": "League press note (2 Oct, 16:39): season 22 under PLS. Eight of the 14-player Euro 2026 squad are in league clubs. Grabka and Wenerska swapped clubs; Magdalena Jurczyk returns after a year out. Unchanged clubs: Koput, Łysiak, Obiała, Piasecka, Stefanik. Foreign internationals include six Ukrainians and four Dutch players. Only woman and only foreign coach: Jelena Blagojević. Głuszak coached Ukraine in the summer.",
+      "bt": "Lig: Euro 2026 kadrosundan sekiz oyuncu ligde. Grabka ve Wenerska yer değiştirdi. Jurczyk bir yıl sonra döndü. Tek kadın ve yabancı antrenör Blagojević.",
+      "u": "https://www.tauronligakobiet.pl/news,mistrzowski-set-z-marka-krishome-czas-na-emocje-w-tauron-lidze-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-02",
       "t": "Polsat Sport: typy ekspertów przed startem. Medalowa trójka bez jedynki",
       "te": "Polsat Sport expert picks: medal trio, no single favourite",
       "tt": "Polsat Sport uzman tahminleri: madalya üçlüsü, tek favori yok",
@@ -14,13 +58,13 @@
     },
     {
       "d": "2026-10-02",
-      "t": "Liga otwiera relację na żywo: Kalisz i Opole, kolejka bez wyników",
-      "te": "League live blog opens: Kalisz and Opole, no results yet",
-      "tt": "Lig canlı anlatımı açtı: Kalisz ve Opole, henüz skor yok",
-      "b": "TAURON Liga Kobiet (2.10, 12:42, relacja na żywo): sezon 2026/2027 startuje dziś. Mistrzynie PGE Budowlani grają na wyjeździe z beniaminkiem NETLAND MKS Kalisz (17:30), wieczorem UNI Opole podejmuje LOTTO Chemik (20:30). Kolejkę zamyka w niedzielę ŁKS–DevelopRes. Na stronie ligi oba piątkowe mecze wciąż bez wyniku. Pierwszy gwizdek, nie start transmisji, o 17:30.",
-      "be": "League live blog (2 Oct, 12:42): season opens today. Champions Budowlani at promoted Kalisz (17:30), UNI Opole vs Chemik (20:30). Round ends Sunday with ŁKS–DevelopRes. Both Friday matches still without a score on the league site. First whistle, not the broadcast start, is 17:30.",
-      "bt": "Lig canlı anlatımı (2 Ekim 12:42): sezon bugün açılıyor. Kalisz-Budowlani 17:30, Opole-Chemik 20:30. Henüz skor yok.",
-      "u": "https://www.tauronligakobiet.pl/",
+      "t": "Relacja ligi: po inauguracji Budowlani 3:0, wieczorem Opole",
+      "te": "League blog: Budowlani 3–0 after the opener, Opole tonight",
+      "tt": "Lig anlatımı: açılışta Budowlani 3-0, akşam Opole",
+      "b": "Relacja ligi (start 2.10, 12:42, aktualizacja po meczu w Kaliszu): PGE Budowlani wygrały na wyjeździe z NETLAND MKS Kalisz bardzo pewnie 3:0. Tego samego wieczoru UNI Opole podejmuje LOTTO Chemik (20:30). Kolejkę zamyka w niedzielę ŁKS–DevelopRes (18:00).",
+      "be": "League live blog (opened 2 Oct 12:42, updated after Kalisz): PGE Budowlani won 3–0 away at NETLAND MKS Kalisz. UNI Opole host Chemik the same evening (20:30). Round ends Sunday with ŁKS–DevelopRes (18:00).",
+      "bt": "Lig anlatımı: Budowlani Kalisz'de 3-0 kazandı. Akşam Opole-Chemik 20:30. Hafta pazar ŁKS-DevelopRes ile kapanıyor.",
+      "u": "https://www.tauronligakobiet.pl/liveCoverage,zaczynamy-sezon-20262027-na-poczatek-starcia-w-kaliszu-i-w-opolu.html",
       "un": "TAURON Liga Kobiet"
     },
     {

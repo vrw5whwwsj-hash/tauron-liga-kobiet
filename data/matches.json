@@ -4,7 +4,7 @@
       "round": 1,
       "label": "1. kolejka",
       "window": "2–4 października 2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r1m1",
@@ -54,10 +54,12 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": true,
+            "polsat": false,
             "by": "grok",
-            "checkedAt": "2026-10-02T17:15:00Z"
-          }
+            "checkedAt": "2026-10-02T18:05:00Z",
+            "note": "Kafelek i karta 1104990: 0:3 (7:25, 17:25, 12:25). Relacja ligi: bardzo pewnie 3:0. Widzów 1489."
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r1m2",
@@ -85,7 +87,8 @@
               "new Chemik yet to play a league match",
               "middle and reception quality"
             ]
-          }
+          },
+          "tv": "Polsat Sport 3"
         },
         {
           "id": "r1m3",
@@ -115,7 +118,8 @@
               "Sokół fight",
               "Radomka tournament rhythm"
             ]
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r1m4",
@@ -143,7 +147,8 @@
               "Pałac at home",
               "Bielsko roster stability"
             ]
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r1m5",
@@ -171,7 +176,8 @@
               "Stal play-off know-how",
               "Grand Prix as a form signal"
             ]
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r1m6",
@@ -201,7 +207,8 @@
               "Grabka's new role",
               "ŁKS form at the Giants"
             ]
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -226,7 +233,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r2m2",
@@ -243,7 +251,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r2m3",
@@ -260,7 +269,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 3"
         },
         {
           "id": "r2m4",
@@ -277,7 +287,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r2m5",
@@ -294,7 +305,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r2m6",
@@ -311,7 +323,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -336,7 +349,8 @@
             "prediction": "—",
             "text": "Zapowiedź po 1. kolejce.",
             "textEn": "Preview after Round 1."
-          }
+          },
+          "tv": "Polsat Sport 2"
         },
         {
           "id": "r3m2",
@@ -351,9 +365,10 @@
             "headline": "Wrocław — Chemik",
             "headlineEn": "Wrocław — Chemik",
             "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
-          }
+            "text": "16.10, 19:00 według terminarza ligi. Karta meczu bez kafelka TV.",
+            "textEn": "16 Oct, 19:00 on the league schedule. Match card has no TV tile."
+          },
+          "tv": null
         },
         {
           "id": "r3m3",
@@ -370,6 +385,25 @@
             "prediction": "—",
             "text": "Godzina 12:00 według terminarza ligi. Kafel transmisji: Polsat Sport 1.",
             "textEn": "12:00 on the league schedule. Broadcast tile: Polsat Sport 1."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r3m4",
+          "date": "2026-10-17",
+          "time": "20:30",
+          "home": "dev",
+          "away": "rad",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "DevelopRes — Radomka",
+            "headlineEn": "DevelopRes — Radomka",
+            "prediction": "—",
+            "text": "Termin z listy ligi: 17.10, 20:30. Kafel transmisji: Polsat Sport 1. UNI Opole–Budowlani i Sokół–BKS są w kartach 3. kolejki, ale bez godziny na liście strony głównej.",
+            "textEn": "League list: 17 Oct, 20:30. Broadcast tile: Polsat Sport 1. UNI Opole–Budowlani and Sokół–BKS are on Round 3 cards, but without a homepage kick-off time."
           }
         }
       ]

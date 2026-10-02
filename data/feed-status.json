@@ -1,11 +1,42 @@
 {
-  "checkedAt": "2026-10-01T20:00:00+02:00",
+  "checkedAt": "2026-10-02T20:05:00+02:00",
   "seasonStart": "2026-10-02",
-  "liveResultsAvailable": false,
+  "liveResultsAvailable": true,
   "checks": [
-    { "id": "pls-tiles", "url": "https://www.tauronligakobiet.pl/", "ok": true, "http": 200, "note": "1. kolejka bez wyników (kafelki ···). Godziny bez zmian. Sekcja Transmisje na karcie meczu pusta." },
-    { "id": "polsat-rss-siatkowka", "url": "https://www.polsatsport.pl/rss/siatkowka.xml", "ok": true, "http": 200, "note": "1.10 17:14 inauguracja: PS1, Extra 2, Box Go. Plan 1. kolejki z Extra 2 przy pięciu meczach." },
-    { "id": "siatka-wyniki", "url": "https://siatka.org/wyniki/", "ok": true, "http": 200, "note": "Brak wyniku ligowego — sezon startuje 2.10." },
-    { "id": "volleybox-matches", "url": "https://women.volleybox.net/pl/matches", "ok": false, "http": 403, "note": "Cloudflare." }
+    {
+      "id": "pls-tiles",
+      "url": "https://www.tauronligakobiet.pl/",
+      "ok": true,
+      "http": 200,
+      "note": "Kalisz–Budowlani 0:3 (7:25, 17:25, 12:25). Opole–Chemik bez wyniku. TV z kart: PS1/PS3/PS2."
+    },
+    {
+      "id": "pls-live",
+      "url": "https://www.tauronligakobiet.pl/liveCoverage,zaczynamy-sezon-20262027-na-poczatek-starcia-w-kaliszu-i-w-opolu.html",
+      "ok": true,
+      "http": 200,
+      "note": "Relacja: Budowlani bardzo pewnie 3:0."
+    },
+    {
+      "id": "polsat-live",
+      "url": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-relacja-live-wynik-na-zywo/",
+      "ok": true,
+      "http": 200,
+      "note": "Relacja z 17:22 bez wyniku końcowego. Nie wpisano wyniku z Polsatu."
+    },
+    {
+      "id": "siatka-wyniki",
+      "url": "https://siatka.org/wyniki/",
+      "ok": true,
+      "http": 200,
+      "note": "Brak wyniku ligowego 2.10 w wynikach siatka.org."
+    },
+    {
+      "id": "volleybox-matches",
+      "url": "https://women.volleybox.net/pl/matches",
+      "ok": false,
+      "http": 403,
+      "note": "Cloudflare."
+    }
   ]
 }
