@@ -54,10 +54,10 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": false,
+            "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-02T18:05:00Z",
-            "note": "Kafelek i karta 1104990: 0:3 (7:25, 17:25, 12:25). Relacja ligi: bardzo pewnie 3:0. Widzów 1489."
+            "checkedAt": "2026-10-02T18:12:00Z",
+            "note": "Oba źródła: 0:3 (7:25, 17:25, 12:25). PLS kafelek 2.10 17:30 i karta 1104990 (przebieg 7:25, 17:25, 12:25, widzów 1489, relacja: bardzo pewnie 3:0). Polsat Sport: mecz zakończony, widget 0:3, sety 7-25, 17-25, 12-25."
           },
           "tv": "Polsat Sport 1"
         },
