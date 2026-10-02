@@ -155,10 +155,37 @@
             "title": "Chemik wywozi z Opola tie-breaka",
             "titleEn": "Chemik take the tie-break in Opole",
             "titleTr": "Chemik tie-break'i aldı",
-            "text": "UNI Opole przegrało u siebie z LOTTO Chemikiem Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Przyjezdne wygrały dwa pierwsze sety, gospodynie odpowiedziały 25:9 i 25:15, a tie-breaka wzięły policzanki 15:13. Stegu Arena: 1530 widzów. Na parkiecie m.in. Gabriela Makarowska-Kulej, Natalia Kecher i Katarzyna Zaroślińska-Król oraz Pola Janicka, Natalia Mędrzyk i Oliwia Sieradzka po stronie Chemika.",
-            "textEn": "UNI Opole lost at home to LOTTO Chemik Police 2–3 (21–25, 23–25, 25–9, 25–15, 13–15). Chemik took the first two sets, Opole answered 25–9 and 25–15, and Police won the tie-break 15–13. Stegu Arena: 1,530.",
-            "textTr": "UNI Opole evinde Chemik'e 2-3 kaybetti (21-25, 23-25, 25-9, 25-15, 13-15). Tie-break 13-15.",
-            "clip": "https://www.tauronligakobiet.pl/games/id/1104991.html"
+            "text": "UNI Opole przegrało u siebie z LOTTO Chemikiem Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Sety trwały 26, 30, 21, 23 i 20 minut. Przyjezdne wygrały dwie pierwsze partie, Wilczyce odpowiedziały 25:9 i 25:15, a tie-breaka wzięły policzanki 15:13. W ataku gospodarzy 61 punktów przy 44% skuteczności, goście 49 przy 35%, ale Chemik miał 8 asów przy 3 asach Opola i wygrał małe punkty 89:80. Najskuteczniejsza Wilczyc: Katarzyna Zaroślińska-Król 28 (28/53 w ataku, 53%). Natalia Kecher 8, Andriana Pavlyk 3. Po stronie Chemika Julia Orzeł 15 i Oliwia Sieradzka 9. W wyjściowej szóstce Opola także Vasja Filipović, Sydney Palazzolo i Gabriela Makarowska-Kulej, u Chemika Agata Milewska, Natalia Mędrzyk, Maja Koput i rozgrywająca Pola Janicka. Trenerzy: Bartłomiej Dąbrowski i Przemysław Kawka. Na ławce weszła też Róża Zegan.",
+            "textEn": "UNI Opole lost at home to LOTTO Chemik Police 2–3 (21–25, 23–25, 25–9, 25–15, 13–15). Chemik won the first two sets, Opole answered 25–9 and 25–15, Police took the tie-break 15–13. Small points 80–89. Katarzyna Zaroślińska-Król 28, Natalia Kecher 8, Andriana Pavlyk 3; Julia Orzeł 15, Oliwia Sieradzka 9. Chemik served 8 aces to Opole's 3.",
+            "textTr": "UNI Opole evinde Chemik'e 2-3 kaybetti (21-25, 23-25, 25-9, 25-15, 13-15). Zaroślińska-Król 28, Kecher 8; Orzeł 15, Sieradzka 9.",
+            "homeTop": [
+              {
+                "n": "Katarzyna Zaroślińska-Król",
+                "p": 28
+              },
+              {
+                "n": "Natalia Kecher",
+                "p": 8
+              },
+              {
+                "n": "Andriana Pavlyk",
+                "p": 3
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Julia Orzeł",
+                "p": 15
+              },
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 9
+              },
+              {
+                "n": "Agata Milewska",
+                "p": 2
+              }
+            ]
           },
           "clip": "https://www.tauronligakobiet.pl/games/id/1104991.html"
         },
