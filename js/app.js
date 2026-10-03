@@ -224,7 +224,7 @@ async function init() {
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
     fetch("./data/season.json?v=40", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=40", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=43", bust).then((r) => r.json()),
     fetch("./data/scorers.json?v=42", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
     fetch("./data/news.json?v=40", bust).then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("./data/analysis.json?v=40", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
