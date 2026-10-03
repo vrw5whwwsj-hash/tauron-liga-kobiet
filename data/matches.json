@@ -237,12 +237,12 @@
           "tv": "Polsat Sport 1",
           "verify": {
             "status": "confirmed",
-            "pls": false,
+            "pls": true,
             "polsat": false,
             "siatka": true,
             "by": "grok",
-            "checkedAt": "2026-10-03T12:20:00Z",
-            "note": "siatka.org relacja 3.10 14:02: 0:3 (22:25, 23:25, 22:25), MVP Aleksandra Dudek, punkty zawodniczek. Kafelek PLS (karta 1104994) o 14:15 nadal „Trwa”, 0:2 (22:25, 23:25). Volleybox bez wyniku. Polsat bez relacji końcowej."
+            "checkedAt": "2026-10-03T13:20:00Z",
+            "note": "PLS ranking/kafelek 3.10: 0:3 (22:25, 23:25, 22:25). siatka.org 14:02 zgodne, MVP Aleksandra Dudek. Karta 1104994 wcześniej wisiała jako Trwa 0:2."
           },
           "recap": {
             "title": "Radomka bez straty seta w Mogilnie",
