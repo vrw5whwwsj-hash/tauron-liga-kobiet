@@ -76,14 +76,41 @@ function renderScorers() {
   const wrap = document.getElementById("scorers-wrap");
   if (!wrap) return;
   if (!SCORERS) { wrap.innerHTML = `<p class='muted'>${t("noData")}</p>`; return; }
-  const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
   const note = pick(SCORERS, "note", "noteEn", "noteTr") || t("scorersEmpty");
-  if (!players.length) { wrap.innerHTML = `<div class="note">${note}</div>`; return; }
-  const body = players.map((p, i) => {
-    const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
-    return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
+  const rankings = SCORERS.rankings || [];
+  if (!rankings.length) {
+    const players = (SCORERS.players || []).slice().sort((a, b) => b.pts - a.pts || b.avg - a.avg);
+    if (!players.length) { wrap.innerHTML = `<div class="note">${note}</div>`; return; }
+    const body = players.map((p, i) => {
+      const avg = p.sets ? (p.pts / p.sets).toFixed(2) : (p.avg || "\u2014");
+      return `<tr><td class="pos">${i + 1}</td><td class="team">${p.name}</td><td>${p.team}</td><td>${p.pos || ""}</td><td>${p.matches || 0}</td><td><strong>${p.pts}</strong></td><td>${avg}</td><td>${p.attack ?? "\u2014"}</td><td>${p.block ?? "\u2014"}</td><td>${p.ace ?? "\u2014"}</td></tr>`;
+    }).join("");
+    wrap.innerHTML = `<div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
+    return;
+  }
+  const setsLab = LANG === "en" ? "Sets" : LANG === "tr" ? "Set" : "Sety";
+  const nLab = LANG === "en" ? "Recv" : LANG === "tr" ? "Karş." : "Liczba";
+  const digLab = LANG === "en" ? "Digs" : LANG === "tr" ? "Savunma" : "Obrony";
+  wrap.innerHTML = `<div class="note">${note}</div>` + rankings.map((r) => {
+    const title = pick(r, "title", "titleEn", "titleTr");
+    const kind = r.id;
+    const head = kind === "block" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("block"), t("avg")]
+      : kind === "serve" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("ace"), t("avg")]
+      : kind === "attack" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("attack"), "Eff%"]
+      : kind === "receive" ? ["#", t("player"), t("club"), t("thM"), setsLab, nLab, "poz%", "perf%"]
+      : kind === "dig" ? ["#", t("player"), t("club"), t("thM"), setsLab, digLab, t("avg")]
+      : ["#", t("player"), t("club"), t("thM"), setsLab, t("thPts"), t("avg")];
+    const body = (r.players || []).map((p) => {
+      const cells = kind === "block" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.block}</strong>`, p.perSet]
+        : kind === "serve" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.ace}</strong>`, p.perSet]
+        : kind === "attack" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.attack}</strong>`, p.eff]
+        : kind === "receive" ? [p.rank, p.name, p.team, p.matches, p.sets, p.n, `<strong>${p.posPct}</strong>`, p.perf]
+        : kind === "dig" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.digs}</strong>`, p.perSet]
+        : [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.pts}</strong>`, p.perSet];
+      return `<tr>${cells.map((c, i) => `<td class="${i === 0 ? "pos" : i === 1 ? "team" : ""}">${c}</td>`).join("")}</tr>`;
+    }).join("");
+    return `<div class="card"><h2>${title}</h2><div class="table-scroll"><table class="standings"><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${body}</tbody></table></div></div>`;
   }).join("");
-  wrap.innerHTML = `<div class="table-scroll"><table class="standings"><thead><tr><th>#</th><th>${t("player")}</th><th>${t("club")}</th><th>${t("pos")}</th><th>${t("thM")}</th><th>${t("thPts")}</th><th>${t("avg")}</th><th>${t("attack")}</th><th>${t("block")}</th><th>${t("ace")}</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 function renderRound(roundObj) {
   if (!roundObj) return `<p class='muted'>${t("noData")}</p>`;
@@ -198,7 +225,7 @@ async function init() {
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
     fetch("./data/season.json?v=40", bust).then((r) => r.json()),
     fetch("./data/matches.json?v=40", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=40", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/scorers.json?v=41", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
     fetch("./data/news.json?v=40", bust).then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("./data/analysis.json?v=40", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
     fetch("./data/r3.json?v=40", bust).then((r) => r.json()).catch(() => null),
