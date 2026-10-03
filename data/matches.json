@@ -289,8 +289,32 @@
           "home": "byd",
           "away": "bks",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Pałac próbuje zatrzymać BKS",
             "headlineEn": "Pałac try to stop BKS",
@@ -309,7 +333,24 @@
               "Bielsko roster stability"
             ]
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-03T15:37:00Z",
+            "note": "PLS karta 1104992: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15), łącznie 104:106, 2:05. Widzów 750. MVP Iris Vos. HSW Immobile Łuczniczka."
+          },
+          "recap": {
+            "title": "BKS wywozi tie-breaka z Łuczniczki",
+            "titleEn": "BKS take the tie-break in Bydgoszcz",
+            "titleTr": "BKS tie-break'i aldı",
+            "text": "Metalkas Pałac Bydgoszcz przegrał u siebie z BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). Bielszczanki wygrały dwa pierwsze sety, Pałac odpowiedział 25:20 i 25:21, tie-break 15:10 dla BKS. Małe punkty 104:106, mecz trwał 2:05. HSW Immobile Łuczniczka: 750 widzów. MVP: Iris Vos.",
+            "textEn": "Metalkas Pałac Bydgoszcz lost 2-3 to BKS ZGO Bielsko-Biała (21-25, 23-25, 25-20, 25-21, 10-15). Small points 104-106 in 2:05. Attendance 750. MVP Iris Vos.",
+            "textTr": "Pałac 2-3 BKS (21-25, 23-25, 25-20, 25-21, 10-15). MVP Iris Vos."
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104992.html"
         },
         {
           "id": "r1m5",
