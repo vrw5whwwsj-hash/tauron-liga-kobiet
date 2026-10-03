@@ -196,24 +196,8 @@
           "home": "mog",
           "away": "rad",
           "venue": "Mogilno",
-          "sets": [
-            [
-              22,
-              25
-            ],
-            [
-              23,
-              25
-            ],
-            [
-              22,
-              25
-            ]
-          ],
-          "score": [
-            0,
-            3
-          ],
+          "sets": null,
+          "score": null,
           "preview": {
             "headline": "Waleczny Sokół kontra Radomka po rewolucji",
             "headlineEn": "Battling Sokół vs rebuilt Radomka",
@@ -234,24 +218,7 @@
               "Radomka tournament rhythm"
             ]
           },
-          "tv": "Polsat Sport 1",
-          "verify": {
-            "status": "confirmed",
-            "pls": true,
-            "polsat": false,
-            "by": "grok",
-            "checkedAt": "2026-10-03T11:50:00Z",
-            "note": "PLS karta 1104994: 0:3 (22:25, 23:25, 22:25), przebieg 22:25, 23:25, 22:25, łącznie 67:75, 1:29. Widzów 960. MVP Aleksandra Dudek."
-          },
-          "recap": {
-            "title": "Radomka bez straty seta w Mogilnie",
-            "titleEn": "Radomka take Mogilno in straight sets",
-            "titleTr": "Radomka Mogilno'da 3-0",
-            "text": "Sokół & Hagric Mogilno przegrał u siebie z MOYA Radomką Radom 0:3 (22:25, 23:25, 22:25). Trzy sety po 25:22, 25:23 i 25:22 dla przyjezdnych. Małe punkty 67:75, mecz trwał 1:29. Hala Mogilno Sport: 960 widzów. MVP: Aleksandra Dudek.",
-            "textEn": "Sokół & Hagric Mogilno lost 0-3 to MOYA Radomka Radom (22-25, 23-25, 22-25). Small points 67-75 in 1:29. Attendance 960. MVP Aleksandra Dudek.",
-            "textTr": "Mogilno 0-3 Radomka (22-25, 23-25, 22-25). MVP Aleksandra Dudek."
-          },
-          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104994.html"
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r1m4",
