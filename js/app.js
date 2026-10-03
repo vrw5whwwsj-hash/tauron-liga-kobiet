@@ -100,7 +100,7 @@ function renderScorers() {
       : kind === "receive" ? ["#", t("player"), t("club"), t("thM"), setsLab, nLab, "poz%", "perf%"]
       : kind === "dig" ? ["#", t("player"), t("club"), t("thM"), setsLab, digLab, t("avg")]
       : ["#", t("player"), t("club"), t("thM"), setsLab, t("thPts"), t("avg")];
-    const body = (r.players || []).map((p) => {
+    const body = (r.players || []).slice(0, 5).map((p) => {
       const cells = kind === "block" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.block}</strong>`, p.perSet]
         : kind === "serve" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.ace}</strong>`, p.perSet]
         : kind === "attack" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.attack}</strong>`, p.eff]
@@ -225,7 +225,7 @@ async function init() {
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
     fetch("./data/season.json?v=40", bust).then((r) => r.json()),
     fetch("./data/matches.json?v=40", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=41", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/scorers.json?v=42", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
     fetch("./data/news.json?v=40", bust).then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("./data/analysis.json?v=40", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
     fetch("./data/r3.json?v=40", bust).then((r) => r.json()).catch(() => null),
