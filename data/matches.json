@@ -196,8 +196,24 @@
           "home": "mog",
           "away": "rad",
           "venue": "Mogilno",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Waleczny Sokół kontra Radomka po rewolucji",
             "headlineEn": "Battling Sokół vs rebuilt Radomka",
@@ -218,7 +234,53 @@
               "Radomka tournament rhythm"
             ]
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": false,
+            "polsat": false,
+            "siatka": true,
+            "by": "grok",
+            "checkedAt": "2026-10-03T12:20:00Z",
+            "note": "siatka.org relacja 3.10 14:02: 0:3 (22:25, 23:25, 22:25), MVP Aleksandra Dudek, punkty zawodniczek. Kafelek PLS (karta 1104994) o 14:15 nadal „Trwa”, 0:2 (22:25, 23:25). Volleybox bez wyniku. Polsat bez relacji końcowej."
+          },
+          "recap": {
+            "title": "Radomka bez straty seta w Mogilnie",
+            "titleEn": "Radomka take Mogilno in straight sets",
+            "titleTr": "Radomka Mogilno'da 3-0",
+            "text": "Sokół & Hagric Mogilno przegrał u siebie z MOYA Radomką Radom 0:3 (22:25, 23:25, 22:25). siatka.org: Sokół prowadził 8:4 (Ejsmont), potem Fedyk i Garita przejęły seta. W drugim Drużkowska dała 11:10, końcówka dla Radomki. W trzecim Dudek wzięła piłkę meczową i zakończyła spotkanie. MVP: Aleksandra Dudek. Punkty: Drużkowska 18, Kowalska 13, Świętoń 9, Ejsmont 4, Cygan 4, Durul 2, Krenicky 1; Dudek 18, Fedyk 9, Chylińska 9, Gierszewska 7, Petrenko 5, Garita 4.",
+            "textEn": "Sokół & Hagric Mogilno lost 0-3 to MOYA Radomka (22-25, 23-25, 22-25). siatka.org: hosts led 8-4, then Fedyk and Garita took the set. Drużkowska made it 11-10 in set two; Dudek closed the match. MVP Aleksandra Dudek. Drużkowska 18, Kowalska 13, Świętoń 9; Dudek 18, Fedyk 9, Chylińska 9.",
+            "textTr": "Mogilno 0-3 Radomka (22-25, 23-25, 22-25). MVP Aleksandra Dudek. Drużkowska 18, Kowalska 13; Dudek 18, Fedyk 9.",
+            "homeTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 18
+              },
+              {
+                "n": "Wiktoria Kowalska",
+                "p": 13
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Dudek",
+                "p": 18
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 9
+              },
+              {
+                "n": "Chylińska",
+                "p": 9
+              }
+            ]
+          },
+          "clip": "https://siatka.org/pokaz/tauron-liga-kobiet-sokol-mogilno-radomka-radom/"
         },
         {
           "id": "r1m4",
