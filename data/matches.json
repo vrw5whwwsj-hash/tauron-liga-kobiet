@@ -430,7 +430,7 @@
     {
       "round": 3,
       "label": "3. kolejka",
-      "window": "15–17 października 2026",
+      "window": "15–18 października 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -501,8 +501,26 @@
             "headline": "DevelopRes — Radomka",
             "headlineEn": "DevelopRes — Radomka",
             "prediction": "—",
-            "text": "Termin z listy ligi: 17.10, 20:30. Kafel transmisji: Polsat Sport 1. UNI Opole–Budowlani i Sokół–BKS są w kartach 3. kolejki, ale bez godziny na liście strony głównej.",
-            "textEn": "League list: 17 Oct, 20:30. Broadcast tile: Polsat Sport 1. UNI Opole–Budowlani and Sokół–BKS are on Round 3 cards, but without a homepage kick-off time."
+            "text": "Termin z listy ligi: 17.10, 20:30. Kafelek: Polsat Sport 1. Opole–Budowlani doszło 18.10 o 20:30. Sokół–BKS nadal bez godziny na liście strony głównej.",
+            "textEn": "League list: 17 Oct, 20:30, Polsat Sport 1 tile. Opole–Budowlani is now 18 Oct at 20:30. Sokół–BKS still has no homepage kick-off."
+          }
+        },
+        {
+          "id": "r3m5",
+          "date": "2026-10-18",
+          "time": "20:30",
+          "home": "opo",
+          "away": "bud",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "Opole — Budowlani",
+            "headlineEn": "Opole — Budowlani",
+            "prediction": "—",
+            "text": "Termin z listy ligi: 18.10, 20:30. Kafelek transmisji: Polsat Sport 1.",
+            "textEn": "League list: 18 Oct, 20:30. Broadcast tile: Polsat Sport 1."
           }
         }
       ]
