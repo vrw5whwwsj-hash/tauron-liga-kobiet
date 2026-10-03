@@ -339,16 +339,44 @@
             "pls": true,
             "polsat": false,
             "by": "grok",
-            "checkedAt": "2026-10-03T15:37:00Z",
-            "note": "PLS karta 1104992: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15), łącznie 104:106, 2:05. Widzów 750. MVP Iris Vos. HSW Immobile Łuczniczka."
+            "checkedAt": "2026-10-03T16:15:00Z",
+            "note": "PLS karta: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15), 104:106, 2:05, widzów 750, MVP Iris Vos, HSW Immobile Łuczniczka. Raport Volleystation: Makarewicz 26, Pol 16, Pinczewska 14; Vos 22, Wasilewska 19, Laak 17. Asy 8–7, blok 16–18. Trenerzy Łyczakowski i Piekarczyk. Relacja ligi 16:48. Polsat Sport bez relacji meczowej."
           },
           "recap": {
             "title": "BKS wywozi tie-breaka z Łuczniczki",
             "titleEn": "BKS take the tie-break in Bydgoszcz",
             "titleTr": "BKS tie-break'i aldı",
-            "text": "Metalkas Pałac Bydgoszcz przegrał u siebie z BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). Bielszczanki wygrały dwa pierwsze sety, Pałac odpowiedział 25:20 i 25:21, tie-break 15:10 dla BKS. Małe punkty 104:106, mecz trwał 2:05. HSW Immobile Łuczniczka: 750 widzów. MVP: Iris Vos.",
-            "textEn": "Metalkas Pałac Bydgoszcz lost 2-3 to BKS ZGO Bielsko-Biała (21-25, 23-25, 25-20, 25-21, 10-15). Small points 104-106 in 2:05. Attendance 750. MVP Iris Vos.",
-            "textTr": "Pałac 2-3 BKS (21-25, 23-25, 25-20, 25-21, 10-15). MVP Iris Vos."
+            "text": "Metalkas Pałac Bydgoszcz przegrał u siebie z BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). Bielszczanki wygrały dwa pierwsze sety, Pałac odpowiedział 25:20 i 25:21, tie-break 15:10 dla BKS. Małe punkty 104:106, mecz trwał 2:05. HSW Immobile Łuczniczka: 750 widzów. W pierwszym secie BKS prowadził 7:2, remis 14:14 po asie Wiktorii Makarewicz, set zamknęły dwa bloki na Marcie Pol. W czwartym Pałac odrobił sześć punktów i serią sześciu punktów doprowadził do tie-breaka; w piątym różnicę zrobiły zagrywki Kertu Laak. Najwięcej punktów: Makarewicz 26, Pol 16, Pinczewska 14; Iris Vos 22, Iga Wasilewska 19, Kertu Laak 17. MVP: Iris Vos (debiut w TAURON Lidze, atak 19/43, 44%). Atak punktowy 59–63, asy 8–7, blok 16–18. Szóstka Pałacu: Pol, Łyczakowska, Makarewicz, Dębowska, Hewelt, Pinczewska. BKS: Laak, Borowczak, Wasilewska, Szewczyk, Vos, Abramajtys. Trenerzy Bartłomiej Łyczakowski i Bartłomiej Piekarczyk.",
+            "textEn": "Metalkas Pałac Bydgoszcz lost 2–3 to BKS ZGO Bielsko-Biała (21–25, 23–25, 25–20, 25–21, 10–15). Small points 104–106 in 2:05. HSW Immobile Łuczniczka drew 750. Makarewicz 26, Pol 16, Pinczewska 14; Iris Vos 22, Iga Wasilewska 19, Kertu Laak 17. MVP Vos, on debut, attack 19/43 (44%). Attack points 59–63, aces 8–7, block 16–18. Coaches Bartłomiej Łyczakowski and Bartłomiej Piekarczyk.",
+            "textTr": "Pałac 2-3 BKS (21-25, 23-25, 25-20, 25-21, 10-15). 750 seyirci. Makarewicz 26, Pol 16; Vos 22, Wasilewska 19, Laak 17. MVP Vos. Hücum 59-63, ace 8-7, blok 16-18.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 26
+              },
+              {
+                "n": "Marta Pol",
+                "p": 16
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 22
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 19
+              },
+              {
+                "n": "Kertu Laak",
+                "p": 17
+              }
+            ]
           },
           "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104992.html"
         },
