@@ -241,8 +241,8 @@
             "polsat": false,
             "siatka": true,
             "by": "grok",
-            "checkedAt": "2026-10-03T13:20:00Z",
-            "note": "PLS ranking/kafelek 3.10: 0:3 (22:25, 23:25, 22:25). siatka.org 14:02 zgodne, MVP Aleksandra Dudek. Karta 1104994 wcześniej wisiała jako Trwa 0:2."
+            "checkedAt": "2026-10-03T18:05:00Z",
+            "note": "PLS lista meczów i kafelek 3.10 wieczór: 0:3. Relacja ligi 13:33 i siatka.org 14:02 zgodne (22:25, 23:25, 22:25), MVP Aleksandra Dudek. Polsat Sport bez osobnej relacji meczowej."
           },
           "recap": {
             "title": "Radomka bez straty seta w Mogilnie",
@@ -561,7 +561,7 @@
     {
       "round": 3,
       "label": "3. kolejka",
-      "window": "15–18 października 2026",
+      "window": "15–19 października 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -632,8 +632,8 @@
             "headline": "DevelopRes — Radomka",
             "headlineEn": "DevelopRes — Radomka",
             "prediction": "—",
-            "text": "Termin z listy ligi: 17.10, 20:30. Kafelek: Polsat Sport 1. Opole–Budowlani doszło 18.10 o 20:30. Sokół–BKS nadal bez godziny na liście strony głównej.",
-            "textEn": "League list: 17 Oct, 20:30, Polsat Sport 1 tile. Opole–Budowlani is now 18 Oct at 20:30. Sokół–BKS still has no homepage kick-off."
+            "text": "Termin z listy ligi: 17.10, 20:30. Kafelek: Polsat Sport 1. Sokół–BKS doszedł na listę: 19.10, 20:30, Polsat Sport 1.",
+            "textEn": "League list: 17 Oct, 20:30, Polsat Sport 1. Sokół–BKS is now on the list: 19 Oct, 20:30, Polsat Sport 1."
           }
         },
         {
@@ -652,6 +652,24 @@
             "prediction": "—",
             "text": "Termin z listy ligi: 18.10, 20:30. Kafelek transmisji: Polsat Sport 1.",
             "textEn": "League list: 18 Oct, 20:30. Broadcast tile: Polsat Sport 1."
+          }
+        },
+        {
+          "id": "r3m6",
+          "date": "2026-10-19",
+          "time": "20:30",
+          "home": "mog",
+          "away": "bks",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "Sokół — BKS",
+            "headlineEn": "Sokół — BKS",
+            "prediction": "—",
+            "text": "Lista ligi (3.10, wieczór): poniedziałek 19.10, 20:30. Kafelek transmisji: Polsat Sport 1. Wcześniej para nie miała godziny na stronie głównej.",
+            "textEn": "League list (3 Oct evening): Monday 19 Oct, 20:30. Broadcast tile: Polsat Sport 1. The pair previously had no homepage kick-off."
           }
         }
       ]

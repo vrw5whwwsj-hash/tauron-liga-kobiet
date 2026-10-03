@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-02T20:05:00+02:00",
+  "checkedAt": "2026-10-03T20:05:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,35 +8,35 @@
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Kalisz–Budowlani 0:3 (7:25, 17:25, 12:25). Opole–Chemik bez wyniku. TV z kart: PS1/PS3/PS2."
+      "note": "Kafelki: Kalisz 0:3, Opole 2:3, Mogilno 0:3, Pałac 2:3. Niedziela bez wyniku (Wrocław–Stal 15:00 PS1, ŁKS–DevelopRes 18:00 PS1). Sokół–BKS 19.10 20:30 PS1. Wrocław–Chemik 16.10 19:00 bez kafelka."
     },
     {
-      "id": "pls-live",
-      "url": "https://www.tauronligakobiet.pl/liveCoverage,zaczynamy-sezon-20262027-na-poczatek-starcia-w-kaliszu-i-w-opolu.html",
+      "id": "pls-news",
+      "url": "https://www.tauronligakobiet.pl/message/section/news.html",
       "ok": true,
       "http": 200,
-      "note": "Relacja: Budowlani bardzo pewnie 3:0."
+      "note": "13:33 Radomka w Mogilnie. 16:48 tie-break w Bydgoszczy, MVP Vos."
     },
     {
-      "id": "polsat-live",
-      "url": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-relacja-live-wynik-na-zywo/",
+      "id": "polsat-plan",
+      "url": "https://www.polsatsport.pl/wiadomosc/2026-09-28/tauron-liga-kobiet-plan-transmisji-1-kolejki/",
       "ok": true,
       "http": 200,
-      "note": "Relacja z 17:22 bez wyniku końcowego. Nie wpisano wyniku z Polsatu."
+      "note": "Niedziela: PS1 i Extra 2, bez wyników. Kanał z kafelka ligi: Sport 1."
     },
     {
-      "id": "siatka-wyniki",
-      "url": "https://siatka.org/wyniki/",
+      "id": "siatka-relacje",
+      "url": "https://siatka.org/pokaz/tauron-liga-kobiet-palac-bydgoszcz-bks-bielsko-biala/",
       "ok": true,
       "http": 200,
-      "note": "Brak wyniku ligowego 2.10 w wynikach siatka.org."
+      "note": "17:59 Pałac–BKS 2:3, sety zgodne z kartą PLS."
     },
     {
       "id": "volleybox-matches",
       "url": "https://women.volleybox.net/pl/matches",
       "ok": false,
       "http": 403,
-      "note": "Cloudflare."
+      "note": "Cloudflare. Wyników nie bierzemy."
     }
   ]
 }
