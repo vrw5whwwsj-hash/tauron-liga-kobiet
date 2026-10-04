@@ -444,9 +444,37 @@
             "title": "Stal wywozi tie-breaka z Orbity",
             "titleEn": "Stal take the tie-break at Orbita",
             "titleTr": "Stal tie-break'i aldı",
-            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą po dogrywce 26:24, Mielczanki wygrały drugą, trzecią i tie-breaka 15:8. Sety trwały 31, 33, 28, 31 i 16 minut, łącznie 2:19. Małe punkty 97:112. Hala Orbita, 859 widzów. Sędziowie Łukasz Szczepankiewicz i Grzegorz Skowroński.",
-            "textEn": "#VolleyWrocław lost at home to ITA TOOLS Stal Mielec 2–3 (25–23, 21–25, 17–25, 26–24, 8–15). Small points 97–112. Hala Orbita, 859 fans, 2 hours 19 minutes.",
-            "textTr": "#VolleyWrocław evinde Stal'a 2-3 kaybetti (25-23, 21-25, 17-25, 26-24, 8-15)."
+            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów, 2:19. Z protokołu suma punktów 73:82, asy 4–7. Wrocław: Diana Frankevych 16, Sara Wąsiakowska 11, Dominika Sobolska-Tarasova 7, Julia Bińczycka 2. Stal: Aleksandra Adamczyk 18, Anna Bączyńska 17, Rozalia Moszyńska 13. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
+            "textEn": "#VolleyWrocław lost 2–3 to Stal Mielec (25–23, 21–25, 17–25, 26–24, 8–15). Player points 73–82, aces 4–7. Frankevych 16, Wąsiakowska 11, Sobolska-Tarasova 7; Adamczyk 18, Bączyńska 17, Moszyńska 13.",
+            "textTr": "#VolleyWrocław 2-3 Stal. Frankevych 16, Adamczyk 18, Bączyńska 17.",
+            "homeTop": [
+              {
+                "n": "Diana Frankevych",
+                "p": 16
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 11
+              },
+              {
+                "n": "Dominika Sobolska-Tarasova",
+                "p": 7
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 18
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 17
+              },
+              {
+                "n": "Rozalia Moszyńska",
+                "p": 13
+              }
+            ]
           }
         },
         {
