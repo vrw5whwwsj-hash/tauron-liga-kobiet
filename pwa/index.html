@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="TLK 26/27" />
+<meta name="theme-color" content="#0e1a2b" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icons/icon.svg" />
+<title>TAURON Liga Kobiet 2026/27</title>
+<style>
+  :root {
+    --bg: #0b1422;
+    --card: #15233a;
+    --card2: #1c2e4a;
+    --line: #2a4064;
+    --text: #f4f7fb;
+    --muted: #9eb0c9;
+    --amber: #f5a623;
+    --amber2: #ffd27a;
+    --green: #3ddc97;
+    --red: #ff6b6b;
+    --blue: #7eb6ff;
+    --safe-b: env(safe-area-inset-bottom);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  body { padding-bottom: calc(76px + var(--safe-b)); }
+  header {
+    position: sticky; top: 0; z-index: 5;
+    background: linear-gradient(180deg, #12203a 0%, #0e1a2b 100%);
+    border-bottom: 1px solid var(--line);
+    padding: calc(12px + env(safe-area-inset-top)) 16px 12px;
+  }
+  header h1 { margin: 0; font-size: 18px; letter-spacing: .2px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+  .badge { display: inline-block; background: var(--amber); color: #1a1203; font-weight: 700; font-size: 11px; border-radius: 999px; padding: 2px 8px; margin-left: 6px; }
+  main { padding: 12px 12px 8px; max-width: 860px; margin: 0 auto; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin-bottom: 12px; }
+  .card h2 { margin: 0 0 8px; font-size: 15px; }
+  .muted { color: var(--muted); font-size: 12px; line-height: 1.45; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th, td { padding: 7px 4px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.zone td:first-child { box-shadow: inset 3px 0 0 var(--green); }
+  tr.mid td:first-child { box-shadow: inset 3px 0 0 var(--amber); }
+  tr.out td:first-child { box-shadow: inset 3px 0 0 var(--red); }
+  .team { font-weight: 650; }
+  .pill { display: inline-block; border-radius: 999px; padding: 2px 7px; font-size: 11px; font-weight: 700; }
+  .w { background: #164b34; color: var(--green); }
+  .l { background: #4a2222; color: #ffb4b4; }
+  .p { background: #3d3418; color: var(--amber2); }
+  .match { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .match:last-child { border-bottom: 0; }
+  .home, .away { font-size: 13px; font-weight: 650; }
+  .away { text-align: right; }
+  .score { text-align: center; min-width: 72px; }
+  .score b { font-size: 16px; }
+  .sets { color: var(--muted); font-size: 11px; }
+  .when { color: var(--amber2); font-size: 11px; font-weight: 700; }
+  nav.tabs {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    background: #101c30ee; backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 6px 4px calc(6px + var(--safe-b));
+  }
+  nav.tabs button {
+    background: transparent; color: var(--muted); border: 0; font-size: 10px; padding: 6px 2px; border-radius: 10px;
+  }
+  nav.tabs button.active { color: var(--amber2); background: #243656; }
+  button.act, .rowbtns button {
+    background: var(--card2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 13px;
+  }
+  input, select, textarea {
+    width: 100%; background: #0e1a2b; color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px; font-size: 14px;
+  }
+  textarea { min-height: 72px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 4px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .forecast { border-left: 3px solid var(--amber); padding-left: 8px; margin-top: 6px; }
+  .src a { color: var(--blue); }
+  .legend span { margin-right: 10px; font-size: 11px; color: var(--muted); }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+  details summary { cursor: pointer; font-weight: 650; }
+  .abs { font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<header>
+  <h1>TAURON Liga Kobiet <span class="badge">2026/27</span></h1>
+  <p id="statusline">Stan na 4 października 2026, 12:15 · 1. kolejka w toku</p>
+</header>
+<main>
+  <section id="tab-table" class="panel active">
+    <div class="card">
+      <h2>Tabela fazy zasadniczej</h2>
+      <p class="muted">Punktacja PLS: 3 pkt za 3:0 i 3:1, 2 pkt za 3:2, 1 pkt za 2:3, 0 pkt za 0:3 i 1:3. Przy równych punktach: liczba zwycięstw, stosunek setów, stosunek małych punktów, mecze bezpośrednie.</p>
+      <div id="table"></div>
+      <p class="legend" style="margin-top:8px">
+        <span><i class="dot" style="background:var(--green)"></i>1–8 play-off</span>
+        <span><i class="dot" style="background:var(--amber)"></i>9–10</span>
+        <span><i class="dot" style="background:var(--red)"></i>11–12 (12. spada)</span>
+      </p>
+    </div>
+    <div class="card">
+      <h2>Dopisz wynik</h2>
+      <p class="muted">Wpis zestawów w formacie 25:17, 25:20, 25:22. Tabela przeliczy się sama i zostanie w telefonie.</p>
+      <label>Mecz</label>
+      <select id="matchPick"></select>
+      <label>Sety (kolejność gospodarz:gość)</label>
+      <input id="setInput" placeholder="25:18, 22:25, 25:20, 25:23" />
+      <div class="rowbtns" style="display:flex; gap:8px; margin-top:10px">
+        <button class="act" id="saveScore">Zapisz wynik</button>
+        <button class="act" id="clearScore">Cofnij wynik meczu</button>
+      </div>
+      <p id="saveMsg" class="muted"></p>
+    </div>
+  </section>
+
+  <section id="tab-fix" class="panel">
+    <div class="card">
+      <h2>Terminarz</h2>
+      <p class="muted">Daty 1–3. kolejki według siatka.org / Sport1 / Polsat Sport. Dalsze kolejki dopiszesz w notatkach albo po imporcie JSON.</p>
+      <div id="fixtures"></div>
+    </div>
+  </section>
+
+  <section id="tab-news" class="panel">
+    <div class="card">
+      <h2>Relacje po 1. kolejce</h2>
+      <p class="muted">Skrót z siatka.org, WP Sportowe Fakty i Polsat Sport. Niedzielne mecze (4.10, 15:00 i 18:00) w momencie zestawienia jeszcze się nie rozpoczęły.</p>
+      <div id="reports"></div>
+    </div>
+    <div class="card">
+      <h2>Absencje i kontuzje</h2>
+      <div id="absences"></div>
+      <label>Dopisz absencję</label>
+      <div class="grid2">
+        <input id="absTeam" placeholder="Klub" />
+        <input id="absPlayer" placeholder="Zawodniczka" />
+      </div>
+      <input id="absNote" placeholder="Uraz / status" style="margin-top:8px" />
+      <button class="act" id="addAbs" style="margin-top:8px">Dodaj</button>
+    </div>
+  </section>
+
+  <section id="tab-prev" class="panel">
+    <div class="card">
+      <h2>Zapowiedzi i prognozy</h2>
+      <p class="muted">Prognozy przed dokończeniem 1. kolejki i przed 2. kolejką (9–13.10). To nie są kursy bukmacherskie — ocena formy z relacji, składów i znanych absencji. Pewność: niska / średnia / wysoka.</p>
+      <div id="previews"></div>
+    </div>
+  </section>
+
+  <section id="tab-more" class="panel">
+    <div class="card">
+      <h2>Regulamin skrótem</h2>
+      <div class="muted">
+        <p>Faza zasadnicza: 12 drużyn, mecz i rewanż, 22 kolejki (do weekendu 13–14 marca 2027). Play-off od tygodnia 19 marca. Mistrza najpóźniej 28 kwietnia 2027.</p>
+        <p>Do play-off o miejsca 1–8 awansuje czołowa ósemka. Pary: 1–8, 2–7, 3–6, 4–5, do dwóch wygranych, zmiana gospodarza. Gospodarzem pierwszego meczu jest drużyna z niższego miejsca po fazie zasadniczej (wyżej sklasyfikowana gra u siebie potencjalny mecz decydujący) — zgodnie z systemem PLS na sezon 2026/27.</p>
+        <p>Półfinały: zwyciężczyni 1–8 vs zwyciężczyni 4–5 oraz zwyciężczyni 2–7 vs zwyciężczyni 3–6, do dwóch wygranych. Finał i mecz o 3. miejsce: do trzech wygranych. Miejsca 5–6: do dwóch wygranych. Miejsca 7–8 oraz 9–10: dwumecz, przy remisie punktowym złoty set do 15. Miejsca 11–12 zostają po fazie zasadniczej. Ostatnia drużyna traci prawo gry w TAURON Lidze Kobiet 2027/28.</p>
+        <p>Medalistki 2025/26: złoto PGE Budowlani Łódź, srebro KS DevelopRes Rzeszów, brąz UNI Opole. Beniaminek: NETLAND MKS Kalisz.</p>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Notatki klubowe</h2>
+      <label>Klub</label>
+      <select id="noteTeam"></select>
+      <label>Notatka</label>
+      <textarea id="noteBody" placeholder="Skład, forma, cytat z relacji..."></textarea>
+      <button class="act" id="saveNote" style="margin-top:8px">Zapisz notatkę</button>
+      <div id="notes"></div>
+    </div>
+    <div class="card">
+      <h2>Dane i instalacja</h2>
+      <p class="muted">Aplikacja trzyma wyniki, absencje i notatki lokalnie (localStorage). Działa offline po dodaniu do ekranu początkowego.</p>
+      <div class="rowbtns" style="display:flex; gap:8px; flex-wrap:wrap">
+        <button class="act" id="exportBtn">Eksport JSON</button>
+        <button class="act" id="resetBtn">Przywróć dane startowe</button>
+      </div>
+      <label>Import JSON</label>
+      <textarea id="importBox" placeholder='Wklej plik JSON i kliknij Import'></textarea>
+      <button class="act" id="importBtn" style="margin-top:8px">Import</button>
+      <div class="src muted" style="margin-top:10px">
+        Źródła zestawienia: <a href="https://siatka.org/wyniki/ligi-polskie1sezon-2026-20271tauron-liga-kobiet1/wynik-tab/tauron-liga-kobiet-20262027/">siatka.org</a>,
+        <a href="https://sport1.pl/tauron-liga-kobiet-2026-2027-terminarz-mecze-wyniki-tabela-transmisje-gdzie-ogladac-kto-gra-kiedy-i-o-ktorej-godzinie">Sport1</a>,
+        <a href="https://www.polsatsport.pl/wiadomosc/2026-10-03/tauron-liga-siatkarek-wyniki-i-skroty-meczow-1-kolejki/">Polsat Sport</a>,
+        <a href="https://informacje.wp.pl/wiadomosci/pierwsze-emocje-w-nowym-sezonie-tauron-ligi-kobiet-duzo-walki-w-mogilnie-i-bydgoszczy-ale-punkt-tylko-jeden-7336126803024160a">WP</a>,
+        <a href="https://www.pls.pl/dl/727480/575616/_system_rozgrywek_TAURON_Liga_Kobiet_sezon_2026-2027.pdf">system rozgrywek PLS</a>,
+        <a href="https://www.tauronligakobiet.pl/">tauronligakobiet.pl</a>.
+      </div>
+    </div>
+  </section>
+</main>
+<nav class="tabs">
+  <button data-tab="table" class="active">Tabela</button>
+  <button data-tab="fix">Terminarz</button>
+  <button data-tab="news">Relacje</button>
+  <button data-tab="prev">Zapowiedzi</button>
+  <button data-tab="more">Więcej</button>
+</nav>
+<script>
+const TEAMS = [
+  { id: "bud", name: "PGE Budowlani Łódź", short: "Budowlani" },
+  { id: "dev", name: "KS DevelopRes Rzeszów", short: "DevelopRes" },
+  { id: "opo", name: "UNI Opole", short: "Opole" },
+  { id: "che", name: "LOTTO Chemik Police", short: "Chemik" },
+  { id: "lks", name: "ŁKS Commercecon Łódź", short: "ŁKS" },
+  { id: "bks", name: "BKS ZGO Bielsko-Biała", short: "BKS" },
+  { id: "rad", name: "MOYA Radomka Radom", short: "Radomka" },
+  { id: "pal", name: "Metalkas Pałac Bydgoszcz", short: "Pałac" },
+  { id: "sta", name: "ITA TOOLS Stal Mielec", short: "Stal" },
+  { id: "wro", name: "#VolleyWrocław", short: "Wrocław" },
+  { id: "mog", name: "Sokół & Hagric Mogilno", short: "Mogilno" },
+  { id: "kal", name: "NETLAND MKS Kalisz", short: "Kalisz" }
+];
+const team = (id) => TEAMS.find(t => t.id === id);
+
+const SEED_MATCHES = [
+  { id: "r1-1", round: 1, date: "2026-10-02", time: "17:30", home: "kal", away: "bud", sets: [[7,25],[17,25],[12,25]], note: "MVP: Maja Storck. Transmisja Polsat Sport 1." },
+  { id: "r1-2", round: 1, date: "2026-10-02", time: "20:30", home: "opo", away: "che", sets: [[21,25],[23,25],[25,9],[25,15],[13,15]], note: "MVP: Julia Orzoł. Tie-break." },
+  { id: "r1-3", round: 1, date: "2026-10-03", time: "12:00", home: "mog", away: "rad", sets: [[22,25],[23,25],[22,25]], note: "Bliskie sety, skuteczniejsza Radomka." },
+  { id: "r1-4", round: 1, date: "2026-10-03", time: "15:00", home: "pal", away: "bks", sets: [[21,25],[23,25],[25,20],[25,21],[10,15]], note: "Tie-break 10:15 według Polsat Sport i siatka.org." },
+  { id: "r1-5", round: 1, date: "2026-10-04", time: "15:00", home: "wro", away: "sta", sets: null, note: "Polsat Sport 1 / Extra 2. Przed startem w momencie zestawienia." },
+  { id: "r1-6", round: 1, date: "2026-10-04", time: "18:00", home: "lks", away: "dev", sets: null, note: "Hit kolejki. Polsat Sport 1." },
+  { id: "r2-1", round: 2, date: "2026-10-09", time: "17:30", home: "sta", away: "pal", sets: null },
+  { id: "r2-2", round: 2, date: "2026-10-09", time: "20:30", home: "bud", away: "lks", sets: null, note: "Derby Łodzi." },
+  { id: "r2-3", round: 2, date: "2026-10-11", time: "15:00", home: "opo", away: "bks", sets: null },
+  { id: "r2-4", round: 2, date: "2026-10-12", time: "17:30", home: "dev", away: "mog", sets: null },
+  { id: "r2-5", round: 2, date: "2026-10-12", time: "20:30", home: "che", away: "kal", sets: null },
+  { id: "r2-6", round: 2, date: "2026-10-13", time: "17:30", home: "rad", away: "wro", sets: null },
+  { id: "r3-1", round: 3, date: "2026-10-15", time: "17:30", home: "lks", away: "sta", sets: null },
+  { id: "r3-2", round: 3, date: "2026-10-16", time: "19:00", home: "wro", away: "che", sets: null },
+  { id: "r3-3", round: 3, date: "2026-10-17", time: "", home: "pal", away: "kal", sets: null, note: "Data ramowa." },
+  { id: "r3-4", round: 3, date: "2026-10-17", time: "", home: "dev", away: "rad", sets: null, note: "Data ramowa." },
+  { id: "r3-5", round: 3, date: "2026-10-17", time: "", home: "opo", away: "bud", sets: null, note: "Data ramowa." },
+  { id: "r3-6", round: 3, date: "2026-10-17", time: "", home: "mog", away: "bks", sets: null, note: "Data ramowa." }
+];
+
+const SEED_ABS = [
+  { team: "UNI Opole", player: "Daria Wieczorek", note: "Uraz — nie zagrała w meczu z Chemikiem (2.10)." },
+  { team: "KS DevelopRes Rzeszów", player: "Aleksandra Gryka", note: "Rehabilitacja kolana po kontuzji z końca poprzedniego sezonu. Ma dołączyć w trakcie sezonu." }
+];
+
+const REPORTS = [
+  {
+    title: "Kalisz 0:3 Budowlani",
+    body: "Beniaminek nie nawiązał walki z mistrzyniami: 7:25, 17:25, 12:25. Maja Storck MVP (14), Rodica Buterez 13, Sasa Planinsec 11. Po stronie Kalisza najwięcej Jelena Vulin (10) i Isidora Rodić (6). Budowlani wyglądały na zgrane już w pierwszym secie."
+  },
+  {
+    title: "Opole 2:3 Chemik",
+    body: "Sety 21:25, 23:25, 25:9, 25:15, 13:15. Katarzyna Zaroślińska-Król 28 pkt, Natalia Kecher 15 (dużo blokiem). Chemik wygrał tie-break, MVP Julia Orzoł (16). Opole bez kontuzjowanej Darii Wieczorek. Atak Opola był skuteczniejszy, ale błędy (po 27) i tie-break rozstrzygnęły mecz na korzyść Polic."
+  },
+  {
+    title: "Mogilno 0:3 Radomka",
+    body: "22:25, 23:25, 22:25. Gospodynie prowadziły fragmentami, zabrakło końcówek. Sandra Świętoń: za mało czasu na zgranie z rozgrywającą. Drużkowska 18 i Kowalska 13 dla Sokoła; Weronika Dudek 18, Zhylinska 9, Fedyk 9 dla Radomki."
+  },
+  {
+    title: "Pałac 2:3 BKS",
+    body: "21:25, 23:25, 25:20, 25:21, 10:15. Bydgoszcz wróciła z 0:2, ale tie-break oddała (prowadzenie BKS do 7:5, potem 10:6). Makarewicz 26, Pol 16 dla Pałacu; Vos 22, Wasilewska 19, Laak 17 dla BKS. Pierwszy punkt ligowy dla gospodyń."
+  }
+];
+
+const PREVIEWS = [
+  {
+    when: "4.10, 15:00",
+    title: "#VolleyWrocław – ITA TOOLS Stal Mielec",
+    pick: "Wrocław 3:2",
+    conf: "niska",
+    body: "Oba składy mocno przebudowane, brak ligowego meczu w tym sezonie. Wrocław u siebie, po transferach Antonii Stautz, Anastazji Hryszczuk i Dominiki Sobolskiej-Tarasovej. Stal (trener Jakub Głuszak) z Sariną Wieland i Andjelą Jovanović. Minimalna przewaga gospodarza, mecz otwarty."
+  },
+  {
+    when: "4.10, 18:00",
+    title: "ŁKS Commercecon Łódź – KS DevelopRes Rzeszów",
+    pick: "ŁKS 3:2",
+    conf: "niska",
+    body: "Hit kolejki: gospodarz z czołówki ostatnich lat kontra wicemistrz w nowym składzie (kapitan Alicja Grabka, Taylor Mims, Marrit Jasper, Laura Jansen). DevelopRes bez Aleksandry Gryki (kolano). Czynnik własnej hali i absencja środkowej lekko przechylają szalę na ŁKS, ale Rzeszów ma jakość ataku."
+  },
+  {
+    when: "9.10, 17:30",
+    title: "Stal Mielec – Pałac Bydgoszcz",
+    pick: "Stal 3:1",
+    conf: "niska",
+    body: "Pałac pokazał charakter (powrót z 0:2), ale oddał tie-break i jedzie na wyjazd. Makarewicz w formie (26). Prognoza zakłada, że Stal u siebie wykorzysta niedosyt Bydgoszczy. Do korekty po niedzielnym meczu Stali z Wrocławiem."
+  },
+  {
+    when: "9.10, 20:30",
+    title: "Budowlani Łódź – ŁKS Commercecon Łódź",
+    pick: "Budowlani 3:1",
+    conf: "średnia",
+    body: "Derby. Mistrzynie rozbiły Kalisz 3:0, serwis Storck i Planinsec oraz blok były argumentem. ŁKS tego dnia gra jeszcze z DevelopResem — ewentualne zmęczenie i rotacje mogą ważyć. Przy pełnym składzie Budowlanych przewaga gospodarza jest realna, ale ŁKS potrafi grać tie-breaki."
+  },
+  {
+    when: "11.10, 15:00",
+    title: "UNI Opole – BKS Bielsko-Biała",
+    pick: "Opole 3:2",
+    conf: "średnia",
+    body: "Brązowe medalistki u siebie, ale bez Wieczorek i po stracie tie-breaka z Chemikiem mimo 28 punktów Zaroślińskiej-Król. BKS wygrał wyjazdowy tie-break w Bydgoszczy (Vos 22). Opole powinno być bliżej zwycięstwa niż w Policach, tie-break jest jednak prawdopodobny."
+  },
+  {
+    when: "12.10, 17:30",
+    title: "DevelopRes Rzeszów – Sokół Mogilno",
+    pick: "DevelopRes 3:0",
+    conf: "średnia",
+    body: "Mogilno przegrało 0:3, ale każdy set kończyło w okolicach 22–23. Świętoń mówi wprost o braku zgrania z rozgrywającą. DevelopRes, nawet bez Gryki i po ewentualnie ciężkim meczu w Łodzi, ma wyraźnie wyższy pułap. Jeśli Rzeszów odpadnie kondycyjnie w niedzielę, korekta na 3:1."
+  },
+  {
+    when: "12.10, 20:30",
+    title: "Chemik Police – MKS Kalisz",
+    pick: "Chemik 3:0",
+    conf: "wysoka",
+    body: "Kalisz zdobył 36 małych punktów w trzech setach z Budowlanymi. Chemik, mimo huśtawki w Opolu, ma Orzoł, Mędrzyk i doświadczenie tie-breaków. U siebie przeciw beniaminkowi powinien domknąć mecz bez piątego seta."
+  },
+  {
+    when: "13.10, 17:30",
+    title: "Radomka Radom – #VolleyWrocław",
+    pick: "Radomka 3:1",
+    conf: "średnia",
+    body: "Radomka wygrała w Mogilnie kontrolując końcówki (Dudek 18). Wrocław to skład po dużych transferach, ale bez ligowego sprawdzenia do niedzieli. Jeśli Wrocław wygra ze Stalą pewnie, prognozę trzeba podnieść do 3:2."
+  }
+];
+
+const KEY = "tlk-2026-27-state-v1";
+function load() {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return { matches: structuredClone(SEED_MATCHES), abs: structuredClone(SEED_ABS), notes: {} };
+    const s = JSON.parse(raw);
+    return { matches: s.matches || structuredClone(SEED_MATCHES), abs: s.abs || [], notes: s.notes || {} };
+  } catch (e) {
+    return { matches: structuredClone(SEED_MATCHES), abs: structuredClone(SEED_ABS), notes: {} };
+  }
+}
+let state = load();
+function save() { localStorage.setItem(KEY, JSON.stringify(state)); }
+
+function matchPoints(sets) {
+  if (!sets || !sets.length) return null;
+  let hs = 0, as = 0, hp = 0, ap = 0;
+  sets.forEach(([h, a]) => { hp += h; ap += a; if (h > a) hs++; else as++; });
+  let hmp = 0, amp = 0;
+  if (hs === 3 && as === 0) { hmp = 3; amp = 0; }
+  else if (hs === 3 && as === 1) { hmp = 3; amp = 0; }
+  else if (hs === 3 && as === 2) { hmp = 2; amp = 1; }
+  else if (as === 3 && hs === 2) { hmp = 1; amp = 2; }
+  else if (as === 3 && hs <= 1) { hmp = 0; amp = 3; }
+  return { hs, as, hp, ap, hmp, amp, hw: hs > as ? 1 : 0, aw: as > hs ? 1 : 0 };
+}
+
+function table() {
+  const rows = Object.fromEntries(TEAMS.map(t => [t.id, { id: t.id, p: 0, m: 0, w: 0, l: 0, sw: 0, sl: 0, pw: 0, pl: 0 }]));
+  state.matches.forEach(m => {
+    const r = matchPoints(m.sets);
+    if (!r) return;
+    const H = rows[m.home], A = rows[m.away];
+    H.m++; A.m++;
+    H.p += r.hmp; A.p += r.amp;
+    H.w += r.hw; A.w += r.aw;
+    H.l += r.aw; A.l += r.hw;
+    H.sw += r.hs; H.sl += r.as; A.sw += r.as; A.sl += r.hs;
+    H.pw += r.hp; H.pl += r.ap; A.pw += r.ap; A.pl += r.hp;
+  });
+  const list = Object.values(rows);
+  const ratio = (a, b) => b === 0 ? (a === 0 ? 1 : 999) : a / b;
+  list.sort((a, b) => {
+    if (b.p !== a.p) return b.p - a.p;
+    if (b.w !== a.w) return b.w - a.w;
+    const sr = ratio(b.sw, b.sl) - ratio(a.sw, a.sl);
+    if (Math.abs(sr) > 1e-9) return sr;
+    const pr = ratio(b.pw, b.pl) - ratio(a.pw, a.pl);
+    if (Math.abs(pr) > 1e-9) return pr;
+    return team(a.id).name.localeCompare(team(b.id).name, "pl");
+  });
+  return list;
+}
+
+function renderTable() {
+  const rows = table();
+  const html = [`<table><thead><tr><th>#</th><th>Drużyna</th><th class="num">M</th><th class="num">Pkt</th><th class="num">W-P</th><th class="num">Sety</th><th class="num">Małe</th></tr></thead><tbody>`];
+  rows.forEach((r, i) => {
+    const zone = i < 8 ? "zone" : i < 10 ? "mid" : "out";
+    html.push(`<tr class="${zone}"><td>${i + 1}</td><td class="team">${team(r.id).name}</td><td class="num">${r.m}</td><td class="num"><b>${r.p}</b></td><td class="num">${r.w}-${r.l}</td><td class="num">${r.sw}:${r.sl}</td><td class="num">${r.pw}:${r.pl}</td></tr>`);
+  });
+  html.push("</tbody></table>");
+  document.getElementById("table").innerHTML = html.join("");
+}
+
+function scoreLabel(m) {
+  const r = matchPoints(m.sets);
+  if (!r) return `<div class="when">${m.time || "godz. TBD"}</div><div class="sets">vs</div>`;
+  return `<div><b>${r.hs}:${r.as}</b></div><div class="sets">${m.sets.map(s => s.join(":")).join(", ")}</div>`;
+}
+
+function renderFixtures() {
+  const by = {};
+  state.matches.forEach(m => { (by[m.round] ||= []).push(m); });
+  const html = [];
+  Object.keys(by).sort((a, b) => a - b).forEach(rd => {
+    html.push(`<h2 style="margin-top:12px">${rd}. kolejka</h2>`);
+    by[rd].forEach(m => {
+      html.push(`<div class="match"><div class="home">${team(m.home).short}</div><div class="score">${scoreLabel(m)}<div class="when">${m.date.slice(8,10)}.${m.date.slice(5,7)}</div></div><div class="away">${team(m.away).short}</div></div>`);
+    });
+  });
+  document.getElementById("fixtures").innerHTML = html.join("");
+  const sel = document.getElementById("matchPick");
+  sel.innerHTML = state.matches.map(m => `<option value="${m.id}">${m.date} ${team(m.home).short} – ${team(m.away).short}${m.sets ? " ✓" : ""}</option>`).join("");
+}
+
+function renderReports() {
+  document.getElementById("reports").innerHTML = REPORTS.map(r => `<details open style="margin-bottom:8px"><summary>${r.title}</summary><p class="muted">${r.body}</p></details>`).join("");
+  document.getElementById("absences").innerHTML = state.abs.map((a, i) => `<div class="abs"><b>${a.player}</b> · ${a.team}<br><span class="muted">${a.note}</span> <button data-i="${i}" class="delabs" style="float:right">usuń</button></div>`).join("") || `<p class="muted">Brak wpisów.</p>`;
+}
+
+function renderPreviews() {
+  document.getElementById("previews").innerHTML = PREVIEWS.map(p => `<div class="card" style="background:#122238"><div class="when">${p.when}</div><h2>${p.title}</h2><div class="forecast"><b>${p.pick}</b> · pewność ${p.conf}</div><p class="muted">${p.body}</p></div>`).join("");
+}
+
+function renderNotes() {
+  const sel = document.getElementById("noteTeam");
+  sel.innerHTML = TEAMS.map(t => `<option value="${t.id}">${t.name}</option>`).join("");
+  const bits = Object.entries(state.notes).filter(([, v]) => v && v.trim());
+  document.getElementById("notes").innerHTML = bits.length ? bits.map(([id, v]) => `<p><b>${team(id).name}</b><br><span class="muted">${v.replaceAll("<", "<")}</span></p>`).join("") : `<p class="muted">Brak notatek.</p>`;
+}
+
+function render() {
+  renderTable();
+  renderFixtures();
+  renderReports();
+  renderPreviews();
+  renderNotes();
+  const played = state.matches.filter(m => m.sets).length;
+  document.getElementById("statusline").textContent = `Zapis lokalny · rozegrane mecze w bazie: ${played} · aktualizacja startowa 4.10.2026`;
+}
+
+document.querySelectorAll("nav.tabs button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("nav.tabs button").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+  });
+});
+
+document.getElementById("saveScore").onclick = () => {
+  const id = document.getElementById("matchPick").value;
+  const raw = document.getElementById("setInput").value.trim();
+  const sets = raw.split(/[,;]+/).map(s => s.trim()).filter(Boolean).map(s => {
+    const m = s.match(/(\d+)\s*[:\-]\s*(\d+)/);
+    return m ? [Number(m[1]), Number(m[2])] : null;
+  });
+  if (!sets.length || sets.some(x => !x)) {
+    document.getElementById("saveMsg").textContent = "Nie rozpoznano setów. Przykład: 25:22, 25:19, 23:25, 25:21";
+    return;
+  }
+  const m = state.matches.find(x => x.id === id);
+  m.sets = sets;
+  save(); render();
+  document.getElementById("saveMsg").textContent = "Zapisano. Tabela przeliczona.";
+};
+document.getElementById("clearScore").onclick = () => {
+  const id = document.getElementById("matchPick").value;
+  const m = state.matches.find(x => x.id === id);
+  m.sets = null; save(); render();
+  document.getElementById("saveMsg").textContent = "Wynik usunięty.";
+};
+document.getElementById("addAbs").onclick = () => {
+  const teamN = document.getElementById("absTeam").value.trim();
+  const player = document.getElementById("absPlayer").value.trim();
+  const note = document.getElementById("absNote").value.trim();
+  if (!teamN || !player) return;
+  state.abs.push({ team: teamN, player, note });
+  save(); renderReports();
+  document.getElementById("absTeam").value = document.getElementById("absPlayer").value = document.getElementById("absNote").value = "";
+};
+document.getElementById("absences").onclick = (e) => {
+  if (!e.target.classList.contains("delabs")) return;
+  state.abs.splice(Number(e.target.dataset.i), 1);
+  save(); renderReports();
+};
+document.getElementById("saveNote").onclick = () => {
+  const id = document.getElementById("noteTeam").value;
+  state.notes[id] = document.getElementById("noteBody").value;
+  save(); renderNotes();
+};
+document.getElementById("exportBtn").onclick = () => {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "tauron-liga-kobiet-2026-27.json";
+  a.click();
+};
+document.getElementById("importBtn").onclick = () => {
+  try {
+    const s = JSON.parse(document.getElementById("importBox").value);
+    if (!s.matches) throw new Error("brak meczów");
+    state = s; save(); render();
+    alert("Zaimportowano.");
+  } catch (e) { alert("Niepoprawny JSON"); }
+};
+document.getElementById("resetBtn").onclick = () => {
+  if (!confirm("Przywrócić dane z 4 października 2026?")) return;
+  state = { matches: structuredClone(SEED_MATCHES), abs: structuredClone(SEED_ABS), notes: {} };
+  save(); render();
+};
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+render();
+</script>
+</body>
+</html>
