@@ -444,8 +444,8 @@
             "title": "Stal wywozi tie-breaka z Orbity",
             "titleEn": "Stal take the tie-break at Orbita",
             "titleTr": "Stal tie-break'i aldı",
-            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów. Punkty Wrocławia z protokołu, suma 73: Antonia Stautz 23, Diana Frankevych 16, Sara Wąsiakowska 11, Natalia Dróżdż 9, Dominika Sobolska-Tarasova 7, Joanna Garncarz 4, Maja Malczewska 2, Marlena Kowalewska 1. Stal, suma 82: Aleksandra Adamczyk 18, Anna Bączyńska 17, Rozalia Moszyńska 13. Asy 4–7. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
-            "textEn": "#VolleyWrocław lost 2–3 to Stal (25–23, 21–25, 17–25, 26–24, 8–15). Wrocław points, total 73: Stautz 23, Frankevych 16, Wąsiakowska 11, Dróżdż 9, Sobolska-Tarasova 7. Stal 82: Adamczyk 18, Bączyńska 17, Moszyńska 13.",
+            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów. Punkty z protokołu, suma 73:82, asy 4–7. MVP: Aleksandra Adamczyk. Wrocław: Antonia Stautz 23, Diana Frankevych 16, Sara Wąsiakowska 11, Natalia Dróżdż 9, Dominika Sobolska-Tarasova 7, Joanna Garncarz 4, Maja Malczewska 2, Marlena Kowalewska 1. Stal: Aleksandra Adamczyk 18, Anna Bączyńska 17, Andjela Jovanović 14, Rozalia Moszyńska 13, Magdalena Ociepa 7, Linda Andersson 6, Weronika Sobiczewska 5, Julia Bińczycka 2. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
+            "textEn": "#VolleyWrocław lost 2–3 to Stal. Points 73–82. MVP Aleksandra Adamczyk. Stautz 23, Frankevych 16, Wąsiakowska 11. Adamczyk 18, Bączyńska 17, Jovanović 14, Moszyńska 13, Ociepa 7, Andersson 6, Sobiczewska 5, Bińczycka 2.",
             "textTr": "Wrocław 2-3 Stal. Stautz 23, Frankevych 16; Adamczyk 18, Bączyńska 17.",
             "homeTop": [
               {
@@ -471,8 +471,8 @@
                 "p": 17
               },
               {
-                "n": "Rozalia Moszyńska",
-                "p": 13
+                "n": "Andjela Jovanović",
+                "p": 14
               }
             ]
           }
