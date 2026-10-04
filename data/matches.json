@@ -444,10 +444,14 @@
             "title": "Stal wywozi tie-breaka z Orbity",
             "titleEn": "Stal take the tie-break at Orbita",
             "titleTr": "Stal tie-break'i aldı",
-            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów, 2:19. Z protokołu suma punktów 73:82, asy 4–7. Wrocław: Diana Frankevych 16, Sara Wąsiakowska 11, Dominika Sobolska-Tarasova 7, Julia Bińczycka 2. Stal: Aleksandra Adamczyk 18, Anna Bączyńska 17, Rozalia Moszyńska 13. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
-            "textEn": "#VolleyWrocław lost 2–3 to Stal Mielec (25–23, 21–25, 17–25, 26–24, 8–15). Player points 73–82, aces 4–7. Frankevych 16, Wąsiakowska 11, Sobolska-Tarasova 7; Adamczyk 18, Bączyńska 17, Moszyńska 13.",
-            "textTr": "#VolleyWrocław 2-3 Stal. Frankevych 16, Adamczyk 18, Bączyńska 17.",
+            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów. Punkty Wrocławia z protokołu, suma 73: Antonia Stautz 23, Diana Frankevych 16, Sara Wąsiakowska 11, Natalia Dróżdż 9, Dominika Sobolska-Tarasova 7, Joanna Garncarz 4, Maja Malczewska 2, Marlena Kowalewska 1. Stal, suma 82: Aleksandra Adamczyk 18, Anna Bączyńska 17, Rozalia Moszyńska 13. Asy 4–7. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
+            "textEn": "#VolleyWrocław lost 2–3 to Stal (25–23, 21–25, 17–25, 26–24, 8–15). Wrocław points, total 73: Stautz 23, Frankevych 16, Wąsiakowska 11, Dróżdż 9, Sobolska-Tarasova 7. Stal 82: Adamczyk 18, Bączyńska 17, Moszyńska 13.",
+            "textTr": "Wrocław 2-3 Stal. Stautz 23, Frankevych 16; Adamczyk 18, Bączyńska 17.",
             "homeTop": [
+              {
+                "n": "Antonia Stautz",
+                "p": 23
+              },
               {
                 "n": "Diana Frankevych",
                 "p": 16
@@ -455,10 +459,6 @@
               {
                 "n": "Sara Wąsiakowska",
                 "p": 11
-              },
-              {
-                "n": "Dominika Sobolska-Tarasova",
-                "p": 7
               }
             ],
             "awayTop": [
