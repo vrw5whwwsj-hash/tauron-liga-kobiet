@@ -387,8 +387,32 @@
           "home": "wro",
           "away": "mie",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              21,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Wzmocniony Wrocław startuje ze Stalą",
             "headlineEn": "Reinforced Wrocław open against Stal",
@@ -407,7 +431,23 @@
               "Grand Prix as a form signal"
             ]
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-04T16:35:00Z",
+            "note": "Karta ligi 1104993: 2:3 (25:23, 21:25, 17:25, 26:24, 8:15), 859 widzów, 2:19."
+          },
+          "recap": {
+            "title": "Stal wywozi tie-breaka z Orbity",
+            "titleEn": "Stal take the tie-break at Orbita",
+            "titleTr": "Stal tie-break'i aldı",
+            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą po dogrywce 26:24, Mielczanki wygrały drugą, trzecią i tie-breaka 15:8. Sety trwały 31, 33, 28, 31 i 16 minut, łącznie 2:19. Małe punkty 97:112. Hala Orbita, 859 widzów. Sędziowie Łukasz Szczepankiewicz i Grzegorz Skowroński.",
+            "textEn": "#VolleyWrocław lost at home to ITA TOOLS Stal Mielec 2–3 (25–23, 21–25, 17–25, 26–24, 8–15). Small points 97–112. Hala Orbita, 859 fans, 2 hours 19 minutes.",
+            "textTr": "#VolleyWrocław evinde Stal'a 2-3 kaybetti (25-23, 21-25, 17-25, 26-24, 8-15)."
+          }
         },
         {
           "id": "r1m6",
