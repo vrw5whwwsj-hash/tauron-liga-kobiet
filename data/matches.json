@@ -456,8 +456,32 @@
           "home": "lks",
           "away": "dev",
           "venue": "Łódź (ŁKS)",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Derby ambicji: ŁKS kontra DevelopRes. Cień kontuzji Jurczyk",
             "headlineEn": "Ambition derby: ŁKS vs DevelopRes. Jurczyk injury looms",
@@ -478,7 +502,23 @@
               "ŁKS form at the Giants"
             ]
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-04T18:50:00Z",
+            "note": "Karta ligi 1104995: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), 2468 widzów, 2:14, Sport Arena."
+          },
+          "recap": {
+            "title": "DevelopRes wywozi tie-breaka z Łodzi",
+            "titleEn": "DevelopRes take the tie-break in Łódź",
+            "titleTr": "DevelopRes tie-break'i aldı",
+            "text": "ŁKS Commercecon Łódź przegrał u siebie z KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). Rzeszowianki wygrały dwa pierwsze sety, ŁKS odpowiedział 25:19 i 25:14, a tie-breaka wzięły przyjezdne 17:15. Małe punkty 104:100. Sport Arena, 2468 widzów, mecz trwał 2 godziny 14 minut. Sędziowie Natalia Noga i Filip Kuchna.",
+            "textEn": "ŁKS Commercecon Łódź lost at home to KS DevelopRes Rzeszów 2–3 (22–25, 17–25, 25–19, 25–14, 15–17). Small points 104–100. Sport Arena, 2,468 fans, 2 hours 14 minutes.",
+            "textTr": "ŁKS evinde DevelopRes'e 2-3 kaybetti (22-25, 17-25, 25-19, 25-14, 15-17)."
+          }
         }
       ]
     },
@@ -498,11 +538,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Stal — Pałac",
-            "headlineEn": "Stal — Pałac",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "Stal po tie-breaku we Wrocławiu, Pałac szuka pierwszego zwycięstwa",
+            "headlineEn": "Stal after a Wrocław tie-break, Pałac still looking for a first win",
+            "headlineTr": "Stal Wrocław'den sonra, Pałac ilk galibiyeti arıyor",
+            "text": "ITA TOOLS Stal Mielec zaczęła sezon od 3:2 na wyjeździe z #VolleyWrocław (25:23, 21:25, 17:25, 26:24, 8:15) i ma 2 punkty. Metalkas Pałac Bydgoszcz przegrał u siebie z BKS 2:3 (21:25, 23:25, 25:20, 25:21, 10:15) i ma 1 punkt. Mielczanki były skuteczniejsze w tie-breaku, Pałac dwa sety urwał, ale piątego oddał 10:15. U siebie Stal jest faworytem, Pałac potrafi jednak przeciągnąć mecz.",
+            "textEn": "Stal opened with a 3–2 win at Wrocław and have 2 points. Pałac lost 2–3 at home to BKS and have 1. Stal are favourites at home, but Bydgoszcz already showed they can take sets.",
+            "textTr": "Stal deplasmanda 3-2 kazandı. Pałac evinde 2-3 kaybetti. Ev sahibi hafif favori.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "2 punkty Stali",
+              "tie-break Pałacu z BKS",
+              "hala w Mielcu"
+            ],
+            "keysEn": [
+              "Stal's 2 points",
+              "Pałac tie-break vs BKS",
+              "home court in Mielec"
+            ]
           },
           "tv": "Polsat Sport 1"
         },
@@ -516,11 +569,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Derby Łodzi: mistrzynie vs ŁKS",
-            "headlineEn": "Łódź derby: champions vs ŁKS",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "Derby Łodzi: mistrzynie po 3:0, ŁKS po tie-breaku z DevelopRes",
+            "headlineEn": "Łódź derby: champions after a 3–0, ŁKS after a tie-break",
+            "headlineTr": "Łódź derbisi",
+            "text": "PGE Budowlani Łódź otworzyły sezon 3:0 w Kaliszu (7:25, 17:25, 12:25), 75:36 w małych punktach i 3 punkty. ŁKS Commercecon przegrał u siebie z DevelopRes 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), małe punkty 104:100, 1 punkt. Tydzień wcześniej ŁKS wygrał z Rzeszowem finał LOTTO Gigantów Siatkówki. Derby przy pełniejszej hali niż Kalisz. Na papierze faworytem są obrończynie tytułu, ŁKS ma jednak świeży tie-break za sobą.",
+            "textEn": "Budowlani opened 3–0 at Kalisz, 75–36 in points. ŁKS lost 2–3 at home to DevelopRes, 104–100. A week earlier ŁKS beat Rzeszów in the LOTTO Giants final. Champions are favourites in the derby.",
+            "textTr": "Budowlani 3-0 başladı. ŁKS DevelopRes'e 2-3 kaybetti. Derbide şampiyon favori.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "3:0 w Kaliszu",
+              "tie-break ŁKS-u",
+              "derby"
+            ],
+            "keysEn": [
+              "3–0 in Kalisz",
+              "ŁKS tie-break",
+              "derby"
+            ]
           },
           "tv": "Polsat Sport 1"
         },
@@ -534,11 +600,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Opole — BKS",
-            "headlineEn": "Opole — BKS",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "Wilczyce po tie-breaku z Chemikiem przyjmują BKS",
+            "headlineEn": "UNI after the Chemik tie-break host BKS",
+            "headlineTr": "UNI, Chemik tie-break'inden sonra BKS'i ağırlıyor",
+            "text": "UNI Opole przegrało inaugurację u siebie z LOTTO Chemikiem 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Po 0:2 gospodynie wygrały dwa sety wyraźnie, tie-break oddały 13:15. Z protokołu: Zaroślińska-Król 28, Kecher 15, Palazzolo 11. BKS ZGO Bielsko-Biała wygrał w Bydgoszczy 3:2 (25:21, 25:23, 20:25, 21:25, 15:10) i ma 2 punkty, Opole 1. Stegu Arena. Mecz otwarty, lekkie wskazanie na gospodynie.",
+            "textEn": "UNI lost 2–3 at home to Chemik. BKS won 3–2 in Bydgoszcz. Home side a slight favourite at Stegu Arena.",
+            "textTr": "UNI evinde Chemik'e 2-3 kaybetti. BKS deplasmanda 3-2 kazandı.",
+            "prediction": "3:2",
+            "confidence": "niska",
+            "keys": [
+              "1 punkt Opola",
+              "2 punkty BKS",
+              "Zaroślińska-Król 28"
+            ],
+            "keysEn": [
+              "Opole's 1 point",
+              "BKS on 2",
+              "Zaroślińska-Król 28"
+            ]
           },
           "tv": "Polsat Sport 3"
         },
@@ -552,11 +631,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "DevelopRes — Sokół",
-            "headlineEn": "DevelopRes — Sokół",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "DevelopRes po wyjeździe z Łodzi, Mogilno bez seta",
+            "headlineEn": "DevelopRes after Łódź, Mogilno still without a set",
+            "headlineTr": "DevelopRes Łódź'den sonra, Mogilno setsiz",
+            "text": "KS DevelopRes Rzeszów wygrał w Łodzi 3:2 z ŁKS (22:25, 17:25, 25:19, 25:14, 15:17) i ma 2 punkty. Sokół & Hagric Mogilno przegrał inaugurację 0:3 z Radomką (22:25, 23:25, 22:25), trzy sety do samego końca, 0 punktów. U siebie wicemistrzynie są wyraźną faworytką. Mogilno w Mogilnie trzymało się blisko Radomki, więc set nie jest wykluczony.",
+            "textEn": "DevelopRes won 3–2 in Łódź. Mogilno lost 0–3 to Radomka, each set close. Runners-up are clear favourites at home.",
+            "textTr": "DevelopRes Łódź'de 3-2 kazandı. Mogilno 0-3 kaybetti.",
+            "prediction": "3:0",
+            "confidence": "wysoka",
+            "keys": [
+              "2 punkty DevelopRes",
+              "0:3 Mogilna",
+              "hala w Rzeszowie"
+            ],
+            "keysEn": [
+              "DevelopRes on 2",
+              "Mogilno 0–3",
+              "home court"
+            ]
           },
           "tv": "Polsat Sport 1"
         },
@@ -570,11 +662,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Chemik — Kalisz",
-            "headlineEn": "Chemik — Kalisz",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "Chemik po Opolu, beniaminek po 0:3 z mistrzyniami",
+            "headlineEn": "Chemik after Opole, promoted side after 0–3",
+            "headlineTr": "Chemik Opole'den sonra, Kalisz 0-3",
+            "text": "LOTTO Chemik Police wygrał w Opolu 3:2 (25:21, 25:23, 9:25, 15:25, 15:13). Z protokołu Julia Orzeł 16, Natalia Mędrzyk 12, Oliwia Sieradzka 11. NETLAND MKS Kalisz przegrał inaugurację 0:3 z Budowlanymi (7:25, 17:25, 12:25), 36:75. Chemik gra u siebie i jest faworytem. Kalisz po takim otwarciu będzie szukał pierwszego seta w sezonie.",
+            "textEn": "Chemik won 3–2 in Opole. Kalisz lost 0–3 to Budowlani, 36–75. Police are favourites at home.",
+            "textTr": "Chemik Opole'de 3-2 kazandı. Kalisz 0-3 kaybetti.",
+            "prediction": "3:0",
+            "confidence": "wysoka",
+            "keys": [
+              "3:2 w Opolu",
+              "0:3 Kalisza",
+              "hala w Policach"
+            ],
+            "keysEn": [
+              "3–2 in Opole",
+              "Kalisz 0–3",
+              "home court"
+            ]
           },
           "tv": "Polsat Sport 1"
         },
@@ -588,11 +693,24 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Radomka — Wrocław",
-            "headlineEn": "Radomka — Wrocław",
-            "prediction": "—",
-            "text": "Zapowiedź po 1. kolejce.",
-            "textEn": "Preview after Round 1."
+            "headline": "Radomka po trzech pościgach, Wrocław po oddanym tie-breaku",
+            "headlineEn": "Radomka after three close sets, Wrocław after a lost tie-break",
+            "headlineTr": "Radomka üç yakın setten sonra",
+            "text": "MOYA Radomka Radom wygrała w Mogilnie 3:0 (25:22, 25:23, 25:22), MVP Aleksandra Dudek, 3 punkty. #VolleyWrocław przegrał na Orbita ze Stalą 2:3 (25:23, 21:25, 17:25, 26:24, 8:15), tie-break 8:15, 1 punkt. Radomka gra u siebie i jest faworytem. Wrocław pokazał, że potrafi wygrać dwa sety z zespołem ze strefy play-off.",
+            "textEn": "Radomka won 3–0 in Mogilno, Dudek MVP. Wrocław lost 2–3 to Stal, tie-break 8–15. Radom are favourites at home.",
+            "textTr": "Radomka 3-0 kazandı. Wrocław Stal'a 2-3 kaybetti.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "3:0 Radomki",
+              "tie-break Wrocławia",
+              "Dudek MVP"
+            ],
+            "keysEn": [
+              "Radomka 3–0",
+              "Wrocław tie-break",
+              "Dudek MVP"
+            ]
           },
           "tv": "Polsat Sport 1"
         }

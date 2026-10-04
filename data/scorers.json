@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "phase": "faza zasadnicza",
   "phaseEn": "regular season",
-  "note": "Rankingi PLS (turniej 54) po 4 meczach 1. kolejki. Punktujące bez zmian. Blok, zagrywka, atak, przyjęcie i obrona z pełnych list PLS. Drużyny ze składów protokołu / kadr meczowych.",
-  "noteEn": "PLS rankings (tournament 54) after four round-1 matches. Scoring unchanged. Block, serve, attack, receive and dig from full PLS lists. Teams from protocol lineups / match squads.",
+  "note": "Rankingi PLS po części 1. kolejki. Pełnej listy po sześciu meczach liga jeszcze nie spięła w jednym zestawieniu. Punktów zawodniczek nie doliczam spoza protokołu.",
+  "noteEn": "PLS rankings cover only part of round 1. No full six-match list yet, so player totals are not guessed.",
   "source": "https://www.tauronligakobiet.pl/statsRanking.html",
   "players": [
     {

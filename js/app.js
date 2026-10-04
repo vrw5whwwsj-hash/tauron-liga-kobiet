@@ -223,13 +223,13 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
-    fetch("./data/season.json?v=41", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=41", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=41", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=41", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=41", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=41", bust).then((r) => r.json()).catch(() => null),
-    fetch("./data/cev.json?v=41", bust).then((r) => r.json()).catch(() => null)
+    fetch("./data/season.json?v=42", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=42", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=42", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=42", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=42", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=42", bust).then((r) => r.json()).catch(() => null),
+    fetch("./data/cev.json?v=42", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
@@ -249,7 +249,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=41");
+    navigator.serviceWorker.register("./sw.js?v=42");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
