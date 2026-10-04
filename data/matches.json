@@ -511,24 +511,23 @@
             3
           ],
           "preview": {
-            "headline": "Derby ambicji: ŁKS kontra DevelopRes. Cień kontuzji Jurczyk",
-            "headlineEn": "Ambition derby: ŁKS vs DevelopRes. Jurczyk injury looms",
-            "text": "Hit 1. kolejki. ŁKS Commercecon wygrał turniej w Twardogórze i pewnie przeszedł Zeren w półfinale LOTTO Gigantów Siatkówki, ale Magdalena Jurczyk doznała kontuzji — to istotna strata w środku. DevelopRes Rzeszów, wicemistrz i lider fazy zasadniczej 2025/26, ma nową kapitan Alicję Grabkę (przeszła z Budowlanych). Jelena Blagojević kompletuje atak i rozegranie po dużych odejściach. ŁKS u siebie zawsze jest trudny, ale jakość Rzeszowa plus znak zapytania przy Jurczyk przechyla szalę na DevelopRes. Prognoza: wygrana gości, ale nie gładka.",
-            "textEn": "Round 1 headline. ŁKS Commercecon won the Twardogóra tournament and beat Zeren in the LOTTO Volleyball Giants semi-final, but Magdalena Jurczyk is injured — a significant loss in the middle. DevelopRes Rzeszów, runners-up and 2025/26 regular-season leaders, have a new captain in Alicja Grabka (from Budowlani). Jelena Blagojević is still assembling attack and setting after big departures. ŁKS are always tough at home, but Rzeszów quality plus the Jurczyk question tilts it to DevelopRes. Away win, but not a stroll.",
+            "headline": "Derby ambicji: ŁKS kontra DevelopRes",
+            "headlineEn": "Ambition derby: ŁKS vs DevelopRes",
+            "text": "Hit 1. kolejki. ŁKS Commercecon wygrał turniej w Twardogórze i finał LOTTO Gigantów z DevelopResem. DevelopRes, wicemistrz, ma nową kapitan Alicję Grabkę. Magdalena Jurczyk zagrała i zdobyła 5 punktów.",
+            "textEn": "Round 1 headline. ŁKS beat DevelopRes in the LOTTO Giants final. Jurczyk played and scored 5.",
             "prediction": "1:3",
             "confidence": "średnia+",
             "keys": [
-              "kontuzja Jurczyk",
-              "jakość przyjęcia DevelopRes (Jasper, Piasecka, Jansen)",
-              "nowa rola Grabki",
-              "forma ŁKS na Gigantach"
+              "finał Gigantów",
+              "Grabka kapitan",
+              "Jurczyk na boisku"
             ],
             "keysEn": [
-              "Jurczyk injury",
-              "DevelopRes reception (Jasper, Piasecka, Jansen)",
-              "Grabka's new role",
-              "ŁKS form at the Giants"
-            ]
+              "Giants final",
+              "Grabka captain",
+              "Jurczyk played"
+            ],
+            "headlineTr": "ŁKS – DevelopRes"
           },
           "tv": "Polsat Sport 1",
           "verify": {

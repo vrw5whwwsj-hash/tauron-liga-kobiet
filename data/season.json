@@ -65,8 +65,8 @@
       "name": "ŁKS Commercecon Łódź",
       "city": "Łódź",
       "coach": "Adrian Chyliński",
-      "note": "Rewolucja kadrowa. Kontuzja Magdaleny Jurczyk przed sezonem.",
-      "noteEn": "Roster overhaul. Magdalena Jurczyk injured before the season.",
+      "note": "Rewolucja kadrowa. Jurczyk zagrała w 1. kolejce i zdobyła 5 punktów.",
+      "noteEn": "Roster overhaul. Jurczyk played in round 1 and scored 5.",
       "color": "#9a3412"
     },
     {
@@ -140,13 +140,5 @@
       "color": "#9f1239"
     }
   ],
-  "injuries": [
-    {
-      "player": "Magdalena Jurczyk",
-      "team": "ŁKS Commercecon Łódź",
-      "note": "Kontuzja kolana odniesiona na turnieju w Twardogórze (wrzesień 2026). Status na 1. kolejkę do potwierdzenia.",
-      "noteEn": "Knee injury sustained at the Twardogóra tournament (September 2026). Status for Round 1 to be confirmed.",
-      "updated": "2026-09-28"
-    }
-  ]
+  "injuries": []
 }

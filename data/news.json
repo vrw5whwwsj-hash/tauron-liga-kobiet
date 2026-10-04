@@ -3,6 +3,17 @@
   "items": [
     {
       "d": "2026-10-04",
+      "t": "Jurczyk zagrała z DevelopRes i zdobyła 5 punktów",
+      "te": "Jurczyk played against DevelopRes and scored 5",
+      "tt": "Jurczyk DevelopRes maçında oynadı, 5 sayı",
+      "b": "Magdalena Jurczyk wyszła w meczu ŁKS–DevelopRes i zdobyła 5 punktów. Wcześniejsza informacja o kontuzji kolana z finału Gigantów nie wykluczyła jej z 1. kolejki. We Wrocławiu Antonia Stautz, po urazie z Ligi Narodów, zagrała i zdobyła 23 punkty. Aleksandra Gryka nie było w protokole DevelopRes.",
+      "be": "Magdalena Jurczyk played against DevelopRes and scored 5. Antonia Stautz played for Wrocław and scored 23. Aleksandra Gryka was not in the DevelopRes protocol.",
+      "bt": "Jurczyk oynadı ve 5 sayı aldı. Stautz 23 sayı aldı.",
+      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1104995.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-04",
       "t": "1. kolejka zamknięta: DevelopRes wywozi z Łodzi 3:2",
       "te": "Round 1 complete: DevelopRes leave Łódź with a 3–2",
       "tt": "1. hafta bitti: DevelopRes Łódź'den 3-2 ile döndü",
@@ -435,8 +446,8 @@
       "t": "Drużyna ŁKS-u Commercecon Łódź zaprezentuje się kibicom",
       "te": "ŁKS Commercecon Łódź team presentation for fans",
       "tt": "ŁKS Commercecon kadro sunumu",
-      "b": "W środę 30 września o 19:00 w łódzkiej Sport Arenie oficjalna prezentacja mocno przebudowanego składu ŁKS przed sezonem 2026/27. Nowe twarze: Elles Dambrink, Suvi Kokkonen, Karla Antunović, Oleksandra Milenko oraz Polki (m.in. Nowakowska, Sobalska, Szymańska). Trzon: Obiała, Jurczyk (kontuzja), Stefanik, Bidias, Pawłowska. Prezentacja strojów Keeza, sprzedaż karnetów od 18:00.",
-      "be": "On Wednesday 30 September at 19:00 in Sport Arena Łódź the rebuilt ŁKS squad is presented. Jurczyk listed as injured.",
+      "b": "W środę 30 września o 19:00 w łódzkiej Sport Arenie oficjalna prezentacja mocno przebudowanego składu ŁKS przed sezonem 2026/27. Nowe twarze: Elles Dambrink, Suvi Kokkonen, Karla Antunović, Oleksandra Milenko oraz Polki (m.in. Nowakowska, Sobalska, Szymańska). Trzon: Obiała, Jurczyk, Stefanik, Bidias, Pawłowska. Prezentacja strojów Keeza, sprzedaż karnetów od 18:00.",
+      "be": "On Wednesday 30 September at 19:00 in Sport Arena Łódź the rebuilt ŁKS squad is presented. Jurczyk played in round 1.",
       "bt": "30 Eylül 19:00 Sport Arena Łódź — ŁKS kadro tanıtımı. Jurczyk sakat.",
       "u": "https://www.tauronligakobiet.pl/news,druzyna-lks-u-commercecon-lodz-zaprezentuje-sie-kibicom.html",
       "un": "TAURON Liga Kobiet"
@@ -468,8 +479,8 @@
       "t": "ŁKS Commercecon Łódź: Duży potencjał i powrót do walki o medale",
       "te": "ŁKS: big potential and a return to medal contention",
       "tt": "ŁKS: büyük potansiyel",
-      "b": "ŁKS przeszedł latem rewolucję. Finał LOTTO Gigantów 3:1 z DevelopResem. Pech: kontuzja kolana Jurczyk. Pierwszy mecz 4.10 z DevelopResem.",
-      "be": "ŁKS rebuilt in summer, won Giants final 3–1 vs DevelopRes. Jurczyk knee injury. First match 4 Oct vs DevelopRes.",
+      "b": "ŁKS przeszedł latem rewolucję. Finał LOTTO Gigantów 3:1 z DevelopResem. Pierwszy mecz 4.10 z DevelopResem.",
+      "be": "ŁKS rebuilt in summer, won Giants final 3–1 vs DevelopRes. First match 4 Oct vs DevelopRes.",
       "bt": "ŁKS yazın yenilendi, Giganci finalini 3-1 kazandı. Jurczyk sakat. İlk maç 4 Ekim.",
       "u": "https://www.tauronligakobiet.pl/news,lks-commercecon-lodz-duzy-potencjal-i-powrot-do-walki-o-medale.html",
       "un": "TAURON Liga Kobiet"
@@ -495,17 +506,6 @@
       "bt": "Twardogóra'da ŁKS DevelopRes'i 3-1 yendi. MVP: Antunović.",
       "u": "https://www.tauronligakobiet.pl/news,lks-commercecon-lodz-najlepszy-w-turnieju-w-twardogorze.html",
       "un": "TAURON Liga Kobiet"
-    },
-    {
-      "d": "2026-09-26",
-      "t": "Kontuzja Magdaleny Jurczyk przed startem ligi",
-      "te": "Magdalena Jurczyk injured before the league starts",
-      "tt": "Jurczyk lig öncesi sakat",
-      "b": "Środkowa Magdalena Jurczyk doznała urazu kolana w finale Gigantów z DevelopResem. Klub zapowiedział diagnostykę. Start 1. kolejki (ŁKS–DevelopRes 4.10) pod znakiem zapytania. Doniesienia o zerwaniu ACL nie są oficjalne.",
-      "be": "Jurczyk suffered a knee injury in the Giants final. Club diagnosis pending. ACL reports are unofficial.",
-      "bt": "Jurczyk Giganci finalinde dizinden sakatlandı. Teşhis bekleniyor.",
-      "u": "https://sport.interia.pl/siatkowka/reprezentacja-kobiet/news-fatalny-upadek-czolowej-reprezentantki-polski-i-to-tuz-przed,nId,23549928",
-      "un": "Interia Sport"
     },
     {
       "d": "2026-09-24",
