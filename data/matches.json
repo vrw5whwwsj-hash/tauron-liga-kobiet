@@ -4,7 +4,7 @@
       "round": 1,
       "label": "1. kolejka",
       "window": "2–4 października 2026",
-      "status": "w toku",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r1m1",
@@ -536,17 +536,21 @@
             "pls": true,
             "polsat": false,
             "by": "grok",
-            "checkedAt": "2026-10-04T18:50:00Z",
-            "note": "Karta ligi 1104995: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), 2468 widzów, 2:14, Sport Arena."
+            "checkedAt": "2026-10-04T19:15:00Z",
+            "note": "Karta ligi: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), 104:100, 2:14, widzów 2468, Sport Arena. Raport Volleystation: Kokkonen 24, Dambrink 16, Milenko 14; Centka-Tietianiec 23, Jasper 22, Mims 12. Asy 2–4, atak 40%–38%, blok 14–15. Trenerzy Chyliński i Blagojević. Polsat Sport bez relacji meczowej z MVP."
           },
           "recap": {
             "title": "DevelopRes wywozi tie-breaka z Łodzi",
             "titleEn": "DevelopRes take the tie-break in Łódź",
             "titleTr": "DevelopRes tie-break'i aldı",
-            "text": "ŁKS Commercecon Łódź przegrał u siebie z KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). Rzeszowianki wygrały dwa pierwsze sety, ŁKS odpowiedział 25:19 i 25:14, tie-break 17:15. Sport Arena, 2468 widzów, 2:14. Małe punkty 104:100. Punkty zawodniczek z protokołu 79:77. ŁKS: Elles Dambrink 16, Oleksandra Milenko 14, Sonia Stefanik 10. DevelopRes: Weronika Centka-Tietianiec 23, Marrit Jasper 22, Julita Piasecka 7. Trenerzy Adrian Chyliński i Jelena Blagojević.",
-            "textEn": "ŁKS lost 2–3 to DevelopRes. Player points 79–77. Dambrink 16, Milenko 14, Stefanik 10; Centka-Tietianiec 23, Jasper 22, Piasecka 7.",
-            "textTr": "ŁKS evinde DevelopRes'e 2-3 kaybetti (22-25, 17-25, 25-19, 25-14, 15-17).",
+            "text": "ŁKS Commercecon Łódź przegrał u siebie z KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). Rzeszowianki wygrały dwa pierwsze sety, ŁKS odpowiedział 25:19 i 25:14, a tie-breaka wzięły przyjezdne 17:15. Sport Arena, 2468 widzów, mecz trwał 2 godziny 14 minut. Małe punkty 104:100. Punkty z raportu, suma zawodniczek 79:77. ŁKS: Suvi Kokkonen 24, Elles Dambrink 16, Oleksandra Milenko 14, Sonia Stefanik 10, Magdalena Jurczyk 5, Anna Obiała 5, Karla Antunović 4, Pola Nowakowska 1. DevelopRes: Weronika Centka-Tietianiec 23, Marrit Jasper 22, Taylor Mims 12, Julita Piasecka 7, Alicja Grabka 6, Laura Jansen 3, Uliana Kotar 3, Mika Grbavica 1. Atak 63/157 (40%) do 58/151 (38%), asy 2–4, blok 14–15. Szóstka ŁKS: Stefanik, Dambrink, Kokkonen, Obiała, Antunović, Milenko. DevelopRes: Kotar, Grabka, Piasecka, Centka-Tietianiec, Mims, Jasper. Trenerzy Adrian Chyliński i Jelena Blagojević.",
+            "textEn": "ŁKS Commercecon Łódź lost at home to KS DevelopRes Rzeszów 2–3 (22–25, 17–25, 25–19, 25–14, 15–17). Sport Arena, 2,468 fans, 2 hours 14 minutes. Small points 104–100. Player points 79–77. Kokkonen 24, Dambrink 16, Milenko 14, Stefanik 10; Centka-Tietianiec 23, Jasper 22, Mims 12, Piasecka 7. Attack 63/157 (40%) to 58/151 (38%), aces 2–4, block 14–15. Coaches Adrian Chyliński and Jelena Blagojević.",
+            "textTr": "ŁKS evinde DevelopRes'e 2-3 kaybetti (22-25, 17-25, 25-19, 25-14, 15-17). Kokkonen 24, Dambrink 16, Milenko 14; Centka-Tietianiec 23, Jasper 22, Mims 12. As 2-4, blok 14-15.",
             "homeTop": [
+              {
+                "n": "Suvi Kokkonen",
+                "p": 24
+              },
               {
                 "n": "Elles Dambrink",
                 "p": 16
@@ -554,10 +558,6 @@
               {
                 "n": "Oleksandra Milenko",
                 "p": 14
-              },
-              {
-                "n": "Sonia Stefanik",
-                "p": 10
               }
             ],
             "awayTop": [
@@ -570,11 +570,12 @@
                 "p": 22
               },
               {
-                "n": "Julita Piasecka",
-                "p": 7
+                "n": "Taylor Mims",
+                "p": 12
               }
             ]
-          }
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104995.html"
         }
       ]
     },
