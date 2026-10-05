@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T19:45:00+02:00",
+  "updated": "2026-10-05T11:20:00+02:00",
   "policy": "Wyniki ligowe wpisuje użytkownik. Źródła zewnętrzne są monitorowane, żadne nie daje publicznego REST API wyników TAURON Ligi Kobiet do użycia z GitHub Pages.",
   "sources": [
     {
@@ -47,6 +47,15 @@
       "url": "https://sportowefakty.wp.pl",
       "apiPublic": false,
       "browserUsable": false
+    },
+    {
+      "id": "volleystation",
+      "name": "VolleyStation — raporty meczowe TAURON Ligi",
+      "role": "protokół: punkty, atak, blok, asy, składy",
+      "url": "https://panel.volleystation.com/website2/23/en/matches/2543730/",
+      "apiPublic": false,
+      "browserUsable": true,
+      "reason": "Publiczny panel meczowy. Wzorzec: /website2/23/en/matches/{id}/. 2543730 to UNI Opole–Chemik."
     }
   ]
 }
