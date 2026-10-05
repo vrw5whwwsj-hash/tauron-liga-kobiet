@@ -14,19 +14,26 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          ids=$(gh api "repos/${{ github.repository }}/deployments?environment=github-pages&per_page=30" --jq '.[].id')
+          now=$(date +%s)
+          ids=$(gh api "repos/${{ github.repository }}/deployments?environment=github-pages&per_page=10" --jq '.[].id')
           if [ -z "$ids" ]; then
             echo "no deployments"
             exit 0
           fi
           for id in $ids; do
-            state=$(gh api "repos/${{ github.repository }}/deployments/$id/statuses" --jq '.[0].state // "none"')
-            echo "deployment $id state=$state"
+            meta=$(gh api "repos/${{ github.repository }}/deployments/$id/statuses" --jq '.[0] | [.state, .created_at] | @tsv')
+            state=${meta%%$'	'*}
+            created=${meta#*$'	'}
+            created_s=$(date -d "$created" +%s 2>/dev/null || echo 0)
+            age=$((now - created_s))
+            echo "deployment $id state=$state age=${age}s"
             case "$state" in
               in_progress|queued|pending|waiting)
-                gh api -X POST "repos/${{ github.repository }}/deployments/$id/statuses" \
-                  -f state=inactive \
-                  -f description="clear stuck pages lock"
+                if [ "$age" -gt 180 ]; then
+                  gh api -X POST "repos/${{ github.repository }}/deployments/$id/statuses" \
+                    -f state=inactive \
+                    -f description="clear stuck pages lock"
+                fi
                 ;;
             esac
           done
