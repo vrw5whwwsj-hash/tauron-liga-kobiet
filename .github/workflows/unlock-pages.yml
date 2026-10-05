@@ -1,0 +1,32 @@
+name: Unlock Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  deployments: write
+jobs:
+  unlock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark stale github-pages deployments inactive
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          ids=$(gh api "repos/${{ github.repository }}/deployments?environment=github-pages&per_page=30" --jq '.[].id')
+          if [ -z "$ids" ]; then
+            echo "no deployments"
+            exit 0
+          fi
+          for id in $ids; do
+            state=$(gh api "repos/${{ github.repository }}/deployments/$id/statuses" --jq '.[0].state // "none"')
+            echo "deployment $id state=$state"
+            case "$state" in
+              in_progress|queued|pending|waiting)
+                gh api -X POST "repos/${{ github.repository }}/deployments/$id/statuses" \
+                  -f state=inactive \
+                  -f description="clear stuck pages lock"
+                ;;
+            esac
+          done
