@@ -1,6 +1,28 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "items": [
+    {
+      "d": "2026-10-05",
+      "t": "Na kafelkach 24–25.10 trzy pary, bez pełnej kolejki",
+      "te": "24–25 Oct tiles show three pairs, not a full round",
+      "tt": "24-25 Ekim karelerinde üç eşleşme, tam hafta yok",
+      "b": "Lista meczów ligi (5.10, rano): po 3. kolejce są trzy kolejne kafelki. Sobota 24 października — Sokół & Hagric Mogilno–LOTTO Chemik Police, bez godziny i bez logo TV. Sobota 24 października, 14:45 — PGE Budowlani Łódź–KS DevelopRes Rzeszów; ten sam termin ma baner AL-KO Superpucharu Polski w Częstochowie, więc pary nie wpisujemy jako kolejki ligowej. Niedziela 25 października — NETLAND MKS Kalisz–#VolleyWrocław, bez godziny. 1.–3. kolejka bez zmian godzin, hal i kafelków TV. Wrocław–Chemik (16.10, 19:00) nadal bez logo TV.",
+      "be": "League list (5 Oct morning): after round 3 there are three further tiles. Saturday 24 October — Sokół Mogilno–LOTTO Chemik, no kick-off and no TV logo. Saturday 24 October, 14:45 — PGE Budowlani–DevelopRes; the same kick-off is the AL-KO Super Cup banner in Częstochowa, so the pair is not stored as a league round. Sunday 25 October — Kalisz–Wrocław, no time. Rounds 1–3 times, venues and TV tiles are unchanged. Wrocław–Chemik (16 Oct, 19:00) still has no TV logo.",
+      "bt": "Lig listesi (5 Ekim sabah): 24 Ekim Mogilno-Chemik saatsiz ve TVsiz. 24 Ekim 14:45 Budowlani-DevelopRes, AL-KO Süper Kupa saatiyle aynı, lige yazılmadı. 25 Ekim Kalisz-Wrocław saatsiz. 1-3. hafta aynı. Wrocław-Chemik kafelksiz.",
+      "u": "https://www.tauronligakobiet.pl/games.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-04",
+      "t": "Liga: DevelopRes minimalnie lepszy, ŁKS miał meczbola",
+      "te": "League: DevelopRes edge it, ŁKS had match points",
+      "tt": "Lig: DevelopRes az farkla, ŁKS maç sayısı kullandı",
+      "b": "Relacja ligi (4.10, 20:54, mkb): ŁKS Commercecon Łódź – KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). Rzeszów prowadził 2:0. W pierwszym secie Centka-Tietianiec dała cztery piłki setowe, set zamknęła Marrit Jasper po asekuracji Suskiej. W drugim Jasper i blok Centki oraz Mims; partię znów skończyła Jasper. W trzecim skrzydłowe DevelopResu nie kończyły ataków, ŁKS wygrał 25:19. W czwartym weszła Magdalena Jurczyk, blok na Centce dał 4:1, ŁKS rozbił rywalki 25:14. Tie-break: DevelopRes od 4:0, ŁKS odrobił, przy 14:12 obronił dwa meczbole (Kokkonen), sam wyszedł na 15:14 po błędzie Jasper, a przy 15:15 Jasper dała trzeciego meczbola i Rzeszów go wykorzystał. MVP Weronika Centka-Tietianiec, 23 punkty i 7 bloków. Jasper 22, Mims pięć bloków. Kokkonen 24. Wieczorem (21:23) liga dodała wideo „Thriller w Łodzi”.",
+      "be": "League report (4 Oct, 20:54): ŁKS 2-3 DevelopRes (22-25, 17-25, 25-19, 25-14, 15-17). Rzeszów led 2-0. Centka-Tietianiec earned four set points in set one; Jasper closed it. Set four: Jurczyk in, 25-14 to ŁKS. Tie-break: hosts saved two match points at 14-12, led 15-14, then Jasper’s third match point was converted. MVP Centka-Tietianiec, 23 points and 7 blocks. Jasper 22, Kokkonen 24. A video, “Thriller in Łódź”, followed at 21:23.",
+      "bt": "Lig (20:54): ŁKS 2-3 DevelopRes (22-25, 17-25, 25-19, 25-14, 15-17). MVP Centka-Tietianiec 23 sayı, 7 blok. Jasper 22, Kokkonen 24. ŁKS iki maç sayısı kurtardı.",
+      "u": "https://www.tauronligakobiet.pl/news,developres-minimalnie-lepszy-w-hicie-pierwszej-kolejki-lks-commercecon-wrocil-do-meczu-ze-stanu-02.html",
+      "un": "TAURON Liga Kobiet"
+    },
     {
       "d": "2026-10-04",
       "t": "Jurczyk zagrała z DevelopRes i zdobyła 5 punktów",
