@@ -7,11 +7,11 @@ permissions:
   contents: read
   pages: write
   id-token: write
-# Jedna publikacja naraz. Nie anulować trwającego deployu: grupa "pages"
-# jest wspólna z wbudowanym workflow pages build and deployment, a
-# cancel-in-progress ucinał job i zostawiał build w queued.
+# Osobna grupa: wbudowany pages build and deployment trzyma "pages"
+# i przy wspólnej nazwie job zostawał w queued, zanim wgrał artefakt.
+# Nie anulować trwającego deployu.
 concurrency:
-  group: pages
+  group: pages-deploy
   cancel-in-progress: false
 jobs:
   deploy:
