@@ -3,12 +3,12 @@
   "items": [
     {
       "d": "2026-10-05",
-      "t": "Wieczór: brak nowego newsa i wyniku, kafelki TV bez zmian",
-      "te": "Evening: no new story or score, TV tiles unchanged",
-      "tt": "Akşam: yeni haber ve skor yok, TV kareleri aynı",
-      "b": "Strona ligi (5.10, wieczór): najnowsza pozycja to wideo z 4.10, 21:23, „Thriller w Łodzi”. Nowej aktualności z 5.10 nie ma. Kafelki 2. i 3. kolejki bez zmian godzin i logo TV: 9.10 Stal–Pałac 17:30 i Budowlani–ŁKS 20:30 (Polsat Sport 1), 11.10 Opole–BKS 15:00 (Polsat Sport 3), 12.10 DevelopRes–Sokół 17:30 i Chemik–Kalisz 20:30 (Sport 1), 13.10 Radomka–Wrocław 17:30 (Sport 1), 15.10 ŁKS–Stal 17:30 (Polsat Sport 2), 17.10 Pałac–Kalisz 12:00 i DevelopRes–Radomka 20:30 (Sport 1), 18.10 Opole–Budowlani 20:30 (Sport 1), 19.10 Sokół–BKS 20:30 (Sport 1). Wrocław–Chemik 16.10, 19:00 nadal bez logo TV. Na liście meczów 24.10 Sokół–Chemik i 25.10 Kalisz–Wrocław nadal bez godziny i bez TV; pary nie wchodzą do terminarza. Kafelek 24.10, 14:45 Budowlani–DevelopRes zostaje na sliderze i pokrywa się z AL-KO Superpucharem, na liście meczów fazy zasadniczej tej pary nie ma. Lista meczów pokazuje też daty bez godzin i bez TV: 26.10 BKS–ŁKS, 27.10 Opole–Pałac, 28.10 Budowlani–Radomka i Stal–DevelopRes, 30.10 ŁKS–Chemik, 31.10 Pałac–Budowlani i Wrocław–Opole. Bez godziny nie wpisujemy ich do terminarza. Siatka.org nie podała nowego wyniku TAURON Ligi Kobiet. Volleybox zablokowany.",
-      "be": "League site (5 Oct evening): newest item is the 4 Oct 21:23 video “Thriller in Łódź”. No 5 Oct story. Round 2–3 times and TV logos unchanged, including ŁKS–Stal on 15 Oct at 17:30 on Polsat Sport 2. Wrocław–Chemik (16 Oct, 19:00) still has no TV logo. 24 Oct Sokół–Chemik and 25 Oct Kalisz–Wrocław still have no kick-off or TV and stay off the fixture list. The 24 Oct 14:45 Budowlani–DevelopRes tile remains on the slider and matches the AL-KO Super Cup; it is not on the regular-phase match list. The match list also shows date-only pairs with no TV (26–31 Oct); they are not stored without a kick-off. siatka.org has no new TAURON Liga Kobiet score. Volleybox blocked.",
-      "bt": "Lig sitesi (5 Ekim akşam): son içerik 4 Ekim 21:23 videosu. 5 Ekim haberi yok. 2-3. hafta saat ve TV aynı, 15 Ekim ŁKS-Stal Polsat Sport 2. Wrocław-Chemik kafelksiz. 24-25 Ekim saatsiz. 26-31 Ekim sadece tarih, terminara yazılmadı.",
+      "t": "Po 1. kolejce: Budowlani i Radomka z kompletem, w piątek Stal i derby Łodzi",
+      "te": "After round 1: Budowlani and Radomka on 3 points, Friday brings Stal and the Łódź derby",
+      "tt": "1. hafta sonrası: Budowlani ve Radomka 3 puan, cuma Stal ve Łódź derbisi",
+      "b": "Sześć meczów 1. kolejki rozegrane. 3 punkty: PGE Budowlani Łódź (3:0 w Kaliszu) i MOYA Radomka Radom (3:0 w Mogilnie). Po 2 punkty: ITA TOOLS Stal Mielec, BKS ZGO Bielsko-Biała, KS DevelopRes Rzeszów i LOTTO Chemik Police, wszystkie po 3:2. Po 1 punkcie: UNI Opole, ŁKS Commercecon, Metalkas Pałac i #VolleyWrocław. Bez punktu: Sokół Mogilno i NETLAND MKS Kalisz. Najwięcej punktów: Katarzyna Zaroślińska-Król 28, Wiktoria Makarewicz 27, Suvi Kokkonen 24. 2. kolejka: piątek 9.10, 17:30 Stal–Pałac, 20:30 Budowlani–ŁKS.",
+      "be": "Round 1 is complete. Budowlani and Radomka have 3 points. Stal, BKS, DevelopRes and Chemik have 2. Friday 9 October: Stal–Pałac 17:30, Budowlani–ŁKS 20:30.",
+      "bt": "1. hafta bitti. Budowlani ve Radomka 3 puan. Cuma: Stal–Pałac 17:30, Budowlani–ŁKS 20:30.",
       "u": "https://www.tauronligakobiet.pl/games.html",
       "un": "TAURON Liga Kobiet"
     },
