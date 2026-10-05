@@ -7,3 +7,5 @@ PWA: tabela, wyniki, zapowiedzi.
 Na iPhonie: Safari → Udostępnij → Dodaj do ekranu początkowego.
 
 Repo: https://github.com/vrw5whwwsj-hash/tauron-liga-kobiet
+
+Publikacja: gałąź `main`, bez osobnego workflow deploy.
