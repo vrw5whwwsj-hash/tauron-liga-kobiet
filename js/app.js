@@ -94,14 +94,18 @@ function renderScorers() {
   wrap.innerHTML = `<div class="note">${note}</div>` + rankings.map((r) => {
     const title = pick(r, "title", "titleEn", "titleTr");
     const kind = r.id;
-    const head = kind === "block" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("block"), t("avg")]
+    const stuffLab = LANG === "en" ? "Stuff" : LANG === "tr" ? "Stuff" : "Wyblok";
+    const stuffAvg = LANG === "en" ? "Stuff/set" : LANG === "tr" ? "Stuff/set" : "Wyblok/set";
+    const head = kind === "block" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("block"), t("avg"), stuffLab, stuffAvg]
       : kind === "serve" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("ace"), t("avg")]
       : kind === "attack" ? ["#", t("player"), t("club"), t("thM"), setsLab, t("attack"), "Eff%"]
       : kind === "receive" ? ["#", t("player"), t("club"), t("thM"), setsLab, nLab, "poz%", "perf%"]
       : kind === "dig" ? ["#", t("player"), t("club"), t("thM"), setsLab, digLab, t("avg")]
       : ["#", t("player"), t("club"), t("thM"), setsLab, t("thPts"), t("avg")];
-    const body = (r.players || []).slice(0, 5).map((p) => {
-      const cells = kind === "block" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.block}</strong>`, p.perSet]
+    const limit = kind === "block" ? 80 : 5;
+    const dash = "\u2014";
+    const body = (r.players || []).slice(0, limit).map((p) => {
+      const cells = kind === "block" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.block ?? dash}</strong>`, p.perSet || dash, p.stuff ?? dash, p.stuffPerSet || dash]
         : kind === "serve" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.ace}</strong>`, p.perSet]
         : kind === "attack" ? [p.rank, p.name, p.team, p.matches, p.sets, `<strong>${p.attack}</strong>`, p.eff]
         : kind === "receive" ? [p.rank, p.name, p.team, p.matches, p.sets, p.n, `<strong>${p.posPct}</strong>`, p.perf]
@@ -223,13 +227,13 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
-    fetch("./data/season.json?v=51", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=51", bust).then((r) => r.json()),
-    fetch("./data/scorers.json?v=51", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=51", bust).then((r) => r.json()).catch(() => ({ items: [] })),
-    fetch("./data/analysis.json?v=51", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
-    fetch("./data/r3.json?v=51", bust).then((r) => r.json()).catch(() => null),
-    fetch("./data/cev.json?v=51", bust).then((r) => r.json()).catch(() => null)
+    fetch("./data/season.json?v=52", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=52", bust).then((r) => r.json()),
+    fetch("./data/scorers.json?v=52", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
+    fetch("./data/news.json?v=52", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/analysis.json?v=52", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
+    fetch("./data/r3.json?v=52", bust).then((r) => r.json()).catch(() => null),
+    fetch("./data/cev.json?v=52", bust).then((r) => r.json()).catch(() => null)
   ]);
   SEASON = s; MATCHES = m; SCORERS = sc; NEWS = nw;
   if (r3 && r3.round && !(m.rounds || []).some((x) => x.round === r3.round)) m.rounds.push(r3);
@@ -249,7 +253,7 @@ async function init() {
   if (typeof trackVisit === "function") trackVisit();
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => r.update()));
-    navigator.serviceWorker.register("./sw.js?v=51");
+    navigator.serviceWorker.register("./sw.js?v=52");
   }
 }
 init().catch((e) => { document.getElementById("table-wrap").innerHTML = "<p>" + t("loadErr") + e.message + "</p>"; });
