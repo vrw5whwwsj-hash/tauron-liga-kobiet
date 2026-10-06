@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T20:05:00+02:00",
+  "checkedAt": "2026-10-06T20:00:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,14 +8,14 @@
       "url": "https://www.tauronligakobiet.pl/games.html",
       "ok": true,
       "http": 200,
-      "note": "2.–3. kolejka bez zmian godzin i logo TV. 15.10 ŁKS–Stal Polsat Sport 2. 16.10 Wrocław–Chemik bez logo. 24.10 Sokół–Chemik i 25.10 Kalisz–Wrocław bez godziny i bez TV. 24.10 14:45 Budowlani–DevelopRes tylko na sliderze, nie na liście fazy zasadniczej. 26–31.10 daty bez godzin i bez TV."
+      "note": "2.–3. kolejka bez zmian godzin i logo TV. 9.10 Stal–Pałac i Budowlani–ŁKS Polsat Sport 1. 11.10 Opole–BKS Polsat Sport 3. 12.10 DevelopRes–Sokół i Chemik–Kalisz Polsat Sport 1. 13.10 Radomka–Wrocław Polsat Sport 1. 15.10 ŁKS–Stal Polsat Sport 2. 16.10 Wrocław–Chemik bez logo. 17.10 Pałac–Kalisz i DevelopRes–Radomka oraz 18.10 Opole–Budowlani i 19.10 Sokół–BKS Polsat Sport 1. 22.10 Radomka–Stal bez logo. 24.10 Sokół–Chemik i 25.10 Kalisz–Wrocław bez godziny i bez TV. 24.10 14:45 Budowlani–DevelopRes to AL-KO Superpuchar, nie faza zasadnicza. 26–31.10 daty bez godzin i bez TV."
     },
     {
       "id": "pls-news",
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Brak aktualności z 5.10. Najnowsze: wideo 4.10 21:23 Thriller w Łodzi."
+      "note": "Nowe 6.10: drużyna 1. kolejki (13:54) i wywiad Grajber przed derbami (13:45). Wyników 2. kolejki nie ma."
     },
     {
       "id": "polsat-plan",
@@ -29,7 +29,7 @@
       "url": "https://siatka.org/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowego wyniku TAURON Ligi Kobiet 5.10."
+      "note": "6.10 szóstka 1. kolejki już w newsach. Nowego wyniku ligowego nie ma."
     },
     {
       "id": "volleybox-matches",
