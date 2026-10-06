@@ -12,6 +12,7 @@ const TV_MAP = {
   r2m5: "Polsat Sport 1",
   r2m6: "Polsat Sport 1",
   r3m1: "Polsat Sport 2",
+  r3m2: "Polsat Sport Extra 3",
   r3m3: "Polsat Sport 1",
   r3m4: "Polsat Sport 1",
   r3m5: "Polsat Sport 1",
