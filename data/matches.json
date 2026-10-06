@@ -238,11 +238,10 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": false,
-            "siatka": true,
+            "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-03T18:05:00Z",
-            "note": "PLS lista meczów i kafelek 3.10 wieczór: 0:3. Relacja ligi 13:33 i siatka.org 14:02 zgodne (22:25, 23:25, 22:25), MVP Aleksandra Dudek. Polsat Sport bez osobnej relacji meczowej."
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 0:3 (22:25, 23:25, 22:25). TAURON Liga kafelek 3.10 12:00 i małe punkty 22 25 23 25 22 25. Polsat Sport, zestawienie 1. kolejki: Sokół & Hagric Mogilno – Moya Radomka Radom 0:3 (22:25, 23:25, 22:25)."
           },
           "recap": {
             "title": "Radomka bez straty seta w Mogilnie",
@@ -337,10 +336,10 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": false,
+            "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-03T16:15:00Z",
-            "note": "PLS karta: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15), 104:106, 2:05, widzów 750, MVP Iris Vos, HSW Immobile Łuczniczka. Raport Volleystation: Makarewicz 26, Pol 16, Pinczewska 14; Vos 22, Wasilewska 19, Laak 17. Asy 8–7, blok 16–18. Trenerzy Łyczakowski i Piekarczyk. Relacja ligi 16:48. Polsat Sport bez relacji meczowej."
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). TAURON Liga kafelek 3.10 15:00, małe punkty 21 25 23 25 25 20 25 21 10 15. Polsat Sport relacja meczowa i zestawienie 1. kolejki: ten sam wynik setów (tie-break 10:15, nie 12:15)."
           },
           "recap": {
             "title": "BKS wywozi tie-breaka z Łuczniczki",
@@ -435,10 +434,10 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": false,
+            "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-04T16:35:00Z",
-            "note": "Karta ligi 1104993: 2:3 (25:23, 21:25, 17:25, 26:24, 8:15), 859 widzów, 2:19."
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). TAURON Liga kafelek 4.10 15:00 i relacja ligi. Polsat Sport, zestawienie 1. kolejki: #VolleyWrocław – ITA Tools Stal Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15)."
           },
           "recap": {
             "title": "Stal wywozi tie-breaka z Orbity",
@@ -533,10 +532,10 @@
           "verify": {
             "status": "confirmed",
             "pls": true,
-            "polsat": false,
+            "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-04T19:15:00Z",
-            "note": "Karta ligi: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), 104:100, 2:14, widzów 2468, Sport Arena. Raport Volleystation: Kokkonen 24, Dambrink 16, Milenko 14; Centka-Tietianiec 23, Jasper 22, Mims 12. Asy 2–4, atak 40%–38%, blok 14–15. Trenerzy Chyliński i Blagojević. Polsat Sport bez relacji meczowej z MVP."
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). TAURON Liga kafelek 4.10 18:00, małe punkty 22 25 17 25 25 19 25 14 15 17. Polsat Sport, zestawienie 1. kolejki: ŁKS Commercecon – DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17)."
           },
           "recap": {
             "title": "DevelopRes wywozi tie-breaka z Łodzi",
