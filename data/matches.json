@@ -886,6 +886,48 @@
           }
         }
       ]
+    },
+    {
+      "round": 4,
+      "label": "4. kolejka",
+      "window": "22–24 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r4m1",
+          "date": "2026-10-22",
+          "time": "17:30",
+          "home": "rad",
+          "away": "mie",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka — Stal, godzina jest, TV nie",
+            "headlineEn": "Radomka — Stal, time set, no TV",
+            "prediction": "—",
+            "text": "Lista ligi (7.10): czwartek 22.10, 17:30. Kafelka TV nie ma. Wyniku nie ma.",
+            "textEn": "League list (7 Oct): Thursday 22 Oct, 17:30. No TV tile. No score."
+          }
+        },
+        {
+          "id": "r4m2",
+          "date": "2026-10-24",
+          "time": "14:45",
+          "home": "bud",
+          "away": "dev",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Budowlani — DevelopRes, 14:45, bez TV",
+            "headlineEn": "Budowlani — DevelopRes, 14:45, no TV",
+            "prediction": "—",
+            "text": "Nowy kafelek ligi (7.10): sobota 24.10, 14:45. Logo TV nie ma. Mogilno–Chemik tego dnia nadal bez godziny i nie wchodzi do terminarza.",
+            "textEn": "New league tile (7 Oct): Saturday 24 Oct, 14:45. No TV logo. Mogilno–Chemik the same day still has no kick-off and is not stored."
+          }
+        }
+      ]
     }
   ]
 }
