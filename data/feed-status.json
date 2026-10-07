@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T08:20:00+02:00",
+  "checkedAt": "2026-10-07T20:05:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,28 +8,28 @@
       "url": "https://www.tauronligakobiet.pl/games.html",
       "ok": true,
       "http": 200,
-      "note": "Godziny 2.–3. kolejki bez zmian. Logo: 9.10 Stal–Pałac i Budowlani–ŁKS PS1, 11.10 Opole–BKS PS3, 12.10 DevelopRes–Sokół i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Sokół–BKS PS1. 16.10 Wrocław–Chemik 19:00 bez logo. 22.10 Radomka–Stal 17:30 bez logo. 24.10 Sokół–Chemik bez godziny. 24.10 14:45 Budowlani–DevelopRes to AL-KO Superpuchar. 4. kolejki nie dopisano."
+      "note": "Wieczór 7.10: kafelki bez zmian względem rana. Logo: 9.10 Stal–Pałac i Budowlani–ŁKS PS1, 11.10 Opole–BKS PS3, 12.10 DevelopRes–Sokół i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Sokół–BKS PS1. 16.10 Wrocław–Chemik 19:00 bez logo. 22.10 Radomka–Stal 17:30 bez logo. 24.10 Sokół–Chemik bez godziny. 24.10 14:45 Budowlani–DevelopRes to AL-KO Superpuchar, bez logo TV. 4. kolejki nie dopisano. Wyników nowych nie ma."
     },
     {
       "id": "pls-news",
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Nowy materiał 6.10 20:17: magazyn z Grabką i Dąbrowskim. Aktualności po 6.10 13:54 bez nowej noty. Wyników 2. kolejki nie ma."
+      "note": "Strona główna wieczorem bez nowej noty po Świderskim i drużynie 1. kolejki. Magazyn 6.10 20:17 bez zmian. Wyników 2. kolejki nie ma."
     },
     {
       "id": "polsat-plan",
       "url": "https://www.polsatsport.pl/wiadomosc/2026-10-06/zwrot-akcji-w-hicie-kolejki-ekspert-wskazal-kandydatow-do-zlota/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowego planu TV 2. kolejki. Kanały z logo na kafelku. Wywiad Magiery 6.10 17:34 dopisany."
+      "note": "Brak nowego planu TV 2. kolejki po 6.10. Kanały tylko z logo na kafelku."
     },
     {
       "id": "siatka-relacje",
       "url": "https://siatka.org/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowej relacji ligowej po szóstce 1. kolejki."
+      "note": "Brak nowej relacji TAURON Ligi Kobiet po szóstce 1. kolejki (6.10, 13:00)."
     },
     {
       "id": "volleybox-matches",
