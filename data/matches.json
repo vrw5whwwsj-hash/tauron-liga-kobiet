@@ -1,1 +1,916 @@
-PLACEHOLDER
+{
+  "rounds": [
+    {
+      "round": 1,
+      "label": "1. kolejka",
+      "window": "2–4 października 2026",
+      "status": "zakończona",
+      "matches": [
+        {
+          "id": "r1m1",
+          "date": "2026-10-02",
+          "time": "17:30",
+          "home": "kal",
+          "away": "bud",
+          "venue": "Kalisz",
+          "sets": [
+            [
+              7,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              12,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "preview": {
+            "headline": "Inauguracja w Kaliszu: beniaminek kontra mistrzynie Polski",
+            "headlineEn": "Season opener in Kalisz: promoted side vs Polish champions",
+            "text": "NETLAND MKS Kalisz wraca do elity i jako gospodarz otwiera sezon. Przeciwnik to PGE Budowlani Łódź — obrończynie tytułu po historycznym mistrzostwie z kwietnia 2026 (finał z DevelopResem 3–2 w serii, decydujący mecz 3:1 w Rzeszowie). Kalisz ma tradycje (Energa MKS to jeden z najbardziej utytułowanych klubów w historii), ale różnica potencjału na papierze jest wyraźna. W Grand Prix PGE (sierpień) Radomka wygrała z Kaliszem 2:0 (25:12, 25:8), a Budowlani regularnie ogrywali ligowych rywali w sparingach — m.in. pokonali #VolleyWrocław w ostatnim sprawdzianie. Atut hali i emocje inauguracji mogą dać gospodyniom set, ale faworytem są łodzianki Biernata (Storck, Buterez, Planinšec, Grajber-Nowakowska, Wenerska).",
+            "textEn": "NETLAND MKS Kalisz return to the top flight and host the season opener. PGE Budowlani Łódź are defending champions after a historic first title in April 2026 (final vs DevelopRes 3–2 in the series, 3–1 in the decider in Rzeszów). Kalisz have tradition, but the gap on paper is clear. In the August PGE Grand Prix Radomka beat Kalisz 2–0 (25–12, 25–8), and Budowlani regularly beat league sides in friendlies — including #VolleyWrocław in their last tune-up. Home crowd and opening-night emotion may earn the hosts a set, but Biernat's Łódź (Storck, Buterez, Planinšec, Grajber-Nowakowska, Wenerska) are favourites.",
+            "prediction": "0:3",
+            "confidence": "wysoka",
+            "keys": [
+              "forma mistrzyń",
+              "jakość ataku Storck/Buterez",
+              "doświadczenie play-off",
+              "presja inauguracji u beniaminka"
+            ],
+            "keysEn": [
+              "champions' form",
+              "Storck/Buterez attack",
+              "play-off experience",
+              "opener pressure on the promoted side"
+            ]
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-02T18:12:00Z",
+            "note": "Oba źródła: 0:3 (7:25, 17:25, 12:25). PLS kafelek 2.10 17:30 i karta 1104990 (przebieg 7:25, 17:25, 12:25, widzów 1489, relacja: bardzo pewnie 3:0). Polsat Sport: mecz zakończony, widget 0:3, sety 7-25, 17-25, 12-25."
+          },
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Mistrzynie bezlitosne. Kalisz 0:3",
+            "titleEn": "Champions ruthless. Kalisz 0:3",
+            "titleTr": "Şampiyon acımasız. Kalisz 0:3",
+            "text": "NETLAND MKS Kalisz przegrał z PGE Budowlanymi Łódź 0:3 (7:25, 17:25, 12:25). Pierwszy punkt sezonu zdobyła blokiem Paulina Majkowska, a przy zagrywkach Mai Storck poszła seria od 3:3 do 3:16. Seta zamknęła Rodica Buterez. W drugiej partii łodzianki odskoczyły na 10:19, w trzeciej Martyna Grajber-Nowakowska dała dwa asy (4:11), a błąd gospodyń zakończył mecz. Arena Kalisz: 1489 widzów. Najwięcej punktów: Jelena Vulin 10 (Kalisz); Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11 (Budowlani). MVP: Maja Storck. Atak 28%–53%, blok 4–12.",
+            "textEn": "NETLAND MKS Kalisz lost to PGE Budowlani Łódź 0–3 (7–25, 17–25, 12–25). Maja Storck served a run from 3–3 to 3–16 in set one. Arena Kalisz drew 1,489. Top scorers: Jelena Vulin 10; Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11. MVP Storck. Attack 28%–53%, block 4–12.",
+            "textTr": "Kalisz, Budowlani'ye 0-3 kaybetti (7-25, 17-25, 12-25). Storck 14, Buterez 13, Planinšec 11 sayı. MVP Storck.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 14
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 11
+              }
+            ],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
+          },
+          "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
+        },
+        {
+          "id": "r1m2",
+          "date": "2026-10-02",
+          "time": "20:30",
+          "home": "opo",
+          "away": "che",
+          "venue": "Opole",
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              9
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "preview": {
+            "headline": "Brązowe medalistki witają przebudowany Chemik",
+            "headlineEn": "Bronze medallists welcome a rebuilt Chemik",
+            "text": "UNI Opole zakończyło sezon 2025/26 na podium — pierwszy medal w historii klubu. Chemik Police, dziewięciokrotne mistrzynie z minionej dekady, po słabszym sezonie (walka o play-off) przeprowadziły duże zmiany kadrowe i zapowiadają powrót ambicji. Opole u siebie bywa bardzo niewygodne; Chemik musi potwierdzić, że rewolucja daje natychmiastowy efekt. Faworyt nieznacznie po stronie gospodyń ze względu na ciągłość projektu i medalowy bagaż.",
+            "textEn": "UNI Opole finished 2025/26 on the podium — the first medal in club history. Chemik Police, nine-time champions of the last decade, rebuilt after a weaker season and talk of renewed ambition. Opole are awkward at home; Chemik must show the overhaul works immediately. Slight edge to the hosts for project continuity and last season's medal.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "ciągłość Opola",
+              "nowy Chemik bez rozegranych ligowych meczów",
+              "jakość środka i przyjęcia"
+            ],
+            "keysEn": [
+              "Opole continuity",
+              "new Chemik yet to play a league match",
+              "middle and reception quality"
+            ]
+          },
+          "tv": "Polsat Sport 3",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-02T21:12:00Z",
+            "note": "Oba źródła: 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). PLS karta 1104991 (przebieg 21:25, 23:25, 25:9, 25:15, 13:15, widzów 1530; relacja: przyjezdne wygrały 3:2). Polsat Sport: mecz zakończony, widget 2:3, sety 21-25, 23-25, 25-9, 25-15, 13-15."
+          },
+          "recap": {
+            "title": "Chemik wywozi z Opola tie-breaka",
+            "titleEn": "Chemik take the tie-break in Opole",
+            "titleTr": "Chemik tie-break'i aldı",
+            "text": "UNI Opole przegrało u siebie z LOTTO Chemikiem Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Chemik wygrał dwa pierwsze sety, Wilczyce odpowiedziały 25:9 i 25:15, tie-break 15:13 dla Polic. Małe punkty 80:89. Suma punktów zawodniczek z protokołu: Opole 80, Chemik 62. UNI: Katarzyna Zaroślińska-Król 28, Natalia Kecher 15, Sydney Palazzolo 11, Vasja Filipović 10, Andriana Pavlyk 10, Gabriela Makarowska-Kulej 6. Chemik: Julia Orzeł 16, Natalia Mędrzyk 12, Oliwia Sieradzka 11, Maja Koput 8, Agata Milewska 7, Magdalena Bagniak 4, Liliana Wójcik 3, Pola Janicka 1. Atak 61 (44%) do 49 (35%), asy 3–8, blok 16–5. Szóstka Opola: Makarowska-Kulej, Pavlyk, Filipović, Zaroślińska-Król, Palazzolo, Kecher. Chemik: Janicka, Mędrzyk, Koput, Sieradzka, Orzeł, Milewska. Trenerzy Bartłomiej Dąbrowski i Przemysław Kawka.",
+            "textEn": "UNI Opole lost 2–3 to LOTTO Chemik Police (21–25, 23–25, 25–9, 25–15, 13–15). Player points: Opole 80, Chemik 62. Zaroślińska-Król 28, Kecher 15, Palazzolo 11, Filipović 10, Pavlyk 10, Makarowska-Kulej 6. Orzeł 16, Mędrzyk 12, Sieradzka 11, Koput 8, Milewska 7, Bagniak 4, Wójcik 3, Janicka 1. Aces 3–8, block 16–5.",
+            "textTr": "UNI Opole 2-3 Chemik. Puanlar: Zaroślińska-Król 28, Kecher 15; Orzeł 16, Mędrzyk 12, Sieradzka 11.",
+            "homeTop": [
+              {
+                "n": "Katarzyna Zaroślińska-Król",
+                "p": 28
+              },
+              {
+                "n": "Natalia Kecher",
+                "p": 15
+              },
+              {
+                "n": "Sydney Palazzolo",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Julia Orzeł",
+                "p": 16
+              },
+              {
+                "n": "Natalia Mędrzyk",
+                "p": 12
+              },
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 11
+              }
+            ]
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/id/1104991.html"
+        },
+        {
+          "id": "r1m3",
+          "date": "2026-10-03",
+          "time": "12:00",
+          "home": "mog",
+          "away": "rad",
+          "venue": "Mogilno",
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "preview": {
+            "headline": "Waleczny Sokół kontra Radomka po rewolucji",
+            "headlineEn": "Battling Sokół vs rebuilt Radomka",
+            "text": "Trener Dawid Michor zapowiedział, że Sokół chce być najwaleczniejszą drużyną ligi. Skład uzupełniły m.in. Karolina Drużkowska i zawodniczki z zagranicy (m.in. Melis Durul). MOYA Radomka przeszła letnią przebudowę; w przygotowaniach wygrywała turnieje (Solna Piłka w Wieliczce — finał z UNI Opole) i była skuteczna w Grand Prix PGE. Na papierze Radomka ma szerszy wachlarz, ale wyjazd do Mogilna na południe już o 12:00 to klasyczny „mecz-pułapka”.",
+            "textEn": "Coach Dawid Michor said Sokół want to be the toughest team in the league. Additions include Karolina Drużkowska and overseas players (among them Melis Durul). MOYA Radomka rebuilt in the summer, won pre-season events (Solna Piłka in Wieliczka — final vs UNI Opole) and looked sharp at the PGE Grand Prix. On paper Radomka have more weapons, but a noon trip to Mogilno is a classic banana skin.",
+            "prediction": "2:3",
+            "confidence": "średnia",
+            "keys": [
+              "rewolucja kadrowa Radomki",
+              "czynnik hali w Mogilnie",
+              "waleczność Sokoła",
+              "rytm turniejowy Radomki"
+            ],
+            "keysEn": [
+              "Radomka rebuild",
+              "Mogilno home factor",
+              "Sokół fight",
+              "Radomka tournament rhythm"
+            ]
+          },
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 0:3 (22:25, 23:25, 22:25). TAURON Liga kafelek 3.10 12:00 i małe punkty 22 25 23 25 22 25. Polsat Sport, zestawienie 1. kolejki: Sokół & Hagric Mogilno – Moya Radomka Radom 0:3 (22:25, 23:25, 22:25)."
+          },
+          "recap": {
+            "title": "Radomka bez straty seta w Mogilnie",
+            "titleEn": "Radomka take Mogilno in straight sets",
+            "titleTr": "Radomka Mogilno'da 3-0",
+            "text": "Sokół & Hagric Mogilno przegrał u siebie z MOYA Radomką Radom 0:3 (22:25, 23:25, 22:25). siatka.org: Sokół prowadził 8:4 (Ejsmont), potem Fedyk i Garita przejęły seta. W drugim Drużkowska dała 11:10, końcówka dla Radomki. W trzecim Dudek wzięła piłkę meczową i zakończyła spotkanie. MVP: Aleksandra Dudek. Punkty: Drużkowska 18, Kowalska 13, Świętoń 9, Ejsmont 4, Cygan 4, Durul 2, Krenicky 1; Dudek 18, Fedyk 9, Chylińska 9, Gierszewska 7, Petrenko 5, Garita 4.",
+            "textEn": "Sokół & Hagric Mogilno lost 0-3 to MOYA Radomka (22-25, 23-25, 22-25). siatka.org: hosts led 8-4, then Fedyk and Garita took the set. Drużkowska made it 11-10 in set two; Dudek closed the match. MVP Aleksandra Dudek. Drużkowska 18, Kowalska 13, Świętoń 9; Dudek 18, Fedyk 9, Chylińska 9.",
+            "textTr": "Mogilno 0-3 Radomka (22-25, 23-25, 22-25). MVP Aleksandra Dudek. Drużkowska 18, Kowalska 13; Dudek 18, Fedyk 9.",
+            "homeTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 18
+              },
+              {
+                "n": "Wiktoria Kowalska",
+                "p": 13
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Dudek",
+                "p": 18
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 9
+              },
+              {
+                "n": "Chylińska",
+                "p": 9
+              }
+            ]
+          },
+          "clip": "https://siatka.org/pokaz/tauron-liga-kobiet-sokol-mogilno-radomka-radom/"
+        },
+        {
+          "id": "r1m4",
+          "date": "2026-10-03",
+          "time": "15:00",
+          "home": "byd",
+          "away": "bks",
+          "venue": "Bydgoszcz",
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "preview": {
+            "headline": "Pałac próbuje zatrzymać BKS",
+            "headlineEn": "Pałac try to stop BKS",
+            "text": "Metalkas Pałac Bydgoszcz regularnie gryzie się o miejsca 6–9. BKS ZGO Bielsko-Biała to klub ze stałym miejscem w górnej połowie i doświadczeniem play-off. W poprzednim sezonie BKS był wyżej w tabeli zasadniczej. Bydgoszcz u siebie potrafi zaskoczyć faworyta, ale BKS powinien kontrolować mecz jakością bloku i przyjęcia.",
+            "textEn": "Metalkas Pałac Bydgoszcz usually scrap for places 6–9. BKS ZGO Bielsko-Biała are a regular top-half, play-off side and finished higher in last season's table. Bydgoszcz can shock favourites at home, but BKS should control the match with block and reception quality.",
+            "prediction": "1:3",
+            "confidence": "średnia+",
+            "keys": [
+              "doświadczenie BKS",
+              "gra u siebie Pałacu",
+              "stabilność składu bielszczanek"
+            ],
+            "keysEn": [
+              "BKS experience",
+              "Pałac at home",
+              "Bielsko roster stability"
+            ]
+          },
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). TAURON Liga kafelek 3.10 15:00, małe punkty 21 25 23 25 25 20 25 21 10 15. Polsat Sport relacja meczowa i zestawienie 1. kolejki: ten sam wynik setów (tie-break 10:15, nie 12:15)."
+          },
+          "recap": {
+            "title": "BKS wywozi tie-breaka z Łuczniczki",
+            "titleEn": "BKS take the tie-break in Bydgoszcz",
+            "titleTr": "BKS tie-break'i aldı",
+            "text": "Metalkas Pałac Bydgoszcz przegrał u siebie z BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). Bielszczanki wygrały dwa pierwsze sety, Pałac odpowiedział 25:20 i 25:21, tie-break 15:10 dla BKS. Małe punkty 104:106, mecz trwał 2:05. HSW Immobile Łuczniczka: 750 widzów. W pierwszym secie BKS prowadził 7:2, remis 14:14 po asie Wiktorii Makarewicz, set zamknęły dwa bloki na Marcie Pol. W czwartym Pałac odrobił sześć punktów i serią sześciu punktów doprowadził do tie-breaka; w piątym różnicę zrobiły zagrywki Kertu Laak. Najwięcej punktów: Makarewicz 26, Pol 16, Pinczewska 14; Iris Vos 22, Iga Wasilewska 19, Kertu Laak 17. MVP: Iris Vos (debiut w TAURON Lidze, atak 19/43, 44%). Atak punktowy 59–63, asy 8–7, blok 16–18. Szóstka Pałacu: Pol, Łyczakowska, Makarewicz, Dębowska, Hewelt, Pinczewska. BKS: Laak, Borowczak, Wasilewska, Szewczyk, Vos, Abramajtys. Trenerzy Bartłomiej Łyczakowski i Bartłomiej Piekarczyk.",
+            "textEn": "Metalkas Pałac Bydgoszcz lost 2–3 to BKS ZGO Bielsko-Biała (21–25, 23–25, 25–20, 25–21, 10–15). Small points 104–106 in 2:05. HSW Immobile Łuczniczka drew 750. Makarewicz 26, Pol 16, Pinczewska 14; Iris Vos 22, Iga Wasilewska 19, Kertu Laak 17. MVP Vos, on debut, attack 19/43 (44%). Attack points 59–63, aces 8–7, block 16–18. Coaches Bartłomiej Łyczakowski and Bartłomiej Piekarczyk.",
+            "textTr": "Pałac 2-3 BKS (21-25, 23-25, 25-20, 25-21, 10-15). 750 seyirci. Makarewicz 26, Pol 16; Vos 22, Wasilewska 19, Laak 17. MVP Vos. Hücum 59-63, ace 8-7, blok 16-18.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 26
+              },
+              {
+                "n": "Marta Pol",
+                "p": 16
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 22
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 19
+              },
+              {
+                "n": "Kertu Laak",
+                "p": 17
+              }
+            ]
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104992.html"
+        },
+        {
+          "id": "r1m5",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "wro",
+          "away": "mie",
+          "venue": "Wrocław",
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              21,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "preview": {
+            "headline": "Wzmocniony Wrocław startuje ze Stalą",
+            "headlineEn": "Reinforced Wrocław open against Stal",
+            "text": "#VolleyWrocław oficjalnie komunikuje wzmocnienia i patrzy wyżej niż na walkę o utrzymanie. ITA TOOLS Stal Mielec w poprzednim sezonie była w strefie play-off. W sierpniowym Grand Prix PGE Wrocław wygrał ze Stalą 2:0 (26:24, 25:10) — to tylko skrócony format, ale pokazuje, że wrocławianki potrafią narzucić tempo. Mecz otwarty; lekki faworyt gospodynie z racji nowych nabytków i hali.",
+            "textEn": "#VolleyWrocław have added players and aim higher than mere survival. ITA TOOLS Stal Mielec reached the play-off zone last season. In the August PGE Grand Prix Wrocław beat Stal 2–0 (26–24, 25–10) — shortened format, but a signal they can set the tempo. Open match; slight edge to the hosts for new signings and home court.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "wzmocnienia Wrocławia",
+              "rutyna play-off Stali",
+              "Grand Prix jako sygnał formy"
+            ],
+            "keysEn": [
+              "Wrocław reinforcements",
+              "Stal play-off know-how",
+              "Grand Prix as a form signal"
+            ]
+          },
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). TAURON Liga kafelek 4.10 15:00 i relacja ligi. Polsat Sport, zestawienie 1. kolejki: #VolleyWrocław – ITA Tools Stal Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15)."
+          },
+          "recap": {
+            "title": "Stal wywozi tie-breaka z Orbity",
+            "titleEn": "Stal take the tie-break at Orbita",
+            "titleTr": "Stal tie-break'i aldı",
+            "text": "#VolleyWrocław przegrał u siebie z ITA TOOLS Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). Gospodynie wzięły pierwszą partię i czwartą 26:24, Mielczanki drugą, trzecią i tie-breaka 15:8. Hala Orbita, 859 widzów. Punkty z protokołu, suma 73:82, asy 4–7. MVP: Aleksandra Adamczyk. Wrocław: Antonia Stautz 23, Diana Frankevych 16, Sara Wąsiakowska 11, Natalia Dróżdż 9, Dominika Sobolska-Tarasova 7, Joanna Garncarz 4, Maja Malczewska 2, Marlena Kowalewska 1. Stal: Aleksandra Adamczyk 18, Anna Bączyńska 17, Andjela Jovanović 14, Rozalia Moszyńska 13, Magdalena Ociepa 7, Linda Andersson 6, Weronika Sobiczewska 5, Julia Bińczycka 2. Trenerzy Wojciech Kurczyński i Jakub Głuszak.",
+            "textEn": "#VolleyWrocław lost 2–3 to Stal. Points 73–82. MVP Aleksandra Adamczyk. Stautz 23, Frankevych 16, Wąsiakowska 11. Adamczyk 18, Bączyńska 17, Jovanović 14, Moszyńska 13, Ociepa 7, Andersson 6, Sobiczewska 5, Bińczycka 2.",
+            "textTr": "Wrocław 2-3 Stal. Stautz 23, Frankevych 16; Adamczyk 18, Bączyńska 17.",
+            "homeTop": [
+              {
+                "n": "Antonia Stautz",
+                "p": 23
+              },
+              {
+                "n": "Diana Frankevych",
+                "p": 16
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 18
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 17
+              },
+              {
+                "n": "Andjela Jovanović",
+                "p": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "r1m6",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "home": "lks",
+          "away": "dev",
+          "venue": "Łódź (ŁKS)",
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "preview": {
+            "headline": "Derby ambicji: ŁKS kontra DevelopRes",
+            "headlineEn": "Ambition derby: ŁKS vs DevelopRes",
+            "text": "Hit 1. kolejki. ŁKS Commercecon wygrał turniej w Twardogórze i finał LOTTO Gigantów z DevelopResem. DevelopRes, wicemistrz, ma nową kapitan Alicję Grabkę. Magdalena Jurczyk zagrała i zdobyła 5 punktów.",
+            "textEn": "Round 1 headline. ŁKS beat DevelopRes in the LOTTO Giants final. Jurczyk played and scored 5.",
+            "prediction": "1:3",
+            "confidence": "średnia+",
+            "keys": [
+              "finał Gigantów",
+              "Grabka kapitan",
+              "Jurczyk na boisku"
+            ],
+            "keysEn": [
+              "Giants final",
+              "Grabka captain",
+              "Jurczyk played"
+            ],
+            "headlineTr": "ŁKS – DevelopRes"
+          },
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-06T19:05:00Z",
+            "note": "Oba źródła: 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). TAURON Liga kafelek 4.10 18:00, małe punkty 22 25 17 25 25 19 25 14 15 17. Polsat Sport, zestawienie 1. kolejki: ŁKS Commercecon – DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17)."
+          },
+          "recap": {
+            "title": "DevelopRes wywozi tie-breaka z Łodzi",
+            "titleEn": "DevelopRes take the tie-break in Łódź",
+            "titleTr": "DevelopRes tie-break'i aldı",
+            "text": "ŁKS Commercecon Łódź przegrał u siebie z KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). Rzeszowianki wygrały dwa pierwsze sety, ŁKS odpowiedział 25:19 i 25:14, a tie-breaka wzięły przyjezdne 17:15. Sport Arena, 2468 widzów, mecz trwał 2 godziny 14 minut. Małe punkty 104:100. Punkty z raportu, suma zawodniczek 79:77. ŁKS: Suvi Kokkonen 24, Elles Dambrink 16, Oleksandra Milenko 14, Sonia Stefanik 10, Magdalena Jurczyk 5, Anna Obiała 5, Karla Antunović 4, Pola Nowakowska 1. DevelopRes: Weronika Centka-Tietianiec 23, Marrit Jasper 22, Taylor Mims 12, Julita Piasecka 7, Alicja Grabka 6, Laura Jansen 3, Uliana Kotar 3, Mika Grbavica 1. Atak 63/157 (40%) do 58/151 (38%), asy 2–4, blok 14–15. Szóstka ŁKS: Stefanik, Dambrink, Kokkonen, Obiała, Antunović, Milenko. DevelopRes: Kotar, Grabka, Piasecka, Centka-Tietianiec, Mims, Jasper. Trenerzy Adrian Chyliński i Jelena Blagojević.",
+            "textEn": "ŁKS Commercecon Łódź lost at home to KS DevelopRes Rzeszów 2–3 (22–25, 17–25, 25–19, 25–14, 15–17). Sport Arena, 2,468 fans, 2 hours 14 minutes. Small points 104–100. Player points 79–77. Kokkonen 24, Dambrink 16, Milenko 14, Stefanik 10; Centka-Tietianiec 23, Jasper 22, Mims 12, Piasecka 7. Attack 63/157 (40%) to 58/151 (38%), aces 2–4, block 14–15. Coaches Adrian Chyliński and Jelena Blagojević.",
+            "textTr": "ŁKS evinde DevelopRes'e 2-3 kaybetti (22-25, 17-25, 25-19, 25-14, 15-17). Kokkonen 24, Dambrink 16, Milenko 14; Centka-Tietianiec 23, Jasper 22, Mims 12. As 2-4, blok 14-15.",
+            "homeTop": [
+              {
+                "n": "Suvi Kokkonen",
+                "p": 24
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 16
+              },
+              {
+                "n": "Oleksandra Milenko",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 23
+              },
+              {
+                "n": "Marrit Jasper",
+                "p": 22
+              },
+              {
+                "n": "Taylor Mims",
+                "p": 12
+              }
+            ]
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104995.html"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "label": "2. kolejka",
+      "window": "9–13 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r2m1",
+          "date": "2026-10-09",
+          "time": "17:30",
+          "home": "mie",
+          "away": "byd",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Stal po tie-breaku we Wrocławiu, Pałac szuka pierwszego zwycięstwa",
+            "headlineEn": "Stal after a Wrocław tie-break, Pałac still looking for a first win",
+            "headlineTr": "Stal Wrocław'den sonra, Pałac ilk galibiyeti arıyor",
+            "text": "ITA TOOLS Stal Mielec zaczęła sezon od 3:2 na wyjeździe z #VolleyWrocław (25:23, 21:25, 17:25, 26:24, 8:15) i ma 2 punkty. Metalkas Pałac Bydgoszcz przegrał u siebie z BKS 2:3 (21:25, 23:25, 25:20, 25:21, 10:15) i ma 1 punkt. Mielczanki były skuteczniejsze w tie-breaku, Pałac dwa sety urwał, ale piątego oddał 10:15. U siebie Stal jest faworytem, Pałac potrafi jednak przeciągnąć mecz.",
+            "textEn": "Stal opened with a 3–2 win at Wrocław and have 2 points. Pałac lost 2–3 at home to BKS and have 1. Stal are favourites at home, but Bydgoszcz already showed they can take sets.",
+            "textTr": "Stal deplasmanda 3-2 kazandı. Pałac evinde 2-3 kaybetti. Ev sahibi hafif favori.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "2 punkty Stali",
+              "tie-break Pałacu z BKS",
+              "hala w Mielcu"
+            ],
+            "keysEn": [
+              "Stal's 2 points",
+              "Pałac tie-break vs BKS",
+              "home court in Mielec"
+            ]
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r2m2",
+          "date": "2026-10-09",
+          "time": "20:30",
+          "home": "bud",
+          "away": "lks",
+          "venue": "Łódź (Budowlani)",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Derby Łodzi: mistrzynie po 3:0, ŁKS po tie-breaku z DevelopRes",
+            "headlineEn": "Łódź derby: champions after a 3–0, ŁKS after a tie-break",
+            "headlineTr": "Łódź derbisi",
+            "text": "PGE Budowlani Łódź otworzyły sezon 3:0 w Kaliszu (7:25, 17:25, 12:25), 75:36 w małych punktach i 3 punkty. ŁKS Commercecon przegrał u siebie z DevelopRes 2:3 (22:25, 17:25, 25:19, 25:14, 15:17), małe punkty 104:100, 1 punkt. Tydzień wcześniej ŁKS wygrał z Rzeszowem finał LOTTO Gigantów Siatkówki. Derby przy pełniejszej hali niż Kalisz. Na papierze faworytem są obrończynie tytułu, ŁKS ma jednak świeży tie-break za sobą.",
+            "textEn": "Budowlani opened 3–0 at Kalisz, 75–36 in points. ŁKS lost 2–3 at home to DevelopRes, 104–100. A week earlier ŁKS beat Rzeszów in the LOTTO Giants final. Champions are favourites in the derby.",
+            "textTr": "Budowlani 3-0 başladı. ŁKS DevelopRes'e 2-3 kaybetti. Derbide şampiyon favori.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "3:0 w Kaliszu",
+              "tie-break ŁKS-u",
+              "derby"
+            ],
+            "keysEn": [
+              "3–0 in Kalisz",
+              "ŁKS tie-break",
+              "derby"
+            ]
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Wilczyce po tie-breaku z Chemikiem przyjmują BKS",
+            "headlineEn": "UNI after the Chemik tie-break host BKS",
+            "headlineTr": "UNI, Chemik tie-break'inden sonra BKS'i ağırlıyor",
+            "text": "UNI Opole przegrało inaugurację u siebie z LOTTO Chemikiem 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). Po 0:2 gospodynie wygrały dwa sety wyraźnie, tie-break oddały 13:15. Z protokołu: Zaroślińska-Król 28, Kecher 15, Palazzolo 11. BKS ZGO Bielsko-Biała wygrał w Bydgoszczy 3:2 (25:21, 25:23, 20:25, 21:25, 15:10) i ma 2 punkty, Opole 1. Stegu Arena. Mecz otwarty, lekkie wskazanie na gospodynie.",
+            "textEn": "UNI lost 2–3 at home to Chemik. BKS won 3–2 in Bydgoszcz. Home side a slight favourite at Stegu Arena.",
+            "textTr": "UNI evinde Chemik'e 2-3 kaybetti. BKS deplasmanda 3-2 kazandı.",
+            "prediction": "3:2",
+            "confidence": "niska",
+            "keys": [
+              "1 punkt Opola",
+              "2 punkty BKS",
+              "Zaroślińska-Król 28"
+            ],
+            "keysEn": [
+              "Opole's 1 point",
+              "BKS on 2",
+              "Zaroślińska-Król 28"
+            ]
+          },
+          "tv": "Polsat Sport 3"
+        },
+        {
+          "id": "r2m4",
+          "date": "2026-10-12",
+          "time": "17:30",
+          "home": "dev",
+          "away": "mog",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "DevelopRes po wyjeździe z Łodzi, Mogilno bez seta",
+            "headlineEn": "DevelopRes after Łódź, Mogilno still without a set",
+            "headlineTr": "DevelopRes Łódź'den sonra, Mogilno setsiz",
+            "text": "KS DevelopRes Rzeszów wygrał w Łodzi 3:2 z ŁKS (22:25, 17:25, 25:19, 25:14, 15:17) i ma 2 punkty. Sokół & Hagric Mogilno przegrał inaugurację 0:3 z Radomką (22:25, 23:25, 22:25), trzy sety do samego końca, 0 punktów. U siebie wicemistrzynie są wyraźną faworytką. Mogilno w Mogilnie trzymało się blisko Radomki, więc set nie jest wykluczony.",
+            "textEn": "DevelopRes won 3–2 in Łódź. Mogilno lost 0–3 to Radomka, each set close. Runners-up are clear favourites at home.",
+            "textTr": "DevelopRes Łódź'de 3-2 kazandı. Mogilno 0-3 kaybetti.",
+            "prediction": "3:0",
+            "confidence": "wysoka",
+            "keys": [
+              "2 punkty DevelopRes",
+              "0:3 Mogilna",
+              "hala w Rzeszowie"
+            ],
+            "keysEn": [
+              "DevelopRes on 2",
+              "Mogilno 0–3",
+              "home court"
+            ]
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r2m5",
+          "date": "2026-10-12",
+          "time": "20:30",
+          "home": "che",
+          "away": "kal",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Chemik po Opolu, beniaminek po 0:3 z mistrzyniami",
+            "headlineEn": "Chemik after Opole, promoted side after 0–3",
+            "headlineTr": "Chemik Opole'den sonra, Kalisz 0-3",
+            "text": "LOTTO Chemik Police wygrał w Opolu 3:2 (25:21, 25:23, 9:25, 15:25, 15:13). Z protokołu Julia Orzeł 16, Natalia Mędrzyk 12, Oliwia Sieradzka 11. NETLAND MKS Kalisz przegrał inaugurację 0:3 z Budowlanymi (7:25, 17:25, 12:25), 36:75. Chemik gra u siebie i jest faworytem. Kalisz po takim otwarciu będzie szukał pierwszego seta w sezonie.",
+            "textEn": "Chemik won 3–2 in Opole. Kalisz lost 0–3 to Budowlani, 36–75. Police are favourites at home.",
+            "textTr": "Chemik Opole'de 3-2 kazandı. Kalisz 0-3 kaybetti.",
+            "prediction": "3:0",
+            "confidence": "wysoka",
+            "keys": [
+              "3:2 w Opolu",
+              "0:3 Kalisza",
+              "hala w Policach"
+            ],
+            "keysEn": [
+              "3–2 in Opole",
+              "Kalisz 0–3",
+              "home court"
+            ]
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r2m6",
+          "date": "2026-10-13",
+          "time": "17:30",
+          "home": "rad",
+          "away": "wro",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka po trzech pościgach, Wrocław po oddanym tie-breaku",
+            "headlineEn": "Radomka after three close sets, Wrocław after a lost tie-break",
+            "headlineTr": "Radomka üç yakın setten sonra",
+            "text": "MOYA Radomka Radom wygrała w Mogilnie 3:0 (25:22, 25:23, 25:22), MVP Aleksandra Dudek, 3 punkty. #VolleyWrocław przegrał na Orbita ze Stalą 2:3 (25:23, 21:25, 17:25, 26:24, 8:15), tie-break 8:15, 1 punkt. Radomka gra u siebie i jest faworytem. Wrocław pokazał, że potrafi wygrać dwa sety z zespołem ze strefy play-off.",
+            "textEn": "Radomka won 3–0 in Mogilno, Dudek MVP. Wrocław lost 2–3 to Stal, tie-break 8–15. Radom are favourites at home.",
+            "textTr": "Radomka 3-0 kazandı. Wrocław Stal'a 2-3 kaybetti.",
+            "prediction": "3:1",
+            "confidence": "średnia",
+            "keys": [
+              "3:0 Radomki",
+              "tie-break Wrocławia",
+              "Dudek MVP"
+            ],
+            "keysEn": [
+              "Radomka 3–0",
+              "Wrocław tie-break",
+              "Dudek MVP"
+            ]
+          },
+          "tv": "Polsat Sport 1"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "label": "3. kolejka",
+      "window": "15–19 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r3m1",
+          "date": "2026-10-15",
+          "time": "17:30",
+          "home": "lks",
+          "away": "mie",
+          "venue": "Łódź (ŁKS)",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — Stal",
+            "headlineEn": "ŁKS — Stal",
+            "prediction": "—",
+            "text": "Zapowiedź po 1. kolejce.",
+            "textEn": "Preview after Round 1."
+          },
+          "tv": "Polsat Sport 2"
+        },
+        {
+          "id": "r3m2",
+          "date": "2026-10-16",
+          "time": "19:00",
+          "home": "wro",
+          "away": "che",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Wrocław — Chemik",
+            "headlineEn": "Wrocław — Chemik",
+            "prediction": "—",
+            "text": "16.10, 19:00 według terminarza ligi. Karta meczu bez kafelka TV.",
+            "textEn": "16 Oct, 19:00 on the league schedule. Match card has no TV tile."
+          },
+          "tv": null
+        },
+        {
+          "id": "r3m3",
+          "date": "2026-10-17",
+          "time": "12:00",
+          "home": "byd",
+          "away": "kal",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Pałac — Kalisz",
+            "headlineEn": "Pałac — Kalisz",
+            "prediction": "—",
+            "text": "Godzina 12:00 według terminarza ligi. Kafel transmisji: Polsat Sport 1.",
+            "textEn": "12:00 on the league schedule. Broadcast tile: Polsat Sport 1."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r3m4",
+          "date": "2026-10-17",
+          "time": "20:30",
+          "home": "dev",
+          "away": "rad",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "DevelopRes — Radomka",
+            "headlineEn": "DevelopRes — Radomka",
+            "prediction": "—",
+            "text": "Termin z listy ligi: 17.10, 20:30. Kafelek: Polsat Sport 1. Sokół–BKS doszedł na listę: 19.10, 20:30, Polsat Sport 1.",
+            "textEn": "League list: 17 Oct, 20:30, Polsat Sport 1. Sokół–BKS is now on the list: 19 Oct, 20:30, Polsat Sport 1."
+          }
+        },
+        {
+          "id": "r3m5",
+          "date": "2026-10-18",
+          "time": "20:30",
+          "home": "opo",
+          "away": "bud",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "Opole — Budowlani",
+            "headlineEn": "Opole — Budowlani",
+            "prediction": "—",
+            "text": "Termin z listy ligi: 18.10, 20:30. Kafelek transmisji: Polsat Sport 1.",
+            "textEn": "League list: 18 Oct, 20:30. Broadcast tile: Polsat Sport 1."
+          }
+        },
+        {
+          "id": "r3m6",
+          "date": "2026-10-19",
+          "time": "20:30",
+          "home": "mog",
+          "away": "bks",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "tv": "Polsat Sport 1",
+          "preview": {
+            "headline": "Sokół — BKS",
+            "headlineEn": "Sokół — BKS",
+            "prediction": "—",
+            "text": "Lista ligi (3.10, wieczór): poniedziałek 19.10, 20:30. Kafelek transmisji: Polsat Sport 1. Wcześniej para nie miała godziny na stronie głównej.",
+            "textEn": "League list (3 Oct evening): Monday 19 Oct, 20:30. Broadcast tile: Polsat Sport 1. The pair previously had no homepage kick-off."
+          }
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "label": "4. kolejka",
+      "window": "22–24 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r4m1",
+          "date": "2026-10-22",
+          "time": "17:30",
+          "home": "rad",
+          "away": "mie",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka — Stal, godzina jest, TV nie",
+            "headlineEn": "Radomka — Stal, time set, no TV",
+            "prediction": "—",
+            "text": "Lista ligi (7.10): czwartek 22.10, 17:30. Kafelka TV nie ma. Wyniku nie ma.",
+            "textEn": "League list (7 Oct): Thursday 22 Oct, 17:30. No TV tile. No score."
+          }
+        }
+      ]
+    }
+  ]
+}
