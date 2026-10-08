@@ -3,6 +3,28 @@
   "items": [
     {
       "d": "2026-10-08",
+      "t": "Liga: przed 2. kolejką derby Łodzi i punkty, w tekście 20.20",
+      "te": "League preview: Łódź derby and points, text says 20:20",
+      "tt": "Lig: 2. hafta öncesi Łódź derbisi, metinde 20.20",
+      "b": "Liga (8.10, 12:18, mkb niepodany, aktualność): zapowiedź 2. kolejki. W 1. kolejce komplet punktów tylko PGE Budowlani Łódź (3:0 z Kaliszem) i MOYA Radomka Radom (3:0 z Mogilnem). Po 2 punkty: Chemik, BKS, Stal i DevelopRes. Liga pisze, że w każdym meczu 1. kolejki wygrały zespoły przyjezdne. Hit: Budowlani–ŁKS, cytat Martyny Grajber-Nowakowskiej o wysokich aspiracjach obu klubów. Opole–BKS: Klaudia Nowakowska, kapitan BKS, gra w tym sezonie na libero; po Pałacu mówi o stresie i falującej grze. Kecher po 2:3 z Chemikiem: dwa sety dobre, w tie-breaku zabrakło koncentracji. Stal–Pałac, Chemik–Kalisz, DevelopRes–Mogilno (Pancewicz była w Mogilnie, Magda Kubas z Podpromia do Sokoła) i Radomka–Wrocław. Plan w tekście: 9.10 17.30 Stal–Pałac i 20.20 Budowlani–ŁKS; 11.10 15.00 Opole–BKS; 12.10 17.30 DevelopRes–Mogilno i 20.30 Chemik–Kalisz; 13.10 17.30 Radomka–Wrocław. Tekst mówi o sportowych antenach Polsatu, bez numeru kanału. Na kafelku Budowlani–ŁKS zostaje 20:30 i Polsat Sport 1; 20.20 z tekstu nie nadpisuje godziny. Wyników nie dopisano.",
+      "be": "League preview (8 Oct, 12:18): only Budowlani (3-0 vs Kalisz) and Radomka (3-0 vs Mogilno) took a full haul in Round 1. Chemik, BKS, Stal and DevelopRes have 2 points. The league says every Round 1 winner was the away side. Hit is Budowlani–ŁKS, with Grajber-Nowakowska on both clubs’ aims. Opole–BKS: BKS captain Klaudia Nowakowska is playing libero this season. Kecher on the 2-3 with Chemik. The text lists 9 Oct Budowlani–ŁKS at 20.20 and says Polsat sports channels, without a channel number. The tile stays 20:30 and Polsat Sport 1; 20.20 does not overwrite the kick-off. No new scores.",
+      "bt": "Lig (8 Ekim, 12:18): 1. haftada tam puan yalnız Budowlani ve Radomka. Metin Budowlani-ŁKS’yi 20.20 yazıyor, kanal numarası yok. Kafelek 20:30 ve Polsat Sport 1 kalıyor. Yeni sonuç yok.",
+      "u": "https://www.tauronligakobiet.pl/news,derby-lodzi-i-walka-o-wazne-punkty-przez-nami-2-kolejka-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-08",
+      "t": "Liga: złoto 2018/19 w derbach, mistrzostwo ŁKS",
+      "te": "League: 2018/19 derby gold, title for ŁKS",
+      "tt": "Lig: 2018/19 derbi finali, şampiyon ŁKS",
+      "b": "Profil ligi (8.10, 15:23): za najważniejsze derby Łodzi podaje sezon 2018/2019, gdy PGE Budowlani Łódź i ŁKS Commercecon grali o złoto TAURON Ligi Kobiet. Drugie mistrzostwo Polski w historii klubu zdobyły wtedy Łódzkie Wiewióry (ŁKS). Wyniku serii nie podaje. O 16:16 liga odpowiada na wpis ŁKS o rodzinnym wątku derbów (pytania o Polę Nowakowską, Jana Nowakowskiego i Martynę Grajber-Nowakowską) krótko: z rodziną najlepiej na zdjęciach. Odpowiedzi na pytania nie ma.",
+      "be": "League account (8 Oct, 15:23): it calls the 2018/19 season the biggest Łódź derby, when Budowlani and ŁKS played for the TAURON Liga gold. ŁKS, the Łódzkie Wiewióry, won the club’s second Polish title. No series score is given. At 16:16 the league replies to an ŁKS post about the family angle (questions on Pola Nowakowska, Jan Nowakowski and Martyna Grajber-Nowakowska) only that family is best in photos. It does not answer the questions.",
+      "bt": "Lig (8 Ekim, 15:23): 2018/19 derbisinde altın için oynandı, ŁKS ikinci Polonya şampiyonluğunu aldı. Seri skoru yok. 16:16’da aile sorularına yalnızca fotoğraf esprisi.",
+      "u": "https://x.com/TAURONLigaK/status/2108186398385959054",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-08",
       "t": "Liga: 32. derby Łodzi jutro, pytanie o pierwsze spotkanie",
       "te": "League: 32nd Łódź derby tomorrow, question on the first meeting",
       "tt": "Lig: 32. Łódź derbisi yarın, ilk maç sorusu",
