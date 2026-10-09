@@ -965,11 +965,11 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Radomka — Stal, godzina jest, TV nie",
+            "headline": "Radomka — Stal",
             "headlineEn": "Radomka — Stal, time set, no TV",
             "prediction": "—",
-            "text": "Lista ligi (7.10): czwartek 22.10, 17:30. Kafelka TV nie ma. Wyniku nie ma.",
-            "textEn": "League list (7 Oct): Thursday 22 Oct, 17:30. No TV tile. No score."
+            "text": "Czwartek 22.10, 17:30, Radom. Jedyna para 4. kolejki podana przez ligę.",
+            "textEn": "Thursday 22 Oct, 17:30, Radom. The only round-4 pair published by the league."
           }
         }
       ]
