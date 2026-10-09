@@ -17,9 +17,7 @@
         "text": "15.10, 17:30. Kafelek: Polsat Sport 2.",
         "textEn": "15 Oct, 17:30. Tile: Polsat Sport 2.",
         "prediction": "—",
-        "keys": [
-          "PS2"
-        ]
+        "keys": ["PS2"]
       }
     },
     {
@@ -29,16 +27,14 @@
       "home": "wro",
       "away": "che",
       "venue": "Wrocław",
-      "tv": null,
+      "tv": "Polsat Sport Extra 3",
       "preview": {
         "headline": "Wrocław — Chemik",
         "headlineEn": "Wrocław — Chemik",
-        "text": "16.10, 19:00. Karta i lista bez kafelka TV.",
-        "textEn": "16 Oct, 19:00. No TV tile on the list.",
+        "text": "16.10, 19:00. Kafelek: Polsat Sport Extra 3. Wcześniej bez logo.",
+        "textEn": "16 Oct, 19:00. Tile: Polsat Sport Extra 3. Previously no logo.",
         "prediction": "—",
-        "keys": [
-          "bez kafelka"
-        ]
+        "keys": ["Extra 3"]
       }
     },
     {
@@ -55,9 +51,7 @@
         "text": "17.10, 12:00. Kafelek: Polsat Sport 1.",
         "textEn": "17 Oct, 12:00. Tile: Polsat Sport 1.",
         "prediction": "—",
-        "keys": [
-          "PS1"
-        ]
+        "keys": ["PS1"]
       }
     },
     {
@@ -74,9 +68,7 @@
         "text": "17.10, 20:30. Kafelek: Polsat Sport 1.",
         "textEn": "17 Oct, 20:30. Tile: Polsat Sport 1.",
         "prediction": "—",
-        "keys": [
-          "PS1"
-        ]
+        "keys": ["PS1"]
       }
     },
     {
@@ -93,9 +85,7 @@
         "text": "18.10, 20:30. Kafelek: Polsat Sport 1.",
         "textEn": "18 Oct, 20:30. Tile: Polsat Sport 1.",
         "prediction": "—",
-        "keys": [
-          "PS1"
-        ]
+        "keys": ["PS1"]
       }
     },
     {
@@ -109,13 +99,10 @@
       "preview": {
         "headline": "Sokół — BKS",
         "headlineEn": "Sokół — BKS",
-        "text": "19.10, 20:30. Kafelek: Polsat Sport 1. Wcześniej bez godziny.",
-        "textEn": "19 Oct, 20:30. Tile: Polsat Sport 1. Previously no kick-off.",
+        "text": "19.10, 20:30. Kafelek: Polsat Sport 1.",
+        "textEn": "19 Oct, 20:30. Tile: Polsat Sport 1.",
         "prediction": "—",
-        "keys": [
-          "PS1",
-          "19.10"
-        ]
+        "keys": ["PS1"]
       }
     }
   ]

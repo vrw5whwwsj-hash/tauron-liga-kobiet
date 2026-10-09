@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T20:10:00+02:00",
+  "checkedAt": "2026-10-09T20:05:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,28 +8,28 @@
       "url": "https://www.tauronligakobiet.pl/games.html",
       "ok": true,
       "http": 200,
-      "note": "Wieczór 8.10: kafelki bez zmian względem popołudnia. Logo: 9.10 Stal–Pałac i Budowlani–ŁKS PS1, 11.10 Opole–BKS PS3, 12.10 DevelopRes–Mogilno i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Mogilno–BKS PS1. 16.10 Wrocław–Chemik 19:00 bez logo. 22.10 Radomka–Stal 17:30 bez logo. 24.10 Mogilno–Chemik bez godziny. 24.10 14:45 Budowlani–DevelopRes to AL-KO Superpuchar, bez logo TV. Godzina kafelka Budowlani–ŁKS zostaje 20:30. Wyników nowych nie ma."
+      "note": "20:05: Stal–Pałac 0:3, małe punkty 22 25 14 25 23 25. Derby Budowlani–ŁKS 20:30 nadal bez wyniku, kafelek PS1. Bez zmian: 11.10 Opole–BKS PS3, 12.10 DevelopRes–Mogilno i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Mogilno–BKS PS1. Nowe logo: 16.10 Wrocław–Chemik 19:00 Polsat Sport Extra 3. 22.10 Radomka–Stal 17:30 Polsat Sport 3. 24.10 20:30 Mogilno–Chemik PS1. 25.10 20:30 Kalisz–Wrocław PS1. Superpuchar Budowlani–DevelopRes na kafelku 24.10 15:00 z PS1 (wcześniej 14:45, bez logo)."
     },
     {
       "id": "pls-news",
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Nowa aktualność 8.10, 12:18: zapowiedź 2. kolejki. W tekście Budowlani–ŁKS 20.20, kafelek 20:30. Profil 15:23: złoto 2018/19 dla ŁKS. Wyników 2. kolejki nie ma."
+      "note": "Brak nowej aktualności po zapowiedzi 2. kolejki z 8.10. Tabela po Mielcu: Pałac 4 pkt, Budowlani 3, Radomka 3."
     },
     {
       "id": "polsat-plan",
-      "url": "https://www.polsatsport.pl/wiadomosc/2026-10-06/zwrot-akcji-w-hicie-kolejki-ekspert-wskazal-kandydatow-do-zlota/",
+      "url": "https://www.polsatsport.pl/wiadomosc/2026-10-09/deklasacja-metalkas-palac-bydgoszcz-z-pierwszym-zwyciestwem-w-sezonie/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowego planu TV 2. kolejki po 6.10. Kanały tylko z logo na kafelku. Tekst ligi mówi ogólnie o antenach Polsatu."
+      "note": "19:02: relacja Stal–Pałac 0:3 (22:25, 14:25, 23:25), MVP Makarewicz. Brak nowego planu TV poza kafelkami ligi."
     },
     {
       "id": "siatka-relacje",
-      "url": "https://siatka.org/",
+      "url": "https://siatka.org/pokaz/tauron-liga-kobiet-2-kolejka-zapowiedz/",
       "ok": true,
       "http": 200,
-      "note": "8.10 na stronie relacje męskie (Chełm, Kochanowski, Giani, Guidetti). Nowej relacji TAURON Ligi Kobiet po szóstce 1. kolejki (6.10) nie ma."
+      "note": "Nadal tylko zapowiedź z 9.10, 11:30. Relacji z Mielca nie ma."
     },
     {
       "id": "volleybox-matches",
