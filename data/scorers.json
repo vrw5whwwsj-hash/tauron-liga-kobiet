@@ -2,28 +2,28 @@
   "updated": "2026-10-09",
   "phase": "faza zasadnicza",
   "phaseEn": "regular season",
-  "note": "Po Stal–Pałac 0:3. Makarewicz 39 (26+13), Pol 31 (16+15), Zaroślińska-Król 28, Jovanović 27.",
-  "noteEn": "After Stal–Pałac 0–3. Makarewicz 39, Pol 31, Zaroślińska-Król 28.",
-  "source": "https://www.tauronligakobiet.pl/statsRanking.html",
+  "note": "PLS ScoreRanking po Stal–Pałac 0:3. Makarewicz 40 (8 setów), Pol 30, Zaroślińska-Król 28, Jovanović 27, Pinczewska i Adamczyk po 26.",
+  "noteEn": "PLS ScoreRanking after Stal–Pałac 0-3. Makarewicz 40 (8 sets), Pol 30, Zaroślińska-Król 28, Jovanović 27, Pinczewska and Adamczyk 26.",
+  "source": "https://www.tauronligakobiet.pl/statsRanking/type/ScoreRanking/tournament_1/54.html",
   "players": [
     {
       "name": "Wiktoria Makarewicz",
       "team": "Metalkas Pałac",
-      "pos": "",
+      "pos": "przyjmująca",
       "matches": 2,
-      "sets": 11,
-      "pts": 39,
-      "attack": null,
-      "block": null,
-      "ace": null
+      "sets": 8,
+      "pts": 40,
+      "attack": 33,
+      "block": 3,
+      "ace": 4
     },
     {
       "name": "Marta Pol",
       "team": "Metalkas Pałac",
       "pos": "",
       "matches": 2,
-      "sets": 11,
-      "pts": 31,
+      "sets": 8,
+      "pts": 30,
       "attack": null,
       "block": null,
       "ace": null
@@ -44,19 +44,8 @@
       "team": "ITA TOOLS Stal",
       "pos": "",
       "matches": 2,
-      "sets": 11,
+      "sets": 8,
       "pts": 27,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Aleksandra Adamczyk",
-      "team": "ITA TOOLS Stal",
-      "pos": "",
-      "matches": 2,
-      "sets": 11,
-      "pts": 26,
       "attack": null,
       "block": null,
       "ace": null
@@ -66,7 +55,18 @@
       "team": "Metalkas Pałac",
       "pos": "",
       "matches": 2,
-      "sets": 11,
+      "sets": 8,
+      "pts": 26,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Aleksandra Adamczyk",
+      "team": "ITA TOOLS Stal",
+      "pos": "",
+      "matches": 2,
+      "sets": 8,
       "pts": 26,
       "attack": null,
       "block": null,
@@ -84,22 +84,22 @@
       "ace": null
     },
     {
-      "name": "Anna Bączyńska",
-      "team": "ITA TOOLS Stal",
+      "name": "Antonia Stautz",
+      "team": "#VolleyWrocław",
       "pos": "",
-      "matches": 2,
-      "sets": 11,
+      "matches": 1,
+      "sets": 5,
       "pts": 23,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Antonia Stautz",
-      "team": "#VolleyWrocław",
+      "name": "Anna Bączyńska",
+      "team": "ITA TOOLS Stal",
       "pos": "",
-      "matches": 1,
-      "sets": 5,
+      "matches": 2,
+      "sets": 8,
       "pts": 23,
       "attack": null,
       "block": null,
@@ -143,7 +143,7 @@
       "team": "Metalkas Pałac",
       "pos": "",
       "matches": 2,
-      "sets": 11,
+      "sets": 8,
       "pts": 20,
       "attack": null,
       "block": null,
@@ -156,6 +156,17 @@
       "matches": 1,
       "sets": 5,
       "pts": 19,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Rozalia Moszyńska",
+      "team": "ITA TOOLS Stal",
+      "pos": "",
+      "matches": 2,
+      "sets": 8,
+      "pts": 18,
       "attack": null,
       "block": null,
       "ace": null
@@ -183,34 +194,12 @@
       "ace": null
     },
     {
-      "name": "Rozalia Moszyńska",
-      "team": "ITA TOOLS Stal",
-      "pos": "",
-      "matches": 2,
-      "sets": 11,
-      "pts": 18,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
       "name": "Kertu Laak",
       "team": "BKS Bielsko-Biała",
       "pos": "",
       "matches": 1,
       "sets": 5,
       "pts": 17,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Diana Frankevych",
-      "team": "#VolleyWrocław",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 16,
       "attack": null,
       "block": null,
       "ace": null
@@ -227,12 +216,12 @@
       "ace": null
     },
     {
-      "name": "Elles Dambrink",
-      "team": "ŁKS Commercecon",
+      "name": "Diana Frankevych",
+      "team": "#VolleyWrocław",
       "pos": "",
       "matches": 1,
-      "sets": 5,
-      "pts": 15,
+      "sets": 4,
+      "pts": 16,
       "attack": null,
       "block": null,
       "ace": null
@@ -249,12 +238,12 @@
       "ace": null
     },
     {
-      "name": "Linda Andersson",
-      "team": "ITA TOOLS Stal",
+      "name": "Elles Dambrink",
+      "team": "ŁKS Commercecon",
       "pos": "",
-      "matches": 2,
-      "sets": 8,
-      "pts": 14,
+      "matches": 1,
+      "sets": 5,
+      "pts": 15,
       "attack": null,
       "block": null,
       "ace": null
@@ -282,11 +271,22 @@
       "ace": null
     },
     {
-      "name": "Martyna Borowczak",
-      "team": "BKS Bielsko-Biała",
+      "name": "Linda Andersson",
+      "team": "ITA TOOLS Stal",
+      "pos": "",
+      "matches": 2,
+      "sets": 5,
+      "pts": 14,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Wiktoria Kowalska",
+      "team": "Sokół Mogilno",
       "pos": "",
       "matches": 1,
-      "sets": 5,
+      "sets": 3,
       "pts": 13,
       "attack": null,
       "block": null,
@@ -304,22 +304,22 @@
       "ace": null
     },
     {
-      "name": "Wiktoria Kowalska",
-      "team": "Sokół Mogilno",
+      "name": "Martyna Borowczak",
+      "team": "BKS Bielsko-Biała",
       "pos": "",
       "matches": 1,
-      "sets": 3,
+      "sets": 5,
       "pts": 13,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Julia Hewelt",
-      "team": "Metalkas Pałac",
+      "name": "Saša Planinšec",
+      "team": "PGE Budowlani",
       "pos": "",
-      "matches": 2,
-      "sets": 6,
+      "matches": 1,
+      "sets": 3,
       "pts": 12,
       "attack": null,
       "block": null,
@@ -337,19 +337,19 @@
       "ace": null
     },
     {
-      "name": "Saša Planinšec",
-      "team": "PGE Budowlani",
+      "name": "Julia Hewelt",
+      "team": "Metalkas Pałac",
       "pos": "",
-      "matches": 1,
-      "sets": 3,
+      "matches": 2,
+      "sets": 6,
       "pts": 12,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Oliwia Sieradzka",
-      "team": "LOTTO Chemik",
+      "name": "Sara Wąsiakowska",
+      "team": "#VolleyWrocław",
       "pos": "",
       "matches": 1,
       "sets": 5,
@@ -359,8 +359,8 @@
       "ace": null
     },
     {
-      "name": "Sara Wąsiakowska",
-      "team": "#VolleyWrocław",
+      "name": "Oliwia Sieradzka",
+      "team": "LOTTO Chemik",
       "pos": "",
       "matches": 1,
       "sets": 5,
@@ -381,17 +381,6 @@
       "ace": null
     },
     {
-      "name": "Andriana Pavlyk",
-      "team": "UNI Opole",
-      "pos": "",
-      "matches": 1,
-      "sets": 5,
-      "pts": 10,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
       "name": "Jelena Vulin",
       "team": "MKS Kalisz",
       "pos": "",
@@ -405,6 +394,17 @@
     {
       "name": "Sonia Stefanik",
       "team": "ŁKS Commercecon",
+      "pos": "",
+      "matches": 1,
+      "sets": 5,
+      "pts": 10,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Andriana Pavlyk",
+      "team": "UNI Opole",
       "pos": "",
       "matches": 1,
       "sets": 5,
@@ -436,6 +436,17 @@
       "ace": null
     },
     {
+      "name": "Sandra Świętoń",
+      "team": "Sokół Mogilno",
+      "pos": "",
+      "matches": 1,
+      "sets": 3,
+      "pts": 9,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Kateryna Zhylinska",
       "team": "MOYA Radomka",
       "pos": "",
@@ -447,11 +458,22 @@
       "ace": null
     },
     {
+      "name": "Wiktoria Szewczyk",
+      "team": "BKS Bielsko-Biała",
+      "pos": "",
+      "matches": 1,
+      "sets": 5,
+      "pts": 9,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Magdalena Ociepa",
       "team": "ITA TOOLS Stal",
       "pos": "",
       "matches": 2,
-      "sets": 9,
+      "sets": 6,
       "pts": 9,
       "attack": null,
       "block": null,
@@ -480,28 +502,6 @@
       "ace": null
     },
     {
-      "name": "Sandra Świętoń",
-      "team": "Sokół Mogilno",
-      "pos": "",
-      "matches": 1,
-      "sets": 3,
-      "pts": 9,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Wiktoria Szewczyk",
-      "team": "BKS Bielsko-Biała",
-      "pos": "",
-      "matches": 1,
-      "sets": 5,
-      "pts": 9,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
       "name": "Maja Koput",
       "team": "LOTTO Chemik",
       "pos": "",
@@ -513,44 +513,22 @@
       "ace": null
     },
     {
-      "name": "Agata Milewska",
-      "team": "LOTTO Chemik",
-      "pos": "",
-      "matches": 1,
-      "sets": 5,
-      "pts": 7,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Alicja Grabka",
-      "team": "KS DevelopRes",
-      "pos": "",
-      "matches": 1,
-      "sets": 5,
-      "pts": 7,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Alina Bartkowska-Kluza",
-      "team": "Metalkas Pałac",
-      "pos": "",
-      "matches": 2,
-      "sets": 4,
-      "pts": 7,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
       "name": "Dominika Sobolska-Tarasova",
       "team": "#VolleyWrocław",
       "pos": "",
       "matches": 1,
       "sets": 5,
+      "pts": 7,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Weronika Sobiczewska",
+      "team": "ITA TOOLS Stal",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
       "pts": 7,
       "attack": null,
       "block": null,
@@ -568,6 +546,17 @@
       "ace": null
     },
     {
+      "name": "Agata Milewska",
+      "team": "LOTTO Chemik",
+      "pos": "",
+      "matches": 1,
+      "sets": 5,
+      "pts": 7,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Martyna Grajber-Nowakowska",
       "team": "PGE Budowlani",
       "pos": "",
@@ -579,19 +568,8 @@
       "ace": null
     },
     {
-      "name": "Natalia Bartkowska-Kluza",
-      "team": "Metalkas Pałac",
-      "pos": "",
-      "matches": 2,
-      "sets": 3,
-      "pts": 7,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Nikola Abramajtys",
-      "team": "BKS Bielsko-Biała",
+      "name": "Alicja Grabka",
+      "team": "KS DevelopRes",
       "pos": "",
       "matches": 1,
       "sets": 5,
@@ -612,22 +590,33 @@
       "ace": null
     },
     {
-      "name": "Weronika Sobiczewska",
-      "team": "ITA TOOLS Stal",
+      "name": "Alina Bartkowska-Kluza",
+      "team": "Metalkas Pałac",
       "pos": "",
       "matches": 2,
-      "sets": 10,
+      "sets": 4,
       "pts": 7,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Gabriela Makarowska-Kulej",
-      "team": "UNI Opole",
+      "name": "Nikola Abramajtys",
+      "team": "BKS Bielsko-Biała",
       "pos": "",
       "matches": 1,
       "sets": 5,
+      "pts": 7,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Marta Łyczakowska",
+      "team": "Metalkas Pałac",
+      "pos": "",
+      "matches": 2,
+      "sets": 8,
       "pts": 6,
       "attack": null,
       "block": null,
@@ -645,12 +634,23 @@
       "ace": null
     },
     {
-      "name": "Marta Łyczakowska",
-      "team": "Metalkas Pałac",
+      "name": "Gabriela Makarowska-Kulej",
+      "team": "UNI Opole",
       "pos": "",
-      "matches": 2,
-      "sets": 11,
+      "matches": 1,
+      "sets": 5,
       "pts": 6,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Brigitta Petrenkó",
+      "team": "MOYA Radomka",
+      "pos": "",
+      "matches": 1,
+      "sets": 3,
+      "pts": 5,
       "attack": null,
       "block": null,
       "ace": null
@@ -667,8 +667,8 @@
       "ace": null
     },
     {
-      "name": "Brigitta Petrenkó",
-      "team": "MOYA Radomka",
+      "name": "Paulina Majkowska",
+      "team": "PGE Budowlani",
       "pos": "",
       "matches": 1,
       "sets": 3,
@@ -689,22 +689,22 @@
       "ace": null
     },
     {
-      "name": "Paulina Majkowska",
-      "team": "PGE Budowlani",
+      "name": "Zuzanna Kuligowska",
+      "team": "MKS Kalisz",
       "pos": "",
       "matches": 1,
       "sets": 3,
-      "pts": 5,
+      "pts": 4,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Aleksandra Cygan",
-      "team": "Sokół Mogilno",
+      "name": "Uliana Kotar",
+      "team": "KS DevelopRes",
       "pos": "",
       "matches": 1,
-      "sets": 3,
+      "sets": 5,
       "pts": 4,
       "attack": null,
       "block": null,
@@ -733,19 +733,30 @@
       "ace": null
     },
     {
-      "name": "Karla Antunović",
-      "team": "ŁKS Commercecon",
+      "name": "Kornelia Garita",
+      "team": "MOYA Radomka",
       "pos": "",
       "matches": 1,
-      "sets": 5,
+      "sets": 3,
       "pts": 4,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Kornelia Garita",
-      "team": "MOYA Radomka",
+      "name": "Zofia Ejsmont",
+      "team": "Sokół Mogilno",
+      "pos": "",
+      "matches": 1,
+      "sets": 3,
+      "pts": 4,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Aleksandra Cygan",
+      "team": "Sokół Mogilno",
       "pos": "",
       "matches": 1,
       "sets": 3,
@@ -766,8 +777,8 @@
       "ace": null
     },
     {
-      "name": "Uliana Kotar",
-      "team": "KS DevelopRes",
+      "name": "Karla Antunović",
+      "team": "ŁKS Commercecon",
       "pos": "",
       "matches": 1,
       "sets": 5,
@@ -777,23 +788,12 @@
       "ace": null
     },
     {
-      "name": "Zofia Ejsmont",
-      "team": "Sokół Mogilno",
+      "name": "Liliana Wójcik",
+      "team": "LOTTO Chemik",
       "pos": "",
       "matches": 1,
       "sets": 3,
-      "pts": 4,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Zuzanna Kuligowska",
-      "team": "MKS Kalisz",
-      "pos": "",
-      "matches": 1,
-      "sets": 3,
-      "pts": 4,
+      "pts": 3,
       "attack": null,
       "block": null,
       "ace": null
@@ -810,7 +810,7 @@
       "ace": null
     },
     {
-      "name": "Jaidyn Blanchfield",
+      "name": "Sonia Kubacka",
       "team": "MKS Kalisz",
       "pos": "",
       "matches": 1,
@@ -832,34 +832,12 @@
       "ace": null
     },
     {
-      "name": "Liliana Wójcik",
-      "team": "LOTTO Chemik",
-      "pos": "",
-      "matches": 1,
-      "sets": 3,
-      "pts": 3,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Sonia Kubacka",
+      "name": "Jaidyn Blanchfield",
       "team": "MKS Kalisz",
       "pos": "",
       "matches": 1,
       "sets": 3,
       "pts": 3,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Julia Bińczycka",
-      "team": "ITA TOOLS Stal",
-      "pos": "",
-      "matches": 2,
-      "sets": 8,
-      "pts": 2,
       "attack": null,
       "block": null,
       "ace": null
@@ -887,19 +865,19 @@
       "ace": null
     },
     {
-      "name": "Charlotte Krenicky",
-      "team": "Sokół Mogilno",
+      "name": "Julia Bińczycka",
+      "team": "ITA TOOLS Stal",
       "pos": "",
-      "matches": 1,
-      "sets": 3,
-      "pts": 1,
+      "matches": 2,
+      "sets": 8,
+      "pts": 2,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Joanna Lelonkiewicz",
-      "team": "PGE Budowlani",
+      "name": "Nikola Witkowska",
+      "team": "MKS Kalisz",
       "pos": "",
       "matches": 1,
       "sets": 1,
@@ -920,8 +898,41 @@
       "ace": null
     },
     {
+      "name": "Pola Nowakowska",
+      "team": "ŁKS Commercecon",
+      "pos": "",
+      "matches": 1,
+      "sets": 1,
+      "pts": 1,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Kristiine Miilen",
       "team": "BKS Bielsko-Biała",
+      "pos": "",
+      "matches": 1,
+      "sets": 3,
+      "pts": 1,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Joanna Lelonkiewicz",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 1,
+      "sets": 1,
+      "pts": 1,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Charlotte Krenicky",
+      "team": "Sokół Mogilno",
       "pos": "",
       "matches": 1,
       "sets": 3,
@@ -942,11 +953,11 @@
       "ace": null
     },
     {
-      "name": "Matylda Grabowska",
-      "team": "ITA TOOLS Stal",
+      "name": "Pola Janicka",
+      "team": "LOTTO Chemik",
       "pos": "",
-      "matches": 2,
-      "sets": 6,
+      "matches": 1,
+      "sets": 5,
       "pts": 1,
       "attack": null,
       "block": null,
@@ -964,34 +975,23 @@
       "ace": null
     },
     {
-      "name": "Nikola Witkowska",
-      "team": "MKS Kalisz",
+      "name": "Matylda Grabowska",
+      "team": "ITA TOOLS Stal",
       "pos": "",
-      "matches": 1,
-      "sets": 1,
+      "matches": 2,
+      "sets": 3,
       "pts": 1,
       "attack": null,
       "block": null,
       "ace": null
     },
     {
-      "name": "Pola Janicka",
-      "team": "LOTTO Chemik",
+      "name": "Natalia Bartkowska-Kluza",
+      "team": "Metalkas Pałac",
       "pos": "",
-      "matches": 1,
-      "sets": 5,
-      "pts": 1,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Pola Nowakowska",
-      "team": "ŁKS Commercecon",
-      "pos": "",
-      "matches": 1,
-      "sets": 1,
-      "pts": 1,
+      "matches": 2,
+      "sets": 3,
+      "pts": 7,
       "attack": null,
       "block": null,
       "ace": null
@@ -1008,18 +1008,18 @@
           "name": "Wiktoria Makarewicz",
           "team": "Metalkas Pałac",
           "matches": 2,
-          "sets": 11,
-          "pts": 39,
-          "perSet": "3,55"
+          "sets": 8,
+          "pts": 40,
+          "perSet": "5,00"
         },
         {
           "rank": 2,
           "name": "Marta Pol",
           "team": "Metalkas Pałac",
           "matches": 2,
-          "sets": 11,
-          "pts": 31,
-          "perSet": "2,82"
+          "sets": 8,
+          "pts": 30,
+          "perSet": "3,75"
         },
         {
           "rank": 3,
@@ -1035,27 +1035,27 @@
           "name": "Andjela Jovanović",
           "team": "ITA TOOLS Stal",
           "matches": 2,
-          "sets": 11,
+          "sets": 8,
           "pts": 27,
-          "perSet": "2,45"
-        },
-        {
-          "rank": 5,
-          "name": "Aleksandra Adamczyk",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 11,
-          "pts": 26,
-          "perSet": "2,36"
+          "perSet": "3,38"
         },
         {
           "rank": 5,
           "name": "Emilia Pinczewska",
           "team": "Metalkas Pałac",
           "matches": 2,
-          "sets": 11,
+          "sets": 8,
           "pts": 26,
-          "perSet": "2,36"
+          "perSet": "3,25"
+        },
+        {
+          "rank": 5,
+          "name": "Aleksandra Adamczyk",
+          "team": "ITA TOOLS Stal",
+          "matches": 2,
+          "sets": 8,
+          "pts": 26,
+          "perSet": "3,25"
         },
         {
           "rank": 7,
@@ -1068,21 +1068,21 @@
         },
         {
           "rank": 8,
-          "name": "Anna Bączyńska",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 11,
-          "pts": 23,
-          "perSet": "2,09"
-        },
-        {
-          "rank": 8,
           "name": "Antonia Stautz",
           "team": "#VolleyWrocław",
           "matches": 1,
           "sets": 5,
           "pts": 23,
           "perSet": "4,60"
+        },
+        {
+          "rank": 8,
+          "name": "Anna Bączyńska",
+          "team": "ITA TOOLS Stal",
+          "matches": 2,
+          "sets": 8,
+          "pts": 23,
+          "perSet": "2,88"
         },
         {
           "rank": 10,
@@ -1092,726 +1092,6 @@
           "sets": 5,
           "pts": 22,
           "perSet": "4,40"
-        },
-        {
-          "rank": 10,
-          "name": "Marrit Jasper",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 5,
-          "pts": 22,
-          "perSet": "4,40"
-        },
-        {
-          "rank": 10,
-          "name": "Weronika Centka-Tietianiec",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 5,
-          "pts": 22,
-          "perSet": "4,40"
-        },
-        {
-          "rank": 13,
-          "name": "Gabriela Dębowska",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 11,
-          "pts": 20,
-          "perSet": "1,82"
-        },
-        {
-          "rank": 14,
-          "name": "Iga Wasilewska",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 5,
-          "pts": 19,
-          "perSet": "3,80"
-        },
-        {
-          "rank": 15,
-          "name": "Aleksandra Dudek",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 18,
-          "perSet": "6,00"
-        },
-        {
-          "rank": 15,
-          "name": "Karolina Drużkowska",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 18,
-          "perSet": "6,00"
-        },
-        {
-          "rank": 15,
-          "name": "Rozalia Moszyńska",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 11,
-          "pts": 18,
-          "perSet": "1,64"
-        },
-        {
-          "rank": 18,
-          "name": "Kertu Laak",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 5,
-          "pts": 17,
-          "perSet": "3,40"
-        },
-        {
-          "rank": 19,
-          "name": "Diana Frankevych",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 4,
-          "pts": 16,
-          "perSet": "4,00"
-        },
-        {
-          "rank": 19,
-          "name": "Julia Orzoł",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 16,
-          "perSet": "3,20"
-        },
-        {
-          "rank": 21,
-          "name": "Elles Dambrink",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 5,
-          "pts": 15,
-          "perSet": "3,00"
-        },
-        {
-          "rank": 21,
-          "name": "Natalia Kecher",
-          "team": "UNI Opole",
-          "matches": 1,
-          "sets": 5,
-          "pts": 15,
-          "perSet": "3,00"
-        },
-        {
-          "rank": 23,
-          "name": "Linda Andersson",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 8,
-          "pts": 14,
-          "perSet": "1,75"
-        },
-        {
-          "rank": 23,
-          "name": "Maja Storck",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 14,
-          "perSet": "4,67"
-        },
-        {
-          "rank": 23,
-          "name": "Oleksandra Milenko",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 5,
-          "pts": 14,
-          "perSet": "2,80"
-        },
-        {
-          "rank": 26,
-          "name": "Martyna Borowczak",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 5,
-          "pts": 13,
-          "perSet": "2,60"
-        },
-        {
-          "rank": 26,
-          "name": "Rodica Buterez",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 13,
-          "perSet": "4,33"
-        },
-        {
-          "rank": 26,
-          "name": "Wiktoria Kowalska",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 13,
-          "perSet": "4,33"
-        },
-        {
-          "rank": 29,
-          "name": "Julia Hewelt",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 6,
-          "pts": 12,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 29,
-          "name": "Natalia Mędrzyk",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 12,
-          "perSet": "2,40"
-        },
-        {
-          "rank": 29,
-          "name": "Saša Planinšec",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 12,
-          "perSet": "4,00"
-        },
-        {
-          "rank": 32,
-          "name": "Oliwia Sieradzka",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 11,
-          "perSet": "2,20"
-        },
-        {
-          "rank": 32,
-          "name": "Sara Wąsiakowska",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 5,
-          "pts": 11,
-          "perSet": "2,20"
-        },
-        {
-          "rank": 32,
-          "name": "Sydney Palazzolo",
-          "team": "UNI Opole",
-          "matches": 1,
-          "sets": 5,
-          "pts": 11,
-          "perSet": "2,20"
-        },
-        {
-          "rank": 35,
-          "name": "Andriana Pavlyk",
-          "team": "UNI Opole",
-          "matches": 1,
-          "sets": 5,
-          "pts": 10,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 35,
-          "name": "Jelena Vulin",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 10,
-          "perSet": "3,33"
-        },
-        {
-          "rank": 35,
-          "name": "Sonia Stefanik",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 5,
-          "pts": 10,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 35,
-          "name": "Taylor Mims",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 5,
-          "pts": 10,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 35,
-          "name": "Vasja Filipović",
-          "team": "UNI Opole",
-          "matches": 1,
-          "sets": 5,
-          "pts": 10,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 40,
-          "name": "Kateryna Zhylinska",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 9,
-          "perSet": "3,00"
-        },
-        {
-          "rank": 40,
-          "name": "Magdalena Ociepa",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 9,
-          "pts": 9,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 40,
-          "name": "Marta Fedyk",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 9,
-          "perSet": "3,00"
-        },
-        {
-          "rank": 40,
-          "name": "Natalia Dróżdż",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 5,
-          "pts": 9,
-          "perSet": "1,80"
-        },
-        {
-          "rank": 40,
-          "name": "Sandra Świętoń",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 9,
-          "perSet": "3,00"
-        },
-        {
-          "rank": 40,
-          "name": "Wiktoria Szewczyk",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 5,
-          "pts": 9,
-          "perSet": "1,80"
-        },
-        {
-          "rank": 46,
-          "name": "Maja Koput",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 8,
-          "perSet": "1,60"
-        },
-        {
-          "rank": 47,
-          "name": "Agata Milewska",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 7,
-          "perSet": "1,40"
-        },
-        {
-          "rank": 47,
-          "name": "Alicja Grabka",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 5,
-          "pts": 7,
-          "perSet": "1,40"
-        },
-        {
-          "rank": 47,
-          "name": "Alina Bartkowska-Kluza",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 4,
-          "pts": 7,
-          "perSet": "1,75"
-        },
-        {
-          "rank": 47,
-          "name": "Dominika Sobolska-Tarasova",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 5,
-          "pts": 7,
-          "perSet": "1,40"
-        },
-        {
-          "rank": 47,
-          "name": "Julita Piasecka",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 4,
-          "pts": 7,
-          "perSet": "1,75"
-        },
-        {
-          "rank": 47,
-          "name": "Martyna Grajber-Nowakowska",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 7,
-          "perSet": "2,33"
-        },
-        {
-          "rank": 47,
-          "name": "Natalia Bartkowska-Kluza",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 3,
-          "pts": 7,
-          "perSet": "2,33"
-        },
-        {
-          "rank": 47,
-          "name": "Nikola Abramajtys",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 5,
-          "pts": 7,
-          "perSet": "1,40"
-        },
-        {
-          "rank": 47,
-          "name": "Weronika Gierszewska",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 7,
-          "perSet": "2,33"
-        },
-        {
-          "rank": 47,
-          "name": "Weronika Sobiczewska",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 10,
-          "pts": 7,
-          "perSet": "0,70"
-        },
-        {
-          "rank": 57,
-          "name": "Gabriela Makarowska-Kulej",
-          "team": "UNI Opole",
-          "matches": 1,
-          "sets": 5,
-          "pts": 6,
-          "perSet": "1,20"
-        },
-        {
-          "rank": 57,
-          "name": "Isidora Rodić",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 6,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 57,
-          "name": "Marta Łyczakowska",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 11,
-          "pts": 6,
-          "perSet": "0,55"
-        },
-        {
-          "rank": 60,
-          "name": "Anna Obiała",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 4,
-          "pts": 5,
-          "perSet": "1,25"
-        },
-        {
-          "rank": 60,
-          "name": "Brigitta Petrenkó",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 5,
-          "perSet": "1,67"
-        },
-        {
-          "rank": 60,
-          "name": "Magdalena Jurczyk",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 2,
-          "pts": 5,
-          "perSet": "2,50"
-        },
-        {
-          "rank": 60,
-          "name": "Paulina Majkowska",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 5,
-          "perSet": "1,67"
-        },
-        {
-          "rank": 64,
-          "name": "Aleksandra Cygan",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 4,
-          "perSet": "1,33"
-        },
-        {
-          "rank": 64,
-          "name": "Aleksandra Kazała",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 1,
-          "pts": 4,
-          "perSet": "4,00"
-        },
-        {
-          "rank": 64,
-          "name": "Joanna Garncarz",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 4,
-          "pts": 4,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 64,
-          "name": "Karla Antunović",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 5,
-          "pts": 4,
-          "perSet": "0,80"
-        },
-        {
-          "rank": 64,
-          "name": "Kornelia Garita",
-          "team": "MOYA Radomka",
-          "matches": 1,
-          "sets": 3,
-          "pts": 4,
-          "perSet": "1,33"
-        },
-        {
-          "rank": 64,
-          "name": "Magdalena Bagniak",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 2,
-          "pts": 4,
-          "perSet": "2,00"
-        },
-        {
-          "rank": 64,
-          "name": "Uliana Kotar",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 5,
-          "pts": 4,
-          "perSet": "0,80"
-        },
-        {
-          "rank": 64,
-          "name": "Zofia Ejsmont",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 4,
-          "perSet": "1,33"
-        },
-        {
-          "rank": 64,
-          "name": "Zuzanna Kuligowska",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 4,
-          "perSet": "1,33"
-        },
-        {
-          "rank": 73,
-          "name": "Anna Lewandowska",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 3,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 73,
-          "name": "Jaidyn Blanchfield",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 3,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 73,
-          "name": "Laura Jansen",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 3,
-          "pts": 3,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 73,
-          "name": "Liliana Wójcik",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 3,
-          "pts": 3,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 73,
-          "name": "Sonia Kubacka",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 3,
-          "pts": 3,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 78,
-          "name": "Julia Bińczycka",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 8,
-          "pts": 2,
-          "perSet": "0,25"
-        },
-        {
-          "rank": 78,
-          "name": "Maja Malczewska",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 4,
-          "pts": 2,
-          "perSet": "0,50"
-        },
-        {
-          "rank": 78,
-          "name": "Melis Durul",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 2,
-          "perSet": "0,67"
-        },
-        {
-          "rank": 81,
-          "name": "Charlotte Krenicky",
-          "team": "Sokół Mogilno",
-          "matches": 1,
-          "sets": 3,
-          "pts": 1,
-          "perSet": "0,33"
-        },
-        {
-          "rank": 81,
-          "name": "Joanna Lelonkiewicz",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 1,
-          "pts": 1,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 81,
-          "name": "Katarzyna Wenerska",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 3,
-          "pts": 1,
-          "perSet": "0,33"
-        },
-        {
-          "rank": 81,
-          "name": "Kristiine Miilen",
-          "team": "BKS Bielsko-Biała",
-          "matches": 1,
-          "sets": 3,
-          "pts": 1,
-          "perSet": "0,33"
-        },
-        {
-          "rank": 81,
-          "name": "Marlena Kowalewska",
-          "team": "#VolleyWrocław",
-          "matches": 1,
-          "sets": 5,
-          "pts": 1,
-          "perSet": "0,20"
-        },
-        {
-          "rank": 81,
-          "name": "Matylda Grabowska",
-          "team": "ITA TOOLS Stal",
-          "matches": 2,
-          "sets": 6,
-          "pts": 1,
-          "perSet": "0,17"
-        },
-        {
-          "rank": 81,
-          "name": "Mika Grbavica",
-          "team": "KS DevelopRes",
-          "matches": 1,
-          "sets": 2,
-          "pts": 1,
-          "perSet": "0,50"
-        },
-        {
-          "rank": 81,
-          "name": "Nikola Witkowska",
-          "team": "MKS Kalisz",
-          "matches": 1,
-          "sets": 1,
-          "pts": 1,
-          "perSet": "1,00"
-        },
-        {
-          "rank": 81,
-          "name": "Pola Janicka",
-          "team": "LOTTO Chemik",
-          "matches": 1,
-          "sets": 5,
-          "pts": 1,
-          "perSet": "0,20"
-        },
-        {
-          "rank": 81,
-          "name": "Pola Nowakowska",
-          "team": "ŁKS Commercecon",
-          "matches": 1,
-          "sets": 1,
-          "pts": 1,
-          "perSet": "1,00"
         }
       ]
     },
