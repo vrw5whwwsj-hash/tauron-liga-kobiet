@@ -2,7 +2,7 @@
   "updated": "2026-10-09",
   "phase": "faza zasadnicza",
   "phaseEn": "regular season",
-  "note": "Po derbach. Protokół: Milenko 16, Kokkonen 14, Dambrink 12, Grajber i Zadorojnai po 11. Jurczyk MVP, jej wiersza na kadrach nie było.",
+  "note": "Budowlani z protokołu derbów: Grajber 11, Zadorojnai 11, Planinšec 9, Buterez 7, Majkowska 7, Kazała 6, Storck 3. Do rankingu doliczone do 1. kolejki.",
   "noteEn": "PLS ScoreRanking after Stal–Pałac 0-3. Makarewicz 40 (8 sets), Pol 30, Zaroślińska-Król 28, Jovanović 27, Pinczewska and Adamczyk 26.",
   "source": "https://www.tauronligakobiet.pl/statsRanking/type/ScoreRanking/tournament_1/54.html",
   "players": [
@@ -117,12 +117,67 @@
       "ace": null
     },
     {
+      "name": "Rodica Buterez",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 20,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Saša Planinšec",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 20,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Martyna Grajber-Nowakowska",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 18,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Maja Storck",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 17,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Oleksandra Milenko",
       "team": "ŁKS Commercecon",
       "pos": "",
       "matches": 1,
       "sets": 4,
       "pts": 16,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Paulina Majkowska",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 13,
       "attack": null,
       "block": null,
       "ace": null
@@ -142,53 +197,9 @@
       "name": "Didona Iuna Catalina Zadorojnai",
       "team": "PGE Budowlani",
       "pos": "",
-      "matches": 1,
-      "sets": 4,
+      "matches": 2,
+      "sets": 7,
       "pts": 11,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Martyna Grajber-Nowakowska",
-      "team": "PGE Budowlani",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 11,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Saša Planinšec",
-      "team": "PGE Budowlani",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 9,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Paulina Majkowska",
-      "team": "PGE Budowlani",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 7,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
-      "name": "Rodica Buterez",
-      "team": "PGE Budowlani",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 7,
       "attack": null,
       "block": null,
       "ace": null
@@ -197,9 +208,9 @@
       "name": "Aleksandra Kazała",
       "team": "PGE Budowlani",
       "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 6,
+      "matches": 2,
+      "sets": 7,
+      "pts": 10,
       "attack": null,
       "block": null,
       "ace": null
@@ -227,17 +238,6 @@
       "ace": null
     },
     {
-      "name": "Maja Storck",
-      "team": "PGE Budowlani",
-      "pos": "",
-      "matches": 1,
-      "sets": 4,
-      "pts": 3,
-      "attack": null,
-      "block": null,
-      "ace": null
-    },
-    {
       "name": "Regiane Bidias",
       "team": "ŁKS Commercecon",
       "pos": "",
@@ -249,11 +249,33 @@
       "ace": null
     },
     {
+      "name": "Joanna Lelonkiewicz",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
+      "pts": 1,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
       "name": "Karla Antunović",
       "team": "ŁKS Commercecon",
       "pos": "",
       "matches": 1,
       "sets": 4,
+      "pts": 1,
+      "attack": null,
+      "block": null,
+      "ace": null
+    },
+    {
+      "name": "Katarzyna Wenerska",
+      "team": "PGE Budowlani",
+      "pos": "",
+      "matches": 2,
+      "sets": 7,
       "pts": 1,
       "attack": null,
       "block": null,
@@ -369,6 +391,42 @@
         },
         {
           "rank": 11,
+          "name": "Rodica Buterez",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 20,
+          "perSet": "2,86"
+        },
+        {
+          "rank": 11,
+          "name": "Saša Planinšec",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 20,
+          "perSet": "2,86"
+        },
+        {
+          "rank": 13,
+          "name": "Martyna Grajber-Nowakowska",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 18,
+          "perSet": "2,57"
+        },
+        {
+          "rank": 14,
+          "name": "Maja Storck",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 17,
+          "perSet": "2,43"
+        },
+        {
+          "rank": 15,
           "name": "Oleksandra Milenko",
           "team": "ŁKS Commercecon",
           "matches": 1,
@@ -377,7 +435,16 @@
           "perSet": "4,00"
         },
         {
-          "rank": 12,
+          "rank": 16,
+          "name": "Paulina Majkowska",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 13,
+          "perSet": "1,86"
+        },
+        {
+          "rank": 17,
           "name": "Elles Dambrink",
           "team": "ŁKS Commercecon",
           "matches": 1,
@@ -386,61 +453,25 @@
           "perSet": "3,00"
         },
         {
-          "rank": 13,
+          "rank": 18,
           "name": "Didona Iuna Catalina Zadorojnai",
           "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
+          "matches": 2,
+          "sets": 7,
           "pts": 11,
-          "perSet": "2,75"
+          "perSet": "1,57"
         },
         {
-          "rank": 13,
-          "name": "Martyna Grajber-Nowakowska",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 11,
-          "perSet": "2,75"
-        },
-        {
-          "rank": 15,
-          "name": "Saša Planinšec",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 9,
-          "perSet": "2,25"
-        },
-        {
-          "rank": 16,
-          "name": "Paulina Majkowska",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 7,
-          "perSet": "1,75"
-        },
-        {
-          "rank": 16,
-          "name": "Rodica Buterez",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 7,
-          "perSet": "1,75"
-        },
-        {
-          "rank": 18,
+          "rank": 19,
           "name": "Aleksandra Kazała",
           "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 6,
-          "perSet": "1,50"
+          "matches": 2,
+          "sets": 7,
+          "pts": 10,
+          "perSet": "1,43"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "name": "Anna Obiała",
           "team": "ŁKS Commercecon",
           "matches": 1,
@@ -449,7 +480,7 @@
           "perSet": "1,50"
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Sonia Stefanik",
           "team": "ŁKS Commercecon",
           "matches": 1,
@@ -458,16 +489,7 @@
           "perSet": "1,25"
         },
         {
-          "rank": 21,
-          "name": "Maja Storck",
-          "team": "PGE Budowlani",
-          "matches": 1,
-          "sets": 4,
-          "pts": 3,
-          "perSet": "0,75"
-        },
-        {
-          "rank": 21,
+          "rank": 22,
           "name": "Regiane Bidias",
           "team": "ŁKS Commercecon",
           "matches": 1,
@@ -477,12 +499,30 @@
         },
         {
           "rank": 23,
+          "name": "Joanna Lelonkiewicz",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 1,
+          "perSet": "0,14"
+        },
+        {
+          "rank": 23,
           "name": "Karla Antunović",
           "team": "ŁKS Commercecon",
           "matches": 1,
           "sets": 4,
           "pts": 1,
           "perSet": "0,25"
+        },
+        {
+          "rank": 23,
+          "name": "Katarzyna Wenerska",
+          "team": "PGE Budowlani",
+          "matches": 2,
+          "sets": 7,
+          "pts": 1,
+          "perSet": "0,14"
         },
         {
           "rank": 23,
