@@ -730,10 +730,38 @@
             "title": "ŁKS wygrywa derby 3:1",
             "titleEn": "ŁKS win the derby 3–1",
             "titleTr": "ŁKS derbiyi 3-1 aldı",
-            "text": "PGE Budowlani Łódź – ŁKS Commercecon 1:3 (19:25, 18:25, 25:14, 18:25). Karta ligi 1104996: Sport Arena, 3000 widzów, 1:41, małe punkty 80:89. Sety: 27, 23, 24 i 27 min. MVP: Magdalena Jurczyk. Sędziowie Patryk Wierzbowicz i Mirosław Pałka. Tabeli punktów zawodniczek na karcie nie było.",
+            "text": "PGE Budowlani Łódź – ŁKS Commercecon 1:3 (19:25, 18:25, 25:14, 18:25). Sport Arena, 3000 widzów, 1:41, małe punkty 80:89. MVP Magdalena Jurczyk. Protokół: Budowlani Grajber-Nowakowska 11, Zadorojnai 11, Planinšec 9, Buterez 7, Majkowska 7, Kazała 6, Storck 3. ŁKS Milenko 16, Kokkonen 14, Dambrink 12, Obiała 6, Stefanik 5, Bidias 3. Wiersza Jurczyk na przesłanych kadrach nie było.",
             "textEn": "Budowlani lost 1–3 to ŁKS (19–25, 18–25, 25–14, 18–25). Small points 80–89. MVP Magdalena Jurczyk. Protocol points not published yet.",
             "textTr": "Budowlani 1-3 ŁKS. MVP Jurczyk.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104996.html"
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104996.html",
+            "homeTop": [
+              {
+                "n": "Martyna Grajber-Nowakowska",
+                "p": 11
+              },
+              {
+                "n": "Didona Iuna Catalina Zadorojnai",
+                "p": 11
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Oleksandra Milenko",
+                "p": 16
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 14
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 12
+              }
+            ]
           }
         },
         {
