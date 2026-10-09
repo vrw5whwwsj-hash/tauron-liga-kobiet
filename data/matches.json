@@ -589,9 +589,25 @@
           "time": "17:30",
           "home": "mie",
           "away": "byd",
-          "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "venue": "MOSiR Mielec",
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              14,
+              25
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Stal po tie-breaku we Wrocławiu, Pałac szuka pierwszego zwycięstwa",
             "headlineEn": "Stal after a Wrocław tie-break, Pałac still looking for a first win",
@@ -612,7 +628,24 @@
               "home court in Mielec"
             ]
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-09T17:18:00Z",
+            "note": "Karta ligi: 0:3 (22:25, 14:25, 23:25), widzów 894, hala MOSiR Mielec, MVP Wiktoria Makarewicz, czas 1:19, małe punkty 59:75. Raport /stats jeszcze 404, brak tekstu Polsatu."
+          },
+          "recap": {
+            "title": "Pałac bez straty seta w Mielcu",
+            "titleEn": "Pałac take Mielec in straight sets",
+            "titleTr": "Pałac Mielec'te 3-0",
+            "text": "ITA TOOLS Stal Mielec przegrała u siebie z Metalkas Pałacem Bydgoszcz 0:3 (22:25, 14:25, 23:25). Spotkanie w hali MOSiR trwało 1:19, małe punkty 59:75, na trybunach 894 widzów. MVP: Wiktoria Makarewicz. Sędzia pierwszy Agnieszka Myszkowska.",
+            "textEn": "ITA TOOLS Stal Mielec lost at home to Metalkas Pałac Bydgoszcz 0-3 (22-25, 14-25, 23-25). MOSiR, 1:19, points 59-75, attendance 894. MVP Wiktoria Makarewicz. First referee Agnieszka Myszkowska.",
+            "textTr": "ITA TOOLS Stal Mielec, Metalkas Pałac Bydgoszcz'a 0-3 kaybetti (22-25, 14-25, 23-25). MOSiR, 1:19, 59-75, 894 seyirci. MVP Wiktoria Makarewicz."
+          },
+          "clip": "https://www.tauronligakobiet.pl/games/action/show/id/1104999.html"
         },
         {
           "id": "r2m2",
