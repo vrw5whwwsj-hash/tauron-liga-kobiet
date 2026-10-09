@@ -14,10 +14,10 @@
   <link rel="canonical" href="https://zligowychhal.pl/" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./icons/icon.svg" />
-  <link rel="stylesheet" href="./css/app.css?v=56" />
-  <link rel="stylesheet" href="./css/ptr.css?v=56" />
-  <link rel="stylesheet" href="./css/news.css?v=56" />
-  <link rel="stylesheet" href="./css/analysis.css?v=56" />
+  <link rel="stylesheet" href="./css/app.css?v=57" />
+  <link rel="stylesheet" href="./css/ptr.css?v=57" />
+  <link rel="stylesheet" href="./css/news.css?v=57" />
+  <link rel="stylesheet" href="./css/analysis.css?v=57" />
 </head>
 <body>
   <header class="app">
@@ -59,175 +59,14 @@
     <button data-tab="sec-rules" data-i18n="tabRules">Regulamin</button>
     <button data-tab="sec-input" data-i18n="tabInput">Wynik</button>
   </nav>
-  <section id="sec-table" class="active">
-    <div class="note" data-i18n="tableNote">Faza zasadnicza jeszcze się nie zaczęła.</div>
-    <div class="card">
-      <h2 data-i18n="podiumH2">Medaliści sezonu 2025/26</h2>
-      <p data-i18n="podiumP">Złoto — PGE Budowlani Łódź. Srebro — KS DevelopRes Rzeszów. Brąz — UNI Opole.</p>
-    </div>
-    <div class="card"><h2 data-i18n="tableH2">Tabela</h2><div id="table-wrap"></div></div>
-    <div class="card"><h2 data-i18n="injH2">Absencje</h2><div id="injuries"></div></div>
-  </section>
-  <section id="sec-scorers">
-    <div class="card"><h2 data-i18n="scorersH2">Rankingi PLS</h2><p class="muted" data-i18n="scorersP">Podział jak na tauronligakobiet.pl.</p></div>
-    <div id="scorers-wrap"></div>
-  </section>
-  <section id="sec-r1">
-    <div class="card"><h2 data-i18n="r1H2">1. kolejka</h2><p class="muted" data-i18n="r1P">2–4.10.2026</p><p class="muted"><span data-i18n="polsatSrc">Zapowiedzi, relacje pomeczowe i informacje o sytuacji w klubach</span>: <a href="https://www.polsatsport.pl" target="_blank" rel="noopener">Polsat Sport</a>.</p></div>
-    <div id="round1"></div>
-  </section>
-  <section id="sec-r2">
-    <div class="card"><h2 data-i18n="r2H2">2. kolejka</h2><p class="muted" data-i18n="r2P">9–13.10.2026</p><p class="muted"><span data-i18n="polsatSrc">Zapowiedzi, relacje pomeczowe i informacje o sytuacji w klubach</span>: <a href="https://www.polsatsport.pl" target="_blank" rel="noopener">Polsat Sport</a>.</p></div>
-    <div id="round2"></div>
-  </section>
-  <section id="sec-r3">
-    <div class="card"><h2 data-i18n="r3H2">3. kolejka</h2><p class="muted" data-i18n="r3P">15–17.10.2026</p><p class="muted"><span data-i18n="polsatSrc">Zapowiedzi, relacje pomeczowe i informacje o sytuacji w klubach</span>: <a href="https://www.polsatsport.pl" target="_blank" rel="noopener">Polsat Sport</a>.</p></div>
-    <div id="round3"></div>
-  </section>
-  <section id="sec-next">
-    <div class="card"><h2 data-i18n="nextH2">Kolejne kolejki</h2><p class="muted" data-i18n="nextP">Od 4. kolejki. Pary dokładamy, gdy liga poda termin.</p></div>
-    <div id="rounds-next"></div>
-  </section>
-  <section id="sec-cev">
-    <div class="card">
-      <h2 data-i18n="cevH2">Liga Mistrzyń CEV 2026/27</h2>
-      <p class="muted" data-i18n="cevP">Faza grupowa — 5 grup × 4 zespoły, mecz i rewanż. Start 24–26.11.2026.</p>
-      <div class="note">Wyników fazy grupowej jeszcze nie ma. Oficjalny wynik i sety wstawimy po każdym meczu z CEV i kont X.</div>
-
-      <h3 data-i18n="cevPtsH">Punktacja</h3>
-      <ul class="rule-list pts">
-        <li><span class="score">3:0 / 3:1</span><span data-i18n="cevPts3">3 punkty dla zwycięzcy</span></li>
-        <li><span class="score">3:2</span><span data-i18n="cevPts2">2 punkty dla zwycięzcy</span></li>
-        <li><span class="score">2:3</span><span data-i18n="cevPts1">1 punkt dla przegranego</span></li>
-        <li><span class="score">1:3 / 0:3</span><span data-i18n="cevPts0">0 punktów dla przegranego</span></li>
-      </ul>
-
-      <h3 data-i18n="cevOrdH">Kolejność w tabeli grupy</h3>
-      <ol class="rule-list ord">
-        <li data-i18n="cevOrd1">liczba wygranych meczów</li>
-        <li data-i18n="cevOrd2">punkty rankingowe (3 / 2 / 1 / 0)</li>
-        <li data-i18n="cevOrd3">stosunek setów (wygrane ÷ przegrane)</li>
-        <li data-i18n="cevOrd4">stosunek małych punktów</li>
-        <li data-i18n="cevOrd5">bilans bezpośredni</li>
-      </ol>
-
-      <h3 data-i18n="cevAdvH">Awans z grupy</h3>
-      <ul class="rule-list adv">
-        <li><span class="place">1.</span><span data-i18n="cevAdv1">ćwierćfinał Ligi Mistrzyń</span></li>
-        <li><span class="place">2.</span><span data-i18n="cevAdv2">baraż (play-off) o ćwierćfinał</span></li>
-        <li><span class="place">3.*</span><span data-i18n="cevAdv3">najlepsza trzecia też do barażu; pozostałe trzecie — Puchar CEV</span></li>
-        <li><span class="place">4.</span><span data-i18n="cevAdv4">koniec gry w pucharach CEV tej edycji LM</span></li>
-      </ul>
-      <p class="muted" data-i18n="cevAdvNote">* Najlepsza trzecia liczona jest po wszystkich grupach: wygrane → punkty → sety → małe punkty.</p>
-    </div>
-    <div class="card sources-card">
-      <h2>Źródła LM CEV</h2>
-      <p>Wyniki meczów i setów bierzemy z oficjalnych kanałów CEV oraz kont klubów. Dziękujemy za publikację informacji.</p>
-      <ul class="src-list">
-        <li><a href="https://championsleague.cev.eu/en/" target="_blank" rel="noopener">championsleague.cev.eu</a> — wyniki, tabele, protokoły</li>
-        <li><a href="https://x.com/CEVolleyballCL" target="_blank" rel="noopener">@CEVolleyballCL</a> — relacje na żywo</li>
-        <li><a href="https://x.com/CEVolleyball" target="_blank" rel="noopener">@CEVolleyball</a> — komunikaty CEV</li>
-        <li><a href="https://x.com/gibbybaris" target="_blank" rel="noopener">@gibbybaris</a> — relacje i składy</li>
-        <li><a href="https://x.com/KSDevelopres" target="_blank" rel="noopener">@KSDevelopres</a> · <a href="https://x.com/budowlani_lodz" target="_blank" rel="noopener">@budowlani_lodz</a></li>
-        <li><a href="https://x.com/VakifBankSK" target="_blank" rel="noopener">@VakifBankSK</a> · <a href="https://x.com/FenerbahceSK" target="_blank" rel="noopener">@FenerbahceSK</a> · <a href="https://x.com/EczacibasiSK" target="_blank" rel="noopener">@EczacibasiSK</a></li>
-        <li><a href="https://x.com/imocovolley" target="_blank" rel="noopener">@imocovolley</a> · <a href="https://x.com/savinodelbenevolley" target="_blank" rel="noopener">@savinodelbenevolley</a></li>
-      </ul>
-      <p class="muted">Kwalifikacje LM: 20.10–12.11. Grupy A i D czekają na zwycięzców 3. rundy (Porto, Cajasol, Asterix, Branik i pozostali).</p>
-    </div>
-    <div class="lang cev-subs" role="group">
-      <button type="button" class="cev-sub active" data-g="A">A</button>
-      <button type="button" class="cev-sub" data-g="B">B</button>
-      <button type="button" class="cev-sub" data-g="C">C</button>
-      <button type="button" class="cev-sub" data-g="D">D</button>
-      <button type="button" class="cev-sub" data-g="E">E</button>
-    </div>
-    <div class="card"><h2 data-i18n="cevTableH2">Tabela grupy</h2><div id="cev-table"></div></div>
-    <div id="cev-matches"></div>
-    <div class="card">
-      <h2 data-i18n="cevInputH2">Wpisz wynik grupy</h2>
-      <label class="muted" data-i18n="labelMatch">Mecz</label>
-      <select id="cev-match-select"></select>
-      <div class="form-row">
-        <div><label class="muted" data-i18n="labelHome">Sety gospodarza</label><input id="cev-home-sets" type="number" min="0" max="3" value="3" /></div>
-        <div><label class="muted" data-i18n="labelAway">Sety gościa</label><input id="cev-away-sets" type="number" min="0" max="3" value="0" /></div>
-      </div>
-      <label class="muted" data-i18n="labelSets">Małe punkty (np. 25-20,25-18,25-16)</label>
-      <input id="cev-set-points" placeholder="25-20,25-18,25-16" />
-      <button class="primary" id="cev-save" type="button" data-i18n="cevSave">Zapisz i przelicz</button>
-      <button class="ghost" id="cev-reset" type="button" data-i18n="cevReset">Wyczyść wyniki LM</button>
-    </div>
-  </section>
-  <section id="sec-news">
-    <div class="card">
-      <h2 data-i18n="newsH2">Newsy</h2>
-      <p class="muted" data-i18n="newsP">Bieżące informacje o sezonie</p>
-    </div>
-    <div class="card sources-card">
-      <h2 data-i18n="srcH2">Źródła</h2>
-      <p data-i18n="srcThanks">Dziękujemy redakcjom i serwisom, z których korzystamy przy aktualizacji strony. Bez ich codziennej pracy nie byłoby tu bieżących informacji o lidze i Lidze Mistrzyń.</p>
-      <ul class="src-list">
-        <li><a href="https://www.tauronligakobiet.pl" target="_blank" rel="noopener">tauronligakobiet.pl</a> — wyniki, tabela, komunikaty PLS</li>
-        <li><a href="https://panel.volleystation.com/website2/23/en/matches/2543730/" target="_blank" rel="noopener">VolleyStation</a> — protokoły meczowe: punkty zawodniczek, atak, blok, asy, składy. Przykład: UNI Opole–Chemik, mecz 2543730</li>
-        <li><a href="https://www.polsatsport.pl" target="_blank" rel="noopener">polsatsport.pl</a> — zapowiedzi meczów TAURON Ligi Kobiet, relacje pomeczowe, sytuacja w klubach, transmisje i skróty</li>
-        <li><a href="https://siatka.org" target="_blank" rel="noopener">siatka.org</a> — relacje i analizy</li>
-        <li><a href="https://przegladsportowy.onet.pl" target="_blank" rel="noopener">Przegląd Sportowy</a> — newsy ligowe</li>
-        <li><a href="https://women.volleybox.net" target="_blank" rel="noopener">women.volleybox.net</a> — transfery i składy</li>
-        <li><a href="https://inside.volleycountry.com" target="_blank" rel="noopener">inside.volleycountry.com</a> — kontekst europejski</li>
-        <li><a href="https://championsleague.cev.eu/en/" target="_blank" rel="noopener">championsleague.cev.eu</a> — Liga Mistrzyń</li>
-        <li><a href="https://x.com/CEVolleyballCL" target="_blank" rel="noopener">@CEVolleyballCL</a> · <a href="https://x.com/gibbybaris" target="_blank" rel="noopener">@gibbybaris</a></li>
-      </ul>
-      <p class="muted" data-i18n="srcNote">Wyniki ligowe weryfikujemy z oficjalnymi komunikatami TAURON Ligi Kobiet i Polsat Sport. Dziękujemy za możliwość korzystania z Waszych informacji.</p>
-    </div>
-    <div id="news"></div>
-  </section>
-  <section id="sec-analysis">
-    <div class="card"><h2 data-i18n="analysisH2">Analizy i technikalia</h2><p class="muted" data-i18n="analysisP">Oparte o wpisy @PatrykWGesicki.</p></div>
-    <div id="analysis-wrap"></div>
-  </section>
-  <section id="sec-rules">
-    <div class="card">
-      <h2 data-i18n="rulesH2">Punktacja</h2>
-      <ul>
-        <li data-i18n="rule3">3 pkt</li>
-        <li data-i18n="rule2">2 pkt</li>
-        <li data-i18n="rule1">1 pkt</li>
-        <li data-i18n="rule0">0 pkt</li>
-      </ul>
-      <h3 data-i18n="orderH3">Kolejność</h3>
-      <ol>
-        <li data-i18n="tb1">punkty</li>
-        <li data-i18n="tb2">wygrane</li>
-        <li data-i18n="tb3">sety</li>
-        <li data-i18n="tb4">małe punkty</li>
-        <li data-i18n="tb5">bezpośredni</li>
-      </ol>
-      <h3 data-i18n="systemH3">System</h3>
-      <p data-i18n="systemP">12 drużyn, 22 kolejki, play-off 1–8.</p>
-    </div>
-  </section>
-  <section id="sec-input">
-    <div class="card">
-      <h2 data-i18n="inputH2">Wynik</h2>
-      <p class="muted" data-i18n="inputP">Wpisz wynik ligowy.</p>
-      <label class="muted" data-i18n="labelMatch">Mecz</label>
-      <select id="match-select"></select>
-      <div class="form-row">
-        <div><label class="muted" data-i18n="labelHome">Sety gospodarza</label><input id="home-sets" type="number" min="0" max="3" value="3" /></div>
-        <div><label class="muted" data-i18n="labelAway">Sety gościa</label><input id="away-sets" type="number" min="0" max="3" value="0" /></div>
-      </div>
-      <label class="muted" data-i18n="labelSets">Małe punkty</label>
-      <input id="set-points" placeholder="25-20,25-18,25-16" />
-      <button class="primary" id="save-btn" data-i18n="saveBtn">Zapisz</button>
-      <button class="ghost" id="reset-btn" data-i18n="resetBtn">Wyczyść</button>
-    </div>
-  </section>
   <footer class="hint"><a href="https://x.com/Z_Ligowych_Hal" target="_blank" rel="noopener">VolleyNews · @Z_Ligowych_Hal</a></footer>
-  <script src="./js/i18n.js?v=56"></script>
-  <script src="./js/tv.js?v=56"></script>
-  <script src="./js/stats.js?v=56"></script>
-  <script src="./js/analysis.js?v=56"></script>
-  <script src="./js/cev.js?v=56"></script>
-  <script src="./js/app.js?v=56"></script>
-  <script src="./js/ptr.js?v=56"></script>
+  <script src="./js/i18n.js?v=57"></script>
+  <script src="./js/tv.js?v=57"></script>
+  <script src="./js/stats.js?v=57"></script>
+  <script src="./js/analysis.js?v=57"></script>
+  <script src="./js/cev.js?v=57"></script>
+  <script src="./js/app.js?v=57"></script>
+  <script src="./js/ptr.js?v=57"></script>
+  <script src="./js/derby-fix.js?v=57"></script>
 </body>
 </html>
