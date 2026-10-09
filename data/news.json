@@ -1,1 +1,38 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-09",
+  "items": [
+    {
+      "d": "2026-10-09",
+      "t": "Polsat: Pałac 3:0 w Mielcu, pierwsze zwycięstwo sezonu",
+      "te": "Polsat: Pałac win 3-0 in Mielec, first win of the season",
+      "tt": "Polsat: Pałac Mielec'te 3-0, sezonun ilk galibiyeti",
+      "b": "Polsat Sport (9.10, 19:02): ITA TOOLS Stal Mielec przegrała z Metalkas Pałacem Bydgoszcz 0:3 (22:25, 14:25, 23:25). MVP: Wiktoria Makarewicz. To pierwsze zwycięstwo Pałacu w sezonie; wcześniej tie-break z BKS. Kafelek ligi o 20:00 pokazuje ten sam wynik i małe punkty 22:25, 14:25, 23:25. Derby PGE Budowlani Łódź–ŁKS Commercecon o 20:30 jeszcze bez wyniku.",
+      "be": "Polsat Sport (9 Oct, 19:02): ITA TOOLS Stal Mielec lost to Metalkas Pałac Bydgoszcz 0-3 (22-25, 14-25, 23-25). MVP Wiktoria Makarewicz. First Pałac win of the season after a tie-break loss to BKS. At 20:00 the league tile shows the same score. The Łódź derby at 20:30 has no score yet.",
+      "bt": "Polsat Sport (9 Ekim, 19:02): Stal Mielec, Pałac'a 0-3 kaybetti (22-25, 14-25, 23-25). MVP Wiktoria Makarewicz. Pałac'ın sezonun ilk galibiyeti. 20:00'de lig kafelği aynı skoru gösteriyor. 20:30 derbisinin skoru yok.",
+      "u": "https://www.polsatsport.pl/wiadomosc/2026-10-09/deklasacja-metalkas-palac-bydgoszcz-z-pierwszym-zwyciestwem-w-sezonie/",
+      "un": "Polsat Sport"
+    },
+    {
+      "d": "2026-10-09",
+      "t": "Tabela: Pałac liderem po 3:0, nowe kafelki TV",
+      "te": "Table: Pałac lead after 3-0, new TV tiles",
+      "tt": "Tablo: Pałac 3-0 sonrası lider, yeni TV kafelkleri",
+      "b": "Tabela ligi po meczu w Mielcu: 1. Metalkas Pałac Bydgoszcz 4 pkt (2 mecze, sety 5:3, małe punkty 179:165), 2. PGE Budowlani Łódź 3, 3. MOYA Radomka Radom 3, dalej BKS, DevelopRes i Chemik po 2, Stal 2 pkt z dwóch meczów (sety 3:5). Kafelki bez zmian w 2. i 3. kolejce poza Wrocław–Chemik: 16.10, 19:00, Polsat Sport Extra 3 (wcześniej bez logo). 22.10 Radomka–Stal 17:30 ma Polsat Sport 3. 24.10, 20:30 Sokół–Chemik ma godzinę i Polsat Sport 1. 25.10, 20:30 Kalisz–Wrocław ma Polsat Sport 1. AL-KO Superpuchar Budowlani–DevelopRes na kafelku 24.10 o 15:00 z logo Polsat Sport 1, nie 14:45. Wyniku derbów nie ma.",
+      "be": "League table after Mielec: 1. Metalkas Pałac Bydgoszcz 4 pts (2 matches, sets 5-3, points 179-165), 2. Budowlani 3, 3. Radomka 3, then BKS, DevelopRes and Chemik on 2, Stal 2 from two matches (sets 3-5). Round 2 and 3 tiles unchanged except Wrocław–Chemik on 16 Oct at 19:00, now Polsat Sport Extra 3. 22 Oct Radomka–Stal 17:30 is Polsat Sport 3. 24 Oct Sokół–Chemik 20:30 has a kick-off and Polsat Sport 1. 25 Oct Kalisz–Wrocław 20:30 is Polsat Sport 1. The Super Cup tile is 24 Oct 15:00 with Polsat Sport 1, not 14:45. No derby score.",
+      "bt": "Lig tablosu: Pałac 4 puanla lider (set 5-3, 179-165). Budowlani ve Radomka 3. Wrocław–Chemik 16 Ekim 19:00 Polsat Sport Extra 3. 22 Ekim Radomka–Stal Polsat Sport 3. 24 Ekim 20:30 Sokół–Chemik ve 25 Ekim 20:30 Kalisz–Wrocław Polsat Sport 1. Süper Kupa kafelği 24 Ekim 15:00, Polsat Sport 1. Derbi skoru yok.",
+      "u": "https://www.tauronligakobiet.pl/table.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-09",
+      "t": "Pałac wywozi z Mielca 3:0, MVP Makarewicz",
+      "te": "Pałac take a 3-0 from Mielec, MVP Makarewicz",
+      "tt": "Pałac Mielec'ten 3-0, MVP Makarewicz",
+      "b": "ITA TOOLS Stal Mielec przegrała z Metalkas Pałacem Bydgoszcz 0:3 (22:25, 14:25, 23:25). Hala MOSiR, 894 widzów, mecz trwał 1:19, małe punkty 59:75. MVP: Wiktoria Makarewicz. Transmisja była na Polsat Sport 1.",
+      "be": "ITA TOOLS Stal Mielec lost to Metalkas Pałac Bydgoszcz 0-3 (22-25, 14-25, 23-25). MOSiR hall, 894 spectators, 1:19, points 59-75. MVP Wiktoria Makarewicz. The match was on Polsat Sport 1.",
+      "bt": "ITA TOOLS Stal Mielec, Metalkas Pałac Bydgoszcz'a 0-3 kaybetti (22-25, 14-25, 23-25). MOSiR, 894 seyirci, 1:19, 59-75. MVP Wiktoria Makarewicz. Yayın Polsat Sport 1.",
+      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1104999.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
