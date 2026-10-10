@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T20:05:00+02:00",
+  "checkedAt": "2026-10-10T20:00:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,28 +8,28 @@
       "url": "https://www.tauronligakobiet.pl/games.html",
       "ok": true,
       "http": 200,
-      "note": "20:05: Stal–Pałac 0:3, małe punkty 22 25 14 25 23 25. Derby Budowlani–ŁKS 20:30 nadal bez wyniku, kafelek PS1. Bez zmian: 11.10 Opole–BKS PS3, 12.10 DevelopRes–Mogilno i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Mogilno–BKS PS1. Nowe logo: 16.10 Wrocław–Chemik 19:00 Polsat Sport Extra 3. 22.10 Radomka–Stal 17:30 Polsat Sport 3. 24.10 20:30 Mogilno–Chemik PS1. 25.10 20:30 Kalisz–Wrocław PS1. Superpuchar Budowlani–DevelopRes na kafelku 24.10 15:00 z PS1 (wcześniej 14:45, bez logo)."
+      "note": "20:00 10.10: wyniki 2. kolejki Stal–Pałac 0:3, Budowlani–ŁKS 1:3 potwierdzone. Brak wyników dla 11.10+. Kafelki TV bez zmian: 11.10 Opole–BKS, 12.10 DevelopRes–Mogilno i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 16.10 Wrocław–Chemik Extra 3, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Mogilno–BKS PS1. Superpuchar 24.10 15:00 PS1."
     },
     {
       "id": "pls-news",
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowej aktualności po zapowiedzi 2. kolejki z 8.10. Tabela po Mielcu: Pałac 4 pkt, Budowlani 3, Radomka 3."
+      "note": "Brak nowych aktualności po wynikach z 9.10. Tabela: Pałac 4, ŁKS 4, Radomka 3, Budowlani 3."
     },
     {
       "id": "polsat-plan",
-      "url": "https://www.polsatsport.pl/wiadomosc/2026-10-09/deklasacja-metalkas-palac-bydgoszcz-z-pierwszym-zwyciestwem-w-sezonie/",
+      "url": "https://www.polsatsport.pl/",
       "ok": true,
       "http": 200,
-      "note": "19:02: relacja Stal–Pałac 0:3 (22:25, 14:25, 23:25), MVP Makarewicz. Brak nowego planu TV poza kafelkami ligi."
+      "note": "Brak nowych relacji lub planu TV poza istniejącymi kafelkami ligi."
     },
     {
       "id": "siatka-relacje",
-      "url": "https://siatka.org/pokaz/tauron-liga-kobiet-2-kolejka-zapowiedz/",
+      "url": "https://siatka.org/",
       "ok": true,
       "http": 200,
-      "note": "Nadal tylko zapowiedź z 9.10, 11:30. Relacji z Mielca nie ma."
+      "note": "Brak nowych relacji z 2. kolejki poza zapowiedziami."
     },
     {
       "id": "volleybox-matches",
