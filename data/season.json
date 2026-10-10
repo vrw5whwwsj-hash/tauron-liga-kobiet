@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-09T23:05:00+02:00",
-  "status": "2. kolejka: Stal–Pałac 0:3, Budowlani–ŁKS 1:3",
+  "updatedAt": "2026-10-10T13:15:00+02:00",
+  "status": "2. kolejka: Stal–Pałac 0:3, Budowlani–ŁKS 1:3; brak wyników pozostałych meczów",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -35,8 +35,8 @@
       "name": "KS DevelopRes Rzeszów",
       "city": "Rzeszów",
       "coach": "Jelena Blagojević",
-      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka.",
-      "noteEn": "Runners-up. New captain: Alicja Grabka.",
+      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu.",
+      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season.",
       "color": "#7c2d12"
     },
     {
@@ -140,5 +140,13 @@
       "color": "#9f1239"
     }
   ],
-  "injuries": []
+  "injuries": [
+    {
+      "player": "Aleksandra Gryka",
+      "team": "KS DevelopRes Rzeszów",
+      "injury": "zerwanie więzadła krzyżowego przedniego (kolano)",
+      "status": "rehabilitacja, poza składem na początek sezonu",
+      "source": "komunikat klubu DevelopRes Rzeszów (wrzesień 2026)"
+    }
+  ]
 }
