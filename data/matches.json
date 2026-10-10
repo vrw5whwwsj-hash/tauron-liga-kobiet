@@ -1,1 +1,251 @@
-$(cat /tmp/tauron-liga/data/matches.json)
+{
+  "rounds": [
+    {
+      "round": 1,
+      "label": "1. kolejka",
+      "window": "2–4 października 2026",
+      "status": "zakończona",
+      "matches": [
+        {
+          "id": "r1m1",
+          "date": "2026-10-02",
+          "time": "17:30",
+          "home": "kal",
+          "away": "bud",
+          "venue": "Kalisz",
+          "sets": [
+            [
+              7,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              12,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "preview": {
+            "headline": "Inauguracja w Kaliszu: beniaminek kontra mistrzynie Polski",
+            "headlineEn": "Season opener in Kalisz: promoted side vs Polish champions",
+            "text": "NETLAND MKS Kalisz wraca do elity i jako gospodarz otwiera sezon. Przeciwnik to PGE Budowlani Łódź — obrończynie tytułu po historycznym mistrzostwie z kwietnia 2026 (finał z DevelopResem 3–2 w serii, decydujący mecz 3:1 w Rzeszowie). Kalisz ma tradycje (Energa MKS to jeden z najbardziej utytułowanych klubów w historii), ale różnica potencjału na papierze jest wyraźna. W Grand Prix PGE (sierpień) Radomka wygrała z Kaliszem 2:0 (25:12, 25:8), a Budowlani regularnie ogrywali ligowych rywali w sparingach — m.in. pokonali #VolleyWrocław w ostatnim sprawdzianie. Atut hali i emocje inauguracji mogą dać gospodyniom set, ale faworytem są łodzianki Biernata (Storck, Buterez, Planinšec, Grajber-Nowakowska, Wenerska).",
+            "textEn": "NETLAND MKS Kalisz return to the top flight and host the season opener. PGE Budowlani Łódź are defending champions after a historic first title in April 2026 (final vs DevelopRes 3–2 in the series, 3–1 in the decider in Rzeszów). Kalisz have tradition, but the gap on paper is clear. In the August PGE Grand Prix Radomka beat Kalisz 2–0 (25–12, 25–8), and Budowlani regularly beat league sides in friendlies — including #VolleyWrocław in their last tune-up. Home crowd and opening-night emotion may earn the hosts a set, but Biernat's Łódź (Storck, Buterez, Planinšec, Grajber-Nowakowska, Wenerska) are favourites.",
+            "prediction": "0:3",
+            "confidence": "wysoka",
+            "keys": [
+              "forma mistrzyń",
+              "jakość ataku Storck/Buterez",
+              "doświadczenie play-off",
+              "presja inauguracji u beniaminka"
+            ],
+            "keysEn": [
+              "champions' form",
+              "Storck/Buterez attack",
+              "play-off experience",
+              "opener pressure on the promoted side"
+            ]
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-02T18:12:00Z",
+            "note": "Oba źródła: 0:3 (7:25, 17:25, 12:25). PLS kafelek 2.10 17:30 i karta 1104990 (przebieg 7:25, 17:25, 12:25, widzów 1489, relacja: bardzo pewnie 3:0). Polsat Sport: mecz zakończony, widget 0:3, sety 7-25, 17-25, 12-25."
+          },
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Mistrzynie bezlitosne. Kalisz 0:3",
+            "titleEn": "Champions ruthless. Kalisz 0:3",
+            "titleTr": "Şampiyon acımasız. Kalisz 0:3",
+            "text": "NETLAND MKS Kalisz przegrał z PGE Budowlanymi Łódź 0:3 (7:25, 17:25, 12:25). Pierwszy punkt sezonu zdobyła blokiem Paulina Majkowska, a przy zagrywkach Mai Storck poszła seria od 3:3 do 3:16. Seta zamknęła Rodica Buterez. W drugiej partii łodzianki odskoczyły na 10:19, w trzeciej Martyna Grajber-Nowakowska dała dwa asy (4:11), a błąd gospodyń zakończył mecz. Arena Kalisz: 1489 widzów. Najwięcej punktów: Jelena Vulin 10 (Kalisz); Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11 (Budowlani). MVP: Maja Storck. Atak 28%–53%, blok 4–12.",
+            "textEn": "NETLAND MKS Kalisz lost to PGE Budowlani Łódź 0–3 (7–25, 17–25, 12–25). Maja Storck served a run from 3–3 to 3–16 in set one. Arena Kalisz drew 1,489. Top scorers: Jelena Vulin 10; Maja Storck 14, Rodica Buterez 13, Saša Planinšec 11. MVP Storck. Attack 28%–53%, block 4–12.",
+            "textTr": "Kalisz, Budowlani'ye 0-3 kaybetti (7-25, 17-25, 12-25). Storck 14, Buterez 13, Planinšec 11 sayı. MVP Storck.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 14
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 11
+              }
+            ],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
+          },
+          "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-02/mks-kalisz-budowlani-lodz-siatkowka-tauron-liga-kto-wygral/"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "label": "2. kolejka",
+      "window": "9–13 października 2026",
+      "status": "w toku",
+      "matches": [
+        {
+          "id": "r2m1",
+          "date": "2026-10-09",
+          "time": "17:30",
+          "home": "mie",
+          "away": "byd",
+          "venue": "Mielec",
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              14,
+              25
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "preview": {
+            "headline": "Stal Mielec podejmuje Pałac po udanym starcie",
+            "headlineEn": "Stal Mielec host Pałac after a strong start",
+            "text": "ITA TOOLS Stal Mielec, po wygranej we Wrocławiu 3:2, podejmuje Metalkas Pałac Bydgoszcz, który przegrał tie-break z BKS. Pierwsze zwycięstwo w sezonie dla jednej z drużyn.",
+            "textEn": "ITA TOOLS Stal Mielec, after beating Wrocław 3-2, host Metalkas Pałac Bydgoszcz, who lost a tie-break to BKS. First win of the season for one of the sides."
+          },
+          "recap": {
+            "title": "Pałac pewnie w Mielcu. Stal 0:3",
+            "titleEn": "Pałac solid in Mielec. Stal 0:3",
+            "titleTr": "Pałac Mielec'te emin. Stal 0:3",
+            "text": "ITA TOOLS Stal Mielec przegrała z Metalkas Pałacem Bydgoszcz 0:3 (22:25, 14:25, 23:25). Hala MOSiR Mielec, 894 widzów. W drugim secie seria bydgoszczanek od 8:6 do 15:6. W trzecim Stal goniła z 17:22 do 22:22, ale mecz zamknął blok Marty Pol. Najwięcej punktów: Andjela Jovanović 13, Aleksandra Adamczyk 8, Linda Andersson 8 (Stal); Marta Pol 15, Wiktoria Makarewicz 13, Emilia Pinczewska 12 (Pałac). MVP: Wiktoria Makarewicz. Pierwsze zwycięstwo Pałacu w sezonie.",
+            "textEn": "ITA TOOLS Stal Mielec lost to Metalkas Pałac Bydgoszcz 0-3 (22-25, 14-25, 23-25). MOSiR Mielec, 894 spectators. Set two run from 8-6 to 15-6. In set three Stal chased from 17-22 to 22-22 before Marta Pol's block closed it. Top scorers: Andjela Jovanović 13, Aleksandra Adamczyk 8, Linda Andersson 8; Marta Pol 15, Wiktoria Makarewicz 13, Emilia Pinczewska 12. MVP Wiktoria Makarewicz. Pałac's first win of the season.",
+            "textTr": "Stal Mielec, Pałac'a 0-3 kaybetti (22-25, 14-25, 23-25). MOSiR, 894 seyirci. Jovanović 13, Adamczyk 8; Pol 15, Makarewicz 13, Pinczewska 12. MVP Makarewicz. Pałac'ın sezonun ilk galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Andjela Jovanović",
+                "p": 13
+              },
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 8
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 8
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Marta Pol",
+                "p": 15
+              },
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 13
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 12
+              }
+            ],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/deklasacja-metalkas-palac-bydgoszcz-z-pierwszym-zwyciestwem-w-sezonie/"
+          }
+        },
+        {
+          "id": "r2m2",
+          "date": "2026-10-09",
+          "time": "20:30",
+          "home": "bud",
+          "away": "lks",
+          "venue": "Łódź",
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              18,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "preview": {
+            "headline": "Derby Łodzi: mistrzynie kontra rewolucyjny ŁKS",
+            "headlineEn": "Łódź derby: champions vs overhauled ŁKS",
+            "text": "PGE Budowlani Łódź, po pewnej wygranej w Kaliszu, podejmują ŁKS Commercecon, który przegrał tie-break z DevelopResem. Pełna Sport Arena.",
+            "textEn": "PGE Budowlani Łódź, after a clear win in Kalisz, host ŁKS Commercecon, who lost a tie-break to DevelopRes. Full Sport Arena."
+          },
+          "recap": {
+            "title": "Derby dla ŁKS. Budowlani 1:3, Jurczyk MVP",
+            "titleEn": "Derby to ŁKS. Budowlani 1:3, Jurczyk MVP",
+            "titleTr": "Derbi ŁKS'e. Budowlani 1:3, Jurczyk MVP",
+            "text": "PGE Budowlani Łódź przegrały derby z ŁKS Commercecon 1:3 (19:25, 18:25, 25:14, 18:25). Sport Arena, 3000 widzów. ŁKS wygrał dwa pierwsze sety, Budowlani odpowiedziały 25:14, goście zamknęły czwartą 25:18. Najwięcej punktów: Martyna Grajber-Nowakowska 11, Didona Iuna Catalina Zadorojnai 11, Saša Planinšec 9 (Budowlani); Oleksandra Milenko 16, Suvi Kokkonen 14, Elles Dambrink 12, Magdalena Jurczyk 11 (ŁKS). MVP: Magdalena Jurczyk. Pierwsze zwycięstwo ŁKS w sezonie.",
+            "textEn": "PGE Budowlani Łódź lost the derby to ŁKS Commercecon 1-3 (19-25, 18-25, 25-14, 18-25). Sport Arena, 3,000 fans. ŁKS took the first two sets, Budowlani won the third 25-14, visitors closed set four 25-18. Top scorers: Martyna Grajber-Nowakowska 11, Iuna Zadorojnai 11, Saša Planinšec 9; Oleksandra Milenko 16, Suvi Kokkonen 14, Elles Dambrink 12, Magdalena Jurczyk 11. MVP Magdalena Jurczyk. First ŁKS win of the season.",
+            "textTr": "Budowlani 1-3 ŁKS (19-25, 18-25, 25-14, 18-25). Sport Arena, 3000. Milenko 16, Kokkonen 14, Dambrink 12, Jurczyk 11. MVP Jurczyk. ŁKS'in sezonun ilk galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Martyna Grajber-Nowakowska",
+                "p": 11
+              },
+              {
+                "n": "Didona Iuna Catalina Zadorojnai",
+                "p": 11
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Oleksandra Milenko",
+                "p": 16
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 14
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 12
+              },
+              {
+                "n": "Magdalena Jurczyk",
+                "p": 11
+              }
+            ],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
+          }
+        }
+      ]
+    }
+  ]
+}
