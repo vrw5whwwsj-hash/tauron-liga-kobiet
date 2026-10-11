@@ -214,6 +214,94 @@
             "awayTop": [{"n":"Oleksandra Milenko","p":16},{"n":"Suvi Kokkonen","p":14},{"n":"Elles Dambrink","p":12},{"n":"Magdalena Jurczyk","p":11}],
             "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
           }
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole"
+        },
+        {
+          "id": "r2m4",
+          "date": "2026-10-12",
+          "time": "17:30",
+          "home": "dev",
+          "away": "mog",
+          "venue": "Rzeszów"
+        },
+        {
+          "id": "r2m5",
+          "date": "2026-10-12",
+          "time": "20:30",
+          "home": "che",
+          "away": "kal",
+          "venue": "Police"
+        },
+        {
+          "id": "r2m6",
+          "date": "2026-10-13",
+          "time": "17:30",
+          "home": "rad",
+          "away": "wro",
+          "venue": "Radom"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "label": "3. kolejka",
+      "window": "15–19 października 2026",
+      "status": "nadchodząca",
+      "matches": [
+        {
+          "id": "r3m1",
+          "date": "2026-10-15",
+          "time": "17:30",
+          "home": "lks",
+          "away": "mie",
+          "venue": "Łódź"
+        },
+        {
+          "id": "r3m2",
+          "date": "2026-10-16",
+          "time": "19:00",
+          "home": "wro",
+          "away": "che",
+          "venue": "Wrocław"
+        },
+        {
+          "id": "r3m3",
+          "date": "2026-10-17",
+          "time": "12:00",
+          "home": "byd",
+          "away": "kal",
+          "venue": "Bydgoszcz"
+        },
+        {
+          "id": "r3m4",
+          "date": "2026-10-17",
+          "time": "20:30",
+          "home": "dev",
+          "away": "rad",
+          "venue": "Rzeszów"
+        },
+        {
+          "id": "r3m5",
+          "date": "2026-10-18",
+          "time": "20:30",
+          "home": "opo",
+          "away": "bud",
+          "venue": "Opole"
+        },
+        {
+          "id": "r3m6",
+          "date": "2026-10-19",
+          "time": "20:30",
+          "home": "mog",
+          "away": "bks",
+          "venue": "Mogilno"
         }
       ]
     }
