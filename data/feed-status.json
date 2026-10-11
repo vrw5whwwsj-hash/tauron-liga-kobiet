@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-10T20:00:00+02:00",
+  "checkedAt": "2026-10-11T23:10:00+02:00",
   "seasonStart": "2026-10-02",
   "liveResultsAvailable": true,
   "checks": [
@@ -8,35 +8,28 @@
       "url": "https://www.tauronligakobiet.pl/games.html",
       "ok": true,
       "http": 200,
-      "note": "20:00 10.10: wyniki 2. kolejki Stal–Pałac 0:3, Budowlani–ŁKS 1:3 potwierdzone. Brak wyników dla 11.10+. Kafelki TV bez zmian: 11.10 Opole–BKS, 12.10 DevelopRes–Mogilno i Chemik–Kalisz PS1, 13.10 Radomka–Wrocław PS1, 15.10 ŁKS–Stal PS2, 16.10 Wrocław–Chemik Extra 3, 17.10 Pałac–Kalisz i DevelopRes–Radomka PS1, 18.10 Opole–Budowlani PS1, 19.10 Mogilno–BKS PS1. Superpuchar 24.10 15:00 PS1."
+      "note": "23:10 11.10: wyniki 2. kolejki Stal–Pałac 0:3, Budowlani–ŁKS 1:3, UNI Opole–BKS 3:0 potwierdzone. Pozostałe mecze 12.10+ bez wyników."
     },
     {
       "id": "pls-news",
       "url": "https://www.tauronligakobiet.pl/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowych aktualności po wynikach z 9.10. Tabela: Pałac 4, ŁKS 4, Radomka 3, Budowlani 3."
+      "note": "Nowa relacja: UNI Opole pokonało BKS 3:0. Tabela aktualizowana."
     },
     {
       "id": "polsat-plan",
       "url": "https://www.polsatsport.pl/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowych relacji lub planu TV poza istniejącymi kafelkami ligi."
+      "note": "Relacja: UNI Opole z pierwszym zwycięstwem, MVP Makarowska-Kulej."
     },
     {
       "id": "siatka-relacje",
       "url": "https://siatka.org/",
       "ok": true,
       "http": 200,
-      "note": "Brak nowych relacji z 2. kolejki poza zapowiedziami."
-    },
-    {
-      "id": "volleybox-matches",
-      "url": "https://women.volleybox.net/pl/matches",
-      "ok": false,
-      "http": 403,
-      "note": "Cloudflare. Wyników nie bierzemy."
+      "note": "Relacja: Miało być zacięte starcie, był nokaut. UNI Opole 3:0."
     }
   ]
 }
