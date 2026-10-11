@@ -214,6 +214,35 @@
             "awayTop": [{"n":"Oleksandra Milenko","p":16},{"n":"Suvi Kokkonen","p":14},{"n":"Elles Dambrink","p":12},{"n":"Magdalena Jurczyk","p":11}],
             "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
           }
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole",
+          "sets": [[25,22],[25,14],[25,19]],
+          "score": [3,0],
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-11T22:10:00Z",
+            "note": "Oba źródła: 3:0 (25:22, 25:14, 25:19). tauronligakobiet.pl i Polsat Sport."
+          },
+          "recap": {
+            "title": "UNI Opole 3:0 z BKS. Pierwsze zwycięstwo, MVP Makarowska-Kulej",
+            "titleEn": "UNI Opole 3-0 over BKS. First win, MVP Makarowska-Kulej",
+            "titleTr": "UNI Opole BKS'i 3-0 yendi. İlk galibiyet, MVP Makarowska-Kulej",
+            "text": "UNI Opole pokonało BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19). Stegu Arena, 1680 widzów. Pierwszy set wyrównany do końcówki, drugi i trzeci już dominacja gospodyń. Opolanki odrobiły falstart z Chemikiem. Najwięcej punktów: Katarzyna Zaroślińska-Król 19, Andriana Pavlyk 10, Natalia Kecher 10, Sydney Palazzolo 9 (UNI); Iris Vos 13, Iga Wasilewska 9, Kertu Laak 7, Nikola Abramajtys 7 (BKS). MVP: Gabriela Makarowska-Kulej. Trenerzy: Bartłomiej Dąbrowski (UNI), Bartłomiej Piekarczyk (BKS). Pierwsze zwycięstwo UNI w sezonie.",
+            "textEn": "UNI Opole beat BKS ZGO Bielsko-Biała 3-0 (25-22, 25-14, 25-19). Stegu Arena, 1,680 spectators. First set tight to the end, second and third clear domination. Opole bounced back after the Chemik opener. Top scorers: Katarzyna Zaroślińska-Król 19, Andriana Pavlyk 10, Natalia Kecher 10, Sydney Palazzolo 9; Iris Vos 13, Iga Wasilewska 9, Kertu Laak 7, Nikola Abramajtys 7. MVP Gabriela Makarowska-Kulej. Coaches: Bartłomiej Dąbrowski (UNI), Bartłomiej Piekarczyk (BKS). UNI's first win of the season.",
+            "textTr": "UNI Opole, BKS'i 3-0 yendi (25-22, 25-14, 25-19). Stegu Arena, 1680 seyirci. Zaroślińska-Król 19, Pavlyk 10, Kecher 10; Vos 13, Wasilewska 9. MVP Makarowska-Kulej. UNI'nin sezonun ilk galibiyeti.",
+            "homeTop": [{"n":"Katarzyna Zaroślińska-Król","p":19},{"n":"Andriana Pavlyk","p":10},{"n":"Natalia Kecher","p":10},{"n":"Sydney Palazzolo","p":9}],
+            "awayTop": [{"n":"Iris Vos","p":13},{"n":"Iga Wasilewska","p":9},{"n":"Kertu Laak","p":7},{"n":"Nikola Abramajtys","p":7}],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-11/uni-opole-bielsko-biala-wynik-meczu-kto-wygral/"
+          }
         }
       ]
     }
