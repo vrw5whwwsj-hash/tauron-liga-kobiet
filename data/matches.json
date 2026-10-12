@@ -214,6 +214,24 @@
             "awayTop": [{"n":"Oleksandra Milenko","p":16},{"n":"Suvi Kokkonen","p":14},{"n":"Elles Dambrink","p":12},{"n":"Magdalena Jurczyk","p":11}],
             "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
           }
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole",
+          "sets": [[25,22],[25,14],[25,19]],
+          "score": [3,0],
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-12T22:10:00Z",
+            "note": "Oficjalne: 3:0 (25:22, 25:14, 25:19). tauronligakobiet.pl."
+          }
         }
       ]
     }
