@@ -214,6 +214,33 @@
             "awayTop": [{"n":"Oleksandra Milenko","p":16},{"n":"Suvi Kokkonen","p":14},{"n":"Elles Dambrink","p":12},{"n":"Magdalena Jurczyk","p":11}],
             "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
           }
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole",
+          "sets": [[25,22],[25,14],[25,19]],
+          "score": [3,0],
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-12T13:20:00Z",
+            "note": "Oficjalny wynik na tauronligakobiet.pl: 3:0 (25:22, 25:14, 25:19). MVP: Gabriela Makarowska-Kulej. Zaroślińska-Król 19 pkt."
+          },
+          "recap": {
+            "title": "UNI Opole 3:0 z BKS. Pierwsze zwycięstwo sezonu",
+            "titleEn": "UNI Opole 3:0 vs BKS. First win of the season",
+            "text": "UNI Opole pokonało BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19). Stegu Arena, 1680 widzów. Pierwszy set wyrównany do 19:19, potem dominacja gospodyń. Najwięcej punktów: Katarzyna Zaroślińska-Król 19 (UNI); Iris Vos 13 (BKS). MVP: Gabriela Makarowska-Kulej. Pierwsze zwycięstwo UNI w sezonie, przerwanie serii zwycięstw gości.",
+            "textEn": "UNI Opole beat BKS ZGO Bielsko-Biała 3-0 (25-22, 25-14, 25-19). Stegu Arena, 1680 spectators. First set level to 19-19, then hosts dominated. Top scorers: Katarzyna Zaroślińska-Król 19 (UNI); Iris Vos 13 (BKS). MVP: Gabriela Makarowska-Kulej. UNI's first win of the season, breaking the visitors' winning streak.",
+            "homeTop": [{"n":"Katarzyna Zaroślińska-Król","p":19}],
+            "awayTop": [{"n":"Iris Vos","p":13}],
+            "clip": "https://www.tauronligakobiet.pl/news,klatwa-wlasnych-hal-przerwana-uni-opole-pokonalo-bks-zgo-bielsko-biala.html"
+          }
         }
       ]
     }

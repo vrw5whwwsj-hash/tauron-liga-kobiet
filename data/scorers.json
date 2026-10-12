@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-12",
   "phase": "faza zasadnicza",
   "phaseEn": "regular season",
-  "note": "PLS ScoreRanking po Stal–Pałac 0:3 i Budowlani–ŁKS 1:3. Makarewicz 40, Kokkonen 37, Pol i Milenko 30.",
-  "noteEn": "PLS ScoreRanking after Stal–Pałac 0-3 and Budowlani–ŁKS 1-3. Makarewicz 40, Kokkonen 37, Pol and Milenko 30.",
+  "note": "PLS ScoreRanking po UNI Opole–BKS 3:0. Zaroślińska-Król 47, Makarewicz 40, Kokkonen 37.",
+  "noteEn": "PLS ScoreRanking after UNI Opole–BKS 3-0. Zaroślińska-Król 47, Makarewicz 40, Kokkonen 37.",
   "source": "https://www.tauronligakobiet.pl/statsRanking/type/ScoreRanking/tournament_1/54.html",
   "players": [
+    {"name": "Katarzyna Zaroślińska-Król", "team": "UNI Opole", "pos": "", "matches": 2, "sets": 8, "pts": 47, "attack": null, "block": null, "ace": null},
     {"name": "Wiktoria Makarewicz", "team": "Metalkas Pałac", "pos": "", "matches": 2, "sets": 8, "pts": 40, "attack": null, "block": null, "ace": null},
     {"name": "Suvi Kokkonen", "team": "ŁKS Commercecon", "pos": "", "matches": 2, "sets": 9, "pts": 37, "attack": null, "block": null, "ace": null},
+    {"name": "Iris Vos", "team": "BKS ZGO Bielsko-Biała", "pos": "", "matches": 2, "sets": 8, "pts": 35, "attack": null, "block": null, "ace": null},
     {"name": "Marta Pol", "team": "Metalkas Pałac", "pos": "", "matches": 2, "sets": 8, "pts": 30, "attack": null, "block": null, "ace": null},
     {"name": "Oleksandra Milenko", "team": "ŁKS Commercecon", "pos": "", "matches": 2, "sets": 9, "pts": 30, "attack": null, "block": null, "ace": null},
-    {"name": "Katarzyna Zaroślińska-Król", "team": "UNI Opole", "pos": "", "matches": 1, "sets": 5, "pts": 28, "attack": null, "block": null, "ace": null},
+    {"name": "Iga Wasilewska", "team": "BKS ZGO Bielsko-Biała", "pos": "", "matches": 2, "sets": 8, "pts": 28, "attack": null, "block": null, "ace": null},
     {"name": "Emilia Pinczewska", "team": "Metalkas Pałac", "pos": "", "matches": 2, "sets": 8, "pts": 27, "attack": null, "block": null, "ace": null},
     {"name": "Andjela Jovanović", "team": "ITA TOOLS Stal", "pos": "", "matches": 2, "sets": 8, "pts": 27, "attack": null, "block": null, "ace": null},
-    {"name": "Elles Dambrink", "team": "ŁKS Commercecon", "pos": "", "matches": 2, "sets": 9, "pts": 27, "attack": null, "block": null, "ace": null},
-    {"name": "Aleksandra Adamczyk", "team": "ITA TOOLS Stal", "pos": "", "matches": 2, "sets": 8, "pts": 26, "attack": null, "block": null, "ace": null},
-    {"name": "Antonia Stautz", "team": "#VolleyWrocław", "pos": "", "matches": 1, "sets": 5, "pts": 23, "attack": null, "block": null, "ace": null}
+    {"name": "Elles Dambrink", "team": "ŁKS Commercecon", "pos": "", "matches": 2, "sets": 9, "pts": 27, "attack": null, "block": null, "ace": null}
   ]
 }
