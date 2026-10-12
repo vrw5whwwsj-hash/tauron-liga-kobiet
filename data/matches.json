@@ -214,6 +214,35 @@
             "awayTop": [{"n":"Oleksandra Milenko","p":16},{"n":"Suvi Kokkonen","p":14},{"n":"Elles Dambrink","p":12},{"n":"Magdalena Jurczyk","p":11}],
             "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-09/pge-budowlani-lodz-lks-commercecon-lodz-wynik-meczu-kto-wygral/"
           }
+        },
+        {
+          "id": "r2m3",
+          "date": "2026-10-11",
+          "time": "15:00",
+          "home": "opo",
+          "away": "bks",
+          "venue": "Opole",
+          "sets": [[25,22],[25,14],[25,19]],
+          "score": [3,0],
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-12T12:00:00Z",
+            "note": "Oficjalnie na tauronligakobiet.pl: 3:0 (25:22, 25:14, 25:19). MVP: Gabriela Makarowska-Kulej. Zaroślińska-Król 19 pkt."
+          },
+          "recap": {
+            "title": "UNI Opole pewnie 3:0 z BKS",
+            "titleEn": "UNI Opole solid 3:0 over BKS",
+            "titleTr": "UNI Opole BKS'e 3:0",
+            "text": "UNI Opole pokonało BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19) w Stegu Arena (1680 widzów). Pierwsze zwycięstwo Opola w sezonie po falstarcie z Chemikiem. MVP: Gabriela Makarowska-Kulej. Najwięcej punktów: Katarzyna Zaroślińska-Król 19.",
+            "textEn": "UNI Opole beat BKS ZGO Bielsko-Biała 3-0 (25-22, 25-14, 25-19) at Stegu Arena (1,680 spectators). First win of the season after the Chemik opener. MVP: Gabriela Makarowska-Kulej. Top scorer: Katarzyna Zaroślińska-Król 19.",
+            "textTr": "UNI Opole BKS'i 3-0 yendi (25-22, 25-14, 25-19). MVP Makarowska-Kulej. Zaroślińska-Król 19.",
+            "homeTop": [{"n":"Katarzyna Zaroślińska-Król","p":19}],
+            "awayTop": [],
+            "clip": "https://www.polsatsport.pl/wiadomosc/2026-10-11/uni-opole-bielsko-biala-wynik-meczu-kto-wygral/"
+          }
         }
       ]
     }
