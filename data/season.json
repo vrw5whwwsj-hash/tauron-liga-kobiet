@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-12T22:20:00+02:00",
-  "status": "2. kolejka: Opole 3:0, DevelopRes 3:1. Chemik–Kalisz w trakcie.",
+  "updatedAt": "2026-10-13T17:20:00+02:00",
+  "status": "2. kolejka: Chemik 3:1 Kalisz. Ostatni mecz Radomka–Wrocław o 17:30 bez wyniku.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -19,126 +19,18 @@
     "championEarliest": "21 kwietnia 2027"
   },
   "teams": [
-    {
-      "id": "bud",
-      "short": "PGE BUD",
-      "name": "PGE Budowlani Łódź",
-      "city": "Łódź",
-      "coach": "Maciej Biernat",
-      "note": "Obrończynie tytułu. Historyczne pierwsze MP w kwietniu 2026.",
-      "noteEn": "Defending champions. First Polish title in club history (April 2026).",
-      "color": "#1a365d"
-    },
-    {
-      "id": "dev",
-      "short": "DEV RZE",
-      "name": "KS DevelopRes Rzeszów",
-      "city": "Rzeszów",
-      "coach": "Jelena Blagojević",
-      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu.",
-      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season.",
-      "color": "#7c2d12"
-    },
-    {
-      "id": "opo",
-      "short": "UNI OPO",
-      "name": "UNI Opole",
-      "city": "Opole",
-      "coach": "Bartłomiej Dąbrowski",
-      "note": "Brąz 2025/26. Stabilny projekt.",
-      "noteEn": "Bronze in 2025/26. Stable project.",
-      "color": "#1e3a8a"
-    },
-    {
-      "id": "bks",
-      "short": "BKS BIA",
-      "name": "BKS ZGO Bielsko-Biała",
-      "city": "Bielsko-Biała",
-      "coach": "",
-      "note": "Stały pretendent do czołówki.",
-      "noteEn": "Regular top-half contender.",
-      "color": "#7f1d1d"
-    },
-    {
-      "id": "lks",
-      "short": "ŁKS ŁÓD",
-      "name": "ŁKS Commercecon Łódź",
-      "city": "Łódź",
-      "coach": "Adrian Chyliński",
-      "note": "Rewolucja kadrowa. Jurczyk: 5 pkt w 1. kolejce (DevelopRes) oraz 11 pkt i MVP w derbach z Budowlanymi (2. kolejka), na strefie 3 przez cztery sety.",
-      "noteEn": "Roster overhaul. Jurczyk scored 5 in round 1 (DevelopRes) and 11 plus MVP in the Budowlani derby (round 2), zone 3 in all four sets.",
-      "color": "#9a3412"
-    },
-    {
-      "id": "che",
-      "short": "CHEMIK",
-      "name": "LOTTO Chemik Police",
-      "city": "Police",
-      "coach": "",
-      "note": "Duże zmiany kadrowe i nowe ambicje.",
-      "noteEn": "Major roster changes and renewed ambition.",
-      "color": "#0f766e"
-    },
-    {
-      "id": "mie",
-      "short": "STAL MIE",
-      "name": "ITA TOOLS Stal Mielec",
-      "city": "Mielec",
-      "coach": "",
-      "note": "Środek tabeli, walka o play-off.",
-      "noteEn": "Mid-table, fighting for the play-offs.",
-      "color": "#365314"
-    },
-    {
-      "id": "byd",
-      "short": "PAŁAC",
-      "name": "Metalkas Pałac Bydgoszcz",
-      "city": "Bydgoszcz",
-      "coach": "",
-      "note": "Walka o ósemkę.",
-      "noteEn": "Fighting for the top eight.",
-      "color": "#1e40af"
-    },
-    {
-      "id": "rad",
-      "short": "RADOMKA",
-      "name": "MOYA Radomka Radom",
-      "city": "Radom",
-      "coach": "",
-      "note": "Letnia rewolucja kadrowa.",
-      "noteEn": "Summer roster overhaul.",
-      "color": "#b45309"
-    },
-    {
-      "id": "kal",
-      "short": "MKS KAL",
-      "name": "NETLAND MKS Kalisz",
-      "city": "Kalisz",
-      "coach": "",
-      "note": "Beniaminek. Inauguracja sezonu u siebie.",
-      "noteEn": "Promoted side. Hosts the season opener.",
-      "color": "#4338ca"
-    },
-    {
-      "id": "mog",
-      "short": "SOKÓŁ",
-      "name": "Sokół & Hagric Mogilno",
-      "city": "Mogilno",
-      "coach": "Dawid Michor",
-      "note": "Cel: najwaleczniejsza drużyna ligi. Trzeci sezon w elicie.",
-      "noteEn": "Aim: toughest team in the league. Third season in the elite.",
-      "color": "#166534"
-    },
-    {
-      "id": "wro",
-      "short": "#VOLLEY",
-      "name": "#VolleyWrocław",
-      "city": "Wrocław",
-      "coach": "",
-      "note": "Wzmocniony skład, ambicje wyżej niż rok temu.",
-      "noteEn": "Reinforced roster, aiming higher than last year.",
-      "color": "#9f1239"
-    }
+    {"id": "bud", "short": "PGE BUD", "name": "PGE Budowlani Łódź", "city": "Łódź", "coach": "Maciej Biernat", "note": "Obrończynie tytułu. Historyczne pierwsze MP w kwietniu 2026.", "noteEn": "Defending champions. First Polish title in club history (April 2026).", "color": "#1a365d"},
+    {"id": "dev", "short": "DEV RZE", "name": "KS DevelopRes Rzeszów", "city": "Rzeszów", "coach": "Jelena Blagojević", "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu.", "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season.", "color": "#7c2d12"},
+    {"id": "opo", "short": "UNI OPO", "name": "UNI Opole", "city": "Opole", "coach": "Bartłomiej Dąbrowski", "note": "Brąz 2025/26. Stabilny projekt.", "noteEn": "Bronze in 2025/26. Stable project.", "color": "#1e3a8a"},
+    {"id": "bks", "short": "BKS BIA", "name": "BKS ZGO Bielsko-Biała", "city": "Bielsko-Biała", "coach": "", "note": "Stały pretendent do czołówki.", "noteEn": "Regular top-half contender.", "color": "#7f1d1d"},
+    {"id": "lks", "short": "ŁKS ŁÓD", "name": "ŁKS Commercecon Łódź", "city": "Łódź", "coach": "Adrian Chyliński", "note": "Rewolucja kadrowa.", "noteEn": "Roster overhaul.", "color": "#9a3412"},
+    {"id": "che", "short": "CHEMIK", "name": "LOTTO Chemik Police", "city": "Police", "coach": "", "note": "Duże zmiany kadrowe i nowe ambicje.", "noteEn": "Major roster changes and renewed ambition.", "color": "#0f766e"},
+    {"id": "mie", "short": "STAL MIE", "name": "ITA TOOLS Stal Mielec", "city": "Mielec", "coach": "", "note": "Środek tabeli, walka o play-off.", "noteEn": "Mid-table, fighting for the play-offs.", "color": "#365314"},
+    {"id": "byd", "short": "PAŁAC", "name": "Metalkas Pałac Bydgoszcz", "city": "Bydgoszcz", "coach": "", "note": "Walka o ósemkę.", "noteEn": "Fighting for the top eight.", "color": "#1e40af"},
+    {"id": "rad", "short": "RADOMKA", "name": "MOYA Radomka Radom", "city": "Radom", "coach": "", "note": "Letnia rewolucja kadrowa.", "noteEn": "Summer roster overhaul.", "color": "#b45309"},
+    {"id": "kal", "short": "MKS KAL", "name": "NETLAND MKS Kalisz", "city": "Kalisz", "coach": "", "note": "Beniaminek.", "noteEn": "Promoted side.", "color": "#4338ca"},
+    {"id": "mog", "short": "SOKÓŁ", "name": "Sokół & Hagric Mogilno", "city": "Mogilno", "coach": "Dawid Michor", "note": "Cel: najwaleczniejsza drużyna ligi.", "noteEn": "Aim: toughest team in the league.", "color": "#166534"},
+    {"id": "wro", "short": "#VOLLEY", "name": "#VolleyWrocław", "city": "Wrocław", "coach": "", "note": "Wzmocniony skład.", "noteEn": "Reinforced roster.", "color": "#9f1239"}
   ],
   "injuries": [
     {
