@@ -1,1 +1,23 @@
-PLACEHOLDER_FOR_FULL_CONTENT
+{
+  "rounds": [
+    {
+      "round": 1,
+      "label": "1. kolejka",
+      "window": "2–4 października 2026",
+      "status": "zakończona",
+      "matches": [
+        {
+          "id": "r1m1",
+          "date": "2026-10-02",
+          "time": "17:30",
+          "home": "kal",
+          "away": "bud",
+          "venue": "Kalisz",
+          "sets": [[7,25],[17,25],[12,25]],
+          "score": [0,3],
+          "tv": "Polsat Sport 1"
+        }
+      ]
+    }
+  ]
+}
