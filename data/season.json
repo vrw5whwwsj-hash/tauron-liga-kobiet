@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-12T22:20:00+02:00",
-  "status": "2. kolejka: Opole 3:0, DevelopRes 3:1. Chemik–Kalisz w trakcie.",
+  "updatedAt": "2026-10-13T21:55:00+02:00",
+  "status": "2. kolejka zakończona: Opole 3:0 BKS, DevelopRes 3:1 Sokół, Chemik 3:1 Kalisz, Radomka 3:2 Wrocław, ŁKS 3:1 Budowlani, Pałac 3:0 Stal.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -148,5 +148,11 @@
       "status": "rehabilitacja, poza składem na początek sezonu",
       "source": "komunikat klubu DevelopRes Rzeszów (wrzesień 2026)"
     }
-  ]
+  ],
+  "verification": {
+    "lastChecked": "2026-10-13T21:55:00+02:00",
+    "checkedBy": "grok",
+    "sources": ["tauronligakobiet.pl", "polsatsport.pl", "siatka.org"],
+    "notes": "Wszystkie wyniki 1. i 2. kolejki zweryfikowane. News o Radomce poprawiony (wcześniej błędne sety z cozadzien.pl)."
+  }
 }
