@@ -13,8 +13,24 @@
           "home": "kal",
           "away": "bud",
           "venue": "Kalisz",
-          "score": [0, 3],
-          "sets": [[7, 25], [17, 25], [12, 25]],
+          "score": [
+            0,
+            3
+          ],
+          "sets": [
+            [
+              7,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              12,
+              25
+            ]
+          ],
           "preview": {
             "headline": "Inauguracja w Kaliszu",
             "text": "Beniaminek kontra mistrzynie."
@@ -39,8 +55,32 @@
           "home": "opo",
           "away": "che",
           "venue": "Opole",
-          "score": [2, 3],
-          "sets": [[21, 25], [23, 25], [25, 9], [25, 15], [13, 15]],
+          "score": [
+            2,
+            3
+          ],
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              9
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              13,
+              15
+            ]
+          ],
           "preview": {
             "headline": "Opole — Chemik",
             "text": "Brązowe medalistki witają Chemik."
@@ -65,8 +105,24 @@
           "home": "mog",
           "away": "rad",
           "venue": "Mogilno",
-          "score": [0, 3],
-          "sets": [[22, 25], [23, 25], [22, 25]],
+          "score": [
+            0,
+            3
+          ],
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              22,
+              25
+            ]
+          ],
           "preview": {
             "headline": "Sokół — Radomka",
             "text": "Sokół przyjmuje Radomkę."
@@ -91,8 +147,32 @@
           "home": "byd",
           "away": "bks",
           "venue": "Bydgoszcz",
-          "score": [2, 3],
-          "sets": [[21, 25], [23, 25], [25, 20], [25, 21], [10, 15]],
+          "score": [
+            2,
+            3
+          ],
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              10,
+              15
+            ]
+          ],
           "preview": {
             "headline": "Pałac — BKS",
             "text": "Pałac przyjmuje BKS."
@@ -117,8 +197,32 @@
           "home": "wro",
           "away": "mie",
           "venue": "Wrocław",
-          "score": [2, 3],
-          "sets": [[25, 23], [21, 25], [17, 25], [26, 24], [8, 15]],
+          "score": [
+            2,
+            3
+          ],
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              21,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              8,
+              15
+            ]
+          ],
           "preview": {
             "headline": "Wrocław — Stal",
             "text": "#VolleyWrocław przyjmuje Stal Mielec."
@@ -143,8 +247,32 @@
           "home": "lks",
           "away": "dev",
           "venue": "Łódź",
-          "score": [2, 3],
-          "sets": [[22, 25], [17, 25], [25, 19], [25, 14], [15, 17]],
+          "score": [
+            2,
+            3
+          ],
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              15,
+              17
+            ]
+          ],
           "preview": {
             "headline": "ŁKS — DevelopRes",
             "text": "ŁKS przyjmuje DevelopRes."
@@ -177,8 +305,24 @@
           "home": "mie",
           "away": "byd",
           "venue": "Mielec",
-          "score": [0, 3],
-          "sets": [[22, 25], [14, 25], [23, 25]],
+          "score": [
+            0,
+            3
+          ],
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              14,
+              25
+            ],
+            [
+              23,
+              25
+            ]
+          ],
           "preview": {
             "headline": "Stal — Pałac",
             "text": "Beniaminek przyjmuje Pałac."
@@ -203,8 +347,28 @@
           "home": "bud",
           "away": "lks",
           "venue": "Łódź",
-          "score": [1, 3],
-          "sets": [[19, 25], [18, 25], [25, 14], [18, 25]],
+          "score": [
+            1,
+            3
+          ],
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              18,
+              25
+            ]
+          ],
           "preview": {
             "headline": "Derby Łodzi",
             "text": "Budowlani przyjmują ŁKS."
@@ -229,8 +393,24 @@
           "home": "opo",
           "away": "bks",
           "venue": "Opole",
-          "score": [3, 0],
-          "sets": [[25, 22], [25, 14], [25, 19]],
+          "score": [
+            3,
+            0
+          ],
+          "sets": [
+            [
+              25,
+              22
+            ],
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              19
+            ]
+          ],
           "preview": {
             "headline": "Opole — BKS",
             "text": "UNI Opole przyjmuje BKS."
@@ -255,8 +435,28 @@
           "home": "dev",
           "away": "mog",
           "venue": "Rzeszów",
-          "score": [3, 1],
-          "sets": [[25, 23], [25, 17], [26, 28], [25, 16]],
+          "score": [
+            3,
+            1
+          ],
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              25,
+              17
+            ],
+            [
+              26,
+              28
+            ],
+            [
+              25,
+              16
+            ]
+          ],
           "preview": {
             "headline": "DevelopRes — Sokół",
             "text": "DevelopRes przyjmuje Sokoła."
@@ -281,8 +481,28 @@
           "home": "che",
           "away": "kal",
           "venue": "Police",
-          "score": [3, 1],
-          "sets": [[20, 25], [25, 22], [25, 23], [25, 16]],
+          "score": [
+            3,
+            1
+          ],
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              25,
+              16
+            ]
+          ],
           "preview": {
             "headline": "Chemik — Kalisz",
             "text": "Chemik przyjmuje beniaminka."
@@ -307,8 +527,32 @@
           "home": "rad",
           "away": "wro",
           "venue": "Radom",
-          "score": [3, 2],
-          "sets": [[18, 25], [25, 23], [20, 25], [25, 18], [18, 16]],
+          "score": [
+            3,
+            2
+          ],
+          "sets": [
+            [
+              18,
+              25
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              20,
+              25
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              18,
+              16
+            ]
+          ],
           "preview": {
             "headline": "Radomka — Wrocław",
             "text": "MOYA Radomka przyjmuje #VolleyWrocław."
@@ -423,6 +667,67 @@
             "text": "Sokół przyjmuje BKS."
           },
           "tv": "Polsat Sport 1"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "label": "4. kolejka",
+      "window": "22–26 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r4m1",
+          "date": "2026-10-22",
+          "time": "17:30",
+          "home": "rad",
+          "away": "mie",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka — Stal",
+            "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
+          },
+          "tv": null
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "label": "5. kolejka",
+      "window": "27–28 października 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r5m1",
+          "date": "2026-10-28",
+          "time": "17:30",
+          "home": "bud",
+          "away": "rad",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Budowlani — Radomka",
+            "text": "PGE Budowlani Łódź — MOYA Radomka Radom, 28 października, 17:30."
+          },
+          "tv": null
+        },
+        {
+          "id": "r5m2",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "home": "mie",
+          "away": "dev",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Stal — DevelopRes",
+            "text": "ITA TOOLS Stal Mielec — KS DevelopRes Rzeszów, 28 października, 19:00."
+          },
+          "tv": null
         }
       ]
     }
