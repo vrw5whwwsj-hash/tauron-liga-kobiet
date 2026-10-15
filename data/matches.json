@@ -415,7 +415,7 @@
             "headline": "Opole — BKS",
             "text": "UNI Opole przyjmuje BKS."
           },
-          "tv": "Polsat Sport 1",
+          "tv": "Polsat Sport 3",
           "recap": {
             "title": "Opole 3:0",
             "text": "UNI Opole wygrało u siebie z BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19)."
@@ -734,7 +734,7 @@
             "headline": "Radomka — Stal",
             "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
           },
-          "tv": null
+          "tv": "Polsat Sport 3"
         },
         {
           "id": "r4m2",
@@ -817,7 +817,7 @@
             "headline": "Budowlani — Radomka",
             "text": "PGE Budowlani Łódź — MOYA Radomka Radom, 28 października, 17:30."
           },
-          "tv": null
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r5m2",
