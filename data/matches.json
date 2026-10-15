@@ -585,15 +585,40 @@
           "home": "lks",
           "away": "mie",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "ŁKS — Stal",
             "text": "ŁKS po derbach ma 4 pkt i wygrał z mistrzyniami 3:1. Stal wzięła 3:2 we Wrocławiu, ale w Mielcu przegrała z Pałacem 0:3. U siebie faworytem jest ŁKS.",
             "prediction": "3:1",
             "confidence": "wysoka"
           },
-          "tv": "Polsat Sport 2"
+          "tv": "Polsat Sport 2",
+          "recap": {
+            "title": "ŁKS 3:1 ze Stalą",
+            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). Drugie zwycięstwo ŁKS w sezonie.",
+            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-15/lks-lodz-stal-mielec-siatkowka-wynik-meczu-kto-wygral/"
+          }
         },
         {
           "id": "r3m2",
