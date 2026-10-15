@@ -606,7 +606,7 @@
           "score": null,
           "preview": {
             "headline": "Wrocław — Chemik",
-            "text": "Chemik ma 5 pkt po wygranych z Opolem (3:2) i Kaliszem (3:1). Wrocław dwa razy dojechał do tie-breaku i przegrał, ale Stautz prowadzi klasyfikację punktujących (50). Goście są bliżej zwycięstwa.",
+            "text": "Chemik ma 5 pkt po wygranych z Opolem (3:2) i Kaliszem (3:1). Wrocław dwa razy dojechał do tie-breaku i przegrał, ale Stautz prowadzi klasyfikację punktujących (50). Goście są bliżej zwycięstwa. Wrocław gra bez Szczyrby, Hryszczuk i Sobolskiej-Tarasovej.",
             "prediction": "1:3",
             "confidence": "średnia"
           },
@@ -702,6 +702,51 @@
             "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
           },
           "tv": null
+        },
+        {
+          "id": "r4m2",
+          "date": "2026-10-24",
+          "time": "20:30",
+          "home": "mog",
+          "away": "che",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Mogilno — Chemik",
+            "text": "Sokół & Hagric Mogilno — LOTTO Chemik Police, 24 października, 20:30."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r4m3",
+          "date": "2026-10-25",
+          "time": "20:30",
+          "home": "kal",
+          "away": "wro",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Kalisz — Wrocław",
+            "text": "NETLAND MKS Kalisz — #VolleyWrocław, 25 października, 20:30."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r4m4",
+          "date": "2026-10-26",
+          "time": "17:30",
+          "home": "bks",
+          "away": "lks",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — ŁKS",
+            "text": "BKS ZGO Bielsko-Biała — ŁKS Commercecon Łódź, 26 października, 17:30."
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
