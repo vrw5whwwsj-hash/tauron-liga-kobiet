@@ -786,9 +786,24 @@
     {
       "round": 5,
       "label": "5. kolejka",
-      "window": "27–28 października 2026",
+      "window": "27–30 października 2026",
       "status": "zaplanowana",
       "matches": [
+        {
+          "id": "r5m3",
+          "date": "2026-10-27",
+          "time": "20:30",
+          "home": "opo",
+          "away": "byd",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Opole — Pałac",
+            "text": "UNI Opole — Metalkas Pałac Bydgoszcz, 27 października, 20:30."
+          },
+          "tv": "Polsat Sport 1"
+        },
         {
           "id": "r5m1",
           "date": "2026-10-28",
@@ -818,6 +833,21 @@
             "text": "ITA TOOLS Stal Mielec — KS DevelopRes Rzeszów, 28 października, 19:00."
           },
           "tv": null
+        },
+        {
+          "id": "r5m4",
+          "date": "2026-10-30",
+          "time": "17:30",
+          "home": "lks",
+          "away": "che",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — Chemik",
+            "text": "ŁKS Commercecon Łódź — LOTTO Chemik Police, 30 października, 17:30."
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     }
