@@ -576,7 +576,7 @@
       "round": 3,
       "label": "3. kolejka",
       "window": "15–19 października 2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r3m1",
@@ -615,9 +615,15 @@
           },
           "tv": "Polsat Sport 2",
           "recap": {
-            "title": "ŁKS 3:1 ze Stalą",
-            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). Drugie zwycięstwo ŁKS w sezonie.",
-            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-15/lks-lodz-stal-mielec-siatkowka-wynik-meczu-kto-wygral/"
+            "title": "ŁKS 3:1",
+            "text": "ŁKS Commercecon Łódź pokonał ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink."
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-15T21:06:00Z"
           }
         },
         {
