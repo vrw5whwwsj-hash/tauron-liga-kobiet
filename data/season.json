@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-15T19:50:00+02:00",
-  "status": "3. kolejka: ŁKS 3:1 Stal. Reszta od piątku.",
+  "updatedAt": "2026-10-15T23:06:00+02:00",
+  "status": "3. kolejka w toku. ŁKS–Stal 3:1. Kolejny: Wrocław–Chemik 16.10, 19:00.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -150,13 +150,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-10-13T21:55:00+02:00",
+    "lastChecked": "2026-10-15T21:06:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "Wszystkie wyniki 1. i 2. kolejki zweryfikowane. News o Radomce poprawiony (wcześniej błędne sety z cozadzien.pl)."
+    "notes": "Wynik ŁKS–Stal 3:1 (25:18, 25:23, 17:25, 25:18), MVP Elles Dambrink — potwierdzone tauronligakobiet.pl + Polsat Sport. siatka.org jeszcze bez wyniku."
   }
 }
