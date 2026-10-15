@@ -718,7 +718,7 @@
     {
       "round": 4,
       "label": "4. kolejka",
-      "window": "22–26 października 2026",
+      "window": "22–27 października 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -780,17 +780,9 @@
             "text": "BKS ZGO Bielsko-Biała — ŁKS Commercecon Łódź, 26 października, 17:30."
           },
           "tv": "Polsat Sport 1"
-        }
-      ]
-    },
-    {
-      "round": 5,
-      "label": "5. kolejka",
-      "window": "27–30 października 2026",
-      "status": "zaplanowana",
-      "matches": [
+        },
         {
-          "id": "r5m3",
+          "id": "r4m5",
           "date": "2026-10-27",
           "time": "20:30",
           "home": "opo",
@@ -803,7 +795,15 @@
             "text": "UNI Opole — Metalkas Pałac Bydgoszcz, 27 października, 20:30."
           },
           "tv": "Polsat Sport 1"
-        },
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "label": "5. kolejka",
+      "window": "28–30 października 2026",
+      "status": "zaplanowana",
+      "matches": [
         {
           "id": "r5m1",
           "date": "2026-10-28",
