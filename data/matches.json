@@ -616,8 +616,16 @@
           "tv": "Polsat Sport 2",
           "recap": {
             "title": "ŁKS 3:1 ze Stalą",
-            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). Drugie zwycięstwo ŁKS w sezonie.",
+            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (19 pkt). Drugie zwycięstwo ŁKS w sezonie.",
             "source": "https://www.polsatsport.pl/wiadomosc/2026-10-15/lks-lodz-stal-mielec-siatkowka-wynik-meczu-kto-wygral/"
+          },
+          "mvp": "Elles Dambrink",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-15T21:40:00Z"
           }
         },
         {
