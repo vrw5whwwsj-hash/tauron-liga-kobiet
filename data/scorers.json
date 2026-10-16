@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "phase": "faza zasadnicza",
-  "note": "Top 5 w kategoriach z tauronligakobiet.pl po 2. kolejce.",
-  "noteEn": "Top 5 in the same categories as tauronligakobiet.pl after round 2.",
+  "note": "Top 5 punktujących z tauronligakobiet.pl po pierwszym meczu 3. kolejki (ŁKS–Stal).",
+  "noteEn": "Top 5 scorers from tauronligakobiet.pl after the first match of round 3 (ŁKS–Stal).",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -22,6 +22,15 @@
         },
         {
           "rank": 2,
+          "name": "Suvi Kokkonen",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 13,
+          "pts": 48,
+          "perSet": "3,69"
+        },
+        {
+          "rank": 3,
           "name": "Katarzyna Zaroślińska-Król",
           "team": "UNI Opole",
           "matches": 2,
@@ -30,31 +39,22 @@
           "perSet": "5,88"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "Elles Dambrink",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 13,
+          "pts": 45,
+          "perSet": "3,46"
+        },
+        {
+          "rank": 5,
           "name": "Karolina Drużkowska",
           "team": "Sokół Mogilno",
           "matches": 2,
           "sets": 7,
           "pts": 42,
           "perSet": "6,00"
-        },
-        {
-          "rank": 4,
-          "name": "Wiktoria Makarewicz",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 8,
-          "pts": 40,
-          "perSet": "5,00"
-        },
-        {
-          "rank": 5,
-          "name": "Suvi Kokkonen",
-          "team": "ŁKS Commercecon",
-          "matches": 2,
-          "sets": 9,
-          "pts": 37,
-          "perSet": "4,11"
         }
       ]
     },
@@ -77,6 +77,17 @@
         },
         {
           "rank": 2,
+          "name": "Sonia Stefanik",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 12,
+          "block": 11,
+          "perSet": "0,92",
+          "stuff": 5,
+          "stuffPerSet": "0,42"
+        },
+        {
+          "rank": 2,
           "name": "Weronika Centka-Tietianiec",
           "team": "KS DevelopRes",
           "matches": 2,
@@ -87,7 +98,7 @@
           "stuffPerSet": "1,00"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Saša Planinšec",
           "team": "PGE Budowlani",
           "matches": 2,
@@ -98,26 +109,15 @@
           "stuffPerSet": "1,29"
         },
         {
-          "rank": 3,
-          "name": "Natalia Kecher",
-          "team": "UNI Opole",
-          "matches": 2,
-          "sets": 8,
+          "rank": 4,
+          "name": "Anna Obiała",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 11,
           "block": 9,
-          "perSet": "1,13",
-          "stuff": 8,
-          "stuffPerSet": "1,00"
-        },
-        {
-          "rank": 5,
-          "name": "Natalia Dróżdż",
-          "team": "#VolleyWrocław",
-          "matches": 2,
-          "sets": 10,
-          "block": 8,
-          "perSet": "0,80",
-          "stuff": 9,
-          "stuffPerSet": "0,90"
+          "perSet": "0,82",
+          "stuff": 7,
+          "stuffPerSet": "0,64"
         }
       ]
     },
@@ -191,6 +191,24 @@
         },
         {
           "rank": 2,
+          "name": "Alika Lutsenko",
+          "team": "NETLAND MKS Kalisz",
+          "matches": 3,
+          "sets": 12,
+          "digs": 46,
+          "perSet": "3,83"
+        },
+        {
+          "rank": 3,
+          "name": "Anna Pawłowska",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 13,
+          "digs": 39,
+          "perSet": "3,00"
+        },
+        {
+          "rank": 4,
           "name": "Zuzanna Suska",
           "team": "KS DevelopRes",
           "matches": 2,
@@ -199,31 +217,13 @@
           "perSet": "4,22"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "name": "Krystyna Niemtseva",
           "team": "MOYA Radomka",
           "matches": 2,
           "sets": 8,
           "digs": 37,
           "perSet": "4,63"
-        },
-        {
-          "rank": 4,
-          "name": "Agata Nowak",
-          "team": "BKS Bielsko-Biała",
-          "matches": 2,
-          "sets": 9,
-          "digs": 36,
-          "perSet": "4,00"
-        },
-        {
-          "rank": 5,
-          "name": "Alika Lutsenko",
-          "team": "NETLAND MKS Kalisz",
-          "matches": 2,
-          "sets": 8,
-          "digs": 34,
-          "perSet": "4,25"
         }
       ]
     },
