@@ -1,16 +1,27 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "items": [
+    {
+      "d": "2026-10-15",
+      "t": "Drużyna 2. kolejki TAURON Ligi Kobiet",
+      "te": "Team of the 2nd round of TAURON Liga Kobiet",
+      "tt": "TAURON Liga Kobiet 2. haftanın takımı",
+      "b": "Oficjalna drużyna 2. kolejki: Gabriela Makarowska-Kulej (Opole, MVP), Magdalena Jurczyk (ŁKS), Natalia Kecher (Opole), Oliwia Sieradzka (Chemik, 24 pkt), Zuzanna Suska (DevelopRes), Suvi Kokkonen i Oleksandra Milenko (ŁKS), Marta Fedyk (Radomka). Wyróżnione także Julia Mazur (Wrocław) i Uliana Kotar (DevelopRes).",
+      "be": "Official team of round 2: Gabriela Makarowska-Kulej (Opole, MVP), Magdalena Jurczyk (ŁKS), Natalia Kecher (Opole), Oliwia Sieradzka (Chemik, 24 pts), Zuzanna Suska (DevelopRes), Suvi Kokkonen and Oleksandra Milenko (ŁKS), Marta Fedyk (Radomka).",
+      "bt": "Resmi 2. hafta takımı: Gabriela Makarowska-Kulej (Opole, MVP), Magdalena Jurczyk (ŁKS), Natalia Kecher (Opole), Oliwia Sieradzka (Chemik), Zuzanna Suska (DevelopRes).",
+      "u": "https://www.tauronligakobiet.pl/news,druzyna-2-kolejki-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
     {
       "d": "2026-10-15",
       "t": "ŁKS 3:1 ze Stalą. Otwarcie 3. kolejki",
       "te": "ŁKS beat Stal 3–1. Round 3 opens",
       "tt": "ŁKS 3-1 Stal",
-      "b": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (19 pkt).",
-      "be": "ŁKS beat Stal 3–1. MVP: Elles Dambrink (19).",
-      "bt": "ŁKS 3-1 Stal.",
-      "u": "https://www.polsatsport.pl/wiadomosc/2026-10-15/lks-lodz-stal-mielec-siatkowka-wynik-meczu-kto-wygral/",
-      "un": "Polsat Sport"
+      "b": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (19 pkt). Oficjalna relacja na stronie ligi.",
+      "be": "ŁKS beat Stal 3–1. MVP: Elles Dambrink (19). Official league report.",
+      "bt": "ŁKS 3-1 Stal. MVP: Elles Dambrink (19).",
+      "u": "https://www.tauronligakobiet.pl/news,druga-wygrana-lks-commercecon-ita-tools-stal-moze-zalowac-zmarnowanej-szansy.html",
+      "un": "TAURON Liga Kobiet"
     },
     {
       "d": "2026-10-15",
@@ -24,17 +35,6 @@
       "un": "TAURON Liga"
     },
     {
-      "d": "2026-10-14",
-      "t": "Liga się rozkręca. Hit DevelopRes–Radomka i Opole–Budowlani",
-      "te": "League picks up. DevelopRes–Radomka and Opole–Budowlani",
-      "tt": "Lig ısınıyor. DevelopRes–Radomka ve Opole–Budowlani",
-      "b": "Oficjalna zapowiedź 3. kolejki: o fotel lidera DevelopRes–Radomka (obie po 5 pkt), o medale Opole–Budowlani. Wrocław bez Szczyrby, Hryszczuk i Sobolskiej-Tarasovej.",
-      "be": "Official round 3 preview: DevelopRes–Radomka for the lead, Opole–Budowlani for the medals. Wrocław missing Szczyrba, Hryszczuk and Sobolska-Tarasova.",
-      "bt": "Resmi 3. hafta: liderlik için DevelopRes–Radomka, madalya için Opole–Budowlani.",
-      "u": "https://siatka.org/pokaz/zapowiedz-i-terminarz-3-kolejki-tauron-ligi-kobiet/",
-      "un": "siatka.org"
-    },
-    {
       "d": "2026-10-15",
       "t": "Grbavica: gra w Polsce wiele dla mnie znaczy",
       "te": "Grbavica: playing in Poland means a lot",
@@ -42,106 +42,18 @@
       "b": "Mika Grbavica z DevelopResu mówi, że gra w Polsce wiele dla niej znaczy. Oficjalny wywiad na stronie ligi.",
       "be": "Mika Grbavica of DevelopRes says playing in Poland means a lot. Official league interview.",
       "bt": "DevelopRes'ten Mika Grbavica, Polonya'da oynamanın kendisi için çok şey ifade ettiğini söyledi.",
-      "u": "https://www.tauronligakobiet.pl/",
-      "un": "TAURON Liga"
-    },
-    {
-      "d": "2026-10-15",
-      "t": "Zapowiedź 3. kolejki: hit DevelopRes–Radomka",
-      "te": "Round 3 preview: DevelopRes–Radomka is the pick",
-      "tt": "3. hafta: DevelopRes–Radomka",
-      "b": "Po dwóch kolejkach prowadzą Radomka, DevelopRes i Chemik (po 5 pkt). Prognozy: ŁKS 3:1 Stal, Chemik 3:1 we Wrocławiu, Pałac 3:0 Kalisz, DevelopRes 3:2 Radomka, Opole 3:2 Budowlani, BKS 3:1 w Mogilnie.",
-      "be": "Radomka, DevelopRes and Chemik lead with 5. Forecasts: ŁKS 3–1, Chemik 3–1, Pałac 3–0, DevelopRes 3–2, Opole 3–2, BKS 3–1.",
-      "bt": "Radomka, DevelopRes ve Chemik 5'er puan.",
-      "u": "https://siatka.org/wyniki/ligi-polskie/sezon-2026-2027/tauron-liga-kobiet/",
-      "un": "siatka.org"
+      "u": "https://www.tauronligakobiet.pl/news,mika-grbavica-gra-w-polsce-wiele-dla-mnie-znaczy.html",
+      "un": "TAURON Liga Kobiet"
     },
     {
       "d": "2026-10-14",
-      "t": "3. kolejka od jutra. Superpuchar 24.10 w Częstochowie",
-      "te": "Round 3 from tomorrow. Super Cup 24 Oct in Częstochowa",
-      "tt": "3. hafta yarın başlıyor. Süper Kupa 24 Ekim Częstochowa",
-      "b": "Od 15 października 3. kolejka: ŁKS–Stal (czwartek 17:30), Wrocław–Chemik (piątek 19:00), Pałac–Kalisz (sobota 12:00), DevelopRes–Radomka (sobota 20:30), Opole–Budowlani (niedziela 20:30), Mogilno–BKS (poniedziałek 20:30). 24 października w DMD Arenie Częstochowa AL-KO Superpuchar Polski kobiet: PGE Budowlani Łódź – KS DevelopRes Rzeszów, początek 14:45. Na kafelkach ligi także Radomka–Stal 22.10 17:30 w Radomiu, Budowlani–Radomka 28.10 17:30 i Stal–DevelopRes 28.10 19:00.",
-      "be": "Round 3 starts 15 October. Super Cup on 24 October in Częstochowa: Budowlani vs DevelopRes, 14:45.",
-      "bt": "3. hafta 15 Ekim'de. Süper Kupa 24 Ekim Częstochowa: Budowlani–DevelopRes, 14:45.",
-      "u": "https://www.eventim.pl/artist/pls/al-ko-superpuchar-polski-2026-4194657/",
-      "un": "Eventim / TAURON Liga"
-    },
-    {
-      "d": "2026-10-13",
-      "t": "Radomka 3:2 z Wrocławiem, MVP Fedyk",
-      "te": "Radomka 3–2 over Wrocław, MVP Fedyk",
-      "tt": "Radomka 3-2 Wrocław, MVP Fedyk",
-      "b": "MOYA Radomka Radom – #VolleyWrocław 3:2 (18:25, 25:23, 20:25, 25:18, 18:16). Tie-break 18:16. MVP Marta Fedyk. Oficjalny wynik potwierdzony na stronie ligi.",
-      "be": "MOYA Radomka Radom – #VolleyWrocław 3–2 (18–25, 25–23, 20–25, 25–18, 18–16). Tie-break 18–16. MVP Marta Fedyk. Official result confirmed on the league site.",
-      "bt": "MOYA Radomka Radom – #VolleyWrocław 3-2 (18-25, 25-23, 20-25, 25-18, 18-16). Tie-break 18-16. MVP Marta Fedyk.",
-      "u": "https://www.tauronligakobiet.pl/news,piec-setow-i-ogromne-emocje-w-radomiu-moya-radomka-z-druga-wygrana-w-tym-sezonie.html",
-      "un": "TAURON Liga Kobiet"
-    },
-    {
-      "d": "2026-10-13",
-      "t": "Laura Jansen: inny rodzaj presji w tym sezonie",
-      "te": "Laura Jansen: different kind of pressure this season",
-      "tt": "Laura Jansen: bu sezon farklı baskı",
-      "b": "Holenderska przyjmująca DevelopResu (14 pkt w meczu z Sokołem) mówi o nowej drużynie, zgraniu z Jasper i celach na Superpuchar.",
-      "be": "Dutch receiver of DevelopRes (14 pts vs Sokół) on the new squad, chemistry with Jasper and Super Cup goals.",
-      "bt": "DevelopRes'in Hollandalı smaçörü (Sokół maçında 14 sayı) yeni kadro, Jasper ile uyum ve Super Kupa hedefleri hakkında.",
-      "u": "https://www.tauronligakobiet.pl/news,laura-jansen-w-tym-sezonie-czeka-mnie-inny-rodzaj-presji.html",
-      "un": "TAURON Liga Kobiet"
-    },
-    {
-      "d": "2026-10-13",
-      "t": "Centka-Tietianiec i Drużkowska po meczu z Sokołem",
-      "te": "Centka-Tietianiec and Drużkowska after the match with Sokół",
-      "tt": "Centka-Tietianiec ve Drużkowska Sokół maçından sonra",
-      "b": "Weronika Centka-Tietianiec: nie jesteśmy zadowolone z tego spotkania. Karolina Drużkowska: można było się pokusić w Rzeszowie o coś więcej. DevelopRes wygrał 3:1.",
-      "be": "Weronika Centka-Tietianiec: we are not satisfied with this match. Karolina Drużkowska: we could have aimed for more in Rzeszów. DevelopRes won 3–1.",
-      "bt": "Weronika Centka-Tietianiec: bu maçtan memnun değiliz. Karolina Drużkowska: Rzeszów'da daha fazlasını hedefleyebilirdik. DevelopRes 3-1 kazandı.",
-      "u": "https://www.tauronligakobiet.pl/message.html",
-      "un": "TAURON Liga Kobiet"
-    },
-    {
-      "d": "2026-10-12",
-      "t": "Chemik 3:1 z Kaliszem. Druga wygrana",
-      "te": "Chemik 3–1 over Kalisz. Second win",
-      "tt": "Chemik 3-1 Kalisz. İkinci galibiyet",
-      "b": "LOTTO Chemik Police – NETLAND MKS Kalisz 3:1 (20:25, 25:22, 25:23, 25:16). MVP Oliwia Sieradzka. Beniaminek stawił opór w pierwszych setach.",
-      "be": "LOTTO Chemik Police – NETLAND MKS Kalisz 3–1 (20–25, 25–22, 25–23, 25–16). MVP Oliwia Sieradzka. Newcomers resisted in the first sets.",
-      "bt": "LOTTO Chemik Police – NETLAND MKS Kalisz 3-1 (20-25, 25-22, 25-23, 25-16). MVP Oliwia Sieradzka.",
-      "u": "https://www.tauronligakobiet.pl/news,lotto-chemik-police-wygrywa-po-raz-drugi.html",
-      "un": "TAURON Liga Kobiet"
-    },
-    {
-      "d": "2026-10-11",
-      "t": "Opole 3:0 z BKS. Pierwsze zwycięstwo sezonu",
-      "te": "Opole 3–0 over BKS",
-      "tt": "Opole 3-0 BKS",
-      "b": "UNI Opole – BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19). Małe punkty 75:55. MVP Gabriela Makarowska-Kulej. Zaroślińska-Król 19, Pavlyk 10, Kecher 10. Vos 13 po stronie BKS.",
-      "be": "Opole 3–0 BKS. MVP Makarowska-Kulej.",
-      "bt": "Opole 3-0 BKS.",
-      "u": "https://siatka.org/pokaz/tauron-liga-kobiet-uni-opole-bks-zgo-bielsko-biala-relacja/",
-      "un": "siatka.org"
-    },
-    {
-      "d": "2026-10-12",
-      "t": "DevelopRes 3:1 z Sokołem, Drużkowska 24",
-      "te": "DevelopRes 3–1 over Sokół, Drużkowska 24",
-      "tt": "DevelopRes 3-1 Sokół",
-      "b": "KS DevelopRes Rzeszów – Sokół & Hagric Mogilno 3:1 (25:23, 25:17, 26:28, 25:16). Małe punkty 101:84. MVP Zuzanna Suska. Jansen 14, Kotar 13, Jasper 13, Centka-Tietianiec 12. Karolina Drużkowska 24.",
-      "be": "DevelopRes 3–1 Sokół. MVP Suska. Drużkowska 24.",
-      "bt": "DevelopRes 3-1 Sokół.",
-      "u": "https://informacje.wp.pl/wiadomosci/sokol-wyszarpal-w-rzeszowie-seta-ale-tylko-przedluzyl-mecz-7339331737528800a",
-      "un": "WP"
-    },
-    {
-      "d": "2026-10-09",
-      "t": "Derby Łodzi: ŁKS 3:1, Jurczyk 11 pkt i MVP",
-      "te": "Łódź derby: ŁKS win 3–1, Jurczyk 11 and MVP",
-      "tt": "Łódź derbisi: ŁKS 3-1, Jurczyk 11 sayı ve MVP",
-      "b": "PGE Budowlani Łódź przegrały derby z ŁKS Commercecon 1:3 (19:25, 18:25, 25:14, 18:25). Sport Arena, 3000 widzów, mecz trwał 1:41, małe punkty 80:89. MVP: Magdalena Jurczyk (#95) — 11 punktów.",
-      "be": "Budowlani lost the derby 1–3 to ŁKS. MVP Magdalena Jurczyk, 11 points.",
-      "bt": "Budowlani 1-3 ŁKS. MVP Jurczyk, 11 sayı.",
-      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1104996.html",
+      "t": "Liga się rozkręca. Hit DevelopRes–Radomka i Opole–Budowlani",
+      "te": "League picks up. DevelopRes–Radomka and Opole–Budowlani",
+      "tt": "Lig ısınıyor. DevelopRes–Radomka ve Opole–Budowlani",
+      "b": "Oficjalna zapowiedź 3. kolejki: o fotel lidera DevelopRes–Radomka (obie po 5 pkt), o medale Opole–Budowlani. Wrocław bez Szczyrby, Hryszczuk i Sobolskiej-Tarasovej.",
+      "be": "Official round 3 preview: DevelopRes–Radomka for the lead, Opole–Budowlani for the medals. Wrocław missing Szczyrba, Hryszczuk and Sobolska-Tarasova.",
+      "bt": "Resmi 3. hafta: liderlik için DevelopRes–Radomka, madalya için Opole–Budowlani.",
+      "u": "https://www.tauronligakobiet.pl/news,tauron-liga-kobiet-powoli-sie-rozkreca-i-zaskakuje-wynikami-przed-nami-trzecia-kolejka-ekstraklasy.html",
       "un": "TAURON Liga Kobiet"
     }
   ]
