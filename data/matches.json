@@ -801,7 +801,7 @@
     {
       "round": 5,
       "label": "5. kolejka",
-      "window": "28–30 października 2026",
+      "window": "28–31 października 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -846,6 +846,21 @@
           "preview": {
             "headline": "ŁKS — Chemik",
             "text": "ŁKS Commercecon Łódź — LOTTO Chemik Police, 30 października, 17:30."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r5m5",
+          "date": "2026-10-31",
+          "time": "12:00",
+          "home": "byd",
+          "away": "bud",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Pałac — Budowlani",
+            "text": "Metalkas Pałac Bydgoszcz — PGE Budowlani Łódź, 31 października, 12:00."
           },
           "tv": "Polsat Sport 1"
         }
