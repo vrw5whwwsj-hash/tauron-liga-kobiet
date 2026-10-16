@@ -1,8 +1,8 @@
 {
   "updated": "2026-10-16",
   "phase": "faza zasadnicza",
-  "note": "Top 5 punktujących z tauronligakobiet.pl po pierwszym meczu 3. kolejki (ŁKS–Stal).",
-  "noteEn": "Top 5 scorers from tauronligakobiet.pl after the first match of round 3 (ŁKS–Stal).",
+  "note": "Top 5 punktujących z tauronligakobiet.pl po meczu ŁKS–Stal (3. kolejka, częściowo).",
+  "noteEn": "Top 5 scorers from tauronligakobiet.pl after ŁKS–Stal match (round 3, partial).",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -77,17 +77,6 @@
         },
         {
           "rank": 2,
-          "name": "Sonia Stefanik",
-          "team": "ŁKS Commercecon",
-          "matches": 3,
-          "sets": 12,
-          "block": 11,
-          "perSet": "0,92",
-          "stuff": 5,
-          "stuffPerSet": "0,42"
-        },
-        {
-          "rank": 2,
           "name": "Weronika Centka-Tietianiec",
           "team": "KS DevelopRes",
           "matches": 2,
@@ -96,6 +85,17 @@
           "perSet": "1,22",
           "stuff": 9,
           "stuffPerSet": "1,00"
+        },
+        {
+          "rank": 2,
+          "name": "Sonia Stefanik",
+          "team": "ŁKS Commercecon",
+          "matches": 3,
+          "sets": 12,
+          "block": 11,
+          "perSet": "0,92",
+          "stuff": 5,
+          "stuffPerSet": "0,42"
         },
         {
           "rank": 4,
@@ -263,7 +263,7 @@
         {
           "rank": 1,
           "name": "Oliwia Sieradzka",
-          "team": "MOYA Radomka",
+          "team": "LOTTO Chemik",
           "matches": 2,
           "sets": "",
           "pts": 1,
