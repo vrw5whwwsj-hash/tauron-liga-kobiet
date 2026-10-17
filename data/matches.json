@@ -1,1 +1,41 @@
-PLACEHOLDER
+{
+  "rounds": [
+    {
+      "round": 3,
+      "label": "3. kolejka",
+      "window": "15–19 października 2026",
+      "status": "w toku",
+      "matches": [
+        {
+          "id": "r3m3",
+          "date": "2026-10-17",
+          "time": "12:00",
+          "home": "byd",
+          "away": "kal",
+          "venue": "Bydgoszcz",
+          "score": [3, 0],
+          "sets": [[25, 18], [25, 23], [25, 17]],
+          "preview": {
+            "headline": "Pałac — Kalisz",
+            "text": "Pałac ma 4 pkt i wygrał w Mielcu 3:0. Kalisz jest na dnie, 0 pkt, jeden wygrany set w dwóch meczach. W Bydgoszczy gospodarze powinny wziąć komplet.",
+            "prediction": "3:0",
+            "confidence": "wysoka"
+          },
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Pałac 3:0 z Kaliszem",
+            "text": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3:0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 pkt). Drugie zwycięstwo Pałacu w sezonie."
+          },
+          "mvp": "Wiktoria Makarewicz",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-17T17:15:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
