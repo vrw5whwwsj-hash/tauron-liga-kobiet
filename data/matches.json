@@ -685,15 +685,44 @@
           "home": "byd",
           "away": "kal",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              25,
+              17
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Pałac — Kalisz",
             "text": "Pałac ma 4 pkt i wygrał w Mielcu 3:0. Kalisz jest na dnie, 0 pkt, jeden wygrany set w dwóch meczach. W Bydgoszczy gospodarze powinny wziąć komplet.",
             "prediction": "3:0",
             "confidence": "wysoka"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Wiktoria Makarewicz",
+          "recap": {
+            "title": "Pałac 3:0 z Kaliszem",
+            "text": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3:0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 pkt). Drugie zwycięstwo Pałacu w sezonie.",
+            "source": "https://siatka.org/pokaz/tauron-liga-kobiet-palac-bydgoszcz-mks-kalisz-relacja/"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-17T17:15:00Z"
+          }
         },
         {
           "id": "r3m4",
