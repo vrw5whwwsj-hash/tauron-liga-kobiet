@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-18T03:50:00+02:00",
-  "status": "3. kolejka w toku. DevelopRes–Radomka 3:1, MVP Grbavica. Kolejny: Opole–Budowlani 18.10, 20:30.",
+  "updatedAt": "2026-10-18T19:15:00+02:00",
+  "status": "3. kolejka w toku. Rozegrane: ŁKS–Stal 3:1, Wrocław–Chemik 1:3, Pałac–Kalisz 3:0, DevelopRes–Radomka 3:1. Następne: Opole–Budowlani 18.10 20:30, Mogilno–BKS 19.10 20:30. Ranking punktujących zaktualizowany.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -150,13 +150,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-10-18T01:50:00Z",
+    "lastChecked": "2026-10-18T17:15:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "DevelopRes–Radomka 3:1 (25:22, 23:25, 25:18, 25:20), MVP Mika Grbavica 28 — Polsat Sport. Raport PLS jeszcze bez pełnych statystyk."
+    "notes": "Wyniki meczów 3. kolejki do DevelopRes–Radomka potwierdzone. Ranking punktujących zaktualizowany z PLS. Następne mecze: Opole–Budowlani dziś 20:30, Mogilno–BKS jutro 20:30."
   }
 }
