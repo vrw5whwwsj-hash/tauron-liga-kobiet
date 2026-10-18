@@ -731,15 +731,48 @@
           "home": "dev",
           "away": "rad",
           "venue": "Rzeszów",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              22
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              20
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "DevelopRes — Radomka",
             "text": "Hit kolejki. Obie po 5 pkt: DevelopRes wygrał w Łodzi 3:2 i w domu z Sokołem 3:1, Radomka wzięła Mogilno 3:0 i Wrocław 3:2. U siebie lekka przewaga Rzeszowa, ale to mecz na pełnym dystansie.",
             "prediction": "3:2",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Mika Grbavica",
+          "recap": {
+            "title": "DevelopRes 3:1 z Radomką",
+            "text": "KS DevelopRes Rzeszów – MOYA Radomka Radom 3:1 (25:22, 23:25, 25:18, 25:20). MVP: Mika Grbavica (28 pkt). W DevelopResie: Grbavica 28, Jasper 15, Centka-Tietianiec 11. W Radomce: Zhylinska 19, Gierszewska 15, Dudek 13.",
+            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-17/developres-rzeszow-radomka-radom-siatkowka-wynik-kto-wygral-mecz/"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-18T01:50:00Z"
+          }
         },
         {
           "id": "r3m5",

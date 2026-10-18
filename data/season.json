@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-17T22:20:00+02:00",
-  "status": "3. kolejka w toku. Pałac–Kalisz 3:0, MVP Makarewicz. Kolejny: DevelopRes–Radomka 17.10, 20:30.",
+  "updatedAt": "2026-10-18T03:50:00+02:00",
+  "status": "3. kolejka w toku. DevelopRes–Radomka 3:1, MVP Grbavica. Kolejny: Opole–Budowlani 18.10, 20:30.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -150,13 +150,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-10-17T17:15:00Z",
+    "lastChecked": "2026-10-18T01:50:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "Pałac–Kalisz 3:0 (25:18, 25:23, 25:17), MVP Wiktoria Makarewicz — potwierdzone siatka.org + Polsat Sport."
+    "notes": "DevelopRes–Radomka 3:1 (25:22, 23:25, 25:18, 25:20), MVP Mika Grbavica 28 — Polsat Sport. Raport PLS jeszcze bez pełnych statystyk."
   }
 }
