@@ -856,9 +856,10 @@
             "confidence": "średnia"
           },
           "tv": "Polsat Sport 1",
+          "mvp": "Iris Vos",
           "recap": {
             "title": "BKS 3:0 w Mogilnie",
-            "text": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0:3 (19:25, 19:25, 21:25). BKS zamyka 3. kolejkę bez straty seta. W meczu kontuzji doznała Kertu Laak.",
+            "text": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0:3 (19:25, 19:25, 21:25). MVP: Iris Vos. Mogilno Sport, 985 widzów. BKS zamyka 3. kolejkę bez straty seta. W meczu kontuzji doznała Kertu Laak.",
             "source": "https://x.com/TAURONLigaK/status/2112278074167587324"
           },
           "verify": {
@@ -866,7 +867,7 @@
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-19T20:30:00Z"
+            "checkedAt": "2026-10-19T21:05:00Z"
           }
         }
       ]
