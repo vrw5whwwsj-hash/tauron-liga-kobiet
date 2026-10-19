@@ -991,6 +991,59 @@
             "text": "Metalkas Pałac Bydgoszcz — PGE Budowlani Łódź, 31 października, 12:00."
           },
           "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r5m6",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "home": "wro",
+          "away": "opo",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Wrocław — Opole",
+            "text": "#VolleyWrocław — UNI Opole, 31 października, 19:00."
+          },
+          "tv": "Polsat Sport 1"
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "label": "6. kolejka",
+      "window": "1–2 listopada 2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r6m1",
+          "date": "2026-11-01",
+          "time": "18:00",
+          "home": "dev",
+          "away": "bks",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "DevelopRes — BKS",
+            "text": "KS DevelopRes Rzeszów — BKS ZGO Bielsko-Biała, 1 listopada, 18:00."
+          },
+          "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r6m2",
+          "date": "2026-11-02",
+          "time": "20:30",
+          "home": "mog",
+          "away": "kal",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Mogilno — Kalisz",
+            "text": "Sokół & Hagric Mogilno — NETLAND MKS Kalisz, 2 listopada, 20:30."
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     }
