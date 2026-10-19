@@ -858,16 +858,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "BKS 3:0 w Mogilnie",
-            "text": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0:3 (19:25, 19:25, 21:25). BKS zamyka 3. kolejkę bez straty seta. W meczu kontuzji doznała Kertu Laak.",
-            "source": "https://x.com/TAURONLigaK/status/2112278074167587324"
+            "titleEn": "BKS win 3–0 in Mogilno",
+            "titleTr": "BKS Mogilno'da 3-0 kazandı",
+            "text": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0:3 (19:25, 19:25, 21:25). MVP: Iris Vos (18 pkt, 16 w ataku). Hala Mogilno Sport, 985 widzów. BKS skończył 43% ataków, Mogilno 32%; blok 8:6, asy 4:4. Mogilno: Kowalska 9, Martinez Ortiz 7, Drużkowska 7. BKS: Vos 18, Podlaska 12, Wasilewska 10. BKS zamyka 3. kolejkę bez straty seta. W meczu kontuzji doznała Kertu Laak.",
+            "textEn": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0–3 (19:25, 19:25, 21:25). MVP: Iris Vos (18 pts, 16 in attack). 985 fans at Mogilno Sport. BKS attacked at 43% to Mogilno's 32%; blocks 8–6, aces 4–4. Mogilno: Kowalska 9, Martinez Ortiz 7, Drużkowska 7. BKS: Vos 18, Podlaska 12, Wasilewska 10. BKS close round 3 without dropping a set. Kertu Laak was injured during the match.",
+            "textTr": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0-3 (19:25, 19:25, 21:25). MVP: Iris Vos (18 sayı, 16 hücum). Mogilno Sport'ta 985 seyirci. BKS hücumda %43, Mogilno %32; blok 8-6, servis ası 4-4. Mogilno: Kowalska 9, Martinez Ortiz 7, Drużkowska 7. BKS: Vos 18, Podlaska 12, Wasilewska 10. BKS 3. haftayı set vermeden kapattı. Maçta Kertu Laak sakatlandı.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Kowalska",
+                "p": 9
+              },
+              {
+                "n": "Regla Flavia Martinez Ortiz",
+                "p": 7
+              },
+              {
+                "n": "Karolina Drużkowska",
+                "p": 7
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 18
+              },
+              {
+                "n": "Martyna Podlaska",
+                "p": 12
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 10
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105005.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-19T20:30:00Z"
-          }
+            "checkedAt": "2026-10-19T21:30:00Z"
+          },
+          "mvp": "Iris Vos"
         }
       ]
     },
