@@ -576,7 +576,7 @@
       "round": 3,
       "label": "3. kolejka",
       "window": "15–19 października 2026",
-      "status": "w toku",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r3m1",
@@ -831,15 +831,43 @@
           "home": "mog",
           "away": "bks",
           "venue": "Mogilno",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              21,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Mogilno — BKS",
             "text": "Sokół ma 0 pkt i jeden set. BKS wziął 3:2 w Bydgoszczy, ale w Opolu przegrał 0:3. Na wyjeździe goście są bliżej punktów.",
             "prediction": "1:3",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "BKS 3:0 w Mogilnie",
+            "text": "Sokół & Hagric Mogilno – BKS ZGO Bielsko-Biała 0:3 (19:25, 19:25, 21:25). BKS zamyka 3. kolejkę bez straty seta. W meczu kontuzji doznała Kertu Laak.",
+            "source": "https://x.com/TAURONLigaK/status/2112278074167587324"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-19T20:30:00Z"
+          }
         }
       ]
     },
