@@ -1012,7 +1012,7 @@
     {
       "round": 6,
       "label": "6. kolejka",
-      "window": "1–2 listopada 2026",
+      "window": "1–6 listopada 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -1044,6 +1044,51 @@
             "text": "Sokół & Hagric Mogilno — NETLAND MKS Kalisz, 2 listopada, 20:30."
           },
           "tv": "Polsat Sport 1"
+        },
+        {
+          "id": "r6m3",
+          "date": "2026-11-05",
+          "time": "17:30",
+          "home": "rad",
+          "away": "bks",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka — BKS",
+            "text": "MOYA Radomka Radom — BKS ZGO Bielsko-Biała, 5 listopada, 17:30."
+          },
+          "tv": "Polsat Sport 2"
+        },
+        {
+          "id": "r6m4",
+          "date": "2026-11-06",
+          "time": "17:30",
+          "home": "che",
+          "away": "dev",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Chemik — DevelopRes",
+            "text": "LOTTO Chemik Police — KS DevelopRes Rzeszów, 6 listopada, 17:30."
+          },
+          "tv": null
+        },
+        {
+          "id": "r6m5",
+          "date": "2026-11-06",
+          "time": "20:30",
+          "home": "kal",
+          "away": "lks",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Kalisz — ŁKS",
+            "text": "NETLAND MKS Kalisz — ŁKS Commercecon Łódź, 6 listopada, 20:30."
+          },
+          "tv": null
         }
       ]
     }
