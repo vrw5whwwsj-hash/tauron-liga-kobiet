@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-10-19T22:00:00+02:00",
-  "status": "3. kolejka w toku. Opole–Budowlani 1:3, MVP Storck. Kolejny: Mogilno–BKS 19.10, 20:30.",
+  "updatedAt": "2026-10-19T22:20:00+02:00",
+  "status": "3. kolejka zakończona. Mogilno–BKS 0:3, MVP Vos. Kolejny: Radomka–Stal 22.10, 17:30.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -157,13 +157,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-10-18T21:30:00Z",
+    "lastChecked": "2026-10-19T20:20:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "Opole–Budowlani 1:3 (25:22, 25:27, 18:25, 25:27), MVP Maja Storck 20 — karta ligi + Polsat Sport."
+    "notes": "Mogilno–BKS 0:3 (19:25, 19:25, 21:25), MVP Iris Vos, 985 widzów — karta ligi + Polsat Sport."
   }
 }
