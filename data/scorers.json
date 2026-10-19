@@ -254,8 +254,9 @@
           "team": "ŁKS Commercecon",
           "matches": 3,
           "sets": 5,
-          "pos": "65,22%",
-          "perf": "56,52%"
+          "perf": "56,52%",
+          "posPct": "65,22%",
+          "n": ""
         },
         {
           "rank": 2,
@@ -263,8 +264,9 @@
           "team": "PGE Budowlani",
           "matches": 3,
           "sets": 11,
-          "pos": "63,16%",
-          "perf": "42,11%"
+          "perf": "42,11%",
+          "posPct": "63,16%",
+          "n": ""
         },
         {
           "rank": 3,
@@ -272,8 +274,9 @@
           "team": "KS DevelopRes",
           "matches": 3,
           "sets": 13,
-          "pos": "61,82%",
-          "perf": "43,64%"
+          "perf": "43,64%",
+          "posPct": "61,82%",
+          "n": ""
         },
         {
           "rank": 4,
@@ -281,8 +284,9 @@
           "team": "KS DevelopRes",
           "matches": 3,
           "sets": 11,
-          "pos": "60,42%",
-          "perf": "25,00%"
+          "perf": "25,00%",
+          "posPct": "60,42%",
+          "n": ""
         },
         {
           "rank": 5,
@@ -290,8 +294,9 @@
           "team": "Metalkas Pałac",
           "matches": 2,
           "sets": 4,
-          "pos": "60,00%",
-          "perf": "30,00%"
+          "perf": "30,00%",
+          "posPct": "60,00%",
+          "n": ""
         }
       ]
     },
@@ -307,8 +312,8 @@
           "team": "#VolleyWrocław",
           "matches": 3,
           "sets": 14,
-          "dig": 65,
-          "perSet": "4,64"
+          "perSet": "4,64",
+          "digs": 65
         },
         {
           "rank": 2,
@@ -316,8 +321,8 @@
           "team": "LOTTO Chemik",
           "matches": 3,
           "sets": 13,
-          "dig": 59,
-          "perSet": "4,54"
+          "perSet": "4,54",
+          "digs": 59
         },
         {
           "rank": 3,
@@ -325,8 +330,8 @@
           "team": "UNI Opole",
           "matches": 3,
           "sets": 12,
-          "dig": 52,
-          "perSet": "4,33"
+          "perSet": "4,33",
+          "digs": 52
         },
         {
           "rank": 4,
@@ -334,8 +339,8 @@
           "team": "ITA TOOLS Stal",
           "matches": 3,
           "sets": 12,
-          "dig": 46,
-          "perSet": "3,83"
+          "perSet": "3,83",
+          "digs": 46
         },
         {
           "rank": 5,
@@ -343,8 +348,8 @@
           "team": "KS DevelopRes",
           "matches": 3,
           "sets": 11,
-          "dig": 45,
-          "perSet": "4,09"
+          "perSet": "4,09",
+          "digs": 45
         }
       ]
     },
@@ -358,31 +363,51 @@
           "rank": 1,
           "name": "Maja Storck",
           "team": "PGE Budowlani",
-          "mvp": 2
+          "mvp": 2,
+          "matches": "",
+          "sets": "",
+          "pts": 2,
+          "perSet": ""
         },
         {
           "rank": 1,
           "name": "Oliwia Sieradzka",
           "team": "LOTTO Chemik",
-          "mvp": 2
+          "mvp": 2,
+          "matches": "",
+          "sets": "",
+          "pts": 2,
+          "perSet": ""
         },
         {
           "rank": 1,
           "name": "Wiktoria Makarewicz",
           "team": "Metalkas Pałac",
-          "mvp": 2
+          "mvp": 2,
+          "matches": "",
+          "sets": "",
+          "pts": 2,
+          "perSet": ""
         },
         {
           "rank": 4,
           "name": "Iris Vos",
           "team": "BKS Bielsko-Biała",
-          "mvp": 1
+          "mvp": 1,
+          "matches": "",
+          "sets": "",
+          "pts": 1,
+          "perSet": ""
         },
         {
           "rank": 4,
           "name": "Zuzanna Suska",
           "team": "KS DevelopRes",
-          "mvp": 1
+          "mvp": 1,
+          "matches": "",
+          "sets": "",
+          "pts": 1,
+          "perSet": ""
         }
       ]
     }
