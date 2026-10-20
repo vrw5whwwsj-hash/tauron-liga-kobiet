@@ -149,6 +149,26 @@ function newsSource(n) {
   const name = n.un || n.u;
   return `<p class=\"news-src\"><a href=\"${n.u}\" target=\"_blank\" rel=\"noopener\">${label}: ${name}</a></p>`;
 }
+
+function renderSchedule() {
+  const sel = document.getElementById("round-select");
+  const wrap = document.getElementById("schedule-wrap");
+  if (!sel || !wrap) return;
+  const rounds = (MATCHES && MATCHES.rounds) || [];
+  if (!sel.options.length) {
+    rounds.forEach((r) => {
+      const o = document.createElement("option");
+      o.value = r.round;
+      o.textContent = r.label + " (" + (r.window || "") + ")";
+      sel.appendChild(o);
+    });
+    sel.addEventListener("change", renderSchedule);
+  }
+  const cur = rounds.find((r) => String(r.round) === sel.value) || rounds[0];
+  if (!cur) { wrap.innerHTML = ""; return; }
+  wrap.innerHTML = renderRound(cur);
+}
+
 function renderNews() {
   return (NEWS.items || []).map((n) => {
     const title = pick(n, "t", "te", "tt");
