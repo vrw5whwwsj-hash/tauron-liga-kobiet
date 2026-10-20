@@ -907,26 +907,11 @@
     {
       "round": 4,
       "label": "4. kolejka",
-      "window": "22–27 października 2026",
+      "window": "24.10–28.10.2026",
       "status": "zaplanowana",
       "matches": [
         {
           "id": "r4m1",
-          "date": "2026-10-22",
-          "time": "17:30",
-          "home": "rad",
-          "away": "mie",
-          "venue": "Radom",
-          "sets": null,
-          "score": null,
-          "preview": {
-            "headline": "Radomka — Stal",
-            "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
-          },
-          "tv": "Polsat Sport 3"
-        },
-        {
-          "id": "r4m2",
           "date": "2026-10-24",
           "time": "20:30",
           "home": "mog",
@@ -941,7 +926,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r4m3",
+          "id": "r4m2",
           "date": "2026-10-25",
           "time": "20:30",
           "home": "kal",
@@ -956,7 +941,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r4m4",
+          "id": "r4m3",
           "date": "2026-10-26",
           "time": "17:30",
           "home": "bks",
@@ -971,7 +956,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r4m5",
+          "id": "r4m4",
           "date": "2026-10-27",
           "time": "20:30",
           "home": "opo",
@@ -984,17 +969,9 @@
             "text": "UNI Opole — Metalkas Pałac Bydgoszcz, 27 października, 20:30."
           },
           "tv": "Polsat Sport 1"
-        }
-      ]
-    },
-    {
-      "round": 5,
-      "label": "5. kolejka",
-      "window": "28–31 października 2026",
-      "status": "zaplanowana",
-      "matches": [
+        },
         {
-          "id": "r5m1",
+          "id": "r4m5",
           "date": "2026-10-28",
           "time": "17:30",
           "home": "bud",
@@ -1009,7 +986,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r5m2",
+          "id": "r4m6",
           "date": "2026-10-28",
           "time": "19:00",
           "home": "mie",
@@ -1020,11 +997,33 @@
           "preview": {
             "headline": "Stal — DevelopRes",
             "text": "ITA TOOLS Stal Mielec — KS DevelopRes Rzeszów, 28 października, 19:00."
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "label": "5. kolejka",
+      "window": "22.10–02.11.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r5m1",
+          "date": "2026-10-22",
+          "time": "17:30",
+          "home": "rad",
+          "away": "mie",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Radomka — Stal",
+            "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
           },
-          "tv": null
+          "tv": "Polsat Sport 3"
         },
         {
-          "id": "r5m4",
+          "id": "r5m2",
           "date": "2026-10-30",
           "time": "17:30",
           "home": "lks",
@@ -1039,7 +1038,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r5m5",
+          "id": "r5m3",
           "date": "2026-10-31",
           "time": "12:00",
           "home": "byd",
@@ -1054,7 +1053,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r5m6",
+          "id": "r5m4",
           "date": "2026-10-31",
           "time": "19:00",
           "home": "wro",
@@ -1067,17 +1066,9 @@
             "text": "#VolleyWrocław — UNI Opole, 31 października, 19:00."
           },
           "tv": "Polsat Sport 1"
-        }
-      ]
-    },
-    {
-      "round": 6,
-      "label": "6. kolejka",
-      "window": "1–6 listopada 2026",
-      "status": "zaplanowana",
-      "matches": [
+        },
         {
-          "id": "r6m1",
+          "id": "r5m5",
           "date": "2026-11-01",
           "time": "18:00",
           "home": "dev",
@@ -1092,7 +1083,7 @@
           "tv": "Polsat Sport 1"
         },
         {
-          "id": "r6m2",
+          "id": "r5m6",
           "date": "2026-11-02",
           "time": "20:30",
           "home": "mog",
@@ -1105,9 +1096,17 @@
             "text": "Sokół & Hagric Mogilno — NETLAND MKS Kalisz, 2 listopada, 20:30."
           },
           "tv": "Polsat Sport 1"
-        },
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "label": "6. kolejka",
+      "window": "05.11–09.11.2026",
+      "status": "zaplanowana",
+      "matches": [
         {
-          "id": "r6m3",
+          "id": "r6m1",
           "date": "2026-11-05",
           "time": "17:30",
           "home": "rad",
@@ -1122,7 +1121,7 @@
           "tv": "Polsat Sport 2"
         },
         {
-          "id": "r6m4",
+          "id": "r6m2",
           "date": "2026-11-06",
           "time": "17:30",
           "home": "che",
@@ -1133,11 +1132,10 @@
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police — KS DevelopRes Rzeszów, 6 listopada, 17:30."
-          },
-          "tv": null
+          }
         },
         {
-          "id": "r6m5",
+          "id": "r6m3",
           "date": "2026-11-06",
           "time": "20:30",
           "home": "kal",
@@ -1148,8 +1146,1521 @@
           "preview": {
             "headline": "Kalisz — ŁKS",
             "text": "NETLAND MKS Kalisz — ŁKS Commercecon Łódź, 6 listopada, 20:30."
-          },
-          "tv": null
+          }
+        },
+        {
+          "id": "r6m4",
+          "date": "2026-11-07",
+          "time": "20:30",
+          "home": "bud",
+          "away": "mie",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — ITA",
+            "text": "PGE Budowlani Łódź — ITA TOOLS Stal Mielec, 07.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r6m5",
+          "date": "2026-11-07",
+          "time": "20:30",
+          "home": "byd",
+          "away": "wro",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — #VolleyWrocław",
+            "text": "Metalkas Pałac Bydgoszcz — #VolleyWrocław, 07.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r6m6",
+          "date": "2026-11-09",
+          "time": "20:30",
+          "home": "opo",
+          "away": "mog",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — Sokół",
+            "text": "UNI Opole — Sokół & Hagric Mogilno, 09.11.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "label": "7. kolejka",
+      "window": "12.11–16.11.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r7m1",
+          "date": "2026-11-12",
+          "time": "20:30",
+          "home": "rad",
+          "away": "che",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — LOTTO",
+            "text": "MOYA Radomka Radom — LOTTO Chemik Police, 12.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r7m2",
+          "date": "2026-11-14",
+          "time": "20:30",
+          "home": "lks",
+          "away": "opo",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — UNI",
+            "text": "ŁKS Commercecon Łódź — UNI Opole, 14.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r7m3",
+          "date": "2026-11-14",
+          "time": "20:30",
+          "home": "dev",
+          "away": "kal",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — NETLAND",
+            "text": "KS DevelopRes Rzeszów — NETLAND MKS Kalisz, 14.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r7m4",
+          "date": "2026-11-15",
+          "time": "20:30",
+          "home": "wro",
+          "away": "bud",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — PGE",
+            "text": "#VolleyWrocław — PGE Budowlani Łódź, 15.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r7m5",
+          "date": "2026-11-16",
+          "time": "20:30",
+          "home": "mog",
+          "away": "byd",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — Metalkas",
+            "text": "Sokół & Hagric Mogilno — Metalkas Pałac Bydgoszcz, 16.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r7m6",
+          "date": "2026-11-16",
+          "time": "20:30",
+          "home": "mie",
+          "away": "bks",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — BKS",
+            "text": "ITA TOOLS Stal Mielec — BKS ZGO Bielsko-Biała, 16.11.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "label": "8. kolejka",
+      "window": "18.11–23.11.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r8m1",
+          "date": "2026-11-18",
+          "time": "20:30",
+          "home": "dev",
+          "away": "opo",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — UNI",
+            "text": "KS DevelopRes Rzeszów — UNI Opole, 18.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r8m2",
+          "date": "2026-11-20",
+          "time": "20:30",
+          "home": "wro",
+          "away": "mog",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — Sokół",
+            "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r8m3",
+          "date": "2026-11-21",
+          "time": "20:30",
+          "home": "bud",
+          "away": "bks",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — BKS",
+            "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r8m4",
+          "date": "2026-11-22",
+          "time": "20:30",
+          "home": "kal",
+          "away": "rad",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — MOYA",
+            "text": "NETLAND MKS Kalisz — MOYA Radomka Radom, 22.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r8m5",
+          "date": "2026-11-22",
+          "time": "20:30",
+          "home": "byd",
+          "away": "lks",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — ŁKS",
+            "text": "Metalkas Pałac Bydgoszcz — ŁKS Commercecon Łódź, 22.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r8m6",
+          "date": "2026-11-23",
+          "time": "20:30",
+          "home": "che",
+          "away": "mie",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — ITA",
+            "text": "LOTTO Chemik Police — ITA TOOLS Stal Mielec, 23.11.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "label": "9. kolejka",
+      "window": "27.11–30.11.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r9m1",
+          "date": "2026-11-27",
+          "time": "20:30",
+          "home": "lks",
+          "away": "wro",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — #VolleyWrocław",
+            "text": "ŁKS Commercecon Łódź — #VolleyWrocław, 27.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r9m2",
+          "date": "2026-11-27",
+          "time": "20:30",
+          "home": "mie",
+          "away": "kal",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — NETLAND",
+            "text": "ITA TOOLS Stal Mielec — NETLAND MKS Kalisz, 27.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r9m3",
+          "date": "2026-11-28",
+          "time": "20:30",
+          "home": "mog",
+          "away": "bud",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — PGE",
+            "text": "Sokół & Hagric Mogilno — PGE Budowlani Łódź, 28.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r9m4",
+          "date": "2026-11-29",
+          "time": "20:30",
+          "home": "dev",
+          "away": "byd",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — Metalkas",
+            "text": "KS DevelopRes Rzeszów — Metalkas Pałac Bydgoszcz, 29.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r9m5",
+          "date": "2026-11-29",
+          "time": "20:30",
+          "home": "rad",
+          "away": "opo",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — UNI",
+            "text": "MOYA Radomka Radom — UNI Opole, 29.11.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r9m6",
+          "date": "2026-11-30",
+          "time": "20:30",
+          "home": "bks",
+          "away": "che",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — LOTTO",
+            "text": "BKS ZGO Bielsko-Biała — LOTTO Chemik Police, 30.11.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "label": "10. kolejka",
+      "window": "03.12–07.12.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r10m1",
+          "date": "2026-12-03",
+          "time": "20:30",
+          "home": "byd",
+          "away": "rad",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — MOYA",
+            "text": "Metalkas Pałac Bydgoszcz — MOYA Radomka Radom, 03.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r10m2",
+          "date": "2026-12-05",
+          "time": "20:30",
+          "home": "opo",
+          "away": "mie",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — ITA",
+            "text": "UNI Opole — ITA TOOLS Stal Mielec, 05.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r10m3",
+          "date": "2026-12-06",
+          "time": "20:30",
+          "home": "wro",
+          "away": "dev",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — KS",
+            "text": "#VolleyWrocław — KS DevelopRes Rzeszów, 06.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r10m4",
+          "date": "2026-12-06",
+          "time": "20:30",
+          "home": "mog",
+          "away": "lks",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — ŁKS",
+            "text": "Sokół & Hagric Mogilno — ŁKS Commercecon Łódź, 06.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r10m5",
+          "date": "2026-12-07",
+          "time": "20:30",
+          "home": "bud",
+          "away": "che",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — LOTTO",
+            "text": "PGE Budowlani Łódź — LOTTO Chemik Police, 07.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r10m6",
+          "date": "2026-12-07",
+          "time": "20:30",
+          "home": "kal",
+          "away": "bks",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — BKS",
+            "text": "NETLAND MKS Kalisz — BKS ZGO Bielsko-Biała, 07.12.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "label": "11. kolejka",
+      "window": "10.12–14.12.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r11m1",
+          "date": "2026-12-10",
+          "time": "20:30",
+          "home": "kal",
+          "away": "opo",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — UNI",
+            "text": "NETLAND MKS Kalisz — UNI Opole, 10.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r11m2",
+          "date": "2026-12-10",
+          "time": "20:30",
+          "home": "rad",
+          "away": "lks",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — ŁKS",
+            "text": "MOYA Radomka Radom — ŁKS Commercecon Łódź, 10.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r11m3",
+          "date": "2026-12-11",
+          "time": "20:30",
+          "home": "wro",
+          "away": "bks",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — BKS",
+            "text": "#VolleyWrocław — BKS ZGO Bielsko-Biała, 11.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r11m4",
+          "date": "2026-12-12",
+          "time": "20:30",
+          "home": "dev",
+          "away": "bud",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — PGE",
+            "text": "KS DevelopRes Rzeszów — PGE Budowlani Łódź, 12.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r11m5",
+          "date": "2026-12-13",
+          "time": "20:30",
+          "home": "mie",
+          "away": "mog",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — Sokół",
+            "text": "ITA TOOLS Stal Mielec — Sokół & Hagric Mogilno, 13.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r11m6",
+          "date": "2026-12-14",
+          "time": "20:30",
+          "home": "che",
+          "away": "byd",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — Metalkas",
+            "text": "LOTTO Chemik Police — Metalkas Pałac Bydgoszcz, 14.12.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "label": "12. kolejka",
+      "window": "18.12–23.12.2026",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r12m1",
+          "date": "2026-12-18",
+          "time": "20:30",
+          "home": "rad",
+          "away": "mog",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — Sokół",
+            "text": "MOYA Radomka Radom — Sokół & Hagric Mogilno, 18.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r12m2",
+          "date": "2026-12-19",
+          "time": "20:30",
+          "home": "mie",
+          "away": "wro",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — #VolleyWrocław",
+            "text": "ITA TOOLS Stal Mielec — #VolleyWrocław, 19.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r12m3",
+          "date": "2026-12-20",
+          "time": "20:30",
+          "home": "bud",
+          "away": "kal",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — NETLAND",
+            "text": "PGE Budowlani Łódź — NETLAND MKS Kalisz, 20.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r12m4",
+          "date": "2026-12-20",
+          "time": "20:30",
+          "home": "che",
+          "away": "opo",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — UNI",
+            "text": "LOTTO Chemik Police — UNI Opole, 20.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r12m5",
+          "date": "2026-12-21",
+          "time": "20:30",
+          "home": "bks",
+          "away": "byd",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — Metalkas",
+            "text": "BKS ZGO Bielsko-Biała — Metalkas Pałac Bydgoszcz, 21.12.2026, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r12m6",
+          "date": "2026-12-23",
+          "time": "20:30",
+          "home": "dev",
+          "away": "lks",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — ŁKS",
+            "text": "KS DevelopRes Rzeszów — ŁKS Commercecon Łódź, 23.12.2026, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "label": "13. kolejka",
+      "window": "01.01–04.01.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r13m1",
+          "date": "2027-01-01",
+          "time": "20:30",
+          "home": "bks",
+          "away": "opo",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — UNI",
+            "text": "BKS ZGO Bielsko-Biała — UNI Opole, 01.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r13m2",
+          "date": "2027-01-01",
+          "time": "20:30",
+          "home": "kal",
+          "away": "che",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — LOTTO",
+            "text": "NETLAND MKS Kalisz — LOTTO Chemik Police, 01.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r13m3",
+          "date": "2027-01-02",
+          "time": "20:30",
+          "home": "lks",
+          "away": "bud",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — PGE",
+            "text": "ŁKS Commercecon Łódź — PGE Budowlani Łódź, 02.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r13m4",
+          "date": "2027-01-02",
+          "time": "20:30",
+          "home": "byd",
+          "away": "mie",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — ITA",
+            "text": "Metalkas Pałac Bydgoszcz — ITA TOOLS Stal Mielec, 02.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r13m5",
+          "date": "2027-01-03",
+          "time": "20:30",
+          "home": "wro",
+          "away": "rad",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — MOYA",
+            "text": "#VolleyWrocław — MOYA Radomka Radom, 03.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r13m6",
+          "date": "2027-01-04",
+          "time": "20:30",
+          "home": "mog",
+          "away": "dev",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — KS",
+            "text": "Sokół & Hagric Mogilno — KS DevelopRes Rzeszów, 04.01.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "label": "14. kolejka",
+      "window": "07.01–11.01.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r14m1",
+          "date": "2027-01-07",
+          "time": "20:30",
+          "home": "bks",
+          "away": "mog",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — Sokół",
+            "text": "BKS ZGO Bielsko-Biała — Sokół & Hagric Mogilno, 07.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r14m2",
+          "date": "2027-01-08",
+          "time": "20:30",
+          "home": "rad",
+          "away": "dev",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — KS",
+            "text": "MOYA Radomka Radom — KS DevelopRes Rzeszów, 08.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r14m3",
+          "date": "2027-01-09",
+          "time": "20:30",
+          "home": "bud",
+          "away": "opo",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — UNI",
+            "text": "PGE Budowlani Łódź — UNI Opole, 09.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r14m4",
+          "date": "2027-01-09",
+          "time": "20:30",
+          "home": "mie",
+          "away": "lks",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — ŁKS",
+            "text": "ITA TOOLS Stal Mielec — ŁKS Commercecon Łódź, 09.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r14m5",
+          "date": "2027-01-10",
+          "time": "20:30",
+          "home": "che",
+          "away": "wro",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — #VolleyWrocław",
+            "text": "LOTTO Chemik Police — #VolleyWrocław, 10.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r14m6",
+          "date": "2027-01-11",
+          "time": "20:30",
+          "home": "kal",
+          "away": "byd",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — Metalkas",
+            "text": "NETLAND MKS Kalisz — Metalkas Pałac Bydgoszcz, 11.01.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "label": "15. kolejka",
+      "window": "15.01–18.01.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r15m1",
+          "date": "2027-01-15",
+          "time": "20:30",
+          "home": "wro",
+          "away": "kal",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — NETLAND",
+            "text": "#VolleyWrocław — NETLAND MKS Kalisz, 15.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r15m2",
+          "date": "2027-01-16",
+          "time": "20:30",
+          "home": "rad",
+          "away": "bud",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — PGE",
+            "text": "MOYA Radomka Radom — PGE Budowlani Łódź, 16.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r15m3",
+          "date": "2027-01-16",
+          "time": "20:30",
+          "home": "byd",
+          "away": "opo",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — UNI",
+            "text": "Metalkas Pałac Bydgoszcz — UNI Opole, 16.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r15m4",
+          "date": "2027-01-17",
+          "time": "20:30",
+          "home": "lks",
+          "away": "bks",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — BKS",
+            "text": "ŁKS Commercecon Łódź — BKS ZGO Bielsko-Biała, 17.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r15m5",
+          "date": "2027-01-18",
+          "time": "20:30",
+          "home": "dev",
+          "away": "mie",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — ITA",
+            "text": "KS DevelopRes Rzeszów — ITA TOOLS Stal Mielec, 18.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r15m6",
+          "date": "2027-01-18",
+          "time": "20:30",
+          "home": "che",
+          "away": "mog",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — Sokół",
+            "text": "LOTTO Chemik Police — Sokół & Hagric Mogilno, 18.01.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 16,
+      "label": "16. kolejka",
+      "window": "21.01–24.01.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r16m1",
+          "date": "2027-01-21",
+          "time": "20:30",
+          "home": "opo",
+          "away": "wro",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — #VolleyWrocław",
+            "text": "UNI Opole — #VolleyWrocław, 21.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r16m2",
+          "date": "2027-01-22",
+          "time": "20:30",
+          "home": "bks",
+          "away": "dev",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — KS",
+            "text": "BKS ZGO Bielsko-Biała — KS DevelopRes Rzeszów, 22.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r16m3",
+          "date": "2027-01-22",
+          "time": "20:30",
+          "home": "mie",
+          "away": "rad",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — MOYA",
+            "text": "ITA TOOLS Stal Mielec — MOYA Radomka Radom, 22.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r16m4",
+          "date": "2027-01-23",
+          "time": "20:30",
+          "home": "bud",
+          "away": "byd",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — Metalkas",
+            "text": "PGE Budowlani Łódź — Metalkas Pałac Bydgoszcz, 23.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r16m5",
+          "date": "2027-01-24",
+          "time": "20:30",
+          "home": "kal",
+          "away": "mog",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — Sokół",
+            "text": "NETLAND MKS Kalisz — Sokół & Hagric Mogilno, 24.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r16m6",
+          "date": "2027-01-24",
+          "time": "20:30",
+          "home": "che",
+          "away": "lks",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — ŁKS",
+            "text": "LOTTO Chemik Police — ŁKS Commercecon Łódź, 24.01.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 17,
+      "label": "17. kolejka",
+      "window": "29.01–01.02.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r17m1",
+          "date": "2027-01-29",
+          "time": "20:30",
+          "home": "wro",
+          "away": "byd",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — Metalkas",
+            "text": "#VolleyWrocław — Metalkas Pałac Bydgoszcz, 29.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r17m2",
+          "date": "2027-01-30",
+          "time": "20:30",
+          "home": "dev",
+          "away": "che",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — LOTTO",
+            "text": "KS DevelopRes Rzeszów — LOTTO Chemik Police, 30.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r17m3",
+          "date": "2027-01-30",
+          "time": "20:30",
+          "home": "lks",
+          "away": "kal",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — NETLAND",
+            "text": "ŁKS Commercecon Łódź — NETLAND MKS Kalisz, 30.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r17m4",
+          "date": "2027-01-30",
+          "time": "20:30",
+          "home": "mog",
+          "away": "opo",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — UNI",
+            "text": "Sokół & Hagric Mogilno — UNI Opole, 30.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r17m5",
+          "date": "2027-01-31",
+          "time": "20:30",
+          "home": "mie",
+          "away": "bud",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — PGE",
+            "text": "ITA TOOLS Stal Mielec — PGE Budowlani Łódź, 31.01.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r17m6",
+          "date": "2027-02-01",
+          "time": "20:30",
+          "home": "bks",
+          "away": "rad",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — MOYA",
+            "text": "BKS ZGO Bielsko-Biała — MOYA Radomka Radom, 01.02.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 18,
+      "label": "18. kolejka",
+      "window": "11.02–15.02.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r18m1",
+          "date": "2027-02-11",
+          "time": "20:30",
+          "home": "bks",
+          "away": "mie",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — ITA",
+            "text": "BKS ZGO Bielsko-Biała — ITA TOOLS Stal Mielec, 11.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r18m2",
+          "date": "2027-02-12",
+          "time": "20:30",
+          "home": "che",
+          "away": "rad",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — MOYA",
+            "text": "LOTTO Chemik Police — MOYA Radomka Radom, 12.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r18m3",
+          "date": "2027-02-13",
+          "time": "20:30",
+          "home": "bud",
+          "away": "wro",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — #VolleyWrocław",
+            "text": "PGE Budowlani Łódź — #VolleyWrocław, 13.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r18m4",
+          "date": "2027-02-13",
+          "time": "20:30",
+          "home": "opo",
+          "away": "lks",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — ŁKS",
+            "text": "UNI Opole — ŁKS Commercecon Łódź, 13.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r18m5",
+          "date": "2027-02-14",
+          "time": "20:30",
+          "home": "kal",
+          "away": "dev",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — KS",
+            "text": "NETLAND MKS Kalisz — KS DevelopRes Rzeszów, 14.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r18m6",
+          "date": "2027-02-15",
+          "time": "20:30",
+          "home": "byd",
+          "away": "mog",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — Sokół",
+            "text": "Metalkas Pałac Bydgoszcz — Sokół & Hagric Mogilno, 15.02.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 19,
+      "label": "19. kolejka",
+      "window": "18.02–20.02.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r19m1",
+          "date": "2027-02-18",
+          "time": "20:30",
+          "home": "mie",
+          "away": "che",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — LOTTO",
+            "text": "ITA TOOLS Stal Mielec — LOTTO Chemik Police, 18.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r19m2",
+          "date": "2027-02-19",
+          "time": "20:30",
+          "home": "rad",
+          "away": "kal",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — NETLAND",
+            "text": "MOYA Radomka Radom — NETLAND MKS Kalisz, 19.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r19m3",
+          "date": "2027-02-19",
+          "time": "20:30",
+          "home": "mog",
+          "away": "wro",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — #VolleyWrocław",
+            "text": "Sokół & Hagric Mogilno — #VolleyWrocław, 19.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r19m4",
+          "date": "2027-02-20",
+          "time": "20:30",
+          "home": "bks",
+          "away": "bud",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — PGE",
+            "text": "BKS ZGO Bielsko-Biała — PGE Budowlani Łódź, 20.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r19m5",
+          "date": "2027-02-20",
+          "time": "20:30",
+          "home": "opo",
+          "away": "dev",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — KS",
+            "text": "UNI Opole — KS DevelopRes Rzeszów, 20.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r19m6",
+          "date": "2027-02-20",
+          "time": "20:30",
+          "home": "lks",
+          "away": "byd",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — Metalkas",
+            "text": "ŁKS Commercecon Łódź — Metalkas Pałac Bydgoszcz, 20.02.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 20,
+      "label": "20. kolejka",
+      "window": "26.02–01.03.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r20m1",
+          "date": "2027-02-26",
+          "time": "20:30",
+          "home": "wro",
+          "away": "lks",
+          "venue": "Wrocław",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "#VolleyWrocław — ŁKS",
+            "text": "#VolleyWrocław — ŁKS Commercecon Łódź, 26.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r20m2",
+          "date": "2027-02-27",
+          "time": "20:30",
+          "home": "opo",
+          "away": "rad",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — MOYA",
+            "text": "UNI Opole — MOYA Radomka Radom, 27.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r20m3",
+          "date": "2027-02-28",
+          "time": "20:30",
+          "home": "bud",
+          "away": "mog",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — Sokół",
+            "text": "PGE Budowlani Łódź — Sokół & Hagric Mogilno, 28.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r20m4",
+          "date": "2027-02-28",
+          "time": "20:30",
+          "home": "byd",
+          "away": "dev",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — KS",
+            "text": "Metalkas Pałac Bydgoszcz — KS DevelopRes Rzeszów, 28.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r20m5",
+          "date": "2027-02-28",
+          "time": "20:30",
+          "home": "kal",
+          "away": "mie",
+          "venue": "Kalisz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "NETLAND — ITA",
+            "text": "NETLAND MKS Kalisz — ITA TOOLS Stal Mielec, 28.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r20m6",
+          "date": "2027-03-01",
+          "time": "20:30",
+          "home": "che",
+          "away": "bks",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — BKS",
+            "text": "LOTTO Chemik Police — BKS ZGO Bielsko-Biała, 01.03.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 21,
+      "label": "21. kolejka",
+      "window": "05.03–08.03.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r21m1",
+          "date": "2027-03-05",
+          "time": "20:30",
+          "home": "mie",
+          "away": "opo",
+          "venue": "Mielec",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ITA — UNI",
+            "text": "ITA TOOLS Stal Mielec — UNI Opole, 05.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r21m2",
+          "date": "2027-03-05",
+          "time": "20:30",
+          "home": "dev",
+          "away": "wro",
+          "venue": "Rzeszów",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "KS — #VolleyWrocław",
+            "text": "KS DevelopRes Rzeszów — #VolleyWrocław, 05.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r21m3",
+          "date": "2027-03-06",
+          "time": "20:30",
+          "home": "rad",
+          "away": "byd",
+          "venue": "Radom",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "MOYA — Metalkas",
+            "text": "MOYA Radomka Radom — Metalkas Pałac Bydgoszcz, 06.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r21m4",
+          "date": "2027-03-06",
+          "time": "20:30",
+          "home": "lks",
+          "away": "mog",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — Sokół",
+            "text": "ŁKS Commercecon Łódź — Sokół & Hagric Mogilno, 06.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r21m5",
+          "date": "2027-03-08",
+          "time": "20:30",
+          "home": "che",
+          "away": "bud",
+          "venue": "Police",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "LOTTO — PGE",
+            "text": "LOTTO Chemik Police — PGE Budowlani Łódź, 08.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r21m6",
+          "date": "2027-03-08",
+          "time": "20:30",
+          "home": "bks",
+          "away": "kal",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — NETLAND",
+            "text": "BKS ZGO Bielsko-Biała — NETLAND MKS Kalisz, 08.03.2027, godzina do potwierdzenia."
+          }
+        }
+      ]
+    },
+    {
+      "round": 22,
+      "label": "22. kolejka",
+      "window": "24.02–14.03.2027",
+      "status": "zaplanowana",
+      "matches": [
+        {
+          "id": "r22m1",
+          "date": "2027-02-24",
+          "time": "20:30",
+          "home": "mog",
+          "away": "mie",
+          "venue": "Mogilno",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Sokół — ITA",
+            "text": "Sokół & Hagric Mogilno — ITA TOOLS Stal Mielec, 24.02.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r22m2",
+          "date": "2027-03-10",
+          "time": "20:30",
+          "home": "bks",
+          "away": "wro",
+          "venue": "Bielsko-Biała",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "BKS — #VolleyWrocław",
+            "text": "BKS ZGO Bielsko-Biała — #VolleyWrocław, 10.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r22m3",
+          "date": "2027-03-11",
+          "time": "20:30",
+          "home": "byd",
+          "away": "che",
+          "venue": "Bydgoszcz",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "Metalkas — LOTTO",
+            "text": "Metalkas Pałac Bydgoszcz — LOTTO Chemik Police, 11.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r22m4",
+          "date": "2027-03-13",
+          "time": "20:30",
+          "home": "opo",
+          "away": "kal",
+          "venue": "Opole",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "UNI — NETLAND",
+            "text": "UNI Opole — NETLAND MKS Kalisz, 13.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r22m5",
+          "date": "2027-03-13",
+          "time": "20:30",
+          "home": "lks",
+          "away": "rad",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "ŁKS — MOYA",
+            "text": "ŁKS Commercecon Łódź — MOYA Radomka Radom, 13.03.2027, godzina do potwierdzenia."
+          }
+        },
+        {
+          "id": "r22m6",
+          "date": "2027-03-14",
+          "time": "20:30",
+          "home": "bud",
+          "away": "dev",
+          "venue": "Łódź",
+          "sets": null,
+          "score": null,
+          "preview": {
+            "headline": "PGE — KS",
+            "text": "PGE Budowlani Łódź — KS DevelopRes Rzeszów, 14.03.2027, godzina do potwierdzenia."
+          }
         }
       ]
     }
