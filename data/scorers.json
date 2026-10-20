@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-19",
-  "phase": "po 5 meczach 3. kolejki",
-  "note": "Oficjalne rankingi PLS po meczach do Opole–Budowlani. Mogilno–BKS jeszcze nie rozegrany.",
-  "noteEn": "Official PLS rankings after matches through Opole–Budowlani. Mogilno–BKS not yet played.",
+  "updated": "2026-10-20",
+  "phase": "po 3. kolejce",
+  "note": "Oficjalne rankingi PLS po zakończonej 3. kolejce.",
+  "noteEn": "Official PLS rankings after completed round 3.",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -44,17 +44,17 @@
           "team": "UNI Opole",
           "matches": 3,
           "sets": 11,
-          "pts": 56,
-          "perSet": "5,09"
+          "pts": 57,
+          "perSet": "5,18"
         },
         {
           "rank": 5,
-          "name": "Marrit Jasper",
-          "team": "KS DevelopRes",
+          "name": "Iris Vos",
+          "team": "BKS Bielsko-Biała",
           "matches": 3,
-          "sets": 13,
-          "pts": 50,
-          "perSet": "3,85"
+          "sets": 11,
+          "pts": 53,
+          "perSet": "4,82"
         }
       ]
     },
@@ -81,13 +81,13 @@
           "team": "UNI Opole",
           "matches": 3,
           "sets": 11,
-          "att": 117,
-          "pts": 51,
-          "perSet": "4,64",
-          "eff": "28,21%"
+          "att": 118,
+          "pts": 52,
+          "perSet": "4,73",
+          "eff": "28,81%"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Wiktoria Makarewicz",
           "team": "Metalkas Pałac",
           "matches": 3,
@@ -110,14 +110,14 @@
         },
         {
           "rank": 5,
-          "name": "Suvi Kokkonen",
-          "team": "ŁKS Commercecon",
+          "name": "Iris Vos",
+          "team": "BKS Bielsko-Biała",
           "matches": 3,
-          "sets": 13,
-          "att": 101,
-          "pts": 45,
-          "perSet": "3,46",
-          "eff": "32,67%"
+          "sets": 11,
+          "att": 109,
+          "pts": 47,
+          "perSet": "4,27",
+          "eff": "30,28%"
         }
       ]
     },
@@ -140,6 +140,17 @@
         },
         {
           "rank": 2,
+          "name": "Iga Wasilewska",
+          "team": "BKS Bielsko-Biała",
+          "matches": 3,
+          "sets": 11,
+          "block": 14,
+          "perSet": "1,27",
+          "stuff": 17,
+          "stuffPerSet": "1,55"
+        },
+        {
+          "rank": 3,
           "name": "Saša Planinšec",
           "team": "PGE Budowlani",
           "matches": 3,
@@ -150,7 +161,7 @@
           "stuffPerSet": "1,27"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Kateryna Zhylinska",
           "team": "MOYA Radomka",
           "matches": 3,
@@ -161,18 +172,7 @@
           "stuffPerSet": "1,42"
         },
         {
-          "rank": 3,
-          "name": "Iga Wasilewska",
-          "team": "BKS Bielsko-Biała",
-          "matches": 2,
-          "sets": 8,
-          "block": 12,
-          "perSet": "1,50",
-          "stuff": 11,
-          "stuffPerSet": "1,38"
-        },
-        {
-          "rank": 3,
+          "rank": 4,
           "name": "Natalia Kecher",
           "team": "UNI Opole",
           "matches": 3,
@@ -361,6 +361,16 @@
       "players": [
         {
           "rank": 1,
+          "name": "Iris Vos",
+          "team": "BKS Bielsko-Biała",
+          "mvp": 2,
+          "matches": "",
+          "sets": "",
+          "pts": 2,
+          "perSet": ""
+        },
+        {
+          "rank": 1,
           "name": "Maja Storck",
           "team": "PGE Budowlani",
           "mvp": 2,
@@ -390,17 +400,7 @@
           "perSet": ""
         },
         {
-          "rank": 4,
-          "name": "Iris Vos",
-          "team": "BKS Bielsko-Biała",
-          "mvp": 1,
-          "matches": "",
-          "sets": "",
-          "pts": 1,
-          "perSet": ""
-        },
-        {
-          "rank": 4,
+          "rank": 5,
           "name": "Zuzanna Suska",
           "team": "KS DevelopRes",
           "mvp": 1,
