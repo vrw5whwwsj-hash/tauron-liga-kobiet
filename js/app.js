@@ -244,6 +244,7 @@ function show(tab) {
   document.querySelectorAll("section").forEach((s) => s.classList.toggle("active", s.id === tab));
   document.querySelectorAll("nav.tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
   if (tab === "sec-cev" && typeof renderCev === "function") renderCev();
+  if (tab === "sec-schedule") renderSchedule();
 }
 async function init() {
   LANG = detectLang();
