@@ -1,1 +1,38 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-21",
+  "items": [
+    {
+      "d": "2026-10-20",
+      "t": "Poważna kontuzja Kertu Laak. Duże osłabienie BKS-u",
+      "te": "Serious injury to Kertu Laak. Big loss for BKS",
+      "tt": "Kertu Laak ciddi sakatlandı. BKS büyük kayıp",
+      "b": "Uraz Kertu Laak w meczu z Mogilnem to zerwane więzadła w prawym kolanie. Atakująca BKS-u czeka kilkumiesięczna przerwa i operacja.",
+      "be": "Kertu Laak's injury against Mogilno is a torn ligament in the right knee. The BKS opposite faces months out and surgery.",
+      "bt": "Kertu Laak'ın Mogilno maçındaki sakatlığı sağ diz bağlarının yırtılması. BKS'nin pasör çaprazı aylarca sahadan uzak kalacak.",
+      "u": "https://www.tauronligakobiet.pl/news,powazna-kontuzja-kertu-laak.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-20",
+      "t": "AL-KO Superpuchar Polski. Częstochowa to nie tylko siatkówka męska",
+      "te": "AL-KO Super Cup. Częstochowa is not only men's volleyball",
+      "tt": "AL-KO Süper Kupa. Częstochowa sadece erkek voleybolu değil",
+      "b": "Po raz pierwszy w Częstochowie mecz siatkarek o Superpuchar. Budowlani–DevelopRes w sobotę o 15:00 w DMD Arenie.",
+      "be": "First time a women's Super Cup match in Częstochowa. Budowlani–DevelopRes on Saturday at 15:00 at DMD Arena.",
+      "bt": "Częstochowa'da ilk kez kadınlar Süper Kupa maçı. Budowlani–DevelopRes cumartesi 15:00'te.",
+      "u": "https://www.tauronligakobiet.pl/news,al-ko-superpuchar-polski-czestochowa-to-nie-tylko-siatkowka-meska.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-20",
+      "t": "Jelana Blagojević: w sobotę mecz o pierwsze trofeum w tym sezonie",
+      "te": "Jelena Blagojević: Saturday is the first trophy match of the season",
+      "tt": "Jelena Blagojević: cumartesi sezonun ilk kupa maçı",
+      "b": "Trenerka DevelopResu po wygranej z Radomką: cieszy mnie postawa Piaseckiej i Suskiej. W sobotę Superpuchar z Budowlanymi – mamy rachunki do wyrównania.",
+      "be": "DevelopRes coach after the Radomka win: happy with Piasecka and Suska. Saturday Super Cup vs Budowlani – we have a score to settle.",
+      "bt": "DevelopRes antrenörü Radomka galibiyeti sonrası: Piasecka ve Suska'nın performansı sevindirdi. Cumartesi Budowlani ile Süper Kupa.",
+      "u": "https://www.tauronligakobiet.pl/news,jelana-blagojevic-w-sobote-pierwszy-mecz-o-trofeum-w-tym-sezonie.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
