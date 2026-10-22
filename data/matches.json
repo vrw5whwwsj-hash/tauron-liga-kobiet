@@ -1050,9 +1050,37 @@
             "title": "Stal 3:2 w Radomiu",
             "titleEn": "Stal win 3–2 in Radom",
             "titleTr": "Stal Radom'da 3-2 kazandı",
-            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal.",
-            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Radomka came back in the fourth set, but Stal won the tie-break 18:16.",
-            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. Tie-break'i Stal 18:16 kazandı.",
+            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Atak 38% po obu stronach, blok 12:12, asy 4:7. Radomka: Gierszewska 22, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 28 (25 w ataku), Bączyńska 20, Andersson 15. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal.",
+            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Both teams attacked at 38%; blocks 12–12, aces 4–7. Radomka: Gierszewska 22, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 28 (25 in attack), Bączyńska 20, Andersson 15. Radomka came back in the fourth set, but Stal won the tie-break 18:16.",
+            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. İki takım da hücumda %38; blok 12-12, servis ası 4-7. Radomka: Gierszewska 22, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 28 (25 hücum), Bączyńska 20, Andersson 15. Tie-break'i Stal 18:16 kazandı.",
+            "homeTop": [
+              {
+                "n": "Weronika Gierszewska",
+                "p": 22
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 19
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Weronika Sobiczewska",
+                "p": 28
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 20
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 15
+              }
+            ],
             "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105019.html"
           },
           "verify": {
@@ -1060,7 +1088,7 @@
             "pls": true,
             "polsat": false,
             "by": "grok",
-            "checkedAt": "2026-10-22T18:10:00Z"
+            "checkedAt": "2026-10-22T19:30:00Z"
           }
         },
         {
