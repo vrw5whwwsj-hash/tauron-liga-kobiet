@@ -1014,13 +1014,54 @@
           "home": "rad",
           "away": "mie",
           "venue": "Radom",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              17
+            ],
+            [
+              17,
+              25
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Radomka — Stal",
             "text": "MOYA Radomka Radom przyjmuje ITA TOOLS Stal Mielec. 22 października, 17:30."
           },
-          "tv": "Polsat Sport 3"
+          "tv": "Polsat Sport 3",
+          "mvp": "Weronika Sobiczewska",
+          "recap": {
+            "title": "Stal 3:2 w Radomiu",
+            "titleEn": "Stal win 3–2 in Radom",
+            "titleTr": "Stal Radom'da 3-2 kazandı",
+            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal.",
+            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Radomka came back in the fourth set, but Stal won the tie-break 18:16.",
+            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. Tie-break'i Stal 18:16 kazandı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105019.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-22T18:10:00Z"
+          }
         },
         {
           "id": "r5m2",
@@ -1146,7 +1187,8 @@
           "preview": {
             "headline": "Kalisz — ŁKS",
             "text": "NETLAND MKS Kalisz — ŁKS Commercecon Łódź, 6 listopada, 20:30."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r6m4",
