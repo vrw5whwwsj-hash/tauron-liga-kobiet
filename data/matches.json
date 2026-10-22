@@ -1050,10 +1050,38 @@
             "title": "Stal 3:2 w Radomiu",
             "titleEn": "Stal win 3–2 in Radom",
             "titleTr": "Stal Radom'da 3-2 kazandı",
-            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal.",
-            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Radomka came back in the fourth set, but Stal won the tie-break 18:16.",
-            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. Tie-break'i Stal 18:16 kazandı.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105019.html"
+            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal. Najwięcej punktów: Sobiczewska 28 i Bączyńska 20 dla Stali, Gierszewska 22 i Fedyk 19 dla Radomki.",
+            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Radomka came back in the fourth set, but Stal won the tie-break 18:16. Top scorers: Sobiczewska 28 and Bączyńska 20 for Stal, Gierszewska 22 and Fedyk 19 for Radomka.",
+            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. Tie-break'i Stal 18:16 kazandı. En skorerler: Stal'de Sobiczewska 28 ve Bączyńska 20, Radomka'da Gierszewska 22 ve Fedyk 19 sayı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105019.html",
+            "homeTop": [
+              {
+                "n": "Weronika Gierszewska",
+                "p": 22
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 19
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Weronika Sobiczewska",
+                "p": 28
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 20
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 15
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
