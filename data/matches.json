@@ -38,15 +38,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Budowlani 3:0",
-            "text": "NETLAND MKS Kalisz przegrał z PGE Budowlanymi Łódź 0:3 (7:25, 17:25, 12:25)."
+            "text": "NETLAND MKS Kalisz – PGE Budowlani Łódź 0:3 (7:25, 17:25, 12:25). MVP: Maja Storck (14 pkt). Arena Kalisz, 1489 widzów. Skuteczność ataku 28%:53%, blok 4:12, asy 0:3. Kalisz: Vulin 10, Rodić 6, Kuligowska 4. Budowlani: Storck 14, Buterez 13, Planinšec 12.",
+            "titleEn": "Budowlani beat Kalisz 3–0",
+            "titleTr": "Budowlani, Kalisz karşısında 3-0 kazandı",
+            "textEn": "NETLAND MKS Kalisz – PGE Budowlani Łódź 0–3 (7:25, 17:25, 12:25). MVP: Maja Storck (14 pts). 1489 fans at Arena Kalisz. Attack 28% to 53%, blocks 4–12, aces 0–3. Kalisz: Vulin 10, Rodić 6, Kuligowska 4. Budowlani: Storck 14, Buterez 13, Planinšec 12.",
+            "textTr": "NETLAND MKS Kalisz – PGE Budowlani Łódź 0-3 (7:25, 17:25, 12:25). MVP: Maja Storck (14 sayı). Salon: Arena Kalisz, 1489 seyirci. Hücum %28 - %53, blok 4-12, servis ası 0-3. Kalisz: Vulin 10, Rodić 6, Kuligowska 4. Budowlani: Storck 14, Buterez 13, Planinšec 12.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 10
+              },
+              {
+                "n": "Isidora Rodić",
+                "p": 6
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 4
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 14
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104990.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Maja Storck"
         },
         {
           "id": "r1m2",
@@ -88,15 +122,49 @@
           "tv": "Polsat Sport 3",
           "recap": {
             "title": "Chemik 3:2",
-            "text": "UNI Opole przegrało z LOTTO Chemikiem Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15)."
+            "text": "UNI Opole – LOTTO Chemik Police 2:3 (21:25, 23:25, 25:9, 25:15, 13:15). MVP: Julia Orzoł (16 pkt). Stegu Arena, 1530 widzów. Skuteczność ataku 44%:35%, blok 16:5, asy 3:8. Opole: Zaroślińska-Król 28, Kecher 15, Palazzolo 11. Chemik: Orzoł 16, Mędrzyk 12, Sieradzka 11.",
+            "titleEn": "Chemik beat Opole 3–2",
+            "titleTr": "Chemik, Opole karşısında 3-2 kazandı",
+            "textEn": "UNI Opole – LOTTO Chemik Police 2–3 (21:25, 23:25, 25:9, 25:15, 13:15). MVP: Julia Orzoł (16 pts). 1530 fans at Stegu Arena. Attack 44% to 35%, blocks 16–5, aces 3–8. Opole: Zaroślińska-Król 28, Kecher 15, Palazzolo 11. Chemik: Orzoł 16, Mędrzyk 12, Sieradzka 11.",
+            "textTr": "UNI Opole – LOTTO Chemik Police 2-3 (21:25, 23:25, 25:9, 25:15, 13:15). MVP: Julia Orzoł (16 sayı). Salon: Stegu Arena, 1530 seyirci. Hücum %44 - %35, blok 16-5, servis ası 3-8. Opole: Zaroślińska-Król 28, Kecher 15, Palazzolo 11. Chemik: Orzoł 16, Mędrzyk 12, Sieradzka 11.",
+            "homeTop": [
+              {
+                "n": "Katarzyna Zaroślińska-Król",
+                "p": 28
+              },
+              {
+                "n": "Natalia Kecher",
+                "p": 15
+              },
+              {
+                "n": "Sydney Palazzolo",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Julia Orzoł",
+                "p": 16
+              },
+              {
+                "n": "Natalia Mędrzyk",
+                "p": 12
+              },
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 11
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104991.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Julia Orzoł"
         },
         {
           "id": "r1m3",
@@ -130,15 +198,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Radomka 3:0",
-            "text": "Sokół & Hagric Mogilno przegrał z MOYA Radomką Radom 0:3 (22:25, 23:25, 22:25)."
+            "text": "Sokół & Hagric Mogilno – MOYA Radomka Radom 0:3 (22:25, 23:25, 22:25). MVP: Aleksandra Dudek (18 pkt). Mogilno Sport, 960 widzów. Skuteczność ataku 31%:35%, blok 8:10, asy 10:7. Mogilno: Drużkowska 18, Kowalska 13, Świętoń 9. Radomka: Dudek 18, Fedyk 9, Zhylinska 9.",
+            "titleEn": "Radomka beat Mogilno 3–0",
+            "titleTr": "Radomka, Mogilno karşısında 3-0 kazandı",
+            "textEn": "Sokół & Hagric Mogilno – MOYA Radomka Radom 0–3 (22:25, 23:25, 22:25). MVP: Aleksandra Dudek (18 pts). 960 fans at Mogilno Sport. Attack 31% to 35%, blocks 8–10, aces 10–7. Mogilno: Drużkowska 18, Kowalska 13, Świętoń 9. Radomka: Dudek 18, Fedyk 9, Zhylinska 9.",
+            "textTr": "Sokół & Hagric Mogilno – MOYA Radomka Radom 0-3 (22:25, 23:25, 22:25). MVP: Aleksandra Dudek (18 sayı). Salon: Mogilno Sport, 960 seyirci. Hücum %31 - %35, blok 8-10, servis ası 10-7. Mogilno: Drużkowska 18, Kowalska 13, Świętoń 9. Radomka: Dudek 18, Fedyk 9, Zhylinska 9.",
+            "homeTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 18
+              },
+              {
+                "n": "Wiktoria Kowalska",
+                "p": 13
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Dudek",
+                "p": 18
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 9
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 9
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104994.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Aleksandra Dudek"
         },
         {
           "id": "r1m4",
@@ -180,15 +282,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "BKS 3:2",
-            "text": "Metalkas Pałac Bydgoszcz przegrał z BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15)."
+            "text": "Metalkas Pałac Bydgoszcz – BKS ZGO Bielsko-Biała 2:3 (21:25, 23:25, 25:20, 25:21, 10:15). MVP: Iris Vos (22 pkt). HSW Immobile Łuczniczka, 750 widzów. Skuteczność ataku 34%:39%, blok 16:18, asy 8:7. Pałac: Makarewicz 26, Pol 16, Pinczewska 14. BKS: Vos 22, Wasilewska 19, Laak 17.",
+            "titleEn": "BKS beat Pałac 3–2",
+            "titleTr": "BKS, Pałac karşısında 3-2 kazandı",
+            "textEn": "Metalkas Pałac Bydgoszcz – BKS ZGO Bielsko-Biała 2–3 (21:25, 23:25, 25:20, 25:21, 10:15). MVP: Iris Vos (22 pts). 750 fans at HSW Immobile Łuczniczka. Attack 34% to 39%, blocks 16–18, aces 8–7. Pałac: Makarewicz 26, Pol 16, Pinczewska 14. BKS: Vos 22, Wasilewska 19, Laak 17.",
+            "textTr": "Metalkas Pałac Bydgoszcz – BKS ZGO Bielsko-Biała 2-3 (21:25, 23:25, 25:20, 25:21, 10:15). MVP: Iris Vos (22 sayı). Salon: HSW Immobile Łuczniczka, 750 seyirci. Hücum %34 - %39, blok 16-18, servis ası 8-7. Pałac: Makarewicz 26, Pol 16, Pinczewska 14. BKS: Vos 22, Wasilewska 19, Laak 17.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 26
+              },
+              {
+                "n": "Marta Pol",
+                "p": 16
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 22
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 19
+              },
+              {
+                "n": "Kertu Laak",
+                "p": 17
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104992.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Iris Vos"
         },
         {
           "id": "r1m5",
@@ -230,15 +366,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Stal 3:2",
-            "text": "#VolleyWrocław przegrał ze Stalą Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15)."
+            "text": "#VolleyWrocław – ITA TOOLS Stal Mielec 2:3 (25:23, 21:25, 17:25, 26:24, 8:15). MVP: Aleksandra Adamczyk (18 pkt). Hala Orbita, 859 widzów. Skuteczność ataku 30%:33%, blok 9:14, asy 4:7. Wrocław: Stautz 23, Frankevych 16, Wąsiakowska 11. Stal: Adamczyk 18, Bączyńska 17, Jovanović 14.",
+            "titleEn": "Stal beat Wrocław 3–2",
+            "titleTr": "Stal, Wrocław karşısında 3-2 kazandı",
+            "textEn": "#VolleyWrocław – ITA TOOLS Stal Mielec 2–3 (25:23, 21:25, 17:25, 26:24, 8:15). MVP: Aleksandra Adamczyk (18 pts). 859 fans at Hala Orbita. Attack 30% to 33%, blocks 9–14, aces 4–7. Wrocław: Stautz 23, Frankevych 16, Wąsiakowska 11. Stal: Adamczyk 18, Bączyńska 17, Jovanović 14.",
+            "textTr": "#VolleyWrocław – ITA TOOLS Stal Mielec 2-3 (25:23, 21:25, 17:25, 26:24, 8:15). MVP: Aleksandra Adamczyk (18 sayı). Salon: Hala Orbita, 859 seyirci. Hücum %30 - %33, blok 9-14, servis ası 4-7. Wrocław: Stautz 23, Frankevych 16, Wąsiakowska 11. Stal: Adamczyk 18, Bączyńska 17, Jovanović 14.",
+            "homeTop": [
+              {
+                "n": "Antonia Stautz",
+                "p": 23
+              },
+              {
+                "n": "Diana Frankevych",
+                "p": 16
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 18
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 17
+              },
+              {
+                "n": "Andjela Jovanović",
+                "p": 14
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104993.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Aleksandra Adamczyk"
         },
         {
           "id": "r1m6",
@@ -280,15 +450,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "DevelopRes 3:2",
-            "text": "ŁKS Commercecon Łódź przegrał z KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17)."
+            "text": "ŁKS Commercecon Łódź – KS DevelopRes Rzeszów 2:3 (22:25, 17:25, 25:19, 25:14, 15:17). MVP: Weronika Centka-Tietianiec (22 pkt). Sport Arena, 2468 widzów. Skuteczność ataku 39%:38%, blok 14:14, asy 2:4. ŁKS: Kokkonen 24, Dambrink 15, Milenko 14. DevelopRes: Jasper 22, Centka-Tietianiec 22, Mims 10.",
+            "titleEn": "DevelopRes beat ŁKS 3–2",
+            "titleTr": "DevelopRes, ŁKS karşısında 3-2 kazandı",
+            "textEn": "ŁKS Commercecon Łódź – KS DevelopRes Rzeszów 2–3 (22:25, 17:25, 25:19, 25:14, 15:17). MVP: Weronika Centka-Tietianiec (22 pts). 2468 fans at Sport Arena. Attack 39% to 38%, blocks 14–14, aces 2–4. ŁKS: Kokkonen 24, Dambrink 15, Milenko 14. DevelopRes: Jasper 22, Centka-Tietianiec 22, Mims 10.",
+            "textTr": "ŁKS Commercecon Łódź – KS DevelopRes Rzeszów 2-3 (22:25, 17:25, 25:19, 25:14, 15:17). MVP: Weronika Centka-Tietianiec (22 sayı). Salon: Sport Arena, 2468 seyirci. Hücum %39 - %38, blok 14-14, servis ası 2-4. ŁKS: Kokkonen 24, Dambrink 15, Milenko 14. DevelopRes: Jasper 22, Centka-Tietianiec 22, Mims 10.",
+            "homeTop": [
+              {
+                "n": "Suvi Kokkonen",
+                "p": 24
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 15
+              },
+              {
+                "n": "Oleksandra Milenko",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Marrit Jasper",
+                "p": 22
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 22
+              },
+              {
+                "n": "Taylor Mims",
+                "p": 10
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104995.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Weronika Centka-Tietianiec"
         }
       ]
     },
@@ -330,15 +534,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Pałac pewnie 3:0",
-            "text": "ITA TOOLS Stal Mielec przegrała u siebie z Metalkas Pałacem Bydgoszcz 0:3 (22:25, 14:25, 23:25)."
+            "text": "ITA TOOLS Stal Mielec – Metalkas Pałac Bydgoszcz 0:3 (22:25, 14:25, 23:25). MVP: Wiktoria Makarewicz (13 pkt). MOSiR Mielec, 894 widzów. Skuteczność ataku 32%:42%, blok 7:8, asy 4:1. Stal: Jovanović 13, Andersson 9, Adamczyk 8. Pałac: Pol 15, Makarewicz 13, Pinczewska 13.",
+            "titleEn": "Pałac beat Stal 3–0",
+            "titleTr": "Pałac, Stal karşısında 3-0 kazandı",
+            "textEn": "ITA TOOLS Stal Mielec – Metalkas Pałac Bydgoszcz 0–3 (22:25, 14:25, 23:25). MVP: Wiktoria Makarewicz (13 pts). 894 fans at MOSiR Mielec. Attack 32% to 42%, blocks 7–8, aces 4–1. Stal: Jovanović 13, Andersson 9, Adamczyk 8. Pałac: Pol 15, Makarewicz 13, Pinczewska 13.",
+            "textTr": "ITA TOOLS Stal Mielec – Metalkas Pałac Bydgoszcz 0-3 (22:25, 14:25, 23:25). MVP: Wiktoria Makarewicz (13 sayı). Salon: MOSiR Mielec, 894 seyirci. Hücum %32 - %42, blok 7-8, servis ası 4-1. Stal: Jovanović 13, Andersson 9, Adamczyk 8. Pałac: Pol 15, Makarewicz 13, Pinczewska 13.",
+            "homeTop": [
+              {
+                "n": "Andjela Jovanović",
+                "p": 13
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 9
+              },
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 8
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Marta Pol",
+                "p": 15
+              },
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 13
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104999.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Wiktoria Makarewicz"
         },
         {
           "id": "r2m2",
@@ -376,15 +614,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "ŁKS wygrywa derby 3:1",
-            "text": "PGE Budowlani Łódź przegrały u siebie z ŁKS Commercecon Łódź 1:3 (19:25, 18:25, 25:14, 18:25)."
+            "text": "PGE Budowlani Łódź – ŁKS Commercecon Łódź 1:3 (19:25, 18:25, 25:14, 18:25). MVP: Magdalena Jurczyk (11 pkt). Sport Arena, 3000 widzów. Skuteczność ataku 33%:41%, blok 10:11, asy 2:2. Budowlani: Grajber-Nowakowska 11, Zadorojnai 11, Planinšec 9. ŁKS: Milenko 16, Kokkonen 13, Dambrink 12.",
+            "titleEn": "ŁKS beat Budowlani 3–1",
+            "titleTr": "ŁKS, Budowlani karşısında 3-1 kazandı",
+            "textEn": "PGE Budowlani Łódź – ŁKS Commercecon Łódź 1–3 (19:25, 18:25, 25:14, 18:25). MVP: Magdalena Jurczyk (11 pts). 3000 fans at Sport Arena. Attack 33% to 41%, blocks 10–11, aces 2–2. Budowlani: Grajber-Nowakowska 11, Zadorojnai 11, Planinšec 9. ŁKS: Milenko 16, Kokkonen 13, Dambrink 12.",
+            "textTr": "PGE Budowlani Łódź – ŁKS Commercecon Łódź 1-3 (19:25, 18:25, 25:14, 18:25). MVP: Magdalena Jurczyk (11 sayı). Salon: Sport Arena, 3000 seyirci. Hücum %33 - %41, blok 10-11, servis ası 2-2. Budowlani: Grajber-Nowakowska 11, Zadorojnai 11, Planinšec 9. ŁKS: Milenko 16, Kokkonen 13, Dambrink 12.",
+            "homeTop": [
+              {
+                "n": "Martyna Grajber-Nowakowska",
+                "p": 11
+              },
+              {
+                "n": "Didona Iuna Catalina Zadorojnai",
+                "p": 11
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Oleksandra Milenko",
+                "p": 16
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 13
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104996.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Magdalena Jurczyk"
         },
         {
           "id": "r2m3",
@@ -418,15 +690,49 @@
           "tv": "Polsat Sport 3",
           "recap": {
             "title": "Opole 3:0",
-            "text": "UNI Opole wygrało u siebie z BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19)."
+            "text": "UNI Opole – BKS ZGO Bielsko-Biała 3:0 (25:22, 25:14, 25:19). MVP: Gabriela Makarowska-Kulej (3 pkt). Stegu Arena, 1680 widzów. Skuteczność ataku 43%:31%, blok 5:7, asy 5:1. Opole: Zaroślińska-Król 19, Pavlyk 10, Kecher 10. BKS: Vos 13, Wasilewska 9, Laak 7.",
+            "titleEn": "Opole beat BKS 3–0",
+            "titleTr": "Opole, BKS karşısında 3-0 kazandı",
+            "textEn": "UNI Opole – BKS ZGO Bielsko-Biała 3–0 (25:22, 25:14, 25:19). MVP: Gabriela Makarowska-Kulej (3 pts). 1680 fans at Stegu Arena. Attack 43% to 31%, blocks 5–7, aces 5–1. Opole: Zaroślińska-Król 19, Pavlyk 10, Kecher 10. BKS: Vos 13, Wasilewska 9, Laak 7.",
+            "textTr": "UNI Opole – BKS ZGO Bielsko-Biała 3-0 (25:22, 25:14, 25:19). MVP: Gabriela Makarowska-Kulej (3 sayı). Salon: Stegu Arena, 1680 seyirci. Hücum %43 - %31, blok 5-7, servis ası 5-1. Opole: Zaroślińska-Król 19, Pavlyk 10, Kecher 10. BKS: Vos 13, Wasilewska 9, Laak 7.",
+            "homeTop": [
+              {
+                "n": "Katarzyna Zaroślińska-Król",
+                "p": 19
+              },
+              {
+                "n": "Andriana Pavlyk",
+                "p": 10
+              },
+              {
+                "n": "Natalia Kecher",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 13
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 9
+              },
+              {
+                "n": "Kertu Laak",
+                "p": 7
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105000.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Gabriela Makarowska-Kulej"
         },
         {
           "id": "r2m4",
@@ -464,15 +770,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "DevelopRes 3:1",
-            "text": "KS DevelopRes Rzeszów wygrał u siebie z Sokołem & Hagric Mogilno 3:1 (25:23, 25:17, 26:28, 25:16)."
+            "text": "KS DevelopRes Rzeszów – Sokół & Hagric Mogilno 3:1 (25:23, 25:17, 26:28, 25:16). MVP: Zuzanna Suska. Hala Podpromie, 1690 widzów. Skuteczność ataku 31%:32%, blok 19:10, asy 8:2. DevelopRes: Jansen 14, Kotar 13, Jasper 13. Mogilno: Drużkowska 24, Zakościelna 9, Durul 8.",
+            "titleEn": "DevelopRes beat Mogilno 3–1",
+            "titleTr": "DevelopRes, Mogilno karşısında 3-1 kazandı",
+            "textEn": "KS DevelopRes Rzeszów – Sokół & Hagric Mogilno 3–1 (25:23, 25:17, 26:28, 25:16). MVP: Zuzanna Suska. 1690 fans at Hala Podpromie. Attack 31% to 32%, blocks 19–10, aces 8–2. DevelopRes: Jansen 14, Kotar 13, Jasper 13. Mogilno: Drużkowska 24, Zakościelna 9, Durul 8.",
+            "textTr": "KS DevelopRes Rzeszów – Sokół & Hagric Mogilno 3-1 (25:23, 25:17, 26:28, 25:16). MVP: Zuzanna Suska. Salon: Hala Podpromie, 1690 seyirci. Hücum %31 - %32, blok 19-10, servis ası 8-2. DevelopRes: Jansen 14, Kotar 13, Jasper 13. Mogilno: Drużkowska 24, Zakościelna 9, Durul 8.",
+            "homeTop": [
+              {
+                "n": "Laura Jansen",
+                "p": 14
+              },
+              {
+                "n": "Uliana Kotar",
+                "p": 13
+              },
+              {
+                "n": "Marrit Jasper",
+                "p": 13
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 24
+              },
+              {
+                "n": "Barbara Zakościelna",
+                "p": 9
+              },
+              {
+                "n": "Melis Durul",
+                "p": 8
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104997.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Zuzanna Suska"
         },
         {
           "id": "r2m5",
@@ -510,15 +850,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Chemik 3:1",
-            "text": "LOTTO Chemik Police wygrał u siebie z NETLAND MKS Kalisz 3:1 (20:25, 25:22, 25:23, 25:16). MVP: Oliwia Sieradzka."
+            "text": "LOTTO Chemik Police – NETLAND MKS Kalisz 3:1 (20:25, 25:22, 25:23, 25:16). MVP: Oliwia Sieradzka (24 pkt). Enea Arena Szczecin, 1309 widzów. Skuteczność ataku 48%:43%, blok 11:5, asy 7:8. Chemik: Sieradzka 24, Mędrzyk 20, Orzoł 11. Kalisz: de la Peña 28, Rodić 15, Blanchfield 12.",
+            "titleEn": "Chemik beat Kalisz 3–1",
+            "titleTr": "Chemik, Kalisz karşısında 3-1 kazandı",
+            "textEn": "LOTTO Chemik Police – NETLAND MKS Kalisz 3–1 (20:25, 25:22, 25:23, 25:16). MVP: Oliwia Sieradzka (24 pts). 1309 fans at Enea Arena Szczecin. Attack 48% to 43%, blocks 11–5, aces 7–8. Chemik: Sieradzka 24, Mędrzyk 20, Orzoł 11. Kalisz: de la Peña 28, Rodić 15, Blanchfield 12.",
+            "textTr": "LOTTO Chemik Police – NETLAND MKS Kalisz 3-1 (20:25, 25:22, 25:23, 25:16). MVP: Oliwia Sieradzka (24 sayı). Salon: Enea Arena Szczecin, 1309 seyirci. Hücum %48 - %43, blok 11-5, servis ası 7-8. Chemik: Sieradzka 24, Mędrzyk 20, Orzoł 11. Kalisz: de la Peña 28, Rodić 15, Blanchfield 12.",
+            "homeTop": [
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 24
+              },
+              {
+                "n": "Natalia Mędrzyk",
+                "p": 20
+              },
+              {
+                "n": "Julia Orzoł",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Yalain Regla de la Peña González",
+                "p": 28
+              },
+              {
+                "n": "Isidora Rodić",
+                "p": 15
+              },
+              {
+                "n": "Jaidyn Blanchfield",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105001.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Oliwia Sieradzka"
         },
         {
           "id": "r2m6",
@@ -560,15 +934,49 @@
           "tv": "Polsat Sport 1",
           "recap": {
             "title": "Radomka 3:2",
-            "text": "MOYA Radomka Radom wygrała u siebie z #VolleyWrocław 3:2 (18:25, 25:23, 20:25, 25:18, 18:16)."
+            "text": "MOYA Radomka Radom – #VolleyWrocław 3:2 (18:25, 25:23, 20:25, 25:18, 18:16). MVP: Marta Fedyk (21 pkt). ENEA RCS, 1490 widzów. Skuteczność ataku 36%:36%, blok 11:12, asy 10:10. Radomka: Fedyk 21, Gierszewska 13, Zhylinska 13. Wrocław: Stautz 27, Wąsiakowska 13, Dróżdż 12.",
+            "titleEn": "Radomka beat Wrocław 3–2",
+            "titleTr": "Radomka, Wrocław karşısında 3-2 kazandı",
+            "textEn": "MOYA Radomka Radom – #VolleyWrocław 3–2 (18:25, 25:23, 20:25, 25:18, 18:16). MVP: Marta Fedyk (21 pts). 1490 fans at ENEA RCS. Attack 36% to 36%, blocks 11–12, aces 10–10. Radomka: Fedyk 21, Gierszewska 13, Zhylinska 13. Wrocław: Stautz 27, Wąsiakowska 13, Dróżdż 12.",
+            "textTr": "MOYA Radomka Radom – #VolleyWrocław 3-2 (18:25, 25:23, 20:25, 25:18, 18:16). MVP: Marta Fedyk (21 sayı). Salon: ENEA RCS, 1490 seyirci. Hücum %36 - %36, blok 11-12, servis ası 10-10. Radomka: Fedyk 21, Gierszewska 13, Zhylinska 13. Wrocław: Stautz 27, Wąsiakowska 13, Dróżdż 12.",
+            "homeTop": [
+              {
+                "n": "Marta Fedyk",
+                "p": 21
+              },
+              {
+                "n": "Weronika Gierszewska",
+                "p": 13
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 13
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Antonia Stautz",
+                "p": 27
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 13
+              },
+              {
+                "n": "Natalia Dróżdż",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1104998.html"
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-13T19:01:34Z"
-          }
+            "checkedAt": "2026-10-23T14:45:00Z"
+          },
+          "mvp": "Marta Fedyk"
         }
       ]
     },
@@ -616,8 +1024,40 @@
           "tv": "Polsat Sport 2",
           "recap": {
             "title": "ŁKS 3:1 ze Stalą",
-            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (19 pkt). Drugie zwycięstwo ŁKS w sezonie.",
-            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-15/lks-lodz-stal-mielec-siatkowka-wynik-meczu-kto-wygral/"
+            "text": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3:1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (18 pkt). Sport Arena, 900 widzów. Skuteczność ataku 44%:38%, blok 9:3, asy 2:3. ŁKS: Dambrink 18, Kokkonen 11, Milenko 9. Stal: Sobiczewska 14, Bączyńska 11, Adamczyk 10. Drugie zwycięstwo ŁKS w sezonie.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105006.html",
+            "titleEn": "ŁKS beat Stal 3–1",
+            "titleTr": "ŁKS, Stal karşısında 3-1 kazandı",
+            "textEn": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3–1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (18 pts). 900 fans at Sport Arena. Attack 44% to 38%, blocks 9–3, aces 2–3. ŁKS: Dambrink 18, Kokkonen 11, Milenko 9. Stal: Sobiczewska 14, Bączyńska 11, Adamczyk 10. Second win of the season for ŁKS.",
+            "textTr": "ŁKS Commercecon Łódź – ITA TOOLS Stal Mielec 3-1 (25:18, 25:23, 17:25, 25:18). MVP: Elles Dambrink (18 sayı). Salon: Sport Arena, 900 seyirci. Hücum %44 - %38, blok 9-3, servis ası 2-3. ŁKS: Dambrink 18, Kokkonen 11, Milenko 9. Stal: Sobiczewska 14, Bączyńska 11, Adamczyk 10. ŁKS sezonun ikinci galibiyetini aldı.",
+            "homeTop": [
+              {
+                "n": "Elles Dambrink",
+                "p": 18
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 11
+              },
+              {
+                "n": "Oleksandra Milenko",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Weronika Sobiczewska",
+                "p": 14
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 11
+              },
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 10
+              }
+            ]
           },
           "mvp": "Elles Dambrink",
           "verify": {
@@ -625,7 +1065,7 @@
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-15T21:40:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
@@ -666,8 +1106,40 @@
           "tv": "Polsat Sport Extra 3",
           "recap": {
             "title": "Chemik 3:1 we Wrocławiu",
-            "text": "#VolleyWrocław – LOTTO Chemik Police 1:3 (15:25, 25:19, 21:25, 21:25). MVP: Oliwia Sieradzka (22 pkt). Trzecie zwycięstwo Chemika w sezonie.",
-            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-16/volley-wroclaw-chemik-police-siatkowka-wynik-kto-wygral-mecz/"
+            "text": "#VolleyWrocław – LOTTO Chemik Police 1:3 (15:25, 25:19, 21:25, 21:25). MVP: Oliwia Sieradzka (24 pkt). Hala Orbita, 550 widzów. Skuteczność ataku 31%:38%, blok 14:11, asy 4:5. Wrocław: Frankevych 12, Wąsiakowska 12, Stautz 11. Chemik: Sieradzka 24, Mędrzyk 14, Orzoł 12. Trzecie zwycięstwo Chemika w sezonie.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105004.html",
+            "titleEn": "Chemik beat Wrocław 3–1",
+            "titleTr": "Chemik, Wrocław karşısında 3-1 kazandı",
+            "textEn": "#VolleyWrocław – LOTTO Chemik Police 1–3 (15:25, 25:19, 21:25, 21:25). MVP: Oliwia Sieradzka (24 pts). 550 fans at Hala Orbita. Attack 31% to 38%, blocks 14–11, aces 4–5. Wrocław: Frankevych 12, Wąsiakowska 12, Stautz 11. Chemik: Sieradzka 24, Mędrzyk 14, Orzoł 12. Third win of the season for Chemik.",
+            "textTr": "#VolleyWrocław – LOTTO Chemik Police 1-3 (15:25, 25:19, 21:25, 21:25). MVP: Oliwia Sieradzka (24 sayı). Salon: Hala Orbita, 550 seyirci. Hücum %31 - %38, blok 14-11, servis ası 4-5. Wrocław: Frankevych 12, Wąsiakowska 12, Stautz 11. Chemik: Sieradzka 24, Mędrzyk 14, Orzoł 12. Chemik sezonun üçüncü galibiyetini aldı.",
+            "homeTop": [
+              {
+                "n": "Diana Frankevych",
+                "p": 12
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 12
+              },
+              {
+                "n": "Antonia Stautz",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 24
+              },
+              {
+                "n": "Natalia Mędrzyk",
+                "p": 14
+              },
+              {
+                "n": "Julia Orzoł",
+                "p": 12
+              }
+            ]
           },
           "mvp": "Oliwia Sieradzka",
           "verify": {
@@ -675,7 +1147,7 @@
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-16T21:10:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
@@ -713,15 +1185,47 @@
           "mvp": "Wiktoria Makarewicz",
           "recap": {
             "title": "Pałac 3:0 z Kaliszem",
-            "text": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3:0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 pkt). Drugie zwycięstwo Pałacu w sezonie.",
-            "source": "https://siatka.org/pokaz/tauron-liga-kobiet-palac-bydgoszcz-mks-kalisz-relacja/"
+            "text": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3:0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 pkt). HSW Immobile Łuczniczka, 750 widzów. Skuteczność ataku 41%:29%, blok 9:7, asy 3:2. Pałac: Makarewicz 20, Pol 12, Pinczewska 11. Kalisz: Rodić 11, de la Peña 9, Kuligowska 5. Drugie zwycięstwo Pałacu w sezonie.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105003.html",
+            "titleEn": "Pałac beat Kalisz 3–0",
+            "titleTr": "Pałac, Kalisz karşısında 3-0 kazandı",
+            "textEn": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3–0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 pts). 750 fans at HSW Immobile Łuczniczka. Attack 41% to 29%, blocks 9–7, aces 3–2. Pałac: Makarewicz 20, Pol 12, Pinczewska 11. Kalisz: Rodić 11, de la Peña 9, Kuligowska 5. Second win of the season for Pałac.",
+            "textTr": "Metalkas Pałac Bydgoszcz – NETLAND MKS Kalisz 3-0 (25:18, 25:23, 25:17). MVP: Wiktoria Makarewicz (20 sayı). Salon: HSW Immobile Łuczniczka, 750 seyirci. Hücum %41 - %29, blok 9-7, servis ası 3-2. Pałac: Makarewicz 20, Pol 12, Pinczewska 11. Kalisz: Rodić 11, de la Peña 9, Kuligowska 5. Pałac sezonun ikinci galibiyetini aldı.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 20
+              },
+              {
+                "n": "Marta Pol",
+                "p": 12
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Isidora Rodić",
+                "p": 11
+              },
+              {
+                "n": "Yalain Regla de la Peña González",
+                "p": 9
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 5
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-17T17:15:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
@@ -763,15 +1267,47 @@
           "mvp": "Mika Grbavica",
           "recap": {
             "title": "DevelopRes 3:1 z Radomką",
-            "text": "KS DevelopRes Rzeszów – MOYA Radomka Radom 3:1 (25:22, 23:25, 25:18, 25:20). MVP: Mika Grbavica (28 pkt). W DevelopResie: Grbavica 28, Jasper 15, Centka-Tietianiec 11. W Radomce: Zhylinska 19, Gierszewska 15, Dudek 13.",
-            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-17/developres-rzeszow-radomka-radom-siatkowka-wynik-kto-wygral-mecz/"
+            "text": "KS DevelopRes Rzeszów – MOYA Radomka Radom 3:1 (25:22, 23:25, 25:18, 25:20). MVP: Mika Grbavica (29 pkt). Hala Podpromie, 2684 widzów. Skuteczność ataku 39%:35%, blok 14:16, asy 4:2. DevelopRes: Grbavica 29, Jasper 15, Centka-Tietianiec 11. Radomka: Zhylinska 19, Gierszewska 14, Dudek 13.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105007.html",
+            "titleEn": "DevelopRes beat Radomka 3–1",
+            "titleTr": "DevelopRes, Radomka karşısında 3-1 kazandı",
+            "textEn": "KS DevelopRes Rzeszów – MOYA Radomka Radom 3–1 (25:22, 23:25, 25:18, 25:20). MVP: Mika Grbavica (29 pts). 2684 fans at Hala Podpromie. Attack 39% to 35%, blocks 14–16, aces 4–2. DevelopRes: Grbavica 29, Jasper 15, Centka-Tietianiec 11. Radomka: Zhylinska 19, Gierszewska 14, Dudek 13.",
+            "textTr": "KS DevelopRes Rzeszów – MOYA Radomka Radom 3-1 (25:22, 23:25, 25:18, 25:20). MVP: Mika Grbavica (29 sayı). Salon: Hala Podpromie, 2684 seyirci. Hücum %39 - %35, blok 14-16, servis ası 4-2. DevelopRes: Grbavica 29, Jasper 15, Centka-Tietianiec 11. Radomka: Zhylinska 19, Gierszewska 14, Dudek 13.",
+            "homeTop": [
+              {
+                "n": "Mika Grbavica",
+                "p": 29
+              },
+              {
+                "n": "Marrit Jasper",
+                "p": 15
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 19
+              },
+              {
+                "n": "Weronika Gierszewska",
+                "p": 14
+              },
+              {
+                "n": "Aleksandra Dudek",
+                "p": 13
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-18T01:50:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
@@ -813,15 +1349,47 @@
           "mvp": "Maja Storck",
           "recap": {
             "title": "Budowlani 3:1 w Opolu",
-            "text": "UNI Opole – PGE Budowlani Łódź 1:3 (25:22, 25:27, 18:25, 25:27). MVP: Maja Storck (20 pkt, 4 bloki). Stegu Arena, 1415 widzów. Opole: Pavlyk 16, Palazzolo 14, Filipović 12. Budowlani: Storck 20, Grajber-Nowakowska 17, Kazała 13.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105002.html"
+            "text": "UNI Opole – PGE Budowlani Łódź 1:3 (25:22, 25:27, 18:25, 25:27). MVP: Maja Storck (20 pkt). Stegu Arena, 1415 widzów. Skuteczność ataku 36%:37%, blok 13:14, asy 4:6. Opole: Pavlyk 16, Palazzolo 14, Filipović 11. Budowlani: Storck 20, Grajber-Nowakowska 17, Kazała 13.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105002.html",
+            "titleEn": "Budowlani beat Opole 3–1",
+            "titleTr": "Budowlani, Opole karşısında 3-1 kazandı",
+            "textEn": "UNI Opole – PGE Budowlani Łódź 1–3 (25:22, 25:27, 18:25, 25:27). MVP: Maja Storck (20 pts). 1415 fans at Stegu Arena. Attack 36% to 37%, blocks 13–14, aces 4–6. Opole: Pavlyk 16, Palazzolo 14, Filipović 11. Budowlani: Storck 20, Grajber-Nowakowska 17, Kazała 13.",
+            "textTr": "UNI Opole – PGE Budowlani Łódź 1-3 (25:22, 25:27, 18:25, 25:27). MVP: Maja Storck (20 sayı). Salon: Stegu Arena, 1415 seyirci. Hücum %36 - %37, blok 13-14, servis ası 4-6. Opole: Pavlyk 16, Palazzolo 14, Filipović 11. Budowlani: Storck 20, Grajber-Nowakowska 17, Kazała 13.",
+            "homeTop": [
+              {
+                "n": "Andriana Pavlyk",
+                "p": 16
+              },
+              {
+                "n": "Sydney Palazzolo",
+                "p": 14
+              },
+              {
+                "n": "Vasja Filipović",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 20
+              },
+              {
+                "n": "Martyna Grajber-Nowakowska",
+                "p": 17
+              },
+              {
+                "n": "Aleksandra Kazała",
+                "p": 13
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-10-18T21:30:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
@@ -1050,14 +1618,14 @@
             "title": "Stal 3:2 w Radomiu",
             "titleEn": "Stal win 3–2 in Radom",
             "titleTr": "Stal Radom'da 3-2 kazandı",
-            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. ENEA Radomskie Centrum Sportu, 820 widzów. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal. Najwięcej punktów: Sobiczewska 28 i Bączyńska 20 dla Stali, Gierszewska 22 i Fedyk 19 dla Radomki.",
-            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. 820 fans in Radom. Radomka came back in the fourth set, but Stal won the tie-break 18:16. Top scorers: Sobiczewska 28 and Bączyńska 20 for Stal, Gierszewska 22 and Fedyk 19 for Radomka.",
-            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska. Radom'da 820 seyirci. Tie-break'i Stal 18:16 kazandı. En skorerler: Stal'de Sobiczewska 28 ve Bączyńska 20, Radomka'da Gierszewska 22 ve Fedyk 19 sayı.",
+            "text": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2:3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska (27 pkt). ENEA RCS, 820 widzów. Skuteczność ataku 37%:38%, blok 12:12, asy 4:7. Radomka: Gierszewska 21, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 27, Bączyńska 20, Andersson 16. Radomka odrobiła straty w czwartym secie, ale tie-break na przewagi wygrała Stal.",
+            "textEn": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2–3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska (27 pts). 820 fans at ENEA RCS. Attack 37% to 38%, blocks 12–12, aces 4–7. Radomka: Gierszewska 21, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 27, Bączyńska 20, Andersson 16. Radomka came back in the fourth set, but Stal won the tie-break 18:16.",
+            "textTr": "MOYA Radomka Radom – ITA TOOLS Stal Mielec 2-3 (17:25, 25:17, 17:25, 25:22, 16:18). MVP: Weronika Sobiczewska (27 sayı). Salon: ENEA RCS, 820 seyirci. Hücum %37 - %38, blok 12-12, servis ası 4-7. Radomka: Gierszewska 21, Fedyk 19, Zhylinska 14. Stal: Sobiczewska 27, Bączyńska 20, Andersson 16. Tie-break'i Stal 18:16 kazandı.",
             "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105019.html",
             "homeTop": [
               {
                 "n": "Weronika Gierszewska",
-                "p": 22
+                "p": 21
               },
               {
                 "n": "Marta Fedyk",
@@ -1071,7 +1639,7 @@
             "awayTop": [
               {
                 "n": "Weronika Sobiczewska",
-                "p": 28
+                "p": 27
               },
               {
                 "n": "Anna Bączyńska",
@@ -1079,7 +1647,7 @@
               },
               {
                 "n": "Linda Andersson",
-                "p": 15
+                "p": 16
               }
             ]
           },
@@ -1088,7 +1656,7 @@
             "pls": true,
             "polsat": false,
             "by": "grok",
-            "checkedAt": "2026-10-22T18:10:00Z"
+            "checkedAt": "2026-10-23T14:45:00Z"
           }
         },
         {
