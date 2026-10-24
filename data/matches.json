@@ -1514,15 +1514,22 @@
             "confidence": "średnia"
           },
           "tv": "Polsat Sport 1",
-          "mvp": "Oliwia Sieradzka",
+          "mvp": "Julia Orzoł",
           "recap": {
             "title": "Chemik 3:1 w Mogilnie",
             "titleEn": "Chemik 3:1 in Mogilno",
             "titleTr": "Chemik Mogilno'da 3:1",
-            "text": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25). Czwarte zwycięstwo Chemika w sezonie, Mogilno nadal bez punktu.",
-            "textEn": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25). Chemik's fourth win of the season, Mogilno still without a point.",
-            "textTr": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25).",
-            "source": "https://www.polsatsport.pl/wiadomosc/2026-10-24/sokol-mogilno-chemik-police-siatkowka-wynik-kto-wygral-mecz/"
+            "text": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25). MVP: Julia Orzoł (21 pkt). Czwarte zwycięstwo Chemika w sezonie, Mogilno nadal bez punktu.",
+            "textEn": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25). MVP: Julia Orzoł (21 pts). Chemik's fourth win of the season, Mogilno still without a point.",
+            "textTr": "Sokół & Hagric Mogilno – LOTTO Chemik Police 1:3 (20:25, 20:25, 25:23, 16:25). MVP: Julia Orzoł (21 sayı).",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105011.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-24T21:10:00Z"
           }
         },
         {
