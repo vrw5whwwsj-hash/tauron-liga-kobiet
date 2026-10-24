@@ -1489,7 +1489,9 @@
           "score": null,
           "preview": {
             "headline": "Mogilno — Chemik",
-            "text": "Sokół & Hagric Mogilno — LOTTO Chemik Police, 24 października, 20:30."
+            "text": "Sokół & Hagric Mogilno – LOTTO Chemik Police, sobota 20:30. Chemik z trzema zwycięstwami, Mogilno bez punktu. Prognoza: Chemik 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1504,7 +1506,9 @@
           "score": null,
           "preview": {
             "headline": "Kalisz — Wrocław",
-            "text": "NETLAND MKS Kalisz — #VolleyWrocław, 25 października, 20:30."
+            "text": "NETLAND MKS Kalisz – #VolleyWrocław, niedziela 20:30. Wrocław szuka przełamania po trzech porażkach, Kalisz bez punktu. Prognoza: Wrocław 3:1.",
+            "prediction": "3:1",
+            "confidence": "niska"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1519,7 +1523,9 @@
           "score": null,
           "preview": {
             "headline": "BKS — ŁKS",
-            "text": "BKS ZGO Bielsko-Biała — ŁKS Commercecon Łódź, 26 października, 17:30."
+            "text": "BKS ZGO Bielsko-Biała – ŁKS Commercecon Łódź, poniedziałek 17:30. W BKS nie gra Kertu Laak (zerwane więzadła, operacja). Prognoza: ŁKS 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1534,7 +1540,9 @@
           "score": null,
           "preview": {
             "headline": "Opole — Pałac",
-            "text": "UNI Opole — Metalkas Pałac Bydgoszcz, 27 października, 20:30."
+            "text": "UNI Opole – Metalkas Pałac Bydgoszcz, wtorek 20:30. Pałac bez porażki, Opole po porażce z Budowlanymi. Prognoza: Opole 3:2.",
+            "prediction": "3:2",
+            "confidence": "niska"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1549,7 +1557,9 @@
           "score": null,
           "preview": {
             "headline": "Budowlani — Radomka",
-            "text": "PGE Budowlani Łódź — MOYA Radomka Radom, 28 października, 17:30."
+            "text": "PGE Budowlani Łódź – MOYA Radomka Radom, środa 17:30. Budowlani po Superpucharze, Radomka po porażce ze Stalą. Prognoza: Budowlani 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1564,7 +1574,9 @@
           "score": null,
           "preview": {
             "headline": "Stal — DevelopRes",
-            "text": "ITA TOOLS Stal Mielec — KS DevelopRes Rzeszów, 28 października, 19:00."
+            "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów, środa 19:00. DevelopRes lider tabeli, Stal po zwycięstwie w Radomiu. Prognoza: DevelopRes 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           }
         }
       ]
