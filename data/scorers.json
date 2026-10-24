@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-22",
-  "phase": "po Radomka–Stal",
-  "note": "Oficjalne rankingi PLS po meczu Radomka–Stal (5. kolejka).",
-  "noteEn": "Official PLS rankings after completed round 3.",
+  "updated": "2026-10-24",
+  "phase": "aktualne rankingi PLS",
+  "note": "Oficjalne rankingi PLS (tournament 54 / sezon 2026/2027).",
+  "noteEn": "Official PLS rankings (tournament 54 / 2026/2027 season).",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -151,8 +151,8 @@
           "sets": 17,
           "block": 15,
           "perSet": "0,88",
-          "stuff": 20,
-          "stuffPerSet": "1,18"
+          "stuff": 22,
+          "stuffPerSet": "1,29"
         },
         {
           "rank": 3,
@@ -166,7 +166,18 @@
           "stuffPerSet": "1,55"
         },
         {
-          "rank": 4,
+          "rank": 3,
+          "name": "Kornelia Garita",
+          "team": "MOYA Radomka",
+          "matches": 4,
+          "sets": 17,
+          "block": 14,
+          "perSet": "0,82",
+          "stuff": 13,
+          "stuffPerSet": "0,76"
+        },
+        {
+          "rank": 5,
           "name": "Saša Planinšec",
           "team": "PGE Budowlani",
           "matches": 3,
@@ -175,17 +186,6 @@
           "perSet": "1,18",
           "stuff": 14,
           "stuffPerSet": "1,27"
-        },
-        {
-          "rank": 4,
-          "name": "Kornelia Garita",
-          "team": "MOYA Radomka",
-          "matches": 4,
-          "sets": 17,
-          "block": 13,
-          "perSet": "0,76",
-          "stuff": 9,
-          "stuffPerSet": "0,53"
         }
       ]
     },
@@ -326,8 +326,8 @@
           "team": "ITA TOOLS Stal",
           "matches": 4,
           "sets": 17,
-          "digs": 69,
-          "perSet": "4,06"
+          "digs": 71,
+          "perSet": "4,18"
         },
         {
           "rank": 3,
@@ -349,12 +349,12 @@
         },
         {
           "rank": 5,
-          "name": "Brigitta Petrenkó",
+          "name": "Marta Fedyk",
           "team": "MOYA Radomka",
           "matches": 4,
           "sets": 17,
-          "digs": 48,
-          "perSet": "2,82"
+          "digs": 49,
+          "perSet": "2,88"
         }
       ]
     },
