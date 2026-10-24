@@ -1,1 +1,27 @@
-PLACEHOLDER
+{
+  "updated": "2026-10-24",
+  "items": [
+    {
+      "d": "2026-10-24",
+      "t": "Superpuchar: Budowlani i DevelopRes o pierwsze trofeum",
+      "te": "Super Cup: Budowlani and DevelopRes for the first trophy",
+      "tt": "Süper Kupa: Budowlani ve DevelopRes ilk kupa için",
+      "b": "PGE Budowlani Łódź i KS DevelopRes Rzeszów zagrają w sobotę w Częstochowie o AL-KO Superpuchar Polski. Obie drużyny zdobywały trofeum po trzy razy. Mecz o 15:00 w DMD Arenie.",
+      "be": "PGE Budowlani Łódź and KS DevelopRes Rzeszów meet in Częstochowa on Saturday for the AL-KO Super Cup. Both have won the trophy three times. Kick-off 15:00 at DMD Arena.",
+      "bt": "PGE Budowlani Łódź ve KS DevelopRes Rzeszów Cumartesi Częstochowa'da AL-KO Süper Kupa için karşılaşıyor. Her ikisi de kupayı üç kez kazandı. Saat 15:00, DMD Arena.",
+      "u": "https://www.tauronligakobiet.pl/news,al-ko-superpuchar-polski-siatkarki-zagraja-o-pierwsze-trofeum-w-sezonie.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-10-24",
+      "t": "Początek sezonu zaskakuje. Co w 4. kolejce?",
+      "te": "Surprising start to the season. What about round 4?",
+      "tt": "Sezon başı şaşırtıyor. 4. haftada ne olacak?",
+      "b": "Po trzech kolejkach tylko DevelopRes i Chemik mają komplet zwycięstw. Wrocław, Mogilno i Kalisz wciąż bez wygranej. W 4. kolejce m.in. Mogilno–Chemik, Kalisz–Wrocław, BKS–ŁKS.",
+      "be": "After three rounds only DevelopRes and Chemik are perfect. Wrocław, Mogilno and Kalisz still winless. Round 4 includes Mogilno–Chemik, Kalisz–Wrocław, BKS–ŁKS.",
+      "bt": "Üç hafta sonra sadece DevelopRes ve Chemik yenilgisiz. Wrocław, Mogilno ve Kalisz hâlâ galibiyetsiz. 4. haftada Mogilno–Chemik, Kalisz–Wrocław, BKS–ŁKS var.",
+      "u": "https://www.tauronligakobiet.pl/news,poczatek-sezonu-w-tauron-lidze-kobiet-zaskakuje-wynikami-co-wydarzy-sie-w-4-kolejce.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
