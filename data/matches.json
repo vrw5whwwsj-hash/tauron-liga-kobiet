@@ -1567,15 +1567,48 @@
           "home": "kal",
           "away": "wro",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Kalisz — Wrocław",
             "text": "NETLAND MKS Kalisz – #VolleyWrocław, niedziela 20:30. Wrocław szuka przełamania po trzech porażkach, Kalisz bez punktu. Prognoza: Wrocław 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Jelena Vulin",
+          "recap": {
+            "title": "Kalisz 3:0 z Wrocławiem. Pierwsze zwycięstwo, MVP Vulin",
+            "titleEn": "Kalisz beat Wrocław 3–0 for first win. MVP Vulin",
+            "titleTr": "Kalisz, Wrocław'u 3-0 yenerek ilk galibiyetini aldı. MVP Vulin",
+            "text": "NETLAND MKS Kalisz – #VolleyWrocław 3:0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. Arena Kalisz, 869 widzów, mecz trwał 83 minuty. Kaliszanki w każdym secie oddały rywalkom tylko 18 punktów i odniosły pierwsze zwycięstwo w sezonie, dopisując pierwsze trzy punkty. Osłabiony urazami Wrocław, który do Kalisza pojechał bez kilku zawodniczek, w tym kapitan Marleny Kowalewskiej, wciąż czeka na wygraną i ma na koncie dwa punkty.",
+            "textEn": "NETLAND MKS Kalisz – #VolleyWrocław 3–0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. 869 fans at Arena Kalisz; the match lasted 83 minutes. Kalisz conceded only 18 points in each set and claimed their first win and first three points of the season. Injury-hit Wrocław, missing several players including captain Marlena Kowalewska, are still looking for a win and have two points.",
+            "textTr": "NETLAND MKS Kalisz – #VolleyWrocław 3-0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. Arena Kalisz'te 869 seyirci; maç 83 dakika sürdü. Kalisz her sette rakibine yalnızca 18 sayı verdi ve sezonun ilk galibiyetini, ilk üç puanını aldı. Kaptan Marlena Kowalewska dahil birkaç oyuncusundan sakatlıklar nedeniyle yoksun olan Wrocław hâlâ galibiyet arıyor ve iki puanda kaldı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105012.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-25T21:35:00Z"
+          }
         },
         {
           "id": "r4m3",
