@@ -1567,15 +1567,48 @@
           "home": "kal",
           "away": "wro",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Kalisz — Wrocław",
             "text": "NETLAND MKS Kalisz – #VolleyWrocław, niedziela 20:30. Wrocław szuka przełamania po trzech porażkach, Kalisz bez punktu. Prognoza: Wrocław 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Jelena Vulin",
+          "recap": {
+            "title": "Kalisz 3:0 z Wrocławiem. MVP Vulin",
+            "titleEn": "Kalisz beat Wrocław 3–0. MVP Vulin",
+            "titleTr": "Kalisz, Wrocław'u 3-0 yendi. MVP Vulin",
+            "text": "NETLAND MKS Kalisz – #VolleyWrocław 3:0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. Arena Kalisz, 869 widzów, mecz trwał 1:23. Pierwsze zwycięstwo i pierwsze punkty Kalisza w sezonie, Wrocław, grający bez kilku kontuzjowanych zawodniczek, przegrał czwarty mecz z rzędu.",
+            "textEn": "NETLAND MKS Kalisz – #VolleyWrocław 3–0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. 869 fans at Arena Kalisz, match time 1:23. Kalisz's first win and first points of the season; injury-hit Wrocław lost their fourth straight match.",
+            "textTr": "NETLAND MKS Kalisz – #VolleyWrocław 3-0 (25:18, 25:18, 25:18). MVP: Jelena Vulin. Arena Kalisz'te 869 seyirci, maç süresi 1:23. Kalisz sezonun ilk galibiyetini ve ilk puanlarını aldı; sakatlıklarla boğuşan Wrocław üst üste dördüncü maçını kaybetti.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105012.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-25T22:15:00Z"
+          }
         },
         {
           "id": "r4m3",
