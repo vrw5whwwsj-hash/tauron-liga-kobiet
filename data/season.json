@@ -144,16 +144,50 @@
     {
       "player": "Kertu Laak",
       "team": "BKS ZGO Bielsko-Biała",
-      "injury": "kontuzja po ataku, zniesiona z parkietu",
-      "status": "diagnoza nieznana, życzymy szybkiego powrotu",
-      "source": "Polsat Sport, mecz Mogilno–BKS 19.10.2026"
+      "note": "Zerwane więzadła w prawym kolanie (uraz w meczu z Sokołem 19.10). Czeka ją operacja i kilkumiesięczna rehabilitacja.",
+      "noteEn": "Torn ligaments in her right knee (injured against Sokół on 19 Oct). Surgery and several months of rehab ahead.",
+      "noteTr": "Sağ dizde bağ yırtığı (19 Ekim'de Sokół maçında). Ameliyat ve birkaç aylık rehabilitasyon gerekecek.",
+      "updated": "2026-10-20"
     },
     {
       "player": "Aleksandra Gryka",
       "team": "KS DevelopRes Rzeszów",
-      "injury": "zerwanie więzadła krzyżowego przedniego (kolano)",
-      "status": "rehabilitacja, poza składem na początek sezonu",
-      "source": "komunikat klubu DevelopRes Rzeszów (wrzesień 2026)"
+      "note": "Zerwane więzadło krzyżowe przednie w prawym kolanie (uraz 15.04), po operacji. Rehabilitacja ok. 9 miesięcy wg komunikatu poprzedniego klubu; DevelopRes nie podał daty powrotu na parkiet.",
+      "noteEn": "Torn ACL in her right knee (injured 15 April), operated. About 9 months of rehab per her former club; DevelopRes have not given a return date.",
+      "noteTr": "Sağ dizde ön çapraz bağ yırtığı (15 Nisan), ameliyat oldu. Eski kulübüne göre yaklaşık 9 ay rehabilitasyon; DevelopRes dönüş tarihi vermedi.",
+      "updated": "2026-09-10"
+    },
+    {
+      "player": "Marlena Kowalewska",
+      "team": "#VolleyWrocław",
+      "note": "Skręcony staw skokowy. Nie zagrała w meczu w Kaliszu 25.10. Termin powrotu nie został podany.",
+      "noteEn": "Ankle sprain. Missed the match in Kalisz on 25 Oct. No return date given.",
+      "noteTr": "Ayak bileği burkulması. 25 Ekim'de Kalisz maçında oynamadı. Dönüş tarihi açıklanmadı.",
+      "updated": "2026-10-25"
+    },
+    {
+      "player": "Daria Szczyrba",
+      "team": "#VolleyWrocław",
+      "note": "Po zabiegu kolana, przed nią rehabilitacja. Nie zagrała w meczu z Radomką 13.10. Termin powrotu nie został podany.",
+      "noteEn": "After knee surgery, rehab ahead. Missed the match with Radomka on 13 Oct. No return date given.",
+      "noteTr": "Diz ameliyatı sonrası rehabilitasyonda. 13 Ekim'de Radomka maçında oynamadı. Dönüş tarihi açıklanmadı.",
+      "updated": "2026-10-16"
+    },
+    {
+      "player": "Anastazja Hryszczuk",
+      "team": "#VolleyWrocław",
+      "note": "Uraz mięśniowy, przerwa na kilka tygodni (stan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
+      "noteEn": "Muscle injury, out for a few weeks (as of 16 Oct). Missed the match with Radomka on 13 Oct.",
+      "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı.",
+      "updated": "2026-10-16"
+    },
+    {
+      "player": "Emilia Kaczmarzyk",
+      "team": "#VolleyWrocław",
+      "note": "Niegroźny uraz barku, kilka dni odpoczynku i mniejsze obciążenia (stan z 16.10).",
+      "noteEn": "Minor shoulder injury, a few days of rest and reduced load (as of 16 Oct).",
+      "noteTr": "Hafif omuz sakatlığı, birkaç gün dinlenme ve azaltılmış yük (16 Ekim itibarıyla).",
+      "updated": "2026-10-16"
     }
   ],
   "verification": {
