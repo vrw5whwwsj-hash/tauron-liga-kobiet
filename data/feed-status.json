@@ -1,1 +1,42 @@
-FILE_CONTENT_FROM_DISK
+{
+  "checkedAt": "2026-10-26T20:00:00+01:00",
+  "seasonStart": "2026-10-02",
+  "liveResultsAvailable": true,
+  "checks": [
+    {
+      "id": "pls-tiles",
+      "url": "https://www.tauronligakobiet.pl/games.html",
+      "ok": true,
+      "http": 200,
+      "note": "26.10 20:00: wyniki 4. kolejki Mogilno-Chemik 1:3, Kalisz-Wrocław 3:0 potwierdzone. BKS-ŁKS trwa. Kafelki TV: 26.10 BKS-ŁKS PS1, 27.10 Opole-Pałac PS1, 28.10 Budowlani-Radomka PS1, Stal-DevelopRes PS1. Kolejne kolejki zgodnie z planem."
+    },
+    {
+      "id": "pls-news",
+      "url": "https://www.tauronligakobiet.pl/",
+      "ok": true,
+      "http": 200,
+      "note": "Nowe newsy: Taylor Mims o pewności siebie po Superpucharze, pierwsze zwycięstwo Kalisza."
+    },
+    {
+      "id": "polsat-plan",
+      "url": "https://www.polsatsport.pl/",
+      "ok": true,
+      "http": 200,
+      "note": "Brak nowych relacji lub planu TV poza istniejącymi kafelkami ligi."
+    },
+    {
+      "id": "siatka-relacje",
+      "url": "https://siatka.org/",
+      "ok": true,
+      "http": 200,
+      "note": "Brak nowych relacji z 2. kolejki poza zapowiedziami."
+    },
+    {
+      "id": "volleybox-matches",
+      "url": "https://women.volleybox.net/pl/matches",
+      "ok": false,
+      "http": 403,
+      "note": "Cloudflare. Wyników nie bierzemy."
+    }
+  ]
+}
