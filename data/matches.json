@@ -1645,15 +1645,80 @@
           "home": "bks",
           "away": "lks",
           "venue": "Bielsko-Biała",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              26,
+              24
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              20,
+              25
+            ],
+            [
+              15,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "BKS — ŁKS",
             "text": "BKS ZGO Bielsko-Biała – ŁKS Commercecon Łódź, poniedziałek 17:30. W BKS nie gra Kertu Laak (zerwane więzadła, operacja). Prognoza: ŁKS 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Elles Dambrink",
+          "recap": {
+            "title": "ŁKS wygrywa 3:1 w Bielsku-Białej. MVP Dambrink",
+            "titleEn": "ŁKS win 3–1 in Bielsko-Biała. MVP Dambrink",
+            "titleTr": "ŁKS, Bielsko-Biała'da 3-1 kazandı. MVP Dambrink",
+            "text": "BKS ZGO Bielsko-Biała – ŁKS Commercecon Łódź 1:3 (26:24, 18:25, 20:25, 15:25). MVP: Elles Dambrink (25 pkt). HWS im. Z. Pietrzykowskiego, 1378 widzów, mecz trwał 1 godz. 56 min. Gospodynie wygrały na przewagi pierwszego seta, ale od drugiej partii inicjatywę przejął ŁKS, który odniósł trzecie zwycięstwo z rzędu. BKS zagrał bez Kertu Laak. Skuteczność ataku 40%:44%, blok 10:3, asy 3:8. BKS: Podlaska 16, Wasilewska 13, Vos 13, Abramajtys 10. ŁKS: Dambrink 25, Kokkonen 16, Nowakowska 8, Jurczyk 7.",
+            "textEn": "BKS ZGO Bielsko-Biała – ŁKS Commercecon Łódź 1–3 (26:24, 18:25, 20:25, 15:25). MVP: Elles Dambrink (25 pts). 1,378 fans at HWS Pietrzykowski; the match lasted 1 h 56 min. The hosts took the opening set 26:24, but ŁKS controlled the rest and claimed their third straight win. BKS played without Kertu Laak. Attack 40% to 44%, blocks 10–3, aces 3–8. BKS: Podlaska 16, Wasilewska 13, Vos 13, Abramajtys 10. ŁKS: Dambrink 25, Kokkonen 16, Nowakowska 8, Jurczyk 7.",
+            "textTr": "BKS ZGO Bielsko-Biała – ŁKS Commercecon Łódź 1-3 (26:24, 18:25, 20:25, 15:25). MVP: Elles Dambrink (25 sayı). HWS Pietrzykowski'de 1378 seyirci; maç 1 saat 56 dakika sürdü. Ev sahibi ilk seti 26:24 aldı, ancak sonrasında oyunu ŁKS kontrol etti ve üst üste üçüncü galibiyetini aldı. BKS, Kertu Laak'tan yoksundu. Hücum %40 - %44, blok 10-3, servis ası 3-8. BKS: Podlaska 16, Wasilewska 13, Vos 13, Abramajtys 10. ŁKS: Dambrink 25, Kokkonen 16, Nowakowska 8, Jurczyk 7.",
+            "homeTop": [
+              {
+                "n": "Martyna Podlaska",
+                "p": 16
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 13
+              },
+              {
+                "n": "Iris Vos",
+                "p": 13
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Elles Dambrink",
+                "p": 25
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 16
+              },
+              {
+                "n": "Pola Nowakowska",
+                "p": 8
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105010.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-26T19:20:00Z"
+          }
         },
         {
           "id": "r4m4",
