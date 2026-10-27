@@ -1727,15 +1727,48 @@
           "home": "opo",
           "away": "byd",
           "venue": "Opole",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              26,
+              24
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              25,
+              19
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Opole — Pałac",
             "text": "UNI Opole – Metalkas Pałac Bydgoszcz, wtorek 20:30. Pałac bez porażki, Opole po porażce z Budowlanymi. Prognoza: Opole 3:2.",
             "prediction": "3:2",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Andriana Pavlyk",
+          "recap": {
+            "title": "Opole 3:0 z Pałacem. MVP Pavlyk",
+            "titleEn": "Opole beat Pałac 3–0. MVP Pavlyk",
+            "titleTr": "Opole, Pałac'ı 3-0 yendi. MVP Pavlyk",
+            "text": "UNI Opole – Metalkas Pałac Bydgoszcz 3:0 (26:24, 25:22, 25:19). MVP: Andriana Pavlyk. Stegu Arena, 1610 widzów, mecz trwał 79 minut. W pierwszym secie Opolanki odrobiły straty z 18:21 i wygrały na przewagi, a Pavlyk zakończyła partię atakiem ze skrzydła. W drugim gospodynie przegrywały już 4:11, ale doprowadziły do zwrotu, a Pavlyk zamknęła seta asem serwisowym. Trzecią partię UNI wygrało 25:19 i dopisało trzy punkty.",
+            "textEn": "UNI Opole – Metalkas Pałac Bydgoszcz 3–0 (26:24, 25:22, 25:19). MVP: Andriana Pavlyk. 1,610 fans at Stegu Arena; the match lasted 79 minutes. In the first set Opole came back from 18:21 to win it in extra points, with Pavlyk finishing it with an attack from the wing. In the second the hosts trailed 4:11 but turned it around, and Pavlyk closed the set with an ace. UNI took the third 25:19 for three points.",
+            "textTr": "UNI Opole – Metalkas Pałac Bydgoszcz 3-0 (26:24, 25:22, 25:19). MVP: Andriana Pavlyk. Stegu Arena'da 1610 seyirci; maç 79 dakika sürdü. Opole ilk sette 18:21 geriden gelerek seti uzatmada kazandı, seti Pavlyk kanattan hücumla bitirdi. İkinci sette ev sahibi 4:11 gerideyken oyunu çevirdi ve seti Pavlyk servis asıyla kapattı. UNI üçüncü seti 25:19 alarak üç puanı hanesine yazdırdı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105013.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-27T21:35:00Z"
+          }
         },
         {
           "id": "r4m5",
