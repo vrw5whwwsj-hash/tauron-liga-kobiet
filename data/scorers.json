@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-24",
-  "phase": "po Mogilno–Chemik",
-  "note": "Oficjalne rankingi PLS po meczu Mogilno–Chemik.",
-  "noteEn": "Official PLS rankings after completed round 3.",
-  "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
+  "updated": "2026-10-27",
+  "phase": "po BKS–ŁKS (4. kolejka w toku)",
+  "note": "Oficjalne rankingi PLS po meczach 4. kolejki do BKS–ŁKS włącznie.",
+  "noteEn": "Official PLS rankings after matches of round 4 up to BKS–ŁKS.",
+  "source": "https://www.tauronligakobiet.pl/statsRanking/type/ScoreRanking/tournament_1/54.html",
   "rankings": [
     {
       "id": "points",
@@ -22,39 +22,39 @@
         },
         {
           "rank": 2,
+          "name": "Antonia Stautz",
+          "team": "#VolleyWrocław",
+          "matches": 4,
+          "sets": 17,
+          "pts": 71,
+          "perSet": "4,18"
+        },
+        {
+          "rank": 3,
+          "name": "Elles Dambrink",
+          "team": "ŁKS Commercecon",
+          "matches": 4,
+          "sets": 17,
+          "pts": 70,
+          "perSet": "4,12"
+        },
+        {
+          "rank": 4,
+          "name": "Iris Vos",
+          "team": "BKS Bielsko-Biała",
+          "matches": 4,
+          "sets": 15,
+          "pts": 66,
+          "perSet": "4,40"
+        },
+        {
+          "rank": 5,
           "name": "Natalia Mędrzyk",
           "team": "LOTTO Chemik",
           "matches": 4,
           "sets": 17,
           "pts": 65,
           "perSet": "3,82"
-        },
-        {
-          "rank": 3,
-          "name": "Karolina Drużkowska",
-          "team": "Sokół & Hagric",
-          "matches": 4,
-          "sets": 14,
-          "pts": 64,
-          "perSet": "4,57"
-        },
-        {
-          "rank": 4,
-          "name": "Antonia Stautz",
-          "team": "#VolleyWrocław",
-          "matches": 3,
-          "sets": 14,
-          "pts": 61,
-          "perSet": "4,36"
-        },
-        {
-          "rank": 5,
-          "name": "Julia Orzoł",
-          "team": "LOTTO Chemik",
-          "matches": 4,
-          "sets": 17,
-          "pts": 60,
-          "perSet": "3,53"
         }
       ]
     },
