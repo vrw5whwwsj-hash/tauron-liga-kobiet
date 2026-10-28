@@ -1476,7 +1476,7 @@
       "round": 4,
       "label": "4. kolejka",
       "window": "24.10–28.10.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r4m1",
@@ -1805,15 +1805,51 @@
           "home": "bud",
           "away": "rad",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              16
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "Budowlani — Radomka",
             "text": "PGE Budowlani Łódź – MOYA Radomka Radom, środa 17:30. Budowlani po Superpucharze, Radomka po porażce ze Stalą. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Radomka 3:1 u Budowlanych",
+            "titleEn": "Radomka win 3–1 at Budowlani",
+            "titleTr": "Radomka, Budowlani'de 3-1 kazandı",
+            "text": "PGE Budowlani Łódź – MOYA Radomka Radom 1:3 (25:16, 22:25, 20:25, 18:25). Sport Arena Łódź, 1610 widzów. Czas meczu 1:51. Transmisja: Polsat Sport 1.",
+            "textEn": "PGE Budowlani Łódź – MOYA Radomka Radom 1–3 (25:16, 22:25, 20:25, 18:25). 1,610 fans at Sport Arena Łódź. Match duration 1:51. Broadcast: Polsat Sport 1.",
+            "textTr": "PGE Budowlani Łódź – MOYA Radomka Radom 1-3 (25:16, 22:25, 20:25, 18:25). Sport Arena Łódź'da 1610 seyirci. Maç süresi 1:51. Yayın: Polsat Sport 1.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105008.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-28T19:10:00Z"
+          }
         },
         {
           "id": "r4m6",
@@ -1829,7 +1865,8 @@
             "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów, środa 19:00. DevelopRes lider tabeli, Stal po zwycięstwie w Radomiu. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport Extra 3"
         }
       ]
     },
