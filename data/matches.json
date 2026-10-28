@@ -1906,7 +1906,9 @@
           "score": null,
           "preview": {
             "headline": "ŁKS — Chemik",
-            "text": "ŁKS Commercecon Łódź — LOTTO Chemik Police, 30 października, 17:30."
+            "text": "ŁKS Commercecon Łódź – LOTTO Chemik Police, piątek 17:30. Hit kolejki. Chemik niepokonany, ŁKS mocny. Prognoza: Chemik 3:1 lub 3:2.",
+            "prediction": "3:1",
+            "confidence": "niska"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1921,7 +1923,9 @@
           "score": null,
           "preview": {
             "headline": "Pałac — Budowlani",
-            "text": "Metalkas Pałac Bydgoszcz — PGE Budowlani Łódź, 31 października, 12:00."
+            "text": "Metalkas Pałac Bydgoszcz – PGE Budowlani Łódź, sobota 12:00. Pałac po porażce w Opolu, Budowlani stabilni. Prognoza: Budowlani 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1936,7 +1940,9 @@
           "score": null,
           "preview": {
             "headline": "Wrocław — Opole",
-            "text": "#VolleyWrocław — UNI Opole, 31 października, 19:00."
+            "text": "#VolleyWrocław – UNI Opole, sobota 19:00. Wrocław słaby, Opole w gazie po 3:0 z Pałacem. Prognoza: Opole 3:0 lub 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           }
         },
         {
@@ -1950,7 +1956,9 @@
           "score": null,
           "preview": {
             "headline": "DevelopRes — BKS",
-            "text": "KS DevelopRes Rzeszów — BKS ZGO Bielsko-Biała, 1 listopada, 18:00."
+            "text": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała, niedziela 18:00. DevelopRes liderem formy. Prognoza: DevelopRes 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         },
@@ -1965,7 +1973,9 @@
           "score": null,
           "preview": {
             "headline": "Mogilno — Kalisz",
-            "text": "Sokół & Hagric Mogilno — NETLAND MKS Kalisz, 2 listopada, 20:30."
+            "text": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz, poniedziałek 20:30. Mogilno bez punktu, Kalisz właśnie wygrało 3:0. Prognoza: Kalisz 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           },
           "tv": "Polsat Sport 1"
         }
