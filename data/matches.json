@@ -1878,13 +1878,36 @@
           "home": "mie",
           "away": "dev",
           "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              19,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Stal — DevelopRes",
             "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów, środa 19:00. DevelopRes lider tabeli, Stal po zwycięstwie w Radomiu. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "recap": {
+            "title": "DevelopRes 3:0 ze Stalą w derbach Podkarpacia",
+            "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR w Mielcu. DevelopRes nie dał szans gospodyniom i wygrał bez straty seta. Czwarta kolejka zakończona.",
+            "textEn": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR, Mielec. DevelopRes won without dropping a set. Round 4 complete.",
+            "textTr": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3. DevelopRes set kaybetmeden kazandı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105009.html"
           }
         }
       ]
