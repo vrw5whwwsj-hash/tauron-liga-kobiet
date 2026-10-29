@@ -1904,10 +1904,38 @@
           },
           "recap": {
             "title": "DevelopRes 3:0 ze Stalą. MVP Łazowska",
-            "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR w Mielcu, 1270 widzów. MVP: Martyna Łazowska. DevelopRes nie dał szans gospodyniom. Czwarta kolejka zakończona.",
-            "textEn": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR, Mielec, 1270 spectators. MVP: Martyna Łazowska. DevelopRes won without dropping a set. Round 4 complete.",
-            "textTr": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3. DevelopRes set kaybetmeden kazandı.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105009.html"
+            "text": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR w Mielcu, 1270 widzów. MVP: Martyna Łazowska. DevelopRes nie dał szans gospodyniom. Skuteczność ataku 39%:47%, blok 5:8, asy 3:4. Stal: Adamczyk 14, Bączyńska 12, Sobiczewska 11. DevelopRes: Mims 13, Jansen 10, Bukovska 10. Trenerzy: Jakub Głuszak i Jelena Blagojević. Czwarta kolejka zakończona.",
+            "textEn": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0:3 (21:25, 19:25, 19:25). Hala MOSiR, Mielec, 1270 spectators. MVP: Martyna Łazowska. DevelopRes won without dropping a set. Attack 39% to 47%, blocks 5–8, aces 3–4. Stal: Adamczyk 14, Bączyńska 12, Sobiczewska 11. DevelopRes: Mims 13, Jansen 10, Bukovska 10. Coaches: Jakub Głuszak and Jelena Blagojević. Round 4 complete.",
+            "textTr": "ITA TOOLS Stal Mielec – KS DevelopRes Rzeszów 0-3 (21:25, 19:25, 19:25). MVP: Martyna Łazowska. DevelopRes set kaybetmeden kazandı. Hücum %39 - %47, blok 5-8, servis ası 3-4. Stal: Adamczyk 14, Bączyńska 12, Sobiczewska 11. DevelopRes: Mims 13, Jansen 10, Bukovska 10.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105009.html",
+            "homeTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 14
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 12
+              },
+              {
+                "n": "Weronika Sobiczewska",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 13
+              },
+              {
+                "n": "Laura Jansen",
+                "p": 10
+              },
+              {
+                "n": "Magdalena Bukovska",
+                "p": 10
+              }
+            ]
           },
           "mvp": "Martyna Łazowska"
         }
