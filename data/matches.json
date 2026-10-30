@@ -1945,7 +1945,7 @@
       "round": 5,
       "label": "5. kolejka",
       "window": "22.10–02.11.2026",
-      "status": "zaplanowana",
+      "status": "w trakcie",
       "matches": [
         {
           "id": "r5m1",
@@ -2038,15 +2038,59 @@
           "home": "lks",
           "away": "che",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              17
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              25,
+              22
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "ŁKS — Chemik",
             "text": "ŁKS Commercecon Łódź – LOTTO Chemik Police, piątek 17:30. Hit kolejki. Chemik niepokonany, ŁKS mocny. Prognoza: Chemik 3:1 lub 3:2.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Karla Antunović",
+          "recap": {
+            "title": "ŁKS 3:0 z Chemikiem. MVP Antunović",
+            "titleEn": "ŁKS beat Chemik 3–0. MVP Antunović",
+            "titleTr": "ŁKS Chemik'i 3-0 yendi. MVP Antunović",
+            "text": "ŁKS Commercecon Łódź – LOTTO Chemik Police 3:0 (25:17, 25:21, 25:22). MVP: Karla Antunović. Sport Arena, 563 widzów. Pierwsza porażka Chemika w sezonie. ŁKS co najmniej do niedzieli liderem tabeli. Najlepsze: Dambrink 15, Kokkonen 16 (ŁKS).",
+            "textEn": "ŁKS Commercecon Łódź – LOTTO Chemik Police 3–0 (25:17, 25:21, 25:22). MVP: Karla Antunović. 563 fans at Sport Arena. Chemik's first loss of the season. ŁKS lead the table at least until Sunday.",
+            "textTr": "ŁKS Commercecon Łódź – LOTTO Chemik Police 3-0 (25:17, 25:21, 25:22). MVP: Karla Antunović. Sport Arena'da 563 seyirci. Chemik'in sezondaki ilk yenilgisi. ŁKS en az pazar gününe kadar lider.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105017.html",
+            "homeTop": [
+              {
+                "n": "Suvi Kokkonen",
+                "p": 16
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 15
+              }
+            ],
+            "awayTop": []
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-10-30T19:05:00Z"
+          }
         },
         {
           "id": "r5m3",
@@ -2079,7 +2123,8 @@
             "text": "#VolleyWrocław – UNI Opole, sobota 19:00. Wrocław słaby, Opole w gazie po 3:0 z Pałacem. Prognoza: Opole 3:0 lub 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport Extra 3"
         },
         {
           "id": "r5m5",
