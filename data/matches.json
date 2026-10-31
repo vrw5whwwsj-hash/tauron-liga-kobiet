@@ -2190,13 +2190,50 @@
           "home": "wro",
           "away": "opo",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              21,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              14,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "Wrocław — Opole",
             "text": "#VolleyWrocław – UNI Opole, sobota 19:00. Wrocław słaby, Opole w gazie po 3:0 z Pałacem. Prognoza: Opole 3:0 lub 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "mvp": "Gabriela Makarowska-Kulej",
+          "recap": {
+            "title": "Opole 3:1 we Wrocławiu. MVP Makarowska-Kulej",
+            "text": "#VolleyWrocław – UNI Opole 1:3 (21:25, 22:25, 25:23, 14:25). Hala Orbita we Wrocławiu, 550 widzów. MVP: Gabriela Makarowska-Kulej (4 pkt: 2 asy, 2 bloki). Osłabiony kontuzjami Wrocław grał w ośmioosobowym składzie i urwał seta – w trzeciej partii obronił się przy 22:22. W Opolu zabrakło Zaroślińskiej-Król, zastąpiła ją Iga Kępa. Najwięcej punktów: Joanna Garncarz i Iga Kępa, po 17. Wrocław wciąż bez zwycięstwa.",
+            "textEn": "#VolleyWrocław – UNI Opole 1:3 (21:25, 22:25, 25:23, 14:25). Hala Orbita, Wrocław, 550 spectators. MVP: Gabriela Makarowska-Kulej (4 points: 2 aces, 2 blocks). Injury-hit Wrocław played with eight players and took the third set after holding on from 22:22. Opole were without Zaroślińska-Król, replaced by Iga Kępa. Top scorers: Joanna Garncarz and Iga Kępa, 17 each. Wrocław are still winless.",
+            "textTr": "#VolleyWrocław – UNI Opole 1-3 (21:25, 22:25, 25:23, 14:25). Hala Orbita, Wrocław, 550 seyirci. MVP: Gabriela Makarowska-Kulej (4 sayı: 2 servis ası, 2 blok). Sakatlıklarla boğuşan Wrocław sekiz oyuncuyla oynadı ve üçüncü seti aldı. En skorer: Joanna Garncarz ve Iga Kępa, 17'şer sayı. Wrocław hâlâ galibiyetsiz.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105015.html",
+            "homeTop": [],
+            "awayTop": []
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-31T21:40:00Z"
           }
         },
         {

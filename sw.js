@@ -1,4 +1,4 @@
-const CACHE = "tlk-2026-27-v111";
+const CACHE = "tlk-2026-27-v112";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(self.skipWaiting());
