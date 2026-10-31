@@ -2114,15 +2114,74 @@
           "home": "byd",
           "away": "bud",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              12,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Pałac — Budowlani",
             "text": "Metalkas Pałac Bydgoszcz – PGE Budowlani Łódź, sobota 12:00. Pałac po porażce w Opolu, Budowlani stabilni. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Katarzyna Wenerska",
+          "recap": {
+            "title": "Budowlani 3:0 w Bydgoszczy. MVP Wenerska",
+            "text": "Metalkas Pałac Bydgoszcz – PGE Budowlani Łódź 0:3 (19:25, 12:25, 17:25). Hala HSW Immobile Łuczniczka w Bydgoszczy, 730 widzów. MVP: Katarzyna Wenerska. Mistrzynie Polski bez straty seta, mecz trwał 68 minut. Skuteczność ataku 32%:47%, blok 9:14, asy 5:4. Pałac: Makarewicz 13, Pol 8, Hewelt 6. Budowlani: Storck 19, Kazała 14, Buterez 12. Trenerzy: Bartłomiej Łyczakowski i Maciej Biernat.",
+            "textEn": "Metalkas Pałac Bydgoszcz – PGE Budowlani Łódź 0:3 (19:25, 12:25, 17:25). HSW Immobile Łuczniczka, Bydgoszcz, 730 spectators. MVP: Katarzyna Wenerska. The champions won without dropping a set in 68 minutes. Attack 32% to 47%, blocks 9–14, aces 5–4. Pałac: Makarewicz 13, Pol 8, Hewelt 6. Budowlani: Storck 19, Kazała 14, Buterez 12. Coaches: Bartłomiej Łyczakowski and Maciej Biernat.",
+            "textTr": "Metalkas Pałac Bydgoszcz – PGE Budowlani Łódź 0-3 (19:25, 12:25, 17:25). MVP: Katarzyna Wenerska. Şampiyon Budowlani set vermeden kazandı. Hücum %32 - %47, blok 9-14, servis ası 5-4. Pałac: Makarewicz 13, Pol 8, Hewelt 6. Budowlani: Storck 19, Kazała 14, Buterez 12.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105014.html",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 13
+              },
+              {
+                "n": "Marta Pol",
+                "p": 8
+              },
+              {
+                "n": "Julia Hewelt",
+                "p": 6
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Maja Storck",
+                "p": 19
+              },
+              {
+                "n": "Aleksandra Kazała",
+                "p": 14
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 12
+              }
+            ]
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-10-31T14:30:00Z"
+          }
         },
         {
           "id": "r5m4",
