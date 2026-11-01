@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-01",
-  "phase": "po Mogilno–Chemik",
-  "note": "Rankingi po 5. kolejce (częściowo). Źródło: tauronligakobiet.pl/statsRanking.html",
-  "noteEn": "Official PLS rankings after completed round 3.",
+  "phase": "po kolejce 5. / aktualizacja rankingu",
+  "note": "Rankingi indywidualne po 5. kolejce (częściowo, źródło: tauronligakobiet.pl/statsRanking.html, tournament 54). Top 5 w każdej kategorii.",
+  "noteEn": "Official PLS individual rankings (top 5) after round 5. Source: tauronligakobiet.pl",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -230,53 +230,53 @@
       "players": [
         {
           "rank": 1,
-          "name": "Pola Nowakowska",
-          "team": "ŁKS Commercecon",
-          "matches": 3,
-          "sets": 5,
-          "perf": "56,52%",
-          "posPct": "65,22%",
-          "n": ""
-        },
-        {
-          "rank": 2,
-          "name": "Justyna Łysiak",
-          "team": "PGE Budowlani",
-          "matches": 3,
-          "sets": 11,
-          "perf": "42,11%",
-          "posPct": "63,16%",
-          "n": ""
-        },
-        {
-          "rank": 3,
           "name": "Marrit Jasper",
           "team": "KS DevelopRes",
           "matches": 3,
           "sets": 13,
           "perf": "43,64%",
           "posPct": "61,82%",
-          "n": ""
+          "n": "55"
         },
         {
-          "rank": 4,
+          "rank": 2,
+          "name": "Justyna Łysiak",
+          "team": "PGE Budowlani",
+          "matches": 5,
+          "sets": 18,
+          "perf": "45,45%",
+          "posPct": "60,61%",
+          "n": "66"
+        },
+        {
+          "rank": 3,
           "name": "Zuzanna Suska",
           "team": "KS DevelopRes",
           "matches": 3,
           "sets": 11,
           "perf": "25,00%",
           "posPct": "60,42%",
-          "n": ""
+          "n": "48"
+        },
+        {
+          "rank": 4,
+          "name": "Antonia Stautz",
+          "team": "#VolleyWrocław",
+          "matches": 5,
+          "sets": 21,
+          "perf": "37,30%",
+          "posPct": "57,14%",
+          "n": "126"
         },
         {
           "rank": 5,
-          "name": "Oliwia Ziółkowska",
-          "team": "Metalkas Pałac",
-          "matches": 2,
-          "sets": 4,
-          "perf": "30,00%",
-          "posPct": "60,00%",
-          "n": ""
+          "name": "Pola Nowakowska",
+          "team": "ŁKS Commercecon",
+          "matches": 5,
+          "sets": 10,
+          "perf": "37,50%",
+          "posPct": "56,25%",
+          "n": "48"
         }
       ]
     },
@@ -288,48 +288,48 @@
       "players": [
         {
           "rank": 1,
-          "name": "Agata Nowak",
-          "team": "LOTTO Chemik",
-          "matches": 4,
-          "sets": 17,
-          "digs": 76,
-          "perSet": "4,47"
+          "name": "Julia Mazur",
+          "team": "#VolleyWrocław",
+          "matches": 5,
+          "sets": 21,
+          "digs": 101,
+          "perSet": "4,81"
         },
         {
           "rank": 2,
           "name": "Krystyna Niemtseva",
           "team": "MOYA Radomka",
-          "matches": 4,
-          "sets": 17,
-          "digs": 74,
-          "perSet": "4,35"
+          "matches": 5,
+          "sets": 21,
+          "digs": 94,
+          "perSet": "4,48"
         },
         {
           "rank": 3,
+          "name": "Agata Nowak",
+          "team": "LOTTO Chemik",
+          "matches": 5,
+          "sets": 20,
+          "digs": 89,
+          "perSet": "4,45"
+        },
+        {
+          "rank": 4,
+          "name": "Justyna Łysiak",
+          "team": "PGE Budowlani",
+          "matches": 5,
+          "sets": 18,
+          "digs": 73,
+          "perSet": "4,06"
+        },
+        {
+          "rank": 5,
           "name": "Alika Lutsenko",
           "team": "ITA TOOLS Stal",
           "matches": 4,
           "sets": 17,
           "digs": 71,
           "perSet": "4,18"
-        },
-        {
-          "rank": 4,
-          "name": "Julia Mazur",
-          "team": "#VolleyWrocław",
-          "matches": 3,
-          "sets": 14,
-          "digs": 65,
-          "perSet": "4,64"
-        },
-        {
-          "rank": 5,
-          "name": "Magda Kubas",
-          "team": "Sokół & Hagric",
-          "matches": 4,
-          "sets": 12,
-          "digs": 51,
-          "perSet": "4,25"
         }
       ]
     },
@@ -381,8 +381,8 @@
         },
         {
           "rank": 1,
-          "name": "Wiktoria Makarewicz",
-          "team": "Metalkas Pałac",
+          "name": "Gabriela Makarowska-Kulej",
+          "team": "UNI Opole",
           "mvp": 2,
           "matches": "",
           "sets": "",
