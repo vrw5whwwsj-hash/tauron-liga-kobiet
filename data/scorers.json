@@ -71,8 +71,8 @@
           "matches": 5,
           "sets": 20,
           "att": 199,
-          "pts": 78,
-          "eff": "27,14%"
+          "eff": "27,14%",
+          "attack": 78
         },
         {
           "rank": 2,
@@ -81,8 +81,8 @@
           "matches": 5,
           "sets": 17,
           "att": 169,
-          "pts": 77,
-          "eff": "35,50%"
+          "eff": "35,50%",
+          "attack": 77
         },
         {
           "rank": 3,
@@ -91,8 +91,8 @@
           "matches": 5,
           "sets": 20,
           "att": 161,
-          "pts": 76,
-          "eff": "34,78%"
+          "eff": "34,78%",
+          "attack": 76
         },
         {
           "rank": 4,
@@ -101,8 +101,8 @@
           "matches": 5,
           "sets": 20,
           "att": 168,
-          "pts": 73,
-          "eff": "30,36%"
+          "eff": "30,36%",
+          "attack": 73
         },
         {
           "rank": 5,
@@ -111,8 +111,8 @@
           "matches": 5,
           "sets": 21,
           "att": 238,
-          "pts": 71,
-          "eff": "13,87%"
+          "eff": "13,87%",
+          "attack": 71
         }
       ]
     },
@@ -128,8 +128,8 @@
           "team": "PGE Budowlani",
           "matches": 5,
           "sets": 18,
-          "blk": 21,
-          "perSet": "1,17"
+          "perSet": "1,17",
+          "block": 21
         },
         {
           "rank": 2,
@@ -137,8 +137,8 @@
           "team": "MOYA Radomka",
           "matches": 5,
           "sets": 21,
-          "blk": 20,
-          "perSet": "0,95"
+          "perSet": "0,95",
+          "block": 20
         },
         {
           "rank": 3,
@@ -146,8 +146,8 @@
           "team": "BKS Bielsko-Biała",
           "matches": 4,
           "sets": 15,
-          "blk": 18,
-          "perSet": "1,20"
+          "perSet": "1,20",
+          "block": 18
         },
         {
           "rank": 4,
@@ -155,8 +155,8 @@
           "team": "ŁKS Łódź",
           "matches": 5,
           "sets": 21,
-          "blk": 18,
-          "perSet": "0,86"
+          "perSet": "0,86",
+          "block": 18
         },
         {
           "rank": 5,
@@ -164,8 +164,8 @@
           "team": "ŁKS Łódź",
           "matches": 5,
           "sets": 21,
-          "blk": 18,
-          "perSet": "0,86"
+          "perSet": "0,86",
+          "block": 18
         }
       ]
     },
@@ -181,8 +181,8 @@
           "team": "#VolleyWrocław",
           "matches": 5,
           "sets": 21,
-          "aces": 10,
-          "perSet": "0,48"
+          "perSet": "0,48",
+          "ace": 10
         },
         {
           "rank": 2,
@@ -190,8 +190,8 @@
           "team": "LOTTO Chemik",
           "matches": 5,
           "sets": 20,
-          "aces": 10,
-          "perSet": "0,50"
+          "perSet": "0,50",
+          "ace": 10
         },
         {
           "rank": 3,
@@ -199,8 +199,8 @@
           "team": "MOYA Radomka",
           "matches": 5,
           "sets": 21,
-          "aces": 7,
-          "perSet": "0,33"
+          "perSet": "0,33",
+          "ace": 7
         },
         {
           "rank": 4,
@@ -208,8 +208,8 @@
           "team": "#VolleyWrocław",
           "matches": 5,
           "sets": 21,
-          "aces": 7,
-          "perSet": "0,33"
+          "perSet": "0,33",
+          "ace": 7
         },
         {
           "rank": 5,
@@ -217,8 +217,8 @@
           "team": "UNI Opole",
           "matches": 5,
           "sets": 19,
-          "aces": 7,
-          "perSet": "0,37"
+          "perSet": "0,37",
+          "ace": 7
         }
       ]
     },
