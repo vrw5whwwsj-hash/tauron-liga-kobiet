@@ -2309,12 +2309,46 @@
           "mvp": "Alicja Grabka",
           "recap": {
             "title": "DevelopRes 3:1 z BKS. MVP Grabka",
-            "text": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3:1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie w Rzeszowie, 1562 widzów. MVP: Alicja Grabka. Gospodynie wygrały dwa pierwsze sety, BKS odpowiedział w trzecim, ale czwarta partia należała już wyraźnie do Rzeszowa. Mecz trwał 101 minut. DevelopRes z 14 punktami wychodzi na prowadzenie w tabeli.",
-            "textEn": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3:1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie, Rzeszów, 1562 spectators. MVP: Alicja Grabka. The hosts took the first two sets, BKS hit back in the third, but Rzeszów dominated the fourth. The match lasted 101 minutes. DevelopRes move top of the table with 14 points.",
-            "textTr": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3-1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie, Rzeszów, 1562 seyirci. MVP: Alicja Grabka. Ev sahibi ilk iki seti aldı, BKS üçüncü seti kazandı, dördüncü sette Rzeszów üstündü. DevelopRes 14 puanla liderliğe yükseldi.",
+            "text": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3:1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie w Rzeszowie, 1562 widzów. MVP: Alicja Grabka. Gospodynie wygrały dwa pierwsze sety, BKS odpowiedział w trzecim, ale czwarta partia należała już wyraźnie do Rzeszowa. Mecz trwał 101 minut. DevelopRes z 14 punktami wychodzi na prowadzenie w tabeli. Najwięcej punktów: Taylor Mims 22. Skuteczność ataku 53%:37%, blok 11:14, asy 8:3. DevelopRes: Mims 22, Kotar 14, Centka-Tietianiec 14, Jansen 11. BKS: Vos 16, Wasilewska 12, Piotrowska 10, Miilen 10. Trenerzy: Jelena Blagojević i Bartłomiej Piekarczyk.",
+            "textEn": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3:1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie, Rzeszów, 1562 spectators. MVP: Alicja Grabka. The hosts took the first two sets, BKS hit back in the third, but Rzeszów dominated the fourth. The match lasted 101 minutes. DevelopRes move top of the table with 14 points. Top scorer: Taylor Mims with 22. Attack 53% to 37%, blocks 11–14, aces 8–3. DevelopRes: Mims 22, Kotar 14, Centka-Tietianiec 14, Jansen 11. BKS: Vos 16, Wasilewska 12, Piotrowska 10, Miilen 10. Coaches: Jelena Blagojević and Bartłomiej Piekarczyk.",
+            "textTr": "KS DevelopRes Rzeszów – BKS ZGO Bielsko-Biała 3-1 (25:21, 25:21, 23:25, 25:16). Hala Podpromie, Rzeszów, 1562 seyirci. MVP: Alicja Grabka. Ev sahibi ilk iki seti aldı, BKS üçüncü seti kazandı, dördüncü sette Rzeszów üstündü. DevelopRes 14 puanla liderliğe yükseldi. En skorer: Taylor Mims, 22 sayı. Hücum %53 - %37, blok 11-14, servis ası 8-3. DevelopRes: Mims 22, Kotar 14, Centka-Tietianiec 14, Jansen 11. BKS: Vos 16, Wasilewska 12, Piotrowska 10, Miilen 10.",
             "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105018.html",
-            "homeTop": [],
-            "awayTop": []
+            "homeTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 22
+              },
+              {
+                "n": "Uliana Kotar",
+                "p": 14
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 14
+              },
+              {
+                "n": "Laura Jansen",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 16
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 12
+              },
+              {
+                "n": "Martyna Piotrowska",
+                "p": 10
+              },
+              {
+                "n": "Kristiine Miilen",
+                "p": 10
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
