@@ -2365,15 +2365,46 @@
           "home": "mog",
           "away": "kal",
           "venue": "Mogilno",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              26,
+              28
+            ],
+            [
+              25,
+              27
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Mogilno — Kalisz",
             "text": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz, poniedziałek 2.11, 20:30. Mogilno bez punktu (0 pkt, 2:12 sety), Kalisz po pierwszym zwycięstwie w sezonie (3:0 z Wrocławiem). Prognoza: Kalisz 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Sonia Kubacka",
+          "recap": {
+            "title": "Kalisz 3:0 w Mogilnie. MVP Kubacka",
+            "text": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0:3 (26:28, 25:27, 17:25). Hala Mogilno Sport, 983 widzów. MVP: Sonia Kubacka. Dwa pierwsze sety były zacięte i rozstrzygnęły się na przewagi, oba na korzyść Kalisza. W trzecim przyjezdne odskoczyły i pewnie zamknęły mecz. Spotkanie trwało 94 minuty. Kalisz odnosi drugie zwycięstwo w sezonie, Mogilno wciąż bez punktu.",
+            "textEn": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0:3 (26:28, 25:27, 17:25). Mogilno Sport hall, 983 spectators. MVP: Sonia Kubacka. The first two sets were tight and both went to Kalisz after extra points. In the third the visitors pulled clear and closed out the match comfortably. The match lasted 94 minutes. Kalisz claim their second win of the season, while Mogilno are still without a point.",
+            "textTr": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0-3 (26:28, 25:27, 17:25). Mogilno Sport salonu, 983 seyirci. MVP: Sonia Kubacka. İlk iki set çekişmeli geçti ve uzatmada Kalisz'in oldu. Üçüncü sette konuk takım farkı açarak maçı rahat kapattı. Kalisz sezonun ikinci galibiyetini aldı, Mogilno hâlâ puansız.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105016.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-11-02T21:35:00Z"
+          }
         }
       ]
     },
