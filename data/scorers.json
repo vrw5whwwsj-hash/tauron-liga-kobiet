@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-01",
-  "phase": "po Mogilno–Chemik",
-  "note": "Rankingi po 5. kolejce (częściowo). Źródło: tauronligakobiet.pl/statsRanking.html",
-  "noteEn": "Official PLS rankings after completed round 3.",
+  "updated": "2026-11-02",
+  "phase": "po DevelopRes–BKS",
+  "note": "Rankingi po 5. kolejce (częściowo, bez Mogilno–Kalisz). Źródło: tauronligakobiet.pl/statsRanking.html",
+  "noteEn": "Official PLS rankings after DevelopRes–BKS.",
   "source": "https://www.tauronligakobiet.pl/statsRanking/tournament_1/54.html",
   "rankings": [
     {
@@ -40,21 +40,21 @@
         },
         {
           "rank": 4,
+          "name": "Iris Vos",
+          "team": "BKS Bielsko-Biała",
+          "matches": 5,
+          "sets": 19,
+          "pts": 82,
+          "perSet": "4,32"
+        },
+        {
+          "rank": 5,
           "name": "Antonia Stautz",
           "team": "#VolleyWrocław",
           "matches": 5,
           "sets": 21,
           "pts": 81,
           "perSet": "3,86"
-        },
-        {
-          "rank": 5,
-          "name": "Suvi Kokkonen",
-          "team": "ŁKS Łódź",
-          "matches": 5,
-          "sets": 20,
-          "pts": 80,
-          "perSet": "4,00"
         }
       ]
     },
