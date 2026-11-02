@@ -1945,7 +1945,7 @@
       "round": 5,
       "label": "5. kolejka",
       "window": "22.10–02.11.2026",
-      "status": "zaplanowana",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r5m1",
@@ -2365,15 +2365,76 @@
           "home": "mog",
           "away": "kal",
           "venue": "Mogilno",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              26,
+              28
+            ],
+            [
+              25,
+              27
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Mogilno — Kalisz",
             "text": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz, poniedziałek 2.11, 20:30. Mogilno bez punktu (0 pkt, 2:12 sety), Kalisz po pierwszym zwycięstwie w sezonie (3:0 z Wrocławiem). Prognoza: Kalisz 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Sonia Kubacka",
+          "recap": {
+            "title": "Kalisz 3:0 w Mogilnie. MVP Kubacka",
+            "text": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0:3 (26:28, 25:27, 17:25). Mogilno Sport, 983 widzów. MVP: Sonia Kubacka (8/13 w ataku, 1 as, 2 bloki). Gospodynie prowadziły w dwóch pierwszych setach, ale Kalisz wygrał oba na przewagi, za każdym razem kończąc seta blokiem. W trzeciej partii seria przy zagrywce Zuzanny Kuligowskiej (od 13:12 do 13:18) rozstrzygnęła mecz. Blok 3:14. Mecz trwał 94 minuty. Mogilno: Drużkowska 13, Świętoń 13, Durul 11. Kalisz: Vulin 16, Kubacka 11, Kuligowska 11. Drugie zwycięstwo beniaminka w sezonie.",
+            "titleEn": "Kalisz win 3–0 in Mogilno. MVP Kubacka",
+            "titleTr": "Kalisz, Mogilno'da 3-0 kazandı. MVP Kubacka",
+            "textEn": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0–3 (26:28, 25:27, 17:25). Mogilno Sport, 983 spectators. MVP: Sonia Kubacka (8/13 in attack, 1 ace, 2 blocks). The hosts led in the first two sets, but Kalisz won both in extra points, closing each with a block. In the third set a run on Zuzanna Kuligowska's serve (from 13:12 to 13:18) decided the match. Blocks 3–14. The match lasted 94 minutes. Mogilno: Drużkowska 13, Świętoń 13, Durul 11. Kalisz: Vulin 16, Kubacka 11, Kuligowska 11. Second win of the season for the newcomers.",
+            "textTr": "Sokół & Hagric Mogilno – NETLAND MKS Kalisz 0-3 (26:28, 25:27, 17:25). Salon: Mogilno Sport, 983 seyirci. MVP: Sonia Kubacka (hücumda 8/13, 1 servis ası, 2 blok). Ev sahibi ilk iki sette öndeydi, ancak Kalisz iki seti de uzatmada bloklarla kazandı. Üçüncü sette Zuzanna Kuligowska'nın servisleriyle gelen seri (13:12'den 13:18'e) maçı belirledi. Blok 3-14. Maç 94 dakika sürdü. Mogilno: Drużkowska 13, Świętoń 13, Durul 11. Kalisz: Vulin 16, Kubacka 11, Kuligowska 11.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105016.html",
+            "homeTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 13
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 13
+              },
+              {
+                "n": "Melis Durul",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 16
+              },
+              {
+                "n": "Sonia Kubacka",
+                "p": 11
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 11
+              }
+            ]
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-02T22:20:00Z"
+          }
         }
       ]
     },
