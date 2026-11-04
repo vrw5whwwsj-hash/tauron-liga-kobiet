@@ -29,13 +29,16 @@ const TV_MAP = {
   r5m6: "Polsat Sport 1",
   r6m1: "Polsat Sport 2",
   r6m2: "Polsat Sport 1",
-  r6m3: "Polsat Sport 1"
+  r6m3: "Polsat Sport 1",
+  r6m4: "Polsat Sport 1",
+  r6m5: "Polsat Sport 1",
+  r6m6: "Polsat Sport 1"
 };
 function tvLine(m) {
   const ch = (m && (m.tv || TV_MAP[m.id])) || "";
   if (!ch) return "";
   const label = typeof t === "function" ? t("tv") : "TV";
-  return `<div class="pred">${label}: ${ch}</div>`;
+  return `<div class=\"pred\">${label}: ${ch}</div>`;
 }
 I18N.pl.tv = "TV";
 I18N.en.tv = "TV";
