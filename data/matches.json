@@ -2451,15 +2451,48 @@
           "home": "rad",
           "away": "bks",
           "venue": "Radom",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              28,
+              26
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Radomka — BKS",
             "text": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała, czwartek 17:30. Radomka (6. miejsce, 9 pkt) wraca do gry po wygranej 3:1 u mistrzyń Polski w Łodzi; ciężar ataku dzielą Aleksandra Dudek (dwukrotna MVP), Marta Fedyk, Weronika Gierszewska i Kateryna Zhylinska, ale u siebie przegrała już ze Stalą i męczyła się z Wrocławiem. BKS (9., 5 pkt) przegrał trzy z czterech ostatnich meczów i wciąż gra bez Kertu Laak (zerwane więzadła w kolanie); liderkami są Iris Vos i Iga Wasilewska, a w Rzeszowie Martyna Piotrowska zanotowała 7 bloków. W fazie zasadniczej poprzedniego sezonu BKS wygrał oba mecze po 3:1. Prognoza: Radomka 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 2"
+          "tv": "Polsat Sport 2",
+          "mvp": "Kornelia Garita",
+          "recap": {
+            "title": "Radomka 3:0 z BKS. MVP Garita",
+            "text": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). ENEA RCS w Radomiu, 650 widzów. MVP: Kornelia Garita. W dwóch pierwszych setach BKS zaczynał lepiej (5:9, 6:9), ale Radomka szybko odrabiała straty i przejmowała inicjatywę, mocno punktując blokiem. W trzeciej partii bielszczanki wyrównały na 19:19, a o wyniku zdecydowała gra na przewagi, którą gospodynie zakończyły punktowym blokiem. Mecz trwał 90 minut. Czwarte zwycięstwo Radomki w sezonie, dla BKS czwarta porażka.",
+            "titleEn": "Radomka beat BKS 3–0. MVP Garita",
+            "titleTr": "Radomka, BKS'yi 3-0 yendi. MVP Garita",
+            "textEn": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3–0 (25:19, 25:20, 28:26). ENEA RCS, Radom, 650 spectators. MVP: Kornelia Garita. BKS started better in the first two sets (5:9, 6:9), but Radomka quickly recovered and took control, scoring heavily with the block. In the third set the visitors levelled at 19:19, and the match was decided in extra points, closed by a home block. The match lasted 90 minutes. Radomka's fourth win of the season, BKS's fourth defeat.",
+            "textTr": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3-0 (25:19, 25:20, 28:26). Salon: ENEA RCS, Radom, 650 seyirci. MVP: Kornelia Garita. BKS ilk iki sete daha iyi başladı (5:9, 6:9), ancak Radomka farkı hızla kapatıp blokla oyunu kontrol etti. Üçüncü sette konuk ekip 19:19'da eşitledi; uzatmaya giden seti ev sahibi blokla bitirdi. Maç 90 dakika sürdü. Radomka'nın sezondaki dördüncü galibiyeti, BKS'nin dördüncü yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-05T18:35:00Z"
+          }
         },
         {
           "id": "r6m2",
