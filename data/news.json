@@ -1,1 +1,16 @@
-PLACEHOLDER - too large, will use alternative
+{
+  "updated": "2026-11-06T08:30:00+01:00",
+  "items": [
+    {
+      "d": "2026-11-05",
+      "t": "Czwarta wygrana Radomki i awans na podium",
+      "te": "Radomka's fourth win and climb to the podium",
+      "tt": "Radomka'nın dördüncü galibiyeti ve podyuma yükselişi",
+      "b": "MOYA Radomka Radom pokonała BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). Gospodynie dominowały w bloku (15:6), MVP Kornelia Garita. Radomka awansowała na trzecie miejsce w tabeli.",
+      "be": "MOYA Radomka Radom beat BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). Home side dominated in blocks (15–6), MVP Kornelia Garita. Radomka climbed to third in the table.",
+      "bt": "MOYA Radomka Radom, BKS ZGO Bielsko-Biała'yı 3-0 (25:19, 25:20, 28:26) yendi. Ev sahibi blokta 15-6 üstünlük kurdu, MVP Kornelia Garita. Radomka tabloya üçüncü sıraya yükseldi.",
+      "u": "https://www.tauronligakobiet.pl/news,czwarta-wygrana-moya-radomki-radom-i-awans-na-podium-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
