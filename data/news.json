@@ -1,1 +1,38 @@
-$(cat /tmp/news_updated.json)
+{
+  "updated": "2026-11-06T20:00:00+01:00",
+  "items": [
+    {
+      "d": "2026-11-06",
+      "t": "DevelopRes 3:0 z Chemikiem. MVP Mims",
+      "te": "DevelopRes beat Chemik 3:0. MVP Mims",
+      "tt": "DevelopRes Chemik'i 3:0 yendi. MVP Mims",
+      "b": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims. Szóste zwycięstwo DevelopResu w sezonie, wciąż niepokonani. Mecz zakończony w 1:12.",
+      "be": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims. DevelopRes's sixth win of the season, still unbeaten. Match finished in 1:12.",
+      "bt": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). MVP: Taylor Mims. DevelopRes'in sezondaki altıncı galibiyeti, hâlâ yenilgisiz.",
+      "u": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-06",
+      "t": "ŁKS poznał rywala w CEV Challenge Cup: DH Volley Baku",
+      "te": "ŁKS draw DH Volley Baku in CEV Challenge Cup",
+      "tt": "ŁKS CEV Challenge Cup'ta DH Volley Baku ile eşleşti",
+      "b": "ŁKS Commercecon Łódź w 1/16 finału CEV Challenge Cup zmierzy się z DH Volley Baku. Pierwszy mecz w Baku, rewanż 2 grudnia o 18:00 w Sport Arenie w Łodzi. W składzie rywala m.in. Natalia Gajewska, Rozalia Hnatyszyn, Polina Rahimova.",
+      "be": "ŁKS Commercecon Łódź face DH Volley Baku in the CEV Challenge Cup Round of 32. First leg in Baku, return match 2 December at 18:00 in Sport Arena Łódź. Opponents include Natalia Gajewska, Rozalia Hnatyszyn, Polina Rahimova.",
+      "bt": "ŁKS Commercecon Łódź, CEV Challenge Cup 1/16 finalinde DH Volley Baku ile karşılaşacak. İlk maç Bakü'de, rövanş 2 Aralık 18:00'de Łódź'da.",
+      "u": "https://www.tauronligakobiet.pl/news,zespol-z-azerbejdzanu-pucharowym-rywalem-lks-u-commercecon.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-05",
+      "t": "Dominik Żukowski przejmuje obowiązki trenera #VolleyWrocław",
+      "te": "Dominik Żukowski takes over as #VolleyWrocław coach",
+      "tt": "Dominik Żukowski #VolleyWrocław'un teknik direktörlüğünü üstleniyor",
+      "b": "Po zakończeniu współpracy z Wojciechem Kurczyńskim (4.11, niesatysfakcjonujące wyniki i sytuacja kadrowa/kontuzje) obowiązki pierwszego trenera #VolleyWrocław czasowo przejmuje dotychczasowy asystent Dominik Żukowski. Pierwszy mecz: sobota 7.11 z Metalkas Pałacem Bydgoszcz.",
+      "be": "After ending cooperation with Wojciech Kurczyński (4 Nov, unsatisfactory results and squad situation/injuries), assistant Dominik Żukowski temporarily takes over as head coach of #VolleyWrocław. First match: Saturday 7 Nov vs Metalkas Pałac Bydgoszcz.",
+      "bt": "Wojciech Kurczyński ile işbirliği sona erdikten sonra (4 Kasım), Dominik Żukowski #VolleyWrocław'un geçici baş antrenörü oldu. İlk maç: 7 Kasım Pałac Bydgoszcz.",
+      "u": "https://www.tauronligakobiet.pl/news,dominik-zukowski-przejmuje-obowiazki-trenera-volleywroclaw.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
