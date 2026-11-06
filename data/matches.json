@@ -2601,7 +2601,7 @@
         {
           "id": "r7m2",
           "date": "2026-11-14",
-          "time": null,
+          "time": "12:00",
           "home": "lks",
           "away": "opo",
           "venue": "Łódź",
@@ -2615,7 +2615,7 @@
         {
           "id": "r7m3",
           "date": "2026-11-14",
-          "time": null,
+          "time": "19:00",
           "home": "dev",
           "away": "kal",
           "venue": "Rzeszów",
@@ -2629,7 +2629,7 @@
         {
           "id": "r7m4",
           "date": "2026-11-15",
-          "time": null,
+          "time": "20:30",
           "home": "wro",
           "away": "bud",
           "venue": "Wrocław",
@@ -2643,7 +2643,7 @@
         {
           "id": "r7m5",
           "date": "2026-11-16",
-          "time": null,
+          "time": "17:30",
           "home": "mog",
           "away": "byd",
           "venue": "Mogilno",
@@ -2657,7 +2657,7 @@
         {
           "id": "r7m6",
           "date": "2026-11-16",
-          "time": null,
+          "time": "12:00",
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
