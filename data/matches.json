@@ -2484,7 +2484,39 @@
             "titleTr": "Radomka, BKS'yi 3-0 yendi. MVP Garita",
             "textEn": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3–0 (25:19, 25:20, 28:26). ENEA RCS, Radom, 650 spectators. MVP: Kornelia Garita. BKS started better in the first two sets (5:9, 6:9), but Radomka quickly recovered and took control, scoring heavily with the block. In the third set the visitors levelled at 19:19, and the match was decided in extra points, closed by a home block. The match lasted 90 minutes. Radomka's fourth win of the season, BKS's fourth defeat.",
             "textTr": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3-0 (25:19, 25:20, 28:26). Salon: ENEA RCS, Radom, 650 seyirci. MVP: Kornelia Garita. BKS ilk iki sete daha iyi başladı (5:9, 6:9), ancak Radomka farkı hızla kapatıp blokla oyunu kontrol etti. Üçüncü sette konuk ekip 19:19'da eşitledi; uzatmaya giden seti ev sahibi blokla bitirdi. Maç 90 dakika sürdü. Radomka'nın sezondaki dördüncü galibiyeti, BKS'nin dördüncü yenilgisi.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html"
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html",
+            "homeTop": [
+              {
+                "n": "Weronika Gierszewska",
+                "p": 17
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 10
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 10
+              },
+              {
+                "n": "Kornelia Garita",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Martyna Podlaska",
+                "p": 12
+              },
+              {
+                "n": "Martyna Borowczak",
+                "p": 10
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 7
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
@@ -2501,15 +2533,48 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:0 w Szczecinie. MVP Mims",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims. Goście wygrali pewnie w trzech setach i pozostali niepokonani na czele tabeli; Chemik zanotował drugą porażkę w sezonie.",
+            "titleEn": "DevelopRes win 3–0 in Szczecin. MVP Mims",
+            "titleTr": "DevelopRes Szczecin'de 3-0 kazandı. MVP Mims",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims. The visitors won comfortably in three sets and stay unbeaten atop the table; Chemik recorded their second defeat of the season.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims. Misafirler üç sette net kazandı ve liderlikte yenilgisiz kaldı; Chemik sezonun ikinci yenilgisini aldı.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-06T20:15:00+01:00"
+          }
         },
         {
           "id": "r6m3",
@@ -2542,7 +2607,8 @@
             "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec, sobota 12:00. Mistrzynie Polski po pewnym 3:0 w Bydgoszczy (68 minut, Maja Storck 19 pkt, MVP Katarzyna Wenerska), choć w tym sezonie u siebie przegrały oba mecze ligowe, z ŁKS i Radomką. Stal ma 4 pkt i 10. miejsce, ale ostatni wyjazd wygrała 3:2 w Radomiu po 27 pkt MVP Weroniki Sobiczewskiej i 20 Anny Bączyńskiej. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r6m5",
@@ -2558,7 +2624,8 @@
             "text": "Metalkas Pałac Bydgoszcz – #VolleyWrocław, sobota 20:30. Pałac przegrał dwa ostatnie mecze po 0:3 (z Opolem i Budowlanymi); liderką pozostaje Wiktoria Makarewicz, dwukrotna MVP, wspierana przez Martę Pol i Emilię Pinczewską. Wrocław jest bez zwycięstwa (0–5, 2 pkt) i nadal bez Marleny Kowalewskiej i Anastazji Hryszczuk; z Opolem grał w ośmioosobowym składzie, ale urwał seta, a Joanna Garncarz zdobyła 17 pkt. Prognoza: Pałac 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r6m6",
@@ -2574,7 +2641,8 @@
             "text": "UNI Opole – Sokół & Hagric Mogilno, poniedziałek 20:30. Opole (4., 10 pkt) wygrało dwa mecze z rzędu, ostatnio 3:1 we Wrocławiu bez Katarzyny Zaroślińskiej-Król, którą zastąpiła Iga Kępa (17 pkt); MVP została Gabriela Makarowska-Kulej (6 bloków). Mogilno wciąż bez punktu (0–5, sety 2:15), choć z Kaliszem przegrało dwa pierwsze sety na przewagi; najwięcej punktów zdobywają Karolina Drużkowska, Sandra Świętoń i Melis Durul. Prognoza: Opole 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -2601,7 +2669,7 @@
         {
           "id": "r7m2",
           "date": "2026-11-14",
-          "time": null,
+          "time": "12:00",
           "home": "lks",
           "away": "opo",
           "venue": "Łódź",
@@ -2615,7 +2683,7 @@
         {
           "id": "r7m3",
           "date": "2026-11-14",
-          "time": null,
+          "time": "19:00",
           "home": "dev",
           "away": "kal",
           "venue": "Rzeszów",
@@ -2629,7 +2697,7 @@
         {
           "id": "r7m4",
           "date": "2026-11-15",
-          "time": null,
+          "time": "20:30",
           "home": "wro",
           "away": "bud",
           "venue": "Wrocław",
@@ -2643,7 +2711,7 @@
         {
           "id": "r7m5",
           "date": "2026-11-16",
-          "time": null,
+          "time": "17:30",
           "home": "mog",
           "away": "byd",
           "venue": "Mogilno",
@@ -2657,7 +2725,7 @@
         {
           "id": "r7m6",
           "date": "2026-11-16",
-          "time": null,
+          "time": "20:30",
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
