@@ -1,6 +1,50 @@
 {
-  "updated": "2026-11-05T22:05:00+01:00",
+  "updated": "2026-11-06T08:30:00+01:00",
   "items": [
+    {
+      "d": "2026-11-05",
+      "t": "Czwarta wygrana Radomki i awans na podium",
+      "te": "Radomka's fourth win and climb to the podium",
+      "tt": "Radomka'nın dördüncü galibiyeti ve podyuma yükselişi",
+      "b": "MOYA Radomka Radom pokonała BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). Gospodynie dominowały w bloku (15:6), MVP Kornelia Garita. Radomka awansowała na trzecie miejsce w tabeli.",
+      "be": "MOYA Radomka Radom beat BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). Home side dominated in blocks (15–6), MVP Kornelia Garita. Radomka climbed to third in the table.",
+      "bt": "MOYA Radomka Radom, BKS ZGO Bielsko-Biała'yı 3-0 (25:19, 25:20, 28:26) yendi. Ev sahibi blokta 15-6 üstünlük kurdu, MVP Kornelia Garita. Radomka tabloya üçüncü sıraya yükseldi.",
+      "u": "https://www.tauronligakobiet.pl/news,czwarta-wygrana-moya-radomki-radom-i-awans-na-podium-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-05",
+      "t": "Przed nami 6. kolejka TAURON Ligi Kobiet",
+      "te": "Round 6 of TAURON Liga Kobiet ahead",
+      "tt": "TAURON Liga Kobiet 6. hafta önümüzde",
+      "b": "Po pięciu kolejkach DevelopRes lideruje niepokonany, ŁKS i Chemik tuż za. 6. kolejka: 5.11 Radomka–BKS 17:30, 6.11 Chemik–DevelopRes 17:30 i Kalisz–ŁKS 20:30, 7.11 Budowlani–Stal 12:00 i Pałac–Wrocław 20:30, 9.11 Opole–Mogilno 20:30.",
+      "be": "After five rounds DevelopRes remain unbeaten at the top, ŁKS and Chemik close behind. Round 6: 5.11 Radomka–BKS 17:30, 6.11 Chemik–DevelopRes 17:30 and Kalisz–ŁKS 20:30, 7.11 Budowlani–Stal 12:00 and Pałac–Wrocław 20:30, 9.11 Opole–Mogilno 20:30.",
+      "bt": "Beş haftadan sonra DevelopRes yenilgisiz lider, ŁKS ve Chemik hemen arkasında. 6. hafta: 5.11 Radomka–BKS 17:30, 6.11 Chemik–DevelopRes 17:30 ve Kalisz–ŁKS 20:30, 7.11 Budowlani–Stal 12:00 ve Pałac–Wrocław 20:30, 9.11 Opole–Mogilno 20:30.",
+      "u": "https://www.tauronligakobiet.pl/news,w-najblizszy-weekend-kibicow-kobiecej-siatkowki-czekaja-kolejne-emocje-przed-nami-6-juz-kolejka-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-05",
+      "t": "Dominik Żukowski przejmuje obowiązki trenera #VolleyWrocław",
+      "te": "Dominik Żukowski takes over as #VolleyWrocław coach",
+      "tt": "Dominik Żukowski #VolleyWrocław antrenörlüğünü devraldı",
+      "b": "Po zwolnieniu Wojciecha Kurczyńskiego obowiązki pierwszego trenera #VolleyWrocław czasowo przejmuje dotychczasowy asystent Dominik Żukowski. Pierwszy mecz poprowadzi w sobotę w Bydgoszczy.",
+      "be": "After Wojciech Kurczyński's dismissal, assistant Dominik Żukowski temporarily takes over as head coach of #VolleyWrocław. He will lead the team on Saturday in Bydgoszcz.",
+      "bt": "Wojciech Kurczyński'nin görevden alınmasının ardından asistan Dominik Żukowski geçici olarak #VolleyWrocław baş antrenörlüğünü üstlendi. Cumartesi Bydgoszcz'ta takımı yönetecek.",
+      "u": "https://www.tauronligakobiet.pl/news,dominik-zukowski-przejmuje-obowiazki-trenera-volleywroclaw.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-04",
+      "t": "Zmiana trenera w #VolleyWrocław. Kurczyński zwolniony",
+      "te": "Coach change at #VolleyWrocław. Kurczyński dismissed",
+      "tt": "#VolleyWrocław'ta antrenör değişikliği. Kurczyński görevden alındı",
+      "b": "Wojciech Kurczyński przestał pełnić funkcję pierwszego trenera #VolleyWrocław z dniem 4 listopada. Powodem niesatysfakcjonujące wyniki i problemy kadrowe. Drużyna po pięciu kolejkach ma 2 punkty.",
+      "be": "Wojciech Kurczyński ceased to be head coach of #VolleyWrocław on 4 November due to unsatisfactory results and squad issues. The team has 2 points after five rounds.",
+      "bt": "Wojciech Kurczyński, yetersiz sonuçlar ve kadro sorunları nedeniyle 4 Kasım'da #VolleyWrocław baş antrenörlüğünden ayrıldı. Takım beş haftadan sonra 2 puanda.",
+      "u": "https://www.tauronligakobiet.pl/news,zmiana-trenera-w-druzynie-volleywroclaw.html",
+      "un": "TAURON Liga Kobiet"
+    },
     {
       "d": "2026-11-05",
       "t": "Radomka 3:0 z BKS. MVP Garita",
