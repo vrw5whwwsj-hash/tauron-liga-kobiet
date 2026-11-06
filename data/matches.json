@@ -2479,19 +2479,51 @@
           "mvp": "Kornelia Garita",
           "recap": {
             "title": "Radomka 3:0 z BKS. MVP Garita",
-            "text": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). ENEA RCS w Radomiu, 650 widzów. MVP: Kornelia Garita. W dwóch pierwszych setach BKS zaczynał lepiej (5:9, 6:9), ale Radomka szybko odrabiała straty i przejmowała inicjatywę, mocno punktując blokiem. W trzeciej partii bielszczanki wyrównały na 19:19, a o wyniku zdecydowała gra na przewagi, którą gospodynie zakończyły punktowym blokiem. Mecz trwał 90 minut. Czwarte zwycięstwo Radomki w sezonie, dla BKS czwarta porażka.",
+            "text": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3:0 (25:19, 25:20, 28:26). ENEA RCS w Radomiu, 650 widzów. MVP: Kornelia Garita (10 pkt). Skuteczność ataku 42%:40%, blok 15:6, asy 5:5. W dwóch pierwszych setach BKS zaczynał lepiej (5:9, 6:9), ale Radomka szybko odrabiała straty i przejmowała inicjatywę, mocno punktując blokiem. W trzeciej partii bielszczanki wyrównały na 19:19, a o wyniku zdecydowała gra na przewagi, którą gospodynie zakończyły punktowym blokiem. Mecz trwał 90 minut. Radomka: Gierszewska 17, Zhylinska 10, Fedyk 10, Garita 10. BKS: Podlaska 12, Borowczak 10, Wasilewska 7. Czwarte zwycięstwo Radomki w sezonie, dla BKS czwarta porażka.",
             "titleEn": "Radomka beat BKS 3–0. MVP Garita",
             "titleTr": "Radomka, BKS'yi 3-0 yendi. MVP Garita",
-            "textEn": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3–0 (25:19, 25:20, 28:26). ENEA RCS, Radom, 650 spectators. MVP: Kornelia Garita. BKS started better in the first two sets (5:9, 6:9), but Radomka quickly recovered and took control, scoring heavily with the block. In the third set the visitors levelled at 19:19, and the match was decided in extra points, closed by a home block. The match lasted 90 minutes. Radomka's fourth win of the season, BKS's fourth defeat.",
-            "textTr": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3-0 (25:19, 25:20, 28:26). Salon: ENEA RCS, Radom, 650 seyirci. MVP: Kornelia Garita. BKS ilk iki sete daha iyi başladı (5:9, 6:9), ancak Radomka farkı hızla kapatıp blokla oyunu kontrol etti. Üçüncü sette konuk ekip 19:19'da eşitledi; uzatmaya giden seti ev sahibi blokla bitirdi. Maç 90 dakika sürdü. Radomka'nın sezondaki dördüncü galibiyeti, BKS'nin dördüncü yenilgisi.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html"
+            "textEn": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3–0 (25:19, 25:20, 28:26). ENEA RCS, Radom, 650 spectators. MVP: Kornelia Garita (10 pts). Attack 42% to 40%, blocks 15–6, aces 5–5. BKS started better in the first two sets (5:9, 6:9), but Radomka quickly recovered and took control, scoring heavily with the block. In the third set the visitors levelled at 19:19, and the match was decided in extra points, closed by a home block. The match lasted 90 minutes. Radomka: Gierszewska 17, Zhylinska 10, Fedyk 10, Garita 10. BKS: Podlaska 12, Borowczak 10, Wasilewska 7. Radomka's fourth win of the season, BKS's fourth defeat.",
+            "textTr": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3-0 (25:19, 25:20, 28:26). Salon: ENEA RCS, Radom, 650 seyirci. MVP: Kornelia Garita (10 sayı). Hücum %42 - %40, blok 15-6, servis ası 5-5. BKS ilk iki sete daha iyi başladı (5:9, 6:9), ancak Radomka farkı hızla kapatıp blokla oyunu kontrol etti. Üçüncü sette konuk ekip 19:19'da eşitledi; uzatmaya giden seti ev sahibi blokla bitirdi. Maç 90 dakika sürdü. Radomka: Gierszewska 17, Zhylinska 10, Fedyk 10, Garita 10. BKS: Podlaska 12, Borowczak 10, Wasilewska 7. Radomka'nın sezondaki dördüncü galibiyeti, BKS'nin dördüncü yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html",
+            "homeTop": [
+              {
+                "n": "Weronika Gierszewska",
+                "p": 17
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 10
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 10
+              },
+              {
+                "n": "Kornelia Garita",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Martyna Podlaska",
+                "p": 12
+              },
+              {
+                "n": "Martyna Borowczak",
+                "p": 10
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 7
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
             "pls": true,
             "polsat": true,
             "by": "grok",
-            "checkedAt": "2026-11-05T21:05:00Z"
+            "checkedAt": "2026-11-06T15:05:00Z"
           }
         },
         {

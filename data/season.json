@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-05T21:05:00Z",
-  "status": "6. kolejka w toku. Radomka–BKS 3:0. Następne: Chemik–DevelopRes i Kalisz–ŁKS 6.11.",
+  "updatedAt": "2026-11-06T15:05:00Z",
+  "status": "6. kolejka w toku. Radomka–BKS 3:0 (tops z raportu). Następne: Chemik–DevelopRes 17:30 i Kalisz–ŁKS 20:30 (6.11).",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -191,13 +191,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-05T21:05:00Z",
+    "lastChecked": "2026-11-06T15:05:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "r6m1 Radomka–BKS 3:0 (25:19, 25:20, 28:26), MVP Kornelia Garita, 650 widzów — potwierdzone liga + Polsat. 6. kolejka w toku."
+    "notes": "r6m1 Radomka–BKS 3:0 — dopisane homeTop/awayTop z raportu Volleystation 1105021 (Gierszewska 17; Podlaska 12). Mecze 6.11 jeszcze nie rozpoczęte."
   }
 }
