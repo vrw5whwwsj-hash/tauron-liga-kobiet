@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-05T21:05:00Z",
-  "status": "6. kolejka w toku. Radomka–BKS 3:0. Następne: Chemik–DevelopRes i Kalisz–ŁKS 6.11.",
+  "updatedAt": "2026-11-06T19:00:00Z",
+  "status": "6. kolejka: Radomka 3:0 BKS, Chemik 0:3 DevelopRes (MVP Mims, 2347 widzów). Następne: Kalisz–ŁKS 20:30, 7.11 Budowlani–Stal 12:00 i Pałac–Wrocław 20:30, 9.11 Opole–Mogilno 20:30. TV: Polsat Sport 1 / Extra 2 / Box Go.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -35,8 +35,8 @@
       "name": "KS DevelopRes Rzeszów",
       "city": "Rzeszów",
       "coach": "Jelena Blagojević",
-      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu.",
-      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season.",
+      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu. Po 6. kolejce wciąż niepokonani.",
+      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season. Still unbeaten after round 6.",
       "color": "#7c2d12"
     },
     {
@@ -65,8 +65,8 @@
       "name": "ŁKS Commercecon Łódź",
       "city": "Łódź",
       "coach": "Adrian Chyliński",
-      "note": "Rewolucja kadrowa. Jurczyk: 5 pkt w 1. kolejce (DevelopRes) oraz 11 pkt i MVP w derbach z Budowlanymi (2. kolejka), na strefie 3 przez cztery sety.",
-      "noteEn": "Roster overhaul. Jurczyk scored 5 in round 1 (DevelopRes) and 11 plus MVP in the Budowlani derby (round 2), zone 3 in all four sets.",
+      "note": "Rewolucja kadrowa. CEV Challenge Cup: 1/16 vs DH Volley Baku (rewanż 2.12 w Łodzi).",
+      "noteEn": "Roster overhaul. CEV Challenge Cup R32 vs DH Volley Baku (return 2 Dec in Łódź).",
       "color": "#9a3412"
     },
     {
@@ -75,8 +75,8 @@
       "name": "LOTTO Chemik Police",
       "city": "Police",
       "coach": "",
-      "note": "Duże zmiany kadrowe i nowe ambicje.",
-      "noteEn": "Major roster changes and renewed ambition.",
+      "note": "Duże zmiany kadrowe i nowe ambicje. Druga porażka z rzędu (0:3 z DevelopRes).",
+      "noteEn": "Major roster changes and renewed ambition. Second straight defeat (0:3 vs DevelopRes).",
       "color": "#0f766e"
     },
     {
@@ -105,8 +105,8 @@
       "name": "MOYA Radomka Radom",
       "city": "Radom",
       "coach": "",
-      "note": "Letnia rewolucja kadrowa.",
-      "noteEn": "Summer roster overhaul.",
+      "note": "Letnia rewolucja kadrowa. Po 3:0 z BKS awans na podium.",
+      "noteEn": "Summer roster overhaul. After 3:0 vs BKS, move into the top three.",
       "color": "#b45309"
     },
     {
@@ -134,9 +134,9 @@
       "short": "#VOLLEY",
       "name": "#VolleyWrocław",
       "city": "Wrocław",
-      "coach": "",
-      "note": "Wzmocniony skład, ambicje wyżej niż rok temu.",
-      "noteEn": "Reinforced roster, aiming higher than last year.",
+      "coach": "Dominik Żukowski (tymczasowo)",
+      "note": "Zmiana trenera: Kurczyński zwolniony 4.11, Żukowski (asystent) tymczasowo. Plaga kontuzji.",
+      "noteEn": "Coach change: Kurczyński dismissed 4 Nov, Żukowski (assistant) temporary. Injury plague.",
       "color": "#9f1239"
     }
   ],
@@ -191,13 +191,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-05T21:05:00Z",
+    "lastChecked": "2026-11-06T19:00:00Z",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "r6m1 Radomka–BKS 3:0 (25:19, 25:20, 28:26), MVP Kornelia Garita, 650 widzów — potwierdzone liga + Polsat. 6. kolejka w toku."
+    "notes": "r6: Radomka–BKS 3:0 (25:19,25:20,28:26) MVP Garita; Chemik–DevelopRes 0:3 (15:25,22:25,17:25) MVP Mims, 2347 widzów — potwierdzone oficjalna strona. 6. kolejka w toku, Kalisz–ŁKS 20:30."
   }
 }
