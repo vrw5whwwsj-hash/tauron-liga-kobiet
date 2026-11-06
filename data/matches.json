@@ -2533,15 +2533,41 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:0 w Szczecinie. MVP Mims",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims (18 pkt). Od pierwszego seta górą goście: Mims punktowała skutecznie, a Alicja Grabka dobrze rozprowadzała piłki. Chemikowi brakowało przyjęcia i mocy w ataku — Julia Orzoł nie wykorzystała żadnej z siedmiu wystawionych piłek, a ofensywa spoczywała głównie na Magdalenie Bagniak. W trzecim secie DevelopRes nie pozostawił złudzeń, dobrze punktowały też Uliana Kotar i Weronika Centka-Tietianiec. Mecz trwał 72 minuty. Szóste zwycięstwo DevelopResu w sezonie i utrzymanie fotela lidera; Chemik z drugą porażką.",
+            "titleEn": "DevelopRes win 3–0 in Szczecin. MVP Mims",
+            "titleTr": "DevelopRes Szczecin'de 3-0 kazandı. MVP Mims",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims (18 pts). The visitors dominated from set one: Mims scored heavily and Alicja Grabka distributed well. Chemik lacked reception and attack power — Julia Orzoł finished none of her seven swings, with Magdalena Bagniak carrying most of the home offence. In the third set DevelopRes left no doubt, with Uliana Kotar and Weronika Centka-Tietianiec also scoring well. The match lasted 72 minutes. DevelopRes's sixth win of the season and they stay top; Chemik's second defeat.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims (18 sayı). Misafirler ilk settten itibaren üstündü: Mims etkili sayı üretti, Alicja Grabka iyi dağıttı. Chemik'te karşılama ve hücum gücü eksikti — Julia Orzoł yedi vuruşundan hiç sayı alamadı, ofans büyük ölçüde Magdalena Bagniak'a kaldı. Üçüncü sette DevelopRes şüphe bırakmadı; Uliana Kotar ve Weronika Centka-Tietianiec de iyi sayı üretti. Maç 72 dakika sürdü. DevelopRes'in sezondaki altıncı galibiyeti ve liderlik devamı; Chemik'in ikinci yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+          }
         },
         {
           "id": "r6m3",
