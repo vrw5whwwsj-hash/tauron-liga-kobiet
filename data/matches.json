@@ -2442,7 +2442,7 @@
       "round": 6,
       "label": "6. kolejka",
       "window": "05.11–09.11.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r6m1",
@@ -2501,15 +2501,48 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:0 z Chemikiem. MVP Mims",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims (18 pkt). Rysice utrzymały status niepokonanej drużyny i fotel lidera. Mecz trwał 72 minuty.",
+            "titleEn": "DevelopRes beat Chemik 3–0. MVP Mims",
+            "titleTr": "DevelopRes, Chemik'i 3-0 yendi. MVP Mims",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena, Szczecin, 2347 spectators. MVP: Taylor Mims (18 pts). DevelopRes remain undefeated and keep the lead. Match lasted 72 minutes.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims (18 sayı). DevelopRes yenilmezliğini korudu ve liderliği sürdürdü. Maç 72 dakika sürdü.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-06T19:15:00Z"
+          }
         },
         {
           "id": "r6m3",
