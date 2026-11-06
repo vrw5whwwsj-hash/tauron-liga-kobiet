@@ -2442,7 +2442,7 @@
       "round": 6,
       "label": "6. kolejka",
       "window": "05.11–09.11.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r6m1",
@@ -2501,15 +2501,68 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:0 w Policach. MVP Mims",
+            "titleEn": "DevelopRes beat Chemik 3–0. MVP Mims",
+            "titleTr": "DevelopRes, Chemik'i 3-0 yendi. MVP Mims",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims (18 pkt, 60% skuteczności ataku). Lider bez problemów pokonał osłabiony zespół z Polic (bez Mędrzyk i Sieradzkiej). W drugim secie krótka walka Policzanek przy serwach Koput, ale Mims i reszta szybko odzyskały kontrolę. Po długiej przerwie na boisku pojawiła się Dominika Pierzchała. „Jedyne, w czym zagrażałyśmy DevelopResowi, to zagrywka” – powiedziała Pola Janicka. Szósta wygrana DevelopResu w sezonie.",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims (18 pts, 60% attack efficiency). The leaders comfortably beat a depleted Chemik side (without Mędrzyk and Sieradzka). In the second set the hosts briefly challenged with Koput's serves, but Mims and teammates quickly regained control. Dominika Pierzchała appeared on court after a long break. “The only thing we threatened DevelopRes with was the serve,” said Pola Janicka. DevelopRes's sixth win of the season.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims (18 sayı, %60 hücum verimliliği). Lider, zayıflatılmış Chemik'i (Mędrzyk ve Sieradzka olmadan) rahat yendi. İkinci sette Koput'un servisleriyle kısa bir mücadele oldu, ancak Mims ve arkadaşları hızla kontrolü aldı. Dominika Pierzchała uzun aradan sonra sahaya çıktı. “DevelopRes'e tehdit ettiğimiz tek şey servisti” dedi Pola Janicka. DevelopRes'in sezondaki altıncı galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Magdalena Bagniak",
+                "p": 12
+              },
+              {
+                "n": "Maja Koput",
+                "p": 8
+              },
+              {
+                "n": "Pola Janicka",
+                "p": 6
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 18
+              },
+              {
+                "n": "Uliana Kotar",
+                "p": 12
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 10
+              }
+            ]
+          }
         },
         {
           "id": "r6m3",
@@ -2518,15 +2571,76 @@
           "home": "kal",
           "away": "lks",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              21
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              10,
+              25
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Kalisz — ŁKS",
             "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź, piątek 20:30. Beniaminek z Kalisza wygrał dwa ostatnie mecze po 3:0 (z Wrocławiem i w Mogilnie, tam 14 bloków), prowadzony przez Jelenę Vulin i MVP Sonię Kubacką, ale z czołówką – Budowlanymi, Chemikiem i Pałacem – nie wygrał seta lub urwał tylko jednego. ŁKS ma cztery zwycięstwa z rzędu, ostatnio 3:0 z Chemikiem; w ataku Suvi Kokkonen i Elles Dambrink (dwukrotna MVP), rozgrywa Karla Antunović. Prognoza: ŁKS 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Karla Antunović",
+          "recap": {
+            "title": "ŁKS 3:2 w Kaliszu. MVP Antunović",
+            "titleEn": "ŁKS win 3–2 in Kalisz. MVP Antunović",
+            "titleTr": "ŁKS Kalisz'te 3-2 kazandı. MVP Antunović",
+            "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2:3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 widzów. MVP: Karla Antunović. Beniaminek wygrał pierwszy i trzeci set, ale ŁKS odpowiedział mocno w czwartym (25:10) i tie-breaku. Łodzianki potwierdziły wysoką formę po wygranej z Chemikiem. Mecz trwał 121 minut.",
+            "textEn": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2–3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 spectators. MVP: Karla Antunović. The newcomers took the first and third sets, but ŁKS responded strongly in the fourth (25:10) and the tie-break. The Łódź side confirmed good form after beating Chemik. The match lasted 121 minutes.",
+            "textTr": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2-3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 seyirci. MVP: Karla Antunović. Yeni gelenler birinci ve üçüncü seti aldı, ancak ŁKS dördüncü sette (25:10) ve tie-break'te güçlü yanıt verdi. Łódź ekibi Chemik'i yendikten sonra formunu korudu. Maç 121 dakika sürdü.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 18
+              },
+              {
+                "n": "Isidora Rodić",
+                "p": 14
+              },
+              {
+                "n": "Anna Lewandowska",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Karla Antunović",
+                "p": 22
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 19
+              },
+              {
+                "n": "Suvi Kokkonen",
+                "p": 15
+              }
+            ]
+          }
         },
         {
           "id": "r6m4",
