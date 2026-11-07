@@ -2442,7 +2442,7 @@
       "round": 6,
       "label": "6. kolejka",
       "window": "05.11–09.11.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r6m1",
@@ -2791,15 +2791,56 @@
           "home": "byd",
           "away": "wro",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              17
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "score": [
+            3,
+            2
+          ],
           "preview": {
             "headline": "Pałac — Wrocław",
             "text": "Metalkas Pałac Bydgoszcz – #VolleyWrocław, sobota 20:30. Pałac przegrał dwa ostatnie mecze po 0:3 (z Opolem i Budowlanymi); liderką pozostaje Wiktoria Makarewicz, dwukrotna MVP, wspierana przez Martę Pol i Emilię Pinczewską. Wrocław jest bez zwycięstwa (0–5, 2 pkt) i nadal bez Marleny Kowalewskiej i Anastazji Hryszczuk; z Opolem grał w ośmioosobowym składzie, ale urwał seta, a Joanna Garncarz zdobyła 17 pkt. Prognoza: Pałac 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Wiktoria Makarewicz",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": false,
+            "by": "grok",
+            "checkedAt": "2026-11-07T23:10:21+01:00"
+          },
+          "recap": {
+            "title": "Pałac 3:2 z Wrocławiem. MVP Makarewicz",
+            "text": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3:2 (25:17, 23:25, 25:21, 23:25, 15:11). HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz. Tie-break 15:11 po 2:04 gry (111:99). Pierwsze punkty Pałacu po dwóch porażkach 0:3; Wrocław nadal bez zwycięstwa.",
+            "titleEn": "Pałac beat Wrocław 3–2. MVP Makarewicz",
+            "titleTr": "Pałac, Wrocław'u 3-2 yendi. MVP Makarewicz",
+            "textEn": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3–2 (25:17, 23:25, 25:21, 23:25, 15:11). HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz. Tie-break 15–11 after 2:04 (111–99). Pałac’s first points after two 0–3 losses; Wrocław still winless.",
+            "textTr": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3-2 (25:17, 23:25, 25:21, 23:25, 15:11). Salon: HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz. Tie-break 15-11, maç 2:04 (111-99). Pałac iki 0-3 yenilgisinden sonra ilk puanlar; Wrocław hâlâ galibiyetsiz.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105025.html"
+          }
         },
         {
           "id": "r6m6",

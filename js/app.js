@@ -250,10 +250,10 @@ async function init() {
   LANG = detectLang();
   const bust = { cache: "no-store" };
   const [s, m, sc, nw, an, r3, cev] = await Promise.all([
-    fetch("./data/season.json?v=122", bust).then((r) => r.json()),
-    fetch("./data/matches.json?v=122", bust).then((r) => r.json()),
+    fetch("./data/season.json?v=123", bust).then((r) => r.json()),
+    fetch("./data/matches.json?v=123", bust).then((r) => r.json()),
     fetch("./data/scorers.json?v=122", bust).then((r) => r.json()).catch(() => ({ updated: "\u2014", players: [] })),
-    fetch("./data/news.json?v=122", bust).then((r) => r.json()).catch(() => ({ items: [] })),
+    fetch("./data/news.json?v=123", bust).then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("./data/analysis.json?v=122", bust).then((r) => r.json()).catch(() => ({ charts: [], legend: [] })),
     fetch("./data/r3.json?v=122", bust).then((r) => r.json()).catch(() => null),
     fetch("./data/cev.json?v=122", bust).then((r) => r.json()).catch(() => null)

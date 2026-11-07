@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-07T17:35:00+01:00",
-  "status": "6. kolejka w toku. Radomka–BKS 3:0, Chemik–DevelopRes 0:3, Kalisz–ŁKS 2:3, Budowlani–Stal 3:0. Następne: Pałac–Wrocław 7.11 20:30, Opole–Mogilno 9.11.",
+  "updatedAt": "2026-11-07T23:10:21+01:00",
+  "status": "6. kolejka w toku. Radomka–BKS 3:0, Chemik–DevelopRes 0:3, Kalisz–ŁKS 2:3, Budowlani–Stal 3:0, Pałac–Wrocław 3:2. Następne: Opole–Mogilno 9.11 20:30.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -191,13 +191,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-05T21:05:00Z",
+    "lastChecked": "2026-11-07T23:10:21+01:00",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
-      "siatka.org"
+      "lajfy.com"
     ],
-    "notes": "r6m1 Radomka–BKS 3:0 (25:19, 25:20, 28:26), MVP Kornelia Garita, 650 widzów — potwierdzone liga + Polsat. 6. kolejka w toku."
+    "notes": "r6m4 Budowlani–Stal 3:0 (25:14, 25:20, 25:18), MVP Aleksandra Kazała, 1325 widzów — liga + Polsat. r6m5 Pałac–Wrocław 3:2 (25:17, 23:25, 25:21, 23:25, 15:11), MVP Wiktoria Makarewicz — liga + Lajfy/scores24; frekwencja niepodana. Opole–Mogilno 9.11 — nie rozegrany."
   }
 }
