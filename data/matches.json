@@ -2566,7 +2566,43 @@
             "titleTr": "DevelopRes Szczecin'de 3-0 kazandı. MVP Mims",
             "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims. The visitors won comfortably in three sets and stay unbeaten atop the table; Chemik recorded their second defeat of the season.",
             "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims. Misafirler üç sette net kazandı ve liderlikte yenilgisiz kaldı; Chemik sezonun ikinci yenilgisini aldı.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html",
+            "homeTop": [
+              {
+                "n": "Magdalena Bagniak",
+                "p": 9
+              },
+              {
+                "n": "Maja Koput",
+                "p": 7
+              },
+              {
+                "n": "Wiktoria Przybyło",
+                "p": 6
+              },
+              {
+                "n": "Pola Janicka",
+                "p": 6
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 18
+              },
+              {
+                "n": "Laura Jansen",
+                "p": 9
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 8
+              },
+              {
+                "n": "Uliana Kotar",
+                "p": 8
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
@@ -2624,7 +2660,43 @@
             "titleTr": "ŁKS Kalisz'te 3-2 kazandı. MVP Antunović",
             "textEn": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2–3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 spectators. MVP: Karla Antunović. Tie-break 13–15 after 2:01 (92–108). ŁKS fifth win of the season.",
             "textTr": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2-3 (25:21, 19:25, 25:22, 10:25, 13:15). Salon: Arena Kalisz, 1301 seyirci. MVP: Karla Antunović. Tie-break 13-15, maç 2:01 (92-108). ŁKS sezonun beşinci galibiyeti.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105023.html"
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105023.html",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 29
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 12
+              },
+              {
+                "n": "Sonia Kubacka",
+                "p": 11
+              },
+              {
+                "n": "Anna Lewandowska",
+                "p": 8
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Elles Dambrink",
+                "p": 21
+              },
+              {
+                "n": "Anna Obiała",
+                "p": 16
+              },
+              {
+                "n": "Sonia Stefanik",
+                "p": 13
+              },
+              {
+                "n": "Pola Nowakowska",
+                "p": 10
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
@@ -2641,15 +2713,48 @@
           "home": "bud",
           "away": "mie",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Budowlani — Stal",
             "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec, sobota 12:00. Mistrzynie Polski po pewnym 3:0 w Bydgoszczy (68 minut, Maja Storck 19 pkt, MVP Katarzyna Wenerska), choć w tym sezonie u siebie przegrały oba mecze ligowe, z ŁKS i Radomką. Stal ma 4 pkt i 10. miejsce, ale ostatni wyjazd wygrała 3:2 w Radomiu po 27 pkt MVP Weroniki Sobiczewskiej i 20 Anny Bączyńskiej. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Aleksandra Kazała",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-07T15:32:06+01:00"
+          },
+          "recap": {
+            "title": "Budowlani 3:0 ze Stalą. MVP Kazała",
+            "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3:0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 widzów. MVP: Aleksandra Kazała. Mistrzynie Polski wygrały trzy szybkie sety; Kazała i Maja Storck prowadziły atak, a Rodica Buterez zakończyła mecz. Drugie zwycięstwo z rzędu Budowlanych bez straty seta, dla Stali druga porażka z rzędu.",
+            "titleEn": "Budowlani beat Stal 3–0. MVP Kazała",
+            "titleTr": "Budowlani, Stal'ı 3-0 yendi. MVP Kazała",
+            "textEn": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3–0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 spectators. MVP: Aleksandra Kazała. The defending champions won three quick sets; Kazała and Maja Storck led the attack, and Rodica Buterez closed the match. Budowlani’s second straight win without dropping a set; Stal’s second straight defeat.",
+            "textTr": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3-0 (25:14, 25:20, 25:18). Salon: Sport Arena Łódź, 1325 seyirci. MVP: Aleksandra Kazała. Polonya şampiyonu üç sette hızlı kazandı; Kazała ve Maja Storck hücuma yön verdi, Rodica Buterez maçı bitirdi. Budowlani'nin set vermeden ikinci galibiyeti, Stal'ın üst üste ikinci yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105020.html"
+          }
         },
         {
           "id": "r6m5",
