@@ -2501,15 +2501,72 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "DevelopRes 3:0",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). MVP: Taylor Mims (18 pkt). Enea Arena Szczecin, 2347 widzów. Szósta wygrana DevelopResu z rzędu, lider umacnia się na czele tabeli. Najskuteczniejsze: Mims 18; po stronie Chemika niższe zdobycze przy osłabionym składzie.",
+            "titleEn": "DevelopRes beat Chemik 3–0",
+            "titleTr": "DevelopRes, Chemik karşısında 3-0 kazandı",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). MVP: Taylor Mims (18 pts). 2347 fans at Enea Arena Szczecin. DevelopRes's sixth straight win keeps them top of the table.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). MVP: Taylor Mims (18 sayı). Enea Arena Szczecin, 2347 seyirci. DevelopRes'in üst üste altıncı galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Przybyło",
+                "p": 6
+              },
+              {
+                "n": "Dominika Ziołnowska",
+                "p": 5
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 18
+              },
+              {
+                "n": "Laura Jansen",
+                "p": 9
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 8
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+          },
+          "mvp": "Taylor Mims",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-07T21:15:00Z"
+          }
         },
         {
           "id": "r6m3",
@@ -2518,15 +2575,80 @@
           "home": "kal",
           "away": "lks",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              21
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              10,
+              25
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Kalisz — ŁKS",
             "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź, piątek 20:30. Beniaminek z Kalisza wygrał dwa ostatnie mecze po 3:0 (z Wrocławiem i w Mogilnie, tam 14 bloków), prowadzony przez Jelenę Vulin i MVP Sonię Kubacką, ale z czołówką – Budowlanymi, Chemikiem i Pałacem – nie wygrał seta lub urwał tylko jednego. ŁKS ma cztery zwycięstwa z rzędu, ostatnio 3:0 z Chemikiem; w ataku Suvi Kokkonen i Elles Dambrink (dwukrotna MVP), rozgrywa Karla Antunović. Prognoza: ŁKS 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "ŁKS 3:2",
+            "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2:3 (25:21, 19:25, 25:22, 10:25, 13:15). MVP: Karla Antunović. Arena Kalisz, 1301 widzów. Emocjonujący tie-break, ŁKS wygrywa piąty mecz z rzędu. Najskuteczniejsze: Vulin 29, Kuligowska 12; Dambrink 22, Obiała 15, Stefanik 13.",
+            "titleEn": "ŁKS beat Kalisz 3–2",
+            "titleTr": "ŁKS, Kalisz karşısında 3-2 kazandı",
+            "textEn": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2–3 (25:21, 19:25, 25:22, 10:25, 13:15). MVP: Karla Antunović. 1301 fans at Arena Kalisz. Thrilling tie-break, ŁKS's fifth straight win.",
+            "textTr": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2-3 (25:21, 19:25, 25:22, 10:25, 13:15). MVP: Karla Antunović. Arena Kalisz, 1301 seyirci. ŁKS'nin üst üste beşinci galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 29
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 12
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Elles Dambrink",
+                "p": 22
+              },
+              {
+                "n": "Anna Obiała",
+                "p": 15
+              },
+              {
+                "n": "Sonia Stefanik",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105023.html"
+          },
+          "mvp": "Karla Antunović",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-07T21:15:00Z"
+          }
         },
         {
           "id": "r6m4",
@@ -2535,13 +2657,70 @@
           "home": "bud",
           "away": "mie",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Budowlani — Stal",
             "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec, sobota 12:00. Mistrzynie Polski po pewnym 3:0 w Bydgoszczy (68 minut, Maja Storck 19 pkt, MVP Katarzyna Wenerska), choć w tym sezonie u siebie przegrały oba mecze ligowe, z ŁKS i Radomką. Stal ma 4 pkt i 10. miejsce, ale ostatni wyjazd wygrała 3:2 w Radomiu po 27 pkt MVP Weroniki Sobiczewskiej i 20 Anny Bączyńskiej. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "recap": {
+            "title": "Budowlani 3:0",
+            "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3:0 (25:14, 25:20, 25:18). MVP: Aleksandra Kazała (14 pkt). Sport Arena Łódź, 1325 widzów. Pierwsza domowa wygrana mistrzyń w sezonie. Najskuteczniejsze: Kazała 14, Storck 13, Planinšec 9; Adamczyk 10, Moszyńska 9.",
+            "titleEn": "Budowlani beat Stal 3–0",
+            "titleTr": "Budowlani, Stal karşısında 3-0 kazandı",
+            "textEn": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3–0 (25:14, 25:20, 25:18). MVP: Aleksandra Kazała (14 pts). 1325 fans at Sport Arena Łódź. Champions' first home win of the season.",
+            "textTr": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3-0 (25:14, 25:20, 25:18). MVP: Aleksandra Kazała (14 sayı). Sport Arena Łódź, 1325 seyirci. Şampiyonların sezonun ilk ev galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Aleksandra Kazała",
+                "p": 14
+              },
+              {
+                "n": "Maja Storck",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 10
+              },
+              {
+                "n": "Martyna Moszyńska",
+                "p": 9
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105020.html"
+          },
+          "mvp": "Aleksandra Kazała",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-07T21:15:00Z"
           }
         },
         {
