@@ -2748,12 +2748,40 @@
           },
           "recap": {
             "title": "Budowlani 3:0 ze Stalą. MVP Kazała",
-            "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3:0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 widzów. MVP: Aleksandra Kazała. Mistrzynie Polski wygrały trzy szybkie sety; Kazała i Maja Storck prowadziły atak, a Rodica Buterez zakończyła mecz. Drugie zwycięstwo z rzędu Budowlanych bez straty seta, dla Stali druga porażka z rzędu.",
+            "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3:0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 widzów. MVP: Aleksandra Kazała. Mistrzynie Polski wygrały trzy szybkie sety; Kazała i Maja Storck prowadziły atak, a Rodica Buterez zakończyła mecz. Atak 42%:31%, blok 9:5, asy 5:2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Drugie zwycięstwo z rzędu Budowlanych bez straty seta, dla Stali druga porażka z rzędu.",
             "titleEn": "Budowlani beat Stal 3–0. MVP Kazała",
             "titleTr": "Budowlani, Stal'ı 3-0 yendi. MVP Kazała",
-            "textEn": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3–0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 spectators. MVP: Aleksandra Kazała. The defending champions won three quick sets; Kazała and Maja Storck led the attack, and Rodica Buterez closed the match. Budowlani’s second straight win without dropping a set; Stal’s second straight defeat.",
-            "textTr": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3-0 (25:14, 25:20, 25:18). Salon: Sport Arena Łódź, 1325 seyirci. MVP: Aleksandra Kazała. Polonya şampiyonu üç sette hızlı kazandı; Kazała ve Maja Storck hücuma yön verdi, Rodica Buterez maçı bitirdi. Budowlani'nin set vermeden ikinci galibiyeti, Stal'ın üst üste ikinci yenilgisi.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105020.html"
+            "textEn": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3–0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 spectators. MVP: Aleksandra Kazała. The defending champions won three quick sets; Kazała and Maja Storck led the attack, and Rodica Buterez closed the match. Attack 42% to 31%, blocks 9–5, aces 5–2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Budowlani’s second straight win without dropping a set; Stal’s second straight defeat.",
+            "textTr": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3-0 (25:14, 25:20, 25:18). Salon: Sport Arena Łódź, 1325 seyirci. MVP: Aleksandra Kazała. Polonya şampiyonu üç sette hızlı kazandı; Kazała ve Maja Storck hücuma yön verdi, Rodica Buterez maçı bitirdi. Hücum %42'ye %31, blok 9-5, servis sayısı 5-2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Budowlani'nin set vermeden ikinci galibiyeti, Stal'ın üst üste ikinci yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105020.html",
+            "homeTop": [
+              {
+                "n": "Aleksandra Kazała",
+                "p": 14
+              },
+              {
+                "n": "Maja Storck",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 10
+              },
+              {
+                "n": "Rozalia Moszyńska",
+                "p": 9
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 8
+              }
+            ]
           }
         },
         {
