@@ -2442,7 +2442,7 @@
       "round": 6,
       "label": "6. kolejka",
       "window": "05.11–09.11.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r6m1",
@@ -2484,7 +2484,43 @@
             "titleTr": "Radomka, BKS'yi 3-0 yendi. MVP Garita",
             "textEn": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3–0 (25:19, 25:20, 28:26). ENEA RCS, Radom, 650 spectators. MVP: Kornelia Garita. BKS started better in the first two sets (5:9, 6:9), but Radomka quickly recovered and took control, scoring heavily with the block. In the third set the visitors levelled at 19:19, and the match was decided in extra points, closed by a home block. The match lasted 90 minutes. Radomka's fourth win of the season, BKS's fourth defeat.",
             "textTr": "MOYA Radomka Radom – BKS ZGO Bielsko-Biała 3-0 (25:19, 25:20, 28:26). Salon: ENEA RCS, Radom, 650 seyirci. MVP: Kornelia Garita. BKS ilk iki sete daha iyi başladı (5:9, 6:9), ancak Radomka farkı hızla kapatıp blokla oyunu kontrol etti. Üçüncü sette konuk ekip 19:19'da eşitledi; uzatmaya giden seti ev sahibi blokla bitirdi. Maç 90 dakika sürdü. Radomka'nın sezondaki dördüncü galibiyeti, BKS'nin dördüncü yenilgisi.",
-            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html"
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105021.html",
+            "homeTop": [
+              {
+                "n": "Weronika Gierszewska",
+                "p": 17
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 10
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 10
+              },
+              {
+                "n": "Kornelia Garita",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Martyna Podlaska",
+                "p": 12
+              },
+              {
+                "n": "Martyna Borowczak",
+                "p": 10
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 7
+              },
+              {
+                "n": "Martyna Piotrowska",
+                "p": 7
+              }
+            ]
           },
           "verify": {
             "status": "confirmed",
@@ -2501,15 +2537,84 @@
           "home": "che",
           "away": "dev",
           "venue": "Szczecin",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              15,
+              25
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Chemik — DevelopRes",
             "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów, piątek 17:30, Szczecin. Hit kolejki: jedyna niepokonana drużyna ligi (5 zwycięstw, 14 pkt, sety 15:5) jedzie do Chemika, który w Łodzi poniósł pierwszą porażkę, 0:3, bez skutecznego ataku Oliwii Sieradzkiej i Julii Orzoł. Rzeszowianki mają też Superpuchar Polski; ostatnio 22 pkt zdobyła Taylor Mims, wcześniej 29 Mika Grbavica, a MVP została rozgrywająca Alicja Grabka. W fazie zasadniczej poprzedniego sezonu DevelopRes wygrał z Chemikiem u siebie 3:1. Prognoza: DevelopRes 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:0 w Szczecinie. MVP Mims",
+            "text": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0:3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 widzów. MVP: Taylor Mims (18 pkt). Mecz trwał 1:12. Goście wygrali pewnie w trzech setach i pozostali niepokonani na czele tabeli; Chemik zanotował drugą porażkę w sezonie. Najskuteczniejsze: Bagniak 9, Koput 7, Przybyło i Janicka po 6; Mims 18, Jansen 9, Centka-Tietianiec i Kotar po 8.",
+            "titleEn": "DevelopRes win 3–0 in Szczecin. MVP Mims",
+            "titleTr": "DevelopRes Szczecin'de 3-0 kazandı. MVP Mims",
+            "textEn": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0–3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 spectators. MVP: Taylor Mims (18 pts). The match lasted 1:12. The visitors won comfortably in three sets and stay unbeaten atop the table; Chemik recorded their second defeat of the season. Top scorers: Bagniak 9, Koput 7, Przybyło and Janicka 6 each; Mims 18, Jansen 9, Centka-Tietianiec and Kotar 8 each.",
+            "textTr": "LOTTO Chemik Police – KS DevelopRes Rzeszów 0-3 (15:25, 22:25, 17:25). Enea Arena Szczecin, 2347 seyirci. MVP: Taylor Mims (18 sayı). Maç 1:12 sürdü. Misafirler üç sette net kazandı ve liderlikte yenilgisiz kaldı; Chemik sezonun ikinci yenilgisini aldı. En skorerler: Bagniak 9, Koput 7, Przybyło ve Janicka 6'şar; Mims 18, Jansen 9, Centka-Tietianiec ve Kotar 8'er.",
+            "homeTop": [
+              {
+                "n": "Magdalena Bagniak",
+                "p": 9
+              },
+              {
+                "n": "Maja Koput",
+                "p": 7
+              },
+              {
+                "n": "Wiktoria Przybyło",
+                "p": 6
+              },
+              {
+                "n": "Pola Janicka",
+                "p": 6
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 18
+              },
+              {
+                "n": "Laura Jansen",
+                "p": 9
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 8
+              },
+              {
+                "n": "Uliana Kotar",
+                "p": 8
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105022.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-08T19:10:37Z"
+          }
         },
         {
           "id": "r6m3",
@@ -2518,15 +2623,84 @@
           "home": "kal",
           "away": "lks",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              21
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              10,
+              25
+            ],
+            [
+              13,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "Kalisz — ŁKS",
             "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź, piątek 20:30. Beniaminek z Kalisza wygrał dwa ostatnie mecze po 3:0 (z Wrocławiem i w Mogilnie, tam 14 bloków), prowadzony przez Jelenę Vulin i MVP Sonię Kubacką, ale z czołówką – Budowlanymi, Chemikiem i Pałacem – nie wygrał seta lub urwał tylko jednego. ŁKS ma cztery zwycięstwa z rzędu, ostatnio 3:0 z Chemikiem; w ataku Suvi Kokkonen i Elles Dambrink (dwukrotna MVP), rozgrywa Karla Antunović. Prognoza: ŁKS 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Karla Antunović",
+          "recap": {
+            "title": "ŁKS 3:2 w Kaliszu. MVP Antunović",
+            "text": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2:3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 widzów. MVP: Karla Antunović. Tie-break 13:15 po 2:01 gry (92:108). Piąte zwycięstwo ŁKS w sezonie. Najskuteczniejsze: Vulin 29, Kuligowska 12, Kubacka 11; Dambrink 21, Obiała 16, Stefanik 13.",
+            "titleEn": "ŁKS win 3–2 in Kalisz. MVP Antunović",
+            "titleTr": "ŁKS Kalisz'te 3-2 kazandı. MVP Antunović",
+            "textEn": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2–3 (25:21, 19:25, 25:22, 10:25, 13:15). Arena Kalisz, 1301 spectators. MVP: Karla Antunović. Tie-break 13–15 after 2:01 (92–108). ŁKS's fifth win of the season. Top scorers: Vulin 29, Kuligowska 12, Kubacka 11; Dambrink 21, Obiała 16, Stefanik 13.",
+            "textTr": "NETLAND MKS Kalisz – ŁKS Commercecon Łódź 2-3 (25:21, 19:25, 25:22, 10:25, 13:15). Salon: Arena Kalisz, 1301 seyirci. MVP: Karla Antunović. Tie-break 13-15, maç 2:01 (92-108). ŁKS sezonun beşinci galibiyeti. En skorerler: Vulin 29, Kuligowska 12, Kubacka 11; Dambrink 21, Obiała 16, Stefanik 13.",
+            "homeTop": [
+              {
+                "n": "Jelena Vulin",
+                "p": 29
+              },
+              {
+                "n": "Zuzanna Kuligowska",
+                "p": 12
+              },
+              {
+                "n": "Sonia Kubacka",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Elles Dambrink",
+                "p": 21
+              },
+              {
+                "n": "Anna Obiała",
+                "p": 16
+              },
+              {
+                "n": "Sonia Stefanik",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105023.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-08T19:10:37Z"
+          }
         },
         {
           "id": "r6m4",
@@ -2535,13 +2709,75 @@
           "home": "bud",
           "away": "mie",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              20
+            ],
+            [
+              25,
+              18
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "Budowlani — Stal",
             "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec, sobota 12:00. Mistrzynie Polski po pewnym 3:0 w Bydgoszczy (68 minut, Maja Storck 19 pkt, MVP Katarzyna Wenerska), choć w tym sezonie u siebie przegrały oba mecze ligowe, z ŁKS i Radomką. Stal ma 4 pkt i 10. miejsce, ale ostatni wyjazd wygrała 3:2 w Radomiu po 27 pkt MVP Weroniki Sobiczewskiej i 20 Anny Bączyńskiej. Prognoza: Budowlani 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "mvp": "Aleksandra Kazała",
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Budowlani 3:0 ze Stalą. MVP Kazała",
+            "text": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3:0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 widzów. MVP: Aleksandra Kazała. Mistrzynie Polski wygrały trzy szybkie sety w 1:13. Atak 42%:31%, blok 9:5, asy 5:2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Drugie zwycięstwo z rzędu Budowlanych bez straty seta.",
+            "titleEn": "Budowlani beat Stal 3–0. MVP Kazała",
+            "titleTr": "Budowlani, Stal'ı 3-0 yendi. MVP Kazała",
+            "textEn": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3–0 (25:14, 25:20, 25:18). Sport Arena Łódź, 1325 spectators. MVP: Aleksandra Kazała. The defending champions won three quick sets in 1:13. Attack 42% to 31%, blocks 9–5, aces 5–2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Budowlani’s second straight win without dropping a set.",
+            "textTr": "PGE Budowlani Łódź – ITA TOOLS Stal Mielec 3-0 (25:14, 25:20, 25:18). Salon: Sport Arena Łódź, 1325 seyirci. MVP: Aleksandra Kazała. Polonya şampiyonu üç seti 1:13'te aldı. Hücum %42'ye %31, blok 9-5, servis ası 5-2. Budowlani: Kazała 14, Storck 13, Planinšec 9. Stal: Adamczyk 10, Moszyńska 9, Andersson 8. Budowlani'nin set vermeden üst üste ikinci galibiyeti.",
+            "homeTop": [
+              {
+                "n": "Aleksandra Kazała",
+                "p": 14
+              },
+              {
+                "n": "Maja Storck",
+                "p": 13
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 9
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 10
+              },
+              {
+                "n": "Rozalia Moszyńska",
+                "p": 9
+              },
+              {
+                "n": "Linda Andersson",
+                "p": 8
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105020.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-08T19:10:37Z"
           }
         },
         {
@@ -2551,13 +2787,91 @@
           "home": "byd",
           "away": "wro",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              17
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "score": [
+            3,
+            2
+          ],
           "preview": {
             "headline": "Pałac — Wrocław",
             "text": "Metalkas Pałac Bydgoszcz – #VolleyWrocław, sobota 20:30. Pałac przegrał dwa ostatnie mecze po 0:3 (z Opolem i Budowlanymi); liderką pozostaje Wiktoria Makarewicz, dwukrotna MVP, wspierana przez Martę Pol i Emilię Pinczewską. Wrocław jest bez zwycięstwa (0–5, 2 pkt) i nadal bez Marleny Kowalewskiej i Anastazji Hryszczuk; z Opolem grał w ośmioosobowym składzie, ale urwał seta, a Joanna Garncarz zdobyła 17 pkt. Prognoza: Pałac 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "mvp": "Wiktoria Makarewicz",
+          "tv": "Polsat Sport 1",
+          "recap": {
+            "title": "Pałac 3:2 z Wrocławiem. MVP Makarewicz",
+            "text": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3:2 (25:17, 23:25, 25:21, 23:25, 15:11). HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz (31 pkt). Tie-break 15:11 po 2:04 gry (111:99). Trzecie zwycięstwo Pałacu w sezonie i pierwsze punkty po dwóch porażkach 0:3; Wrocław nadal bez zwycięstwa. Najskuteczniejsze: Makarewicz 31, Bartkowska-Kluza 18, Pinczewska i Pol po 10; Stautz 20, Wąsiakowska 14, Garncarz i Dróżdż po 12.",
+            "titleEn": "Pałac beat Wrocław 3–2. MVP Makarewicz",
+            "titleTr": "Pałac, Wrocław'u 3-2 yendi. MVP Makarewicz",
+            "textEn": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3–2 (25:17, 23:25, 25:21, 23:25, 15:11). HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz (31 pts). Tie-break 15–11 after 2:04 (111–99). Pałac’s third win of the season and first points after two 0–3 losses; Wrocław are still winless. Top scorers: Makarewicz 31, Bartkowska-Kluza 18, Pinczewska and Pol 10 each; Stautz 20, Wąsiakowska 14, Garncarz and Dróżdż 12 each.",
+            "textTr": "Metalkas Pałac Bydgoszcz – #VolleyWrocław 3-2 (25:17, 23:25, 25:21, 23:25, 15:11). Salon: HSW Immobile Łuczniczka, Bydgoszcz. MVP: Wiktoria Makarewicz (31 sayı). Tie-break 15-11, maç 2:04 (111-99). Pałac'ın sezondaki üçüncü galibiyeti ve iki 0-3 yenilgisinden sonra ilk puanları; Wrocław hâlâ galibiyetsiz. En skorerler: Makarewicz 31, Bartkowska-Kluza 18, Pinczewska ve Pol 10'ar; Stautz 20, Wąsiakowska 14, Garncarz ve Dróżdż 12'şer.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 31
+              },
+              {
+                "n": "Alina Bartkowska-Kluza",
+                "p": 18
+              },
+              {
+                "n": "Emilia Pinczewska",
+                "p": 10
+              },
+              {
+                "n": "Marta Pol",
+                "p": 10
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Antonia Stautz",
+                "p": 20
+              },
+              {
+                "n": "Sara Wąsiakowska",
+                "p": 14
+              },
+              {
+                "n": "Joanna Garncarz",
+                "p": 12
+              },
+              {
+                "n": "Natalia Dróżdż",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105025.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-08T19:10:37Z"
           }
         },
         {
@@ -2574,7 +2888,8 @@
             "text": "UNI Opole – Sokół & Hagric Mogilno, poniedziałek 20:30. Opole (4., 10 pkt) wygrało dwa mecze z rzędu, ostatnio 3:1 we Wrocławiu bez Katarzyny Zaroślińskiej-Król, którą zastąpiła Iga Kępa (17 pkt); MVP została Gabriela Makarowska-Kulej (6 bloków). Mogilno wciąż bez punktu (0–5, sety 2:15), choć z Kaliszem przegrało dwa pierwsze sety na przewagi; najwięcej punktów zdobywają Karolina Drużkowska, Sandra Świętoń i Melis Durul. Prognoza: Opole 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -2595,13 +2910,13 @@
           "score": null,
           "preview": {
             "headline": "MOYA — LOTTO",
-            "text": "MOYA Radomka Radom — LOTTO Chemik Police, 12.11.2026, godzina do potwierdzenia."
+            "text": "MOYA Radomka Radom — LOTTO Chemik Police, 12.11.2026, godzina 17:30."
           }
         },
         {
           "id": "r7m2",
           "date": "2026-11-14",
-          "time": null,
+          "time": "12:00",
           "home": "lks",
           "away": "opo",
           "venue": "Łódź",
@@ -2609,13 +2924,13 @@
           "score": null,
           "preview": {
             "headline": "ŁKS — UNI",
-            "text": "ŁKS Commercecon Łódź — UNI Opole, 14.11.2026, godzina do potwierdzenia."
+            "text": "ŁKS Commercecon Łódź — UNI Opole, 14.11.2026, godzina 12:00."
           }
         },
         {
           "id": "r7m3",
           "date": "2026-11-14",
-          "time": null,
+          "time": "19:00",
           "home": "dev",
           "away": "kal",
           "venue": "Rzeszów",
@@ -2623,13 +2938,13 @@
           "score": null,
           "preview": {
             "headline": "KS — NETLAND",
-            "text": "KS DevelopRes Rzeszów — NETLAND MKS Kalisz, 14.11.2026, godzina do potwierdzenia."
+            "text": "KS DevelopRes Rzeszów — NETLAND MKS Kalisz, 14.11.2026, godzina 19:00."
           }
         },
         {
           "id": "r7m4",
           "date": "2026-11-15",
-          "time": null,
+          "time": "20:30",
           "home": "wro",
           "away": "bud",
           "venue": "Wrocław",
@@ -2637,13 +2952,13 @@
           "score": null,
           "preview": {
             "headline": "#VolleyWrocław — PGE",
-            "text": "#VolleyWrocław — PGE Budowlani Łódź, 15.11.2026, godzina do potwierdzenia."
+            "text": "#VolleyWrocław — PGE Budowlani Łódź, 15.11.2026, godzina 20:30."
           }
         },
         {
           "id": "r7m5",
           "date": "2026-11-16",
-          "time": null,
+          "time": "17:30",
           "home": "mog",
           "away": "byd",
           "venue": "Mogilno",
@@ -2651,13 +2966,13 @@
           "score": null,
           "preview": {
             "headline": "Sokół — Metalkas",
-            "text": "Sokół & Hagric Mogilno — Metalkas Pałac Bydgoszcz, 16.11.2026, godzina do potwierdzenia."
+            "text": "Sokół & Hagric Mogilno — Metalkas Pałac Bydgoszcz, 16.11.2026, godzina 17:30."
           }
         },
         {
           "id": "r7m6",
           "date": "2026-11-16",
-          "time": null,
+          "time": "20:30",
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
@@ -2665,7 +2980,7 @@
           "score": null,
           "preview": {
             "headline": "ITA — BKS",
-            "text": "ITA TOOLS Stal Mielec — BKS ZGO Bielsko-Biała, 16.11.2026, godzina do potwierdzenia."
+            "text": "ITA TOOLS Stal Mielec — BKS ZGO Bielsko-Biała, 16.11.2026, godzina 20:30."
           }
         }
       ]

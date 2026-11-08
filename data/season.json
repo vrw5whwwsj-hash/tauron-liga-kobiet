@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-05T21:05:00Z",
-  "status": "6. kolejka w toku. Radomka–BKS 3:0. Następne: Chemik–DevelopRes i Kalisz–ŁKS 6.11.",
+  "updatedAt": "2026-11-08T20:10:37+01:00",
+  "status": "6. kolejka w toku. Radomka–BKS 3:0, Chemik–DevelopRes 0:3, Kalisz–ŁKS 2:3, Budowlani–Stal 3:0, Pałac–Wrocław 3:2. Następne: Opole–Mogilno 9.11 20:30.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -191,13 +191,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-05T21:05:00Z",
+    "lastChecked": "2026-11-08T20:10:37+01:00",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "r6m1 Radomka–BKS 3:0 (25:19, 25:20, 28:26), MVP Kornelia Garita, 650 widzów — potwierdzone liga + Polsat. 6. kolejka w toku."
+    "notes": "r6m1–r6m5 potwierdzone na kartach ligi (wynik, sety, MVP) i raportach Volleystation (homeTop/awayTop). r6m6 Opole–Mogilno 9.11 20:30 Stegu Arena — nie rozegrany. Godziny 7. kolejki z kart ligi: 12.11 17:30 Radomka–Chemik, 14.11 12:00 ŁKS–Opole, 14.11 19:00 DevelopRes–Kalisz, 15.11 20:30 Wrocław–Budowlani, 16.11 17:30 Mogilno–Pałac, 16.11 20:30 Stal–BKS."
   }
 }
