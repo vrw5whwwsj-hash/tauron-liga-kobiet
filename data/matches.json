@@ -2442,7 +2442,7 @@
       "round": 6,
       "label": "6. kolejka",
       "window": "05.11–09.11.2026",
-      "status": "w toku",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r6m1",
@@ -2881,15 +2881,88 @@
           "home": "opo",
           "away": "mog",
           "venue": "Opole",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              18,
+              16
+            ]
+          ],
+          "score": [
+            3,
+            2
+          ],
           "preview": {
             "headline": "Opole — Mogilno",
             "text": "UNI Opole – Sokół & Hagric Mogilno, poniedziałek 20:30. Opole (4., 10 pkt) wygrało dwa mecze z rzędu, ostatnio 3:1 we Wrocławiu bez Katarzyny Zaroślińskiej-Król, którą zastąpiła Iga Kępa (17 pkt); MVP została Gabriela Makarowska-Kulej (6 bloków). Mogilno wciąż bez punktu (0–5, sety 2:15), choć z Kaliszem przegrało dwa pierwsze sety na przewagi; najwięcej punktów zdobywają Karolina Drużkowska, Sandra Świętoń i Melis Durul. Prognoza: Opole 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Iga Kępa",
+          "recap": {
+            "title": "Opole 3:2 z Mogilnem. MVP Kępa",
+            "text": "UNI Opole – Sokół & Hagric Mogilno 3:2 (25:19, 25:18, 23:25, 23:25, 18:16). Stegu Arena, Opole, 1097 widzów. MVP: Iga Kępa (30 pkt). Gospodynie prowadziły 2:0, Sokół doprowadził do tie-breaka; Opole wygrało 18:16 i zamknęło 6. kolejkę. Pierwszy punkt Sokoła w sezonie. Najskuteczniejsze: Kępa 30, Kecher 22, Pavlyk 17; Świętoń 25, Drużkowska 16, Durul 13.",
+            "titleEn": "Opole beat Mogilno 3–2. MVP Kępa",
+            "titleTr": "Opole, Mogilno'yu 3-2 yendi. MVP Kępa",
+            "textEn": "UNI Opole – Sokół & Hagric Mogilno 3–2 (25:19, 25:18, 23:25, 23:25, 18:16). Stegu Arena, Opole, 1097 fans. MVP: Iga Kępa (30 pts). Hosts led 2–0, Sokół forced a tie-break; Opole won 18–16 to close round 6. Sokół’s first point of the season. Top scorers: Kępa 30, Kecher 22, Pavlyk 17; Świętoń 25, Drużkowska 16, Durul 13.",
+            "textTr": "UNI Opole – Sokół & Hagric Mogilno 3-2 (25:19, 25:18, 23:25, 23:25, 18:16). Salon: Stegu Arena, Opole, 1097 seyirci. MVP: Iga Kępa (30 sayı). Ev sahibi 2-0 öndeyken Sokół tie-break'e taşıdı; Opole 18-16 kazanıp 6. haftayı kapattı. Sokół'un sezondaki ilk puanı. En skorerler: Kępa 30, Kecher 22, Pavlyk 17; Świętoń 25, Drużkowska 16, Durul 13.",
+            "homeTop": [
+              {
+                "n": "Iga Kępa",
+                "p": 30
+              },
+              {
+                "n": "Natalia Kecher",
+                "p": 22
+              },
+              {
+                "n": "Andriana Pavlyk",
+                "p": 17
+              },
+              {
+                "n": "Vasja Filipović",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Sandra Świętoń",
+                "p": 25
+              },
+              {
+                "n": "Karolina Drużkowska",
+                "p": 16
+              },
+              {
+                "n": "Melis Durul",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105024.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-09T22:45:00Z"
+          }
         }
       ]
     },
