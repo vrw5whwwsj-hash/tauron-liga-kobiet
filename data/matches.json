@@ -2982,8 +2982,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "MOYA — LOTTO",
-            "text": "MOYA Radomka Radom — LOTTO Chemik Police, 12.11.2026, godzina 17:30."
+            "headline": "Radomka — Chemik",
+            "text": "MOYA Radomka Radom – LOTTO Chemik Police, czwartek 17:30. Radomka (5. miejsce, 12 pkt) pewnie pokonała BKS 3:0, a w ataku prowadziły Weronika Gierszewska (17 pkt), Kateryna Zhylinska i Marta Fedyk; MVP została Kornelia Garita. Chemik (6., 11 pkt) przegrał dwa ostatnie mecze 0:3 z ŁKS i DevelopResem, w drugim bez Natalii Mędrzyk i Oliwii Sieradzkiej, które leczyły drobne urazy – Mędrzyk zapowiedziała powrót na ten mecz. W poprzednim sezonie zespoły wygrały po razie u siebie 3:1. Prognoza: Radomka 3:1.",
+            "prediction": "3:1",
+            "confidence": "niska"
           }
         },
         {
@@ -2996,8 +2998,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "ŁKS — UNI",
-            "text": "ŁKS Commercecon Łódź — UNI Opole, 14.11.2026, godzina 12:00."
+            "headline": "ŁKS — Opole",
+            "text": "ŁKS Commercecon Łódź – UNI Opole, sobota 12:00, Sport Arena. ŁKS (2., 15 pkt) wygrał pięć meczów z rzędu, ostatnio 3:2 w Kaliszu (Elles Dambrink 21 pkt, MVP Karla Antunović), a jedyną porażkę poniósł po tie-breaku z DevelopResem. Opole (4., 12 pkt) przegrało z Mogilnem dwa sety, ale wygrało tie-breaka 18:16; MVP Iga Kępa zdobyła 30 pkt, Natalia Kecher 22. W ostatnich meczach zespół grał bez Katarzyny Zaroślińskiej-Król, a przyczyna i termin jej powrotu nie zostały podane. Prognoza: ŁKS 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           }
         },
         {
@@ -3010,8 +3014,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "KS — NETLAND",
-            "text": "KS DevelopRes Rzeszów — NETLAND MKS Kalisz, 14.11.2026, godzina 19:00."
+            "headline": "DevelopRes — Kalisz",
+            "text": "KS DevelopRes Rzeszów – NETLAND MKS Kalisz, sobota 19:00. Lider (17 pkt, 6 zwycięstw, sety 18:5) wygrał w Szczecinie 3:0, a MVP została Taylor Mims (18 pkt); rozgrywa Alicja Grabka. Kalisz (8., 7 pkt) postawił się ŁKS i przegrał dopiero 13:15 w tie-breaku, a Jelena Vulin zdobyła 29 pkt; wcześniej beniaminek wygrał 3:0 z Wrocławiem i w Mogilnie. Z Budowlanymi, Chemikiem i Pałacem wygrał jednak łącznie tylko jednego seta. Prognoza: DevelopRes 3:0.",
+            "prediction": "3:0",
+            "confidence": "średnia"
           }
         },
         {
@@ -3024,8 +3030,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "#VolleyWrocław — PGE",
-            "text": "#VolleyWrocław — PGE Budowlani Łódź, 15.11.2026, godzina 20:30."
+            "headline": "Wrocław — Budowlani",
+            "text": "#VolleyWrocław – PGE Budowlani Łódź, niedziela 20:30. Wrocław (11., 3 pkt) wciąż bez wygranej i po porażce 2:3 w Bydgoszczy zmienił trenera – po zwolnieniu Andrzeja Kurczyńskiego drużynę prowadzi Dominik Żukowski, a do zespołu dołączyła atakująca Ana Bjelica. Poza składem pozostają Marlena Kowalewska, Anastazja Hryszczuk i Daria Szczyrba; ostatnio najwięcej punktów zdobywała Antonia Stautz (20). Mistrzynie Polski (3., 12 pkt) wygrały dwa mecze z rzędu 3:0, liderkami są Maja Storck i MVP meczu ze Stalą Aleksandra Kazała. Prognoza: Budowlani 3:0.",
+            "prediction": "3:0",
+            "confidence": "średnia"
           }
         },
         {
@@ -3038,8 +3046,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "Sokół — Metalkas",
-            "text": "Sokół & Hagric Mogilno — Metalkas Pałac Bydgoszcz, 16.11.2026, godzina 17:30."
+            "headline": "Mogilno — Pałac",
+            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz, poniedziałek 17:30. Mogilno (12., 1 pkt) zdobyło w Opolu pierwszy punkt sezonu, doprowadzając do tie-breaka; Sandra Świętoń zdobyła 25 pkt, Karolina Drużkowska 16. Pałac (7., 9 pkt) wygrał z Wrocławiem 3:2 dzięki 31 pkt MVP Wiktorii Makarewicz i 18 pkt Aliny Bartkowskiej-Kluzy, a na wyjeździe pokonał już 3:0 Stal. Prognoza: Pałac 3:1.",
+            "prediction": "3:1",
+            "confidence": "średnia"
           }
         },
         {
@@ -3052,8 +3062,10 @@
           "sets": null,
           "score": null,
           "preview": {
-            "headline": "ITA — BKS",
-            "text": "ITA TOOLS Stal Mielec — BKS ZGO Bielsko-Biała, 16.11.2026, godzina 20:30."
+            "headline": "Stal — BKS",
+            "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała, poniedziałek 20:30. Stal (10., 4 pkt) punktowała tylko w tie-breakach z Wrocławiem i w Radomiu, a u siebie przegrała 0:3 z Pałacem i DevelopResem; w ataku Weronika Sobiczewska, Anna Bączyńska i Aleksandra Adamczyk. BKS (9., 5 pkt) przegrał trzy ostatnie mecze, ostatnio 0:3 w Radomiu, i wciąż gra bez Kertu Laak (zerwane więzadła w kolanie); punkty zdobywają Martyna Podlaska, Iris Vos i Iga Wasilewska. Prognoza: BKS 3:2.",
+            "prediction": "3:2",
+            "confidence": "niska"
           }
         }
       ]
