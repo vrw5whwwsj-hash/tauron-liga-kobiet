@@ -1,1 +1,27 @@
-PLACEHOLDER_FULL_JSON_HERE
+{
+  "updated": "2026-11-11",
+  "items": [
+    {
+      "d": "2026-11-10",
+      "t": "BKS ZGO ma nową atakującą: Wiktoria Kowalska",
+      "te": "BKS ZGO sign new opposite: Wiktoria Kowalska",
+      "tt": "BKS ZGO'nun yeni pasör çaprazı: Wiktoria Kowalska",
+      "b": "27-letnia atakująca Wiktoria Kowalska została nową siatkarką BKS ZGO Bielsko-Biała. Wicemistrzyni Polski z 2024 roku zastąpi kontuzjowaną Kertu Laak. Ostatnio grała w Sokole & Hagric Mogilno.",
+      "be": "27-year-old opposite Wiktoria Kowalska has joined BKS ZGO Bielsko-Biała. The 2024 Polish vice-champion replaces the injured Kertu Laak. She most recently played for Sokół & Hagric Mogilno.",
+      "bt": "27 yaşındaki pasör çaprazı Wiktoria Kowalska, BKS ZGO Bielsko-Biała'ya katıldı. 2024 Polonya ikincisi sakatlanan Kertu Laak'ın yerini alacak. Son olarak Sokół & Hagric Mogilno'da oynadı.",
+      "u": "https://www.tauronligakobiet.pl/news,z-mogilna-do-bielska-bialej-bks-zgo-ma-nowa-atakujaca.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-09",
+      "t": "Nina Stojiljković nową rozgrywającą Kalisza",
+      "te": "Nina Stojiljković joins Kalisz as setter",
+      "tt": "Nina Stojiljković, Kalisz'in yeni pasörü",
+      "b": "Nową rozgrywającą NETLAND MKS Kalisz została Nina Stojiljković. 30-letnia (180 cm) reprezentantka Francji ostatnio grała w Panionios Ateny. Uczestniczka IO Paryż 2024, złota medalistka Ligi Europejskiej 2022 i Challenger Cup 2023.",
+      "be": "Nina Stojiljković has become the new setter for NETLAND MKS Kalisz. The 30-year-old (180 cm) French international most recently played for Panionios Athens. She competed at the 2024 Paris Olympics and won the 2022 European League and 2023 Challenger Cup.",
+      "bt": "Nina Stojiljković, NETLAND MKS Kalisz'in yeni pasörü oldu. 30 yaşındaki (180 cm) Fransa millî takımı oyuncusu son olarak Panionios Atina'da oynadı. 2024 Paris Olimpiyatları katılımcısı, 2022 Avrupa Ligi ve 2023 Challenger Cup altın madalyalı.",
+      "u": "https://www.tauronligakobiet.pl/news,nina-stojiljkovic-nowa-rozgrywajaca-netland-mks-kalisz.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
