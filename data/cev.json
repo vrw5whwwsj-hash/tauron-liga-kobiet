@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
-  "updated": "2026-09-30",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyników grup jeszcze nie ma. Kwalifikacje 20.10–12.11.2026.",
+  "updated": "2026-11-11",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wszystkie zespoły fazy grupowej znane (kwalifikacje zakończone 11.11.2026). Asterix Avo Beveren (BEL) i Turan Tovuz (AZE) weszły do grup A i D.",
   "sources": [
     { "name": "CEV Champions League", "url": "https://championsleague.cev.eu/en/", "x": "https://x.com/CEVolleyballCL" },
     { "name": "CEV", "url": "https://www.cev.eu", "x": "https://x.com/CEVolleyball" },
@@ -16,7 +16,7 @@
     "vakif": { "name": "VakıfBank Stambuł", "short": "VakıfBank", "cc": "TUR", "x": "https://x.com/VakifBankSK" },
     "opole": { "name": "UNI Opole", "short": "UNI Opole", "cc": "POL" },
     "mulhouse": { "name": "Volley Mulhouse Alsace", "short": "Mulhouse", "cc": "FRA" },
-    "qa": { "name": "Kwalifikant A", "short": "Kwal. A", "cc": "—" },
+    "qa": { "name": "Asterix Avo Beveren", "short": "Asterix", "cc": "BEL", "x": "https://x.com/AsterixAvo" },
     "conegliano": { "name": "Prosecco DOC Conegliano", "short": "Conegliano", "cc": "ITA", "x": "https://x.com/imocovolley" },
     "rzeszow": { "name": "KS DevelopRes Rzeszów", "short": "DevelopRes", "cc": "POL", "x": "https://x.com/KSDevelopres" },
     "dresden": { "name": "Dresdner SC", "short": "Dresden", "cc": "GER" },
@@ -28,7 +28,7 @@
     "scandicci": { "name": "Savino Del Bene Scandicci", "short": "Scandicci", "cc": "ITA", "x": "https://x.com/savinodelbenevolley" },
     "eczaci": { "name": "Eczacıbaşı Dynavit", "short": "Eczacıbaşı", "cc": "TUR", "x": "https://x.com/EczacibasiSK" },
     "tent": { "name": "Tent Obrenovac", "short": "Obrenovac", "cc": "SRB" },
-    "qd": { "name": "Kwalifikant D", "short": "Kwal. D", "cc": "—" },
+    "qd": { "name": "Turan Tovuz", "short": "Turan", "cc": "AZE" },
     "budowlani": { "name": "PGE Budowlani Łódź", "short": "Budowlani", "cc": "POL", "x": "https://x.com/budowlani_lodz" },
     "suhl": { "name": "VfB Suhl Thüringen", "short": "Suhl", "cc": "GER" },
     "voluntari": { "name": "C.S.O. Voluntari 2005", "short": "Voluntari", "cc": "ROU" },
@@ -42,9 +42,10 @@
     { "id": "E", "teams": ["budowlani", "suhl", "voluntari", "gala"] }
   ],
   "qualifiers": {
-    "window": "2. runda 20–22.10 i 27–29.10; 3. runda 3–5.11 i 10–12.11.2026",
-    "poolA": ["FC Porto", "Fundacion Cajasol Andalucia", "Asterix Avo Beveren", "OTP Banka Branik Maribor"],
-    "note": "Dwóch zwycięzców 3. rundy wchodzi do grup A i D."
+    "window": "Zakończone 11.11.2026",
+    "poolA": "Asterix Avo Beveren (BEL) — awans po Golden Set 15-12 z FC Porto",
+    "poolD": "Turan Tovuz (AZE) — awans po 3-0, 3-0 z Maritza Plovdiv",
+    "note": "Dwóch zwycięzców 3. rundy kwalifikacji weszło do grup A i D."
   },
   "fixtures": [
     { "id": "opole-mulhouse", "home": "opole", "away": "mulhouse", "date": "2026-11-26", "time": "18:00", "venue": "Stegu Arena, Opole", "leg": 1 },
