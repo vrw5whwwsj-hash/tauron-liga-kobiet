@@ -1,1 +1,27 @@
-see /tmp/news_updated.json
+{
+  "updated": "2026-11-11",
+  "items": [
+    {
+      "d": "2026-11-11",
+      "t": "Drużyna 6. kolejki. Rekordowy mecz w Opolu",
+      "te": "Round 6 team of the week. Record match in Opole",
+      "tt": "6. haftanın takımı. Opole'de rekorlu maç",
+      "b": "W 6. kolejce Sokół & Hagric zdobył pierwszy punkt sezonu w Opolu (2:3). Rekordy: Iga Kępa 30 pkt, Natalia Kecher 22 pkt i 11 bloków, Wiktoria Makarewicz 31 pkt. DevelopRes 3:0 z Chemikiem, ŁKS wygrał w Kaliszu po odrobieniu straty w tie-breaku, Budowlani 3:0 ze Stalą.",
+      "be": "In round 6 Sokół & Hagric earned their first point of the season in Opole (2–3). Records: Iga Kępa 30 pts, Natalia Kecher 22 pts and 11 blocks, Wiktoria Makarewicz 31 pts. DevelopRes beat Chemik 3–0, ŁKS won in Kalisz after trailing in the tie-break, Budowlani 3–0 over Stal.",
+      "bt": "6. haftada Sokół & Hagric Opole'de sezonun ilk puanını aldı (2-3). Rekorlar: Iga Kępa 30 sayı, Natalia Kecher 22 sayı ve 11 blok, Wiktoria Makarewicz 31 sayı. DevelopRes Chemik'i 3-0 yendi, ŁKS Kalisz'te tie-break'te geriden gelerek kazandı, Budowlani Stal'ı 3-0 geçti.",
+      "u": "https://www.tauronligakobiet.pl/news,druzyna-6-kolejki-mecz-indywidualnych-rekordow-w-opolu.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Kowalska nową atakującą BKS ZGO",
+      "te": "Kowalska joins BKS ZGO as opposite",
+      "tt": "Kowalska, BKS ZGO'nun yeni pasör çaprazı",
+      "b": "Wiktoria Kowalska (27 l.) przeszła z Sokoła & Hagric Mogilno do BKS ZGO Bielsko-Biała. Zastąpi kontuzjowaną Kertu Laak. W poprzednim sezonie w Mogilnie zdobyła 308 pkt.",
+      "be": "Wiktoria Kowalska (27) moved from Sokół & Hagric Mogilno to BKS ZGO Bielsko-Biała. She replaces the injured Kertu Laak. Last season in Mogilno she scored 308 points.",
+      "bt": "Wiktoria Kowalska (27), Sokół & Hagric Mogilno'dan BKS ZGO Bielsko-Biała'ya transfer oldu. Sakatlanan Kertu Laak'ın yerini alacak. Geçen sezon Mogilno'da 308 sayı kaydetti.",
+      "u": "https://www.tauronligakobiet.pl/news,z-mogilna-do-bielska-bialej-bks-zgo-ma-nowa-atakujaca.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
