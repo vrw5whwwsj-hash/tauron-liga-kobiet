@@ -190,34 +190,20 @@
       "updated": "2026-10-16"
     },
     {
-      "name": "Natalia Mędrzyk",
+      "player": "Natalia Mędrzyk",
       "team": "LOTTO Chemik",
-      "status": "drobna kontuzja, wraca na Radomkę 12.11",
-      "since": "2026-11-06"
+      "note": "drobna kontuzja, wraca na Radomkę 12.11",
+      "noteEn": "",
+      "noteTr": "",
+      "updated": "2026-11-06"
     },
     {
-      "name": "Oliwia Sieradzka",
+      "player": "Oliwia Sieradzka",
       "team": "LOTTO Chemik",
-      "status": "drobna kontuzja",
-      "since": "2026-11-06"
-    },
-    {
-      "name": "Marlena Kowalewska",
-      "team": "#VolleyWrocław",
-      "status": "kontuzja, poza składem",
-      "since": "2026-10-25"
-    },
-    {
-      "name": "Anastazja Hryszczuk",
-      "team": "#VolleyWrocław",
-      "status": "kontuzja, poza składem",
-      "since": "2026-10-25"
-    },
-    {
-      "name": "Daria Szczyrba",
-      "team": "#VolleyWrocław",
-      "status": "po zabiegu kolana, rehabilitacja",
-      "since": "2026-10-16"
+      "note": "drobna kontuzja",
+      "noteEn": "",
+      "noteTr": "",
+      "updated": "2026-11-06"
     }
   ],
   "verification": {
