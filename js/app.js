@@ -264,8 +264,8 @@ async function init() {
   if (cev) CEV = cev;
   s.teams.forEach((x) => { TEAM[x.id] = x; });
   loadResults();
-  document.getElementById("save-btn").addEventListener("click", applyResult);
-  document.getElementById("reset-btn").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
+  document.getElementById("save").addEventListener("click", applyResult);
+  document.getElementById("reset").addEventListener("click", () => { localStorage.removeItem("tlk-results"); location.reload(); });
   document.querySelectorAll("nav.tabs button").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
   document.querySelectorAll(".lang button").forEach((b) => {
     if (b.classList.contains("cev-sub")) return;
