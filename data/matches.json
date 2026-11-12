@@ -2970,7 +2970,7 @@
       "round": 7,
       "label": "7. kolejka",
       "window": "12.11–16.11.2026",
-      "status": "zaplanowana",
+      "status": "w trakcie",
       "matches": [
         {
           "id": "r7m1",
@@ -2979,13 +2979,82 @@
           "home": "rad",
           "away": "che",
           "venue": "Radom",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              25,
+              27
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Radomka — Chemik",
             "text": "MOYA Radomka Radom – LOTTO Chemik Police, czwartek 17:30. Radomka (5. miejsce, 12 pkt) pewnie pokonała BKS 3:0, a w ataku prowadziły Weronika Gierszewska (17 pkt), Kateryna Zhylinska i Marta Fedyk; MVP została Kornelia Garita. Chemik (6., 11 pkt) przegrał dwa ostatnie mecze 0:3 z ŁKS i DevelopResem, w drugim bez Natalii Mędrzyk i Oliwii Sieradzkiej, które leczyły drobne urazy – Mędrzyk zapowiedziała powrót na ten mecz. W poprzednim sezonie zespoły wygrały po razie u siebie 3:1. Prognoza: Radomka 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
+          },
+          "mvp": "Natalia Mędrzyk",
+          "recap": {
+            "title": "Chemik 3:0 w Radomiu. MVP Mędrzyk",
+            "text": "MOYA Radomka Radom – LOTTO Chemik Police 0:3 (20:25, 18:25, 25:27). ENEA RCS Radom, 750 widzów. MVP: Natalia Mędrzyk (19 pkt, 16/34 w ataku, 3 asy). Mecz trwał 1:26. Chemik z powracającą Mędrzyk i Sieradzką pewnie wygrał dwa pierwsze sety, w trzecim obronił się w końcówce, wygrywając 27:25. Najskuteczniejsze: Dudek 13, Zhylinska 8, Garita 8, Fedyk 6; Mędrzyk 19, Sieradzka 13, Orzoł 13, Koput 10.",
+            "titleEn": "Chemik win 3–0 in Radom. MVP Mędrzyk",
+            "titleTr": "Chemik Radom'da 3-0 kazandı. MVP Mędrzyk",
+            "textEn": "MOYA Radomka Radom – LOTTO Chemik Police 0–3 (20:25, 18:25, 25:27). ENEA RCS Radom, 750 spectators. MVP: Natalia Mędrzyk (19 pts, 16/34 in attack, 3 aces). The match lasted 1:26. With Mędrzyk and Sieradzka back, Chemik won the first two sets comfortably and closed out a tight third 27:25. Top scorers: Dudek 13, Zhylinska 8, Garita 8, Fedyk 6; Mędrzyk 19, Sieradzka 13, Orzoł 13, Koput 10.",
+            "textTr": "MOYA Radomka Radom – LOTTO Chemik Police 0-3 (20:25, 18:25, 25:27). ENEA RCS Radom, 750 seyirci. MVP: Natalia Mędrzyk (19 sayı, hücumda 16/34, 3 servis ası). Maç 1:26 sürdü. Mędrzyk ve Sieradzka'nın dönüşüyle Chemik ilk iki seti rahat aldı, çekişmeli üçüncü seti 27:25 kapattı. En skorerler: Dudek 13, Zhylinska 8, Garita 8, Fedyk 6; Mędrzyk 19, Sieradzka 13, Orzoł 13, Koput 10.",
+            "homeTop": [
+              {
+                "n": "Aleksandra Dudek",
+                "p": 13
+              },
+              {
+                "n": "Kateryna Zhylinska",
+                "p": 8
+              },
+              {
+                "n": "Kornelia Garita",
+                "p": 8
+              },
+              {
+                "n": "Marta Fedyk",
+                "p": 6
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Natalia Mędrzyk",
+                "p": 19
+              },
+              {
+                "n": "Oliwia Sieradzka",
+                "p": 13
+              },
+              {
+                "n": "Julia Orzoł",
+                "p": 13
+              },
+              {
+                "n": "Maja Koput",
+                "p": 10
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105030.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-12T20:30:00Z"
           }
         },
         {
