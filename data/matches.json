@@ -2979,13 +2979,36 @@
           "home": "rad",
           "away": "che",
           "venue": "Radom",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              25,
+              27
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Radomka — Chemik",
             "text": "MOYA Radomka Radom – LOTTO Chemik Police, czwartek 17:30. Radomka (5. miejsce, 12 pkt) pewnie pokonała BKS 3:0, a w ataku prowadziły Weronika Gierszewska (17 pkt), Kateryna Zhylinska i Marta Fedyk; MVP została Kornelia Garita. Chemik (6., 11 pkt) przegrał dwa ostatnie mecze 0:3 z ŁKS i DevelopResem, w drugim bez Natalii Mędrzyk i Oliwii Sieradzkiej, które leczyły drobne urazy – Mędrzyk zapowiedziała powrót na ten mecz. W poprzednim sezonie zespoły wygrały po razie u siebie 3:1. Prognoza: Radomka 3:1.",
             "prediction": "3:1",
             "confidence": "niska"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-12T20:02:46Z"
           }
         },
         {
