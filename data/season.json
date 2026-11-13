@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-12T20:30:00Z",
-  "status": "7. kolejka trwa: Radomka–Chemik 0:3 (12.11). DevelopRes 17 pkt, ŁKS 15, Chemik 14, Budowlani 12, Opole 12, Radomka 12. Następne: 14.11 ŁKS–Opole i DevelopRes–Kalisz.",
+  "updatedAt": "2026-11-13T20:00:00Z",
+  "status": "7. kolejka trwa: Radomka–Chemik 0:3 (12.11). DevelopRes 17 pkt, ŁKS 15, Chemik 14, Budowlani 12, Opole 12, Radomka 12. Następne: 14.11 ŁKS–Opole 12:00 i DevelopRes–Kalisz 19:00.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -176,7 +176,7 @@
     {
       "player": "Anastazja Hryszczuk",
       "team": "#VolleyWrocław",
-      "note": "Uraz mięśniowy, przerwa na kilka tygodni (stan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
+      "note": "Uraz mięśniowy, przerwa na kilka tygodni (ştan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
       "noteEn": "Muscle injury, out for a few weeks (as of 16 Oct). Missed the match with Radomka on 13 Oct.",
       "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı.",
       "updated": "2026-10-16"
@@ -184,7 +184,7 @@
     {
       "player": "Emilia Kaczmarzyk",
       "team": "#VolleyWrocław",
-      "note": "Niegroźny uraz barku, kilka dni odpoczynku i mniejsze obciążenia (stan z 16.10).",
+      "note": "Niegroźny uraz barku, kilka dni odpoczynku i mniejsze obciążenia (ştan z 16.10).",
       "noteEn": "Minor shoulder injury, a few days of rest and reduced load (as of 16 Oct).",
       "noteTr": "Hafif omuz sakatlığı, birkaç gün dinlenme ve azaltılmış yük (16 Ekim itibarıyla).",
       "updated": "2026-10-16"
@@ -207,13 +207,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-08T20:10:37+01:00",
+    "lastChecked": "2026-11-13T20:00:00+01:00",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "r6m1–r6m5 potwierdzone na kartach ligi (wynik, sety, MVP) i raportach Volleystation (homeTop/awayTop). r6m6 Opole–Mogilno 9.11 20:30 Stegu Arena — nie rozegrany. Godziny 7. kolejki z kart ligi: 12.11 17:30 Radomka–Chemik, 14.11 12:00 ŁKS–Opole, 14.11 19:00 DevelopRes–Kalisz, 15.11 20:30 Wrocław–Budowlani, 16.11 17:30 Mogilno–Pałac, 16.11 20:30 Stal–BKS."
+    "notes": "r7m1 Radomka–Chemik 0:3 potwierdzony. Godziny i TV 7. kolejki z kart ligi i Polsat: 14.11 12:00 ŁKS–Opole (PS1/Extra2), 14.11 19:00 DevelopRes–Kalisz (Extra3), 15.11 20:30 Wrocław–Budowlani (Extra2), 16.11 17:30 Mogilno–Pałac (PS1/Extra2), 16.11 20:30 Stal–BKS (PS2)."
   }
 }
