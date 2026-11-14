@@ -1,1 +1,49 @@
-CONTENT_FROM_FILE
+{
+  "updated": "2026-11-14",
+  "items": [
+    {
+      "d": "2026-11-14",
+      "t": "Alicja Grabka: Wierzę, że wygramy wszystko",
+      "te": "Alicja Grabka: I believe we will win everything",
+      "tt": "Alicja Grabka: Her şeyi kazanacağımıza inanıyorum",
+      "b": "DevelopRes awansował do 1/4 TAURON Pucharu Polski po 3:0 z Mogilnem. To ósme zwycięstwo z rzędu w sezonie (z Superpucharem). Grabka: „To jest dla nas budujące, że te mecze wygrywamy. Wierzę, że wygramy w tym roku wszystko, co jest do wygrania.”",
+      "be": "DevelopRes reached the Polish Cup quarter-finals with a 3–0 win over Mogilno. Eighth straight win of the season (including Super Cup). Grabka: “It’s building for us that we win these matches. I believe we will win everything there is to win this year.”",
+      "bt": "DevelopRes, Mogilno'yu 3-0 yenerek Puchar Polski çeyrek finaline yükseldi. Sezonda üst üste sekizinci galibiyet (Superpuchar dahil). Grabka: “Bu maçları kazanmamız bizi motive ediyor. Bu yıl kazanılacak her şeyi kazanacağımıza inanıyorum.”",
+      "u": "https://www.tauronligakobiet.pl/news,alicja-grabka-wierze-w-to-ze-wygramy-w-tym-roku-wszystko-co-jest-do-wygrania.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-14",
+      "t": "Jelena Blagojević: Dla mnie liczy się cały zespół",
+      "te": "Jelena Blagojević: The whole team matters to me",
+      "tt": "Jelena Blagojević: Benim için tüm takım önemli",
+      "b": "Trenerka DevelopResu po 3:0 z Mogilnem w PP: „Dla mnie liczy się cały zespół. Chcę, żeby wszystkie 14 zawodniczek było gotowych do gry.” Przed ligowym meczem z Kaliszem.",
+      "be": "DevelopRes coach after 3–0 over Mogilno in the Cup: “The whole team matters to me. I want all 14 players ready to play.” Ahead of the league match vs Kalisz.",
+      "bt": "DevelopRes antrenörü, PP'de Mogilno'yu 3-0 yendikten sonra: “Benim için tüm takım önemli. 14 oyuncunun hepsinin hazır olmasını istiyorum.” Kalisz maçı öncesi.",
+      "u": "https://www.tauronligakobiet.pl/news,jelena-blagojevic-dla-mnie-liczy-sie-caly-zespol.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-13",
+      "t": "Zapowiedź 7. kolejki: Liga rozkręca się",
+      "te": "Round 7 preview: The league is heating up",
+      "tt": "7. hafta önizlemesi: Lig ısınıyor",
+      "b": "7. kolejka: 12.11 Radomka–Chemik 17:30, 14.11 ŁKS–Opole 12:00 i DevelopRes–Kalisz 19:00, 15.11 Wrocław–Budowlani 20:30, 16.11 Mogilno–Pałac 17:30 i Stal–BKS 20:30. DevelopRes niepokonany na czele, Wrocław i Mogilno bez zwycięstwa.",
+      "be": "Round 7: 12.11 Radomka–Chemik 17:30, 14.11 ŁKS–Opole 12:00 and DevelopRes–Kalisz 19:00, 15.11 Wrocław–Budowlani 20:30, 16.11 Mogilno–Pałac 17:30 and Stal–BKS 20:30. Unbeaten DevelopRes lead; Wrocław and Mogilno still winless.",
+      "bt": "7. hafta: 12.11 Radomka–Chemik 17:30, 14.11 ŁKS–Opole 12:00 ve DevelopRes–Kalisz 19:00, 15.11 Wrocław–Budowlani 20:30, 16.11 Mogilno–Pałac 17:30 ve Stal–BKS 20:30. Yenilgisiz DevelopRes lider; Wrocław ve Mogilno hâlâ galibiyetsiz.",
+      "u": "https://www.tauronligakobiet.pl/news,liga-rozkreca-sie-i-pedzi-jak-szalona-przed-nami-7-kolejka-tauron-ligi-kobiet.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-13",
+      "t": "Karolina Drużkowska: Musimy wygrywać z każdym",
+      "te": "Karolina Drużkowska: We must win against everyone",
+      "tt": "Karolina Drużkowska: Herkesle kazanmalıyız",
+      "b": "Sokół przegrał 0:3 z DevelopResem w 1/8 Pucharu Polski. Drużkowska o poniedziałkowym meczu z Pałacem: „Ten mecz będzie dla nas kluczowy w kontekście sytuacji w tabeli. Musimy wygrywać z każdym.”",
+      "be": "Sokół lost 0–3 to DevelopRes in the Cup last 16. Drużkowska on Monday’s match vs Pałac: “This match will be key for us in the table. We must win against everyone.”",
+      "bt": "Sokół, Puchar 1/8 finalinde DevelopRes'e 0-3 yenildi. Drużkowska, Pazartesi Pałac maçı için: “Bu maç tablo için bizim için kritik. Herkesle kazanmalıyız.”",
+      "u": "https://www.tauronligakobiet.pl/news,karolina-druzkowska-musimy-wygrywac-z-kazdym.html",
+      "un": "TAURON Liga Kobiet"
+    }
+  ]
+}
