@@ -3064,8 +3064,28 @@
           "home": "lks",
           "away": "opo",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              27,
+              25
+            ],
+            [
+              25,
+              17
+            ],
+            [
+              22,
+              25
+            ],
+            [
+              25,
+              17
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "ŁKS — Opole",
             "text": "ŁKS Commercecon Łódź – UNI Opole, sobota 12:00, Sport Arena. ŁKS (2., 15 pkt) wygrał pięć meczów z rzędu, ostatnio 3:2 w Kaliszu (Elles Dambrink 21 pkt, MVP Karla Antunović), a jedyną porażkę poniósł po tie-breaku z DevelopResem. Opole (4., 12 pkt) przegrało z Mogilnem dwa sety, ale wygrało tie-breaka 18:16; MVP Iga Kępa zdobyła 30 pkt, Natalia Kecher 22. W ostatnich meczach zespół grał bez Katarzyny Zaroślińskiej-Król, a przyczyna i termin jej powrotu nie zostały podane. Prognoza: ŁKS 3:1.",
