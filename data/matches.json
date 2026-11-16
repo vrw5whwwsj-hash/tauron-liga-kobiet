@@ -3238,13 +3238,35 @@
           "home": "wro",
           "away": "bud",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              16,
+              25
+            ],
+            [
+              15,
+              25
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Wrocław — Budowlani",
             "text": "#VolleyWrocław – PGE Budowlani Łódź, niedziela 20:30. Wrocław (11., 3 pkt) wciąż bez wygranej i po porażce 2:3 w Bydgoszczy zmienił trenera – po zwolnieniu Andrzeja Kurczyńskiego drużynę prowadzi Dominik Żukowski, a do zespołu dołączyła atakująca Ana Bjelica. Poza składem pozostają Marlena Kowalewska, Anastazja Hryszczuk i Daria Szczyrba; ostatnio najwięcej punktów zdobywała Antonia Stautz (20). Mistrzynie Polski (3., 12 pkt) wygrały dwa mecze z rzędu 3:0, liderkami są Maja Storck i MVP meczu ze Stalą Aleksandra Kazała. Prognoza: Budowlani 3:0.",
             "prediction": "3:0",
             "confidence": "średnia"
+          },
+          "mvp": "Saša Planinšec",
+          "recap": {
+            "title": "Budowlani 3:0 we Wrocławiu. MVP Planinšec",
+            "text": "#VolleyWrocław – PGE Budowlani Łódź 0:3 (16:25, 15:25, 20:25). MVP: Saša Planinšec (15 pkt). Budowlani wracają na podium.",
+            "source": "https://www.polsatsport.pl/wiadomosc/2026-11-15/volley-wroclaw-budowlani-lodz-siatkowka-wynik-meczu/"
           }
         },
         {
@@ -3254,13 +3276,35 @@
           "home": "mog",
           "away": "byd",
           "venue": "Mogilno",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Mogilno — Pałac",
             "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz, poniedziałek 17:30. Mogilno (12., 1 pkt) zdobyło w Opolu pierwszy punkt sezonu, doprowadzając do tie-breaka; Sandra Świętoń zdobyła 25 pkt, Karolina Drużkowska 16. Pałac (7., 9 pkt) wygrał z Wrocławiem 3:2 dzięki 31 pkt MVP Wiktorii Makarewicz i 18 pkt Aliny Bartkowskiej-Kluzy, a na wyjeździe pokonał już 3:0 Stal. Prognoza: Pałac 3:1.",
             "prediction": "3:1",
             "confidence": "średnia"
+          },
+          "mvp": null,
+          "recap": {
+            "title": "Pałac 3:0 w Mogilnie",
+            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0:3. Wynik ze strony ligi, sety do potwierdzenia.",
+            "source": "https://www.tauronligakobiet.pl/games.html"
           }
         },
         {
