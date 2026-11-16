@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
-  "updated": "2026-11-13",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. UNI Opole: 26.11 vs Mulhouse (18:00), 1–3.12 u Asterix, 17.12 u VakıfBank (17:00), 12.01 vs Asterix (18:00), 27.01 u Mulhouse (20:30), 3.02 vs VakıfBank (20:30).",
+  "updated": "2026-11-16",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. UNI Opole: 26.11 vs Mulhouse (18:00), TBD u Asterix, 17.12 u VakıfBank (19:00), TBD vs Asterix, 27.01 u Mulhouse (20:30), 3.02 vs VakıfBank (20:30).",
   "sources": [
     {
       "name": "CEV Champions League",
@@ -194,6 +194,15 @@
   },
   "fixtures": [
     {
+      "id": "vakif-qa",
+      "home": "vakif",
+      "away": "qa",
+      "date": "2026-11-25",
+      "time": "19:00",
+      "venue": "Vakifbank Spor Sarayi ISTANBUL",
+      "leg": 1
+    },
+    {
       "id": "opole-mulhouse",
       "home": "opole",
       "away": "mulhouse",
@@ -203,100 +212,54 @@
       "leg": 1
     },
     {
-      "id": "rzeszow-dresden",
-      "home": "rzeszow",
-      "away": "dresden",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "conegliano-novara",
-      "home": "conegliano",
-      "away": "novara",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "fener-vasas",
-      "home": "fener",
-      "away": "vasas",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "milano-levallois",
-      "home": "milano",
-      "away": "levallois",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "eczaci-tent",
-      "home": "eczaci",
-      "away": "tent",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "budowlani-gala",
-      "home": "budowlani",
-      "away": "gala",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "suhl-voluntari",
-      "home": "suhl",
-      "away": "voluntari",
-      "date": "2026-11-24",
-      "leg": 1
-    },
-    {
-      "id": "dresden-conegliano",
-      "home": "dresden",
-      "away": "conegliano",
+      "id": "mulhouse-vakif",
+      "home": "mulhouse",
+      "away": "vakif",
       "date": "2026-12-01",
-      "leg": 2
+      "time": "19:00",
+      "venue": "Palais des Sports MULHOUSE",
+      "leg": 1
     },
     {
-      "id": "gala-suhl",
-      "home": "gala",
-      "away": "suhl",
-      "date": "2026-12-01",
-      "leg": 2
-    },
-    {
-      "id": "levallois-fener",
-      "home": "levallois",
-      "away": "fener",
-      "date": "2026-12-01",
-      "leg": 2
-    },
-    {
-      "id": "asterix-opole",
+      "id": "qa-opole",
       "home": "qa",
       "away": "opole",
-      "date": "2026-12-01",
+      "date": "TBD",
       "time": "TBD",
-      "venue": "Beveren",
-      "leg": 1,
-      "note": "1–3.12"
+      "leg": 1
     },
     {
       "id": "vakif-opole",
       "home": "vakif",
       "away": "opole",
       "date": "2026-12-17",
-      "time": "17:00",
-      "venue": "Stambuł",
+      "time": "19:00",
+      "venue": "Vakifbank Spor Sarayi ISTANBUL",
       "leg": 1
     },
     {
-      "id": "opole-asterix",
+      "id": "qa-mulhouse",
+      "home": "qa",
+      "away": "mulhouse",
+      "date": "TBD",
+      "time": "TBD",
+      "leg": 1
+    },
+    {
+      "id": "vakif-mulhouse",
+      "home": "vakif",
+      "away": "mulhouse",
+      "date": "2027-01-12",
+      "time": "20:00",
+      "venue": "Vakifbank Spor Sarayi ISTANBUL",
+      "leg": 2
+    },
+    {
+      "id": "opole-qa",
       "home": "opole",
       "away": "qa",
-      "date": "2027-01-12",
-      "time": "18:00",
+      "date": "TBD",
+      "time": "TBD",
       "venue": "Stegu Arena, Opole",
       "leg": 2
     },
@@ -306,7 +269,24 @@
       "away": "opole",
       "date": "2027-01-27",
       "time": "20:30",
-      "venue": "Mulhouse",
+      "venue": "Palais des Sports MULHOUSE",
+      "leg": 2
+    },
+    {
+      "id": "qa-vakif",
+      "home": "qa",
+      "away": "vakif",
+      "date": "TBD",
+      "time": "TBD",
+      "leg": 2
+    },
+    {
+      "id": "mulhouse-qa",
+      "home": "mulhouse",
+      "away": "qa",
+      "date": "2027-02-03",
+      "time": "19:00",
+      "venue": "Palais des Sports MULHOUSE",
       "leg": 2
     },
     {
@@ -316,6 +296,435 @@
       "date": "2027-02-03",
       "time": "20:30",
       "venue": "Stegu Arena, Opole",
+      "leg": 2
+    },
+    {
+      "id": "conegliano-novara",
+      "home": "conegliano",
+      "away": "novara",
+      "date": "2026-11-26",
+      "time": "20:30",
+      "venue": "Palaverde VILLORBA - TREVISO",
+      "leg": 1
+    },
+    {
+      "id": "rzeszow-dresden",
+      "home": "rzeszow",
+      "away": "dresden",
+      "date": "2026-11-26",
+      "time": "20:30",
+      "venue": "RCWS Podpromie RZESZÓW",
+      "leg": 1
+    },
+    {
+      "id": "dresden-conegliano",
+      "home": "dresden",
+      "away": "conegliano",
+      "date": "2026-12-02",
+      "time": "19:00",
+      "venue": "Cyberport Arena DRESDEN",
+      "leg": 1
+    },
+    {
+      "id": "novara-rzeszow",
+      "home": "novara",
+      "away": "rzeszow",
+      "date": "2026-12-02",
+      "time": "20:30",
+      "venue": "Pala Igor Gorgonzola NOVARA",
+      "leg": 1
+    },
+    {
+      "id": "rzeszow-conegliano",
+      "home": "rzeszow",
+      "away": "conegliano",
+      "date": "2026-12-16",
+      "time": "18:00",
+      "venue": "RCWS Podpromie RZESZÓW",
+      "leg": 1
+    },
+    {
+      "id": "novara-dresden",
+      "home": "novara",
+      "away": "dresden",
+      "date": "2026-12-16",
+      "time": "20:30",
+      "venue": "Pala Igor Gorgonzola NOVARA",
+      "leg": 1
+    },
+    {
+      "id": "rzeszow-novara",
+      "home": "rzeszow",
+      "away": "novara",
+      "date": "2027-01-13",
+      "time": "20:00",
+      "venue": "RCWS Podpromie RZESZÓW",
+      "leg": 2
+    },
+    {
+      "id": "conegliano-dresden",
+      "home": "conegliano",
+      "away": "dresden",
+      "date": "2027-01-14",
+      "time": "20:30",
+      "venue": "Palaverde VILLORBA - TREVISO",
+      "leg": 2
+    },
+    {
+      "id": "dresden-rzeszow",
+      "home": "dresden",
+      "away": "rzeszow",
+      "date": "2027-01-26",
+      "time": "19:00",
+      "venue": "Cyberport Arena DRESDEN",
+      "leg": 2
+    },
+    {
+      "id": "novara-conegliano",
+      "home": "novara",
+      "away": "conegliano",
+      "date": "2027-01-27",
+      "time": "20:30",
+      "venue": "Pala Igor Gorgonzola NOVARA",
+      "leg": 2
+    },
+    {
+      "id": "dresden-novara",
+      "home": "dresden",
+      "away": "novara",
+      "date": "2027-02-03",
+      "time": "19:00",
+      "venue": "Cyberport Arena DRESDEN",
+      "leg": 2
+    },
+    {
+      "id": "conegliano-rzeszow",
+      "home": "conegliano",
+      "away": "rzeszow",
+      "date": "2027-02-03",
+      "time": "20:30",
+      "venue": "Palaverde VILLORBA - TREVISO",
+      "leg": 2
+    },
+    {
+      "id": "fener-vasas",
+      "home": "fener",
+      "away": "vasas",
+      "date": "2026-11-24",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 1
+    },
+    {
+      "id": "milano-levallois",
+      "home": "milano",
+      "away": "levallois",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "venue": "Opiquad Arena MONZA",
+      "leg": 1
+    },
+    {
+      "id": "vasas-milano",
+      "home": "vasas",
+      "away": "milano",
+      "date": "2026-12-01",
+      "time": "18:30",
+      "venue": "ÉRD Aréna BUDAPEST",
+      "leg": 1
+    },
+    {
+      "id": "levallois-fener",
+      "home": "levallois",
+      "away": "fener",
+      "date": "2026-12-03",
+      "time": "20:00",
+      "venue": "Palais des sports Marcel Cerdan LEVALLOIS PERRET",
+      "leg": 1
+    },
+    {
+      "id": "vasas-levallois",
+      "home": "vasas",
+      "away": "levallois",
+      "date": "2026-12-15",
+      "time": "18:30",
+      "venue": "ÉRD Aréna BUDAPEST",
+      "leg": 1
+    },
+    {
+      "id": "milano-fener",
+      "home": "milano",
+      "away": "fener",
+      "date": "2026-12-17",
+      "time": "20:30",
+      "venue": "Allianz Cloud MILANO",
+      "leg": 1
+    },
+    {
+      "id": "fener-levallois",
+      "home": "fener",
+      "away": "levallois",
+      "date": "2027-01-12",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 2
+    },
+    {
+      "id": "milano-vasas",
+      "home": "milano",
+      "away": "vasas",
+      "date": "2027-01-12",
+      "time": "20:30",
+      "venue": "Opiquad Arena MONZA",
+      "leg": 2
+    },
+    {
+      "id": "vasas-fener",
+      "home": "vasas",
+      "away": "fener",
+      "date": "2027-01-26",
+      "time": "19:00",
+      "venue": "ÉRD Aréna BUDAPEST",
+      "leg": 2
+    },
+    {
+      "id": "levallois-milano",
+      "home": "levallois",
+      "away": "milano",
+      "date": "2027-01-26",
+      "time": "20:00",
+      "venue": "Stade Pierre de Coubertin PARIS",
+      "leg": 2
+    },
+    {
+      "id": "fener-milano",
+      "home": "fener",
+      "away": "milano",
+      "date": "2027-02-03",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 2
+    },
+    {
+      "id": "levallois-vasas",
+      "home": "levallois",
+      "away": "vasas",
+      "date": "2027-02-03",
+      "time": "20:00",
+      "venue": "Palais des sports Marcel Cerdan LEVALLOIS PERRET",
+      "leg": 2
+    },
+    {
+      "id": "eczaci-tent",
+      "home": "eczaci",
+      "away": "tent",
+      "date": "2026-11-24",
+      "time": "19:00",
+      "venue": "Eczacibasi Spor Salonu ISTANBUL",
+      "leg": 1
+    },
+    {
+      "id": "scandicci-qd",
+      "home": "scandicci",
+      "away": "qd",
+      "date": "2026-11-25",
+      "time": "18:30",
+      "venue": "Palazzo Wanny FIRENZE",
+      "leg": 1
+    },
+    {
+      "id": "tent-scandicci",
+      "home": "tent",
+      "away": "scandicci",
+      "date": "2026-12-03",
+      "time": "19:00",
+      "venue": "Sportsko Kulturni Centar - SKC OBRENOVAC",
+      "leg": 1
+    },
+    {
+      "id": "qd-eczaci",
+      "home": "qd",
+      "away": "eczaci",
+      "date": "TBD",
+      "time": "TBD",
+      "leg": 1
+    },
+    {
+      "id": "eczaci-scandicci",
+      "home": "eczaci",
+      "away": "scandicci",
+      "date": "2026-12-17",
+      "time": "20:00",
+      "venue": "Eczacibasi Spor Salonu ISTANBUL",
+      "leg": 1
+    },
+    {
+      "id": "qd-tent",
+      "home": "qd",
+      "away": "tent",
+      "date": "TBD",
+      "time": "TBD",
+      "leg": 1
+    },
+    {
+      "id": "eczaci-qd",
+      "home": "eczaci",
+      "away": "qd",
+      "date": "2027-01-12",
+      "time": "18:00",
+      "venue": "Eczacibasi Spor Salonu ISTANBUL",
+      "leg": 2
+    },
+    {
+      "id": "scandicci-tent",
+      "home": "scandicci",
+      "away": "tent",
+      "date": "2027-01-13",
+      "time": "18:30",
+      "venue": "Palazzo Wanny FIRENZE",
+      "leg": 2
+    },
+    {
+      "id": "tent-eczaci",
+      "home": "tent",
+      "away": "eczaci",
+      "date": "2027-01-27",
+      "time": "19:00",
+      "venue": "Sportsko Kulturni Centar - SKC OBRENOVAC",
+      "leg": 2
+    },
+    {
+      "id": "qd-scandicci",
+      "home": "qd",
+      "away": "scandicci",
+      "date": "TBD",
+      "time": "TBD",
+      "leg": 2
+    },
+    {
+      "id": "scandicci-eczaci",
+      "home": "scandicci",
+      "away": "eczaci",
+      "date": "2027-02-03",
+      "time": "18:30",
+      "venue": "Palazzo Wanny FIRENZE",
+      "leg": 2
+    },
+    {
+      "id": "tent-qd",
+      "home": "tent",
+      "away": "qd",
+      "date": "2027-02-03",
+      "time": "19:00",
+      "venue": "Sportsko Kulturni Centar - SKC OBRENOVAC",
+      "leg": 2
+    },
+    {
+      "id": "budowlani-gala",
+      "home": "budowlani",
+      "away": "gala",
+      "date": "2026-11-25",
+      "time": "18:00",
+      "venue": "ŁÓDŹ Sport Arena",
+      "leg": 1
+    },
+    {
+      "id": "suhl-voluntari",
+      "home": "suhl",
+      "away": "voluntari",
+      "date": "2026-11-25",
+      "time": "19:00",
+      "venue": "HUK-COBURG Arena",
+      "leg": 1
+    },
+    {
+      "id": "voluntari-budowlani",
+      "home": "voluntari",
+      "away": "budowlani",
+      "date": "2026-12-03",
+      "time": "19:00",
+      "venue": "Sala Polivalenta BUCHAREST",
+      "leg": 1
+    },
+    {
+      "id": "gala-suhl",
+      "home": "gala",
+      "away": "suhl",
+      "date": "2026-12-03",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 1
+    },
+    {
+      "id": "gala-voluntari",
+      "home": "gala",
+      "away": "voluntari",
+      "date": "2026-12-15",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 1
+    },
+    {
+      "id": "suhl-budowlani",
+      "home": "suhl",
+      "away": "budowlani",
+      "date": "2026-12-16",
+      "time": "20:30",
+      "venue": "HUK-COBURG Arena",
+      "leg": 1
+    },
+    {
+      "id": "budowlani-voluntari",
+      "home": "budowlani",
+      "away": "voluntari",
+      "date": "2027-01-13",
+      "time": "18:00",
+      "venue": "ŁÓDŹ Sport Arena",
+      "leg": 2
+    },
+    {
+      "id": "suhl-gala",
+      "home": "suhl",
+      "away": "gala",
+      "date": "2027-01-13",
+      "time": "19:00",
+      "venue": "HUK-COBURG Arena",
+      "leg": 2
+    },
+    {
+      "id": "voluntari-suhl",
+      "home": "voluntari",
+      "away": "suhl",
+      "date": "2027-01-27",
+      "time": "19:00",
+      "venue": "Sala Polivalenta BUCHAREST",
+      "leg": 2
+    },
+    {
+      "id": "gala-budowlani",
+      "home": "gala",
+      "away": "budowlani",
+      "date": "2027-01-28",
+      "time": "19:00",
+      "venue": "Burhan Felek Voleybol Salonu ISTANBUL",
+      "leg": 2
+    },
+    {
+      "id": "budowlani-suhl",
+      "home": "budowlani",
+      "away": "suhl",
+      "date": "2027-02-03",
+      "time": "18:00",
+      "venue": "ŁÓDŹ Sport Arena",
+      "leg": 2
+    },
+    {
+      "id": "voluntari-gala",
+      "home": "voluntari",
+      "away": "gala",
+      "date": "2027-02-03",
+      "time": "19:00",
+      "venue": "Sala Polivalenta BUCHAREST",
       "leg": 2
     }
   ],
