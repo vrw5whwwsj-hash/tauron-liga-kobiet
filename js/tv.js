@@ -40,7 +40,10 @@ const TV_MAP = {
   r7m5: "Polsat Sport 1",
   r7m6: "Polsat Sport 2",
   r8m1: "Polsat Sport 1",
-  r8m2: "Polsat Sport Extra 3"
+  r8m2: "Polsat Sport Extra 3",
+  r8m3: "Polsat Sport 1",
+  r8m4: "Polsat Sport 1",
+  r8m5: "Polsat Sport Extra 3"
 };
 function tvLine(m) {
   const ch = (m && (m.tv || TV_MAP[m.id])) || "";
