@@ -1,0 +1,39 @@
+name: Update PLS Rankings
+
+on:
+  schedule:
+    # Codziennie o 8:00 i 20:00 UTC (po meczach)
+    - cron: "0 8,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Update rankings
+        run: python scripts/update_rankings.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "VolleyNews Bot"
+          git config user.email "bot@zligowychhal.pl"
+          git add data/scorers.json
+          if git diff --staged --quiet; then
+            echo "Brak zmian w rankingach"
+          else
+            git commit -m "Auto: aktualizacja rankingów indywidualnych PLS"
+            git push
+          fi
