@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-16T21:30:00Z",
-  "status": "7. kolejka w toku. ŁKS 3:1 Opole, DevelopRes 3:0 Kalisz, Wrocław 0:3 Budowlani, Mogilno 0:3 Pałac. Następny: Stal–BKS.",
+  "updatedAt": "2026-11-18T20:00:00Z",
+  "status": "7. kolejka zakończona. Następna: 8. kolejka od 20.11 (#VolleyWrocław–Mogilno 19:00 Extra 3, DevelopRes–Opole 20:30 PS1).",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -178,7 +178,7 @@
       "team": "#VolleyWrocław",
       "note": "Uraz mięśniowy, przerwa na kilka tygodni (stan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
       "noteEn": "Muscle injury, out for a few weeks (as of 16 Oct). Missed the match with Radomka on 13 Oct.",
-      "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı.",
+      "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı. Dönüş tarihi açıklanmadı.",
       "updated": "2026-10-16"
     },
     {
@@ -207,13 +207,13 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-08T20:10:37+01:00",
+    "lastChecked": "2026-11-18T20:00:00+01:00",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
       "siatka.org"
     ],
-    "notes": "r6m1–r6m5 potwierdzone na kartach ligi (wynik, sety, MVP) i raportach Volleystation (homeTop/awayTop). r6m6 Opole–Mogilno 9.11 20:30 Stegu Arena — nie rozegrany. Godziny 7. kolejki z kart ligi: 12.11 17:30 Radomka–Chemik, 14.11 12:00 ŁKS–Opole, 14.11 19:00 DevelopRes–Kalisz, 15.11 20:30 Wrocław–Budowlani, 16.11 17:30 Mogilno–Pałac, 16.11 20:30 Stal–BKS."
+    "notes": "7. kolejka zakończona (wszystkie wyniki z kafelków ligi). 8. kolejka: 20.11 19:00 Wrocław–Mogilno Extra 3, 20:30 DevelopRes–Opole PS1; 21.11 12:00 Budowlani–BKS PS1, 19:00 Pałac–ŁKS Box Go; 22.11 15:00 Kalisz–Radomka PS1; 23.11 17:30 Chemik–Stal PS1. Kanały z Polsat Sport."
   }
 }
