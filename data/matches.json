@@ -2970,7 +2970,7 @@
       "round": 7,
       "label": "7. kolejka",
       "window": "12.11–16.11.2026",
-      "status": "w trakcie",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r7m1",
@@ -3314,21 +3314,42 @@
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              28,
+              26
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "Stal — BKS",
             "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała, poniedziałek 20:30. Stal (10., 4 pkt) punktowała tylko w tie-breakach z Wrocławiem i w Radomiu, a u siebie przegrała 0:3 z Pałacem i DevelopResem; w ataku Weronika Sobiczewska, Anna Bączyńska i Aleksandra Adamczyk. BKS (9., 5 pkt) przegrał trzy ostatnie mecze, ostatnio 0:3 w Radomiu, i wciąż gra bez Kertu Laak (zerwane więzadła w kolanie); punkty zdobywają Martyna Podlaska, Iris Vos i Iga Wasilewska. Prognoza: BKS 3:2.",
             "prediction": "3:2",
             "confidence": "niska"
-          }
+          },
+          "mvp": "Iris Vos"
         }
       ]
     },
     {
       "round": 8,
       "label": "8. kolejka",
-      "window": "18.11–23.11.2026",
+      "window": "20–23.11.2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -3404,7 +3425,7 @@
         {
           "id": "r8m6",
           "date": "2026-11-23",
-          "time": null,
+          "time": "17:30",
           "home": "che",
           "away": "mie",
           "venue": "Police",
@@ -3426,7 +3447,7 @@
         {
           "id": "r9m1",
           "date": "2026-11-27",
-          "time": null,
+          "time": "20:30",
           "home": "lks",
           "away": "wro",
           "venue": "Łódź",
@@ -3440,7 +3461,7 @@
         {
           "id": "r9m2",
           "date": "2026-11-27",
-          "time": null,
+          "time": "17:30",
           "home": "mie",
           "away": "kal",
           "venue": "Mielec",
@@ -3454,7 +3475,7 @@
         {
           "id": "r9m3",
           "date": "2026-11-28",
-          "time": null,
+          "time": "19:00",
           "home": "mog",
           "away": "bud",
           "venue": "Mogilno",
@@ -3468,7 +3489,7 @@
         {
           "id": "r9m4",
           "date": "2026-11-29",
-          "time": null,
+          "time": "20:30",
           "home": "dev",
           "away": "byd",
           "venue": "Rzeszów",
@@ -3482,7 +3503,7 @@
         {
           "id": "r9m5",
           "date": "2026-11-29",
-          "time": null,
+          "time": "18:00",
           "home": "rad",
           "away": "opo",
           "venue": "Radom",
@@ -3496,7 +3517,7 @@
         {
           "id": "r9m6",
           "date": "2026-11-30",
-          "time": null,
+          "time": "19:00",
           "home": "bks",
           "away": "che",
           "venue": "Bielsko-Biała",
