@@ -2970,7 +2970,7 @@
       "round": 7,
       "label": "7. kolejka",
       "window": "12.11–16.11.2026",
-      "status": "w trakcie",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r7m1",
@@ -3278,16 +3278,16 @@
           "venue": "Mogilno",
           "sets": [
             [
-              0,
-              0
+              20,
+              25
             ],
             [
-              0,
-              0
+              13,
+              25
             ],
             [
-              0,
-              0
+              22,
+              25
             ]
           ],
           "score": [
@@ -3300,11 +3300,22 @@
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "mvp": null,
+          "mvp": "Wiktoria Makarewicz",
           "recap": {
             "title": "Pałac 3:0 w Mogilnie",
-            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0:3. Wynik ze strony ligi, sety do potwierdzenia.",
+            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0:3 (20:25, 13:25, 22:25). MVP: Wiktoria Makarewicz (19 pkt). Pałac pewnie wygrał derby kujawsko-pomorskie; Sokół nadal bez zwycięstwa w sezonie (0-7).",
+            "titleEn": "Pałac win 3–0 in Mogilno",
+            "titleTr": "Pałac Mogilno'da 3-0 kazandı",
+            "textEn": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0–3 (20:25, 13:25, 22:25). MVP: Wiktoria Makarewicz (19 pts). Pałac dominated the regional derby; Sokół remain winless (0-7).",
+            "textTr": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0-3 (20:25, 13:25, 22:25). MVP: Wiktoria Makarewicz (19 sayı). Pałac bölgesel derbiyi kazandı; Sokół hâlâ galibiyetsiz (0-7).",
             "source": "https://www.tauronligakobiet.pl/games.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-19T14:00:00Z"
           }
         },
         {
@@ -3314,13 +3325,50 @@
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              28,
+              26
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "Stal — BKS",
             "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała, poniedziałek 20:30. Stal (10., 4 pkt) punktowała tylko w tie-breakach z Wrocławiem i w Radomiu, a u siebie przegrała 0:3 z Pałacem i DevelopResem; w ataku Weronika Sobiczewska, Anna Bączyńska i Aleksandra Adamczyk. BKS (9., 5 pkt) przegrał trzy ostatnie mecze, ostatnio 0:3 w Radomiu, i wciąż gra bez Kertu Laak (zerwane więzadła w kolanie); punkty zdobywają Martyna Podlaska, Iris Vos i Iga Wasilewska. Prognoza: BKS 3:2.",
             "prediction": "3:2",
             "confidence": "niska"
+          },
+          "mvp": "Iris Vos",
+          "recap": {
+            "title": "BKS 3:1 w Mielcu",
+            "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1:3 (20:25, 18:25, 28:26, 17:25). BKS przełamał serię porażek; Iris Vos 29 pkt. Stal z piątą porażką w sezonie.",
+            "titleEn": "BKS win 3–1 in Mielec",
+            "titleTr": "BKS Mielec'te 3-1 kazandı",
+            "textEn": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1–3 (20:25, 18:25, 28:26, 17:25). BKS ended their losing streak; Iris Vos scored 29 points. Stal’s fifth defeat of the season.",
+            "textTr": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1-3 (20:25, 18:25, 28:26, 17:25). BKS kaybetme serisini kırdı; Iris Vos 29 sayı. Stal'ın sezonun beşinci yenilgisi.",
+            "source": "https://www.tauronligakobiet.pl/games.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-19T14:00:00Z"
           }
         }
       ]
@@ -3328,7 +3376,7 @@
     {
       "round": 8,
       "label": "8. kolejka",
-      "window": "18.11–23.11.2026",
+      "window": "20–23 listopada 2026",
       "status": "zaplanowana",
       "matches": [
         {
@@ -3343,7 +3391,8 @@
           "preview": {
             "headline": "KS — UNI",
             "text": "KS DevelopRes Rzeszów — UNI Opole, 20.11.2026, godzina 20:30."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m2",
@@ -3357,7 +3406,8 @@
           "preview": {
             "headline": "#VolleyWrocław — Sokół",
             "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina 19:00."
-          }
+          },
+          "tv": "Polsat Sport Extra 3"
         },
         {
           "id": "r8m3",
@@ -3371,7 +3421,8 @@
           "preview": {
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m4",
@@ -3385,7 +3436,8 @@
           "preview": {
             "headline": "NETLAND — MOYA",
             "text": "NETLAND MKS Kalisz — MOYA Radomka Radom, 22.11.2026, godzina 15:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m5",
@@ -3404,7 +3456,7 @@
         {
           "id": "r8m6",
           "date": "2026-11-23",
-          "time": null,
+          "time": "17:30",
           "home": "che",
           "away": "mie",
           "venue": "Police",
@@ -3412,8 +3464,9 @@
           "score": null,
           "preview": {
             "headline": "LOTTO — ITA",
-            "text": "LOTTO Chemik Police — ITA TOOLS Stal Mielec, 23.11.2026, godzina do potwierdzenia."
-          }
+            "text": "LOTTO Chemik Police – ITA TOOLS Stal Mielec, 23.11.2026, godzina 17:30."
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
