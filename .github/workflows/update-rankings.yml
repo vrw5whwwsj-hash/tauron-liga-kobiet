@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -26,14 +27,23 @@ jobs:
       - name: Update rankings
         run: python scripts/update_rankings.py
 
-      - name: Commit and push if changed
+      - name: Create PR if changed
         run: |
           git config user.name "VolleyNews Bot"
           git config user.email "bot@zligowychhal.pl"
           git add data/scorers.json
           if git diff --staged --quiet; then
             echo "Brak zmian w rankingach"
-          else
-            git commit -m "Auto: aktualizacja rankingów indywidualnych PLS"
-            git push
+            exit 0
           fi
+          BRANCH="auto-rankings-$(date +%Y%m%d-%H%M)"
+          git checkout -b "$BRANCH"
+          git commit -m "Auto: aktualizacja rankingów indywidualnych PLS"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Auto: rankingi PLS $(date +%Y-%m-%d)" \
+            --body "Automatyczna aktualizacja rankingów indywidualnych z tauronligakobiet.pl" \
+            --base main \
+            --head "$BRANCH"
+        env:
+          GH_TOKEN: ${{ github.token }}
