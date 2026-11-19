@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-19",
   "items": [
+    {
+      "d": "2026-11-19",
+      "t": "Faworyci nie zawiedli. Najlepsze zawodniczki 7. kolejki",
+      "te": "Favorites delivered. Best players of round 7",
+      "tt": "Favoriler hayal kırıklığına uğratmadı. 7. haftanın en iyi oyuncuları",
+      "b": "W 7. kolejce faworyci wygrali swoje mecze. Iris Vos zdobyła 29 pkt (6 bloków) w Mielcu, Suvi Kokkonen 25 pkt dla ŁKS. DevelopRes, ŁKS i Budowlani pewne zwycięstwa.",
+      "be": "Favorites won their matches in round 7. Iris Vos scored 29 pts (6 blocks) in Mielec, Suvi Kokkonen 25 pts for ŁKS. DevelopRes, ŁKS and Budowlani secured wins.",
+      "bt": "7. haftada favoriler maçlarını kazandı. Iris Vos Mielec'te 29 sayı (6 blok), Suvi Kokkonen ŁKS için 25 sayı. DevelopRes, ŁKS ve Budowlani galibiyet aldı."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "Uliana Kotar: Jeszcze czegoś takiego w karierze nie widziałam",
+      "te": "Uliana Kotar: I've never seen anything like this in my career",
+      "tt": "Uliana Kotar: Kariyerimde böyle bir şey görmemiştim",
+      "b": "Ukraińska środkowa DevelopResu Uliana Kotar po wygranej z Kaliszem chwali intensywne treningi zespołu i czeka na mecz z UNI Opole oraz Andrianą Pavlyk.",
+      "be": "Ukrainian middle blocker Uliana Kotar of DevelopRes praises the team's intense training after the win over Kalisz and looks ahead to the match against UNI Opole and Andriana Pavlyk.",
+      "bt": "DevelopRes'in Ukraynalı orta oyuncusu Uliana Kotar, Kalisz galibiyetinden sonra takımın yoğun antrenmanlarını övüyor ve UNI Opole ile Andriana Pavlyk maçını bekliyor."
+    },
+    {
+      "d": "2026-11-17",
+      "t": "Anna Lewandowska: Widać zmianę pokoleniową w naszej lidze",
+      "te": "Anna Lewandowska: There's a generational change in our league",
+      "tt": "Anna Lewandowska: Ligamızda nesil değişimi görülüyor",
+      "b": "Środkowa NETLAND MKS Kalisz Anna Lewandowska po porażce 0:3 z DevelopResem liczy na wygraną z Radomką. Beniaminek ma już dwa zwycięstwa.",
+      "be": "NETLAND MKS Kalisz middle blocker Anna Lewandowska hopes for a win against Radomka after the 0–3 loss to DevelopRes. The newcomers already have two victories.",
+      "bt": "NETLAND MKS Kalisz orta oyuncusu Anna Lewandowska, DevelopRes'e 0-3 yenilgiden sonra Radomka'ya karşı galibiyet umuyor. Yeni gelenlerin zaten iki galibiyeti var."
+    },
+    {
+      "d": "2026-11-16",
+      "t": "BKS 3:1 w Mielcu. Vos 29 pkt",
+      "te": "BKS win 3–1 in Mielec. Vos 29 pts",
+      "tt": "BKS Mielec'te 3-1 kazandı. Vos 29 sayı",
+      "b": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1:3 (20:25, 18:25, 28:26, 17:25). Iris Vos 29 punktów. BKS wygrał trzeci mecz w sezonie.",
+      "be": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1–3 (20:25, 18:25, 28:26, 17:25). Iris Vos scored 29 points. BKS secured their third win of the season.",
+      "bt": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1-3 (20:25, 18:25, 28:26, 17:25). Iris Vos 29 sayı. BKS sezonun üçüncü galibiyetini aldı."
+    },
     {
       "d": "2026-11-16",
       "t": "Budowlani 3:0 we Wrocławiu",
