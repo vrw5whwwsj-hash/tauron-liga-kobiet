@@ -3417,11 +3417,80 @@
           "home": "wro",
           "away": "mog",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "#VolleyWrocław — Sokół",
             "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina 19:00."
+          },
+          "mvp": "Sandra Świętoń",
+          "recap": {
+            "title": "Sokół 3:2, pierwsze zwycięstwo",
+            "text": "#VolleyWrocław – Sokół & Hagric Mogilno 2:3 (19:25, 25:21, 25:23, 19:25, 6:15). Hala Orbita, 330 widzów. MVP: Sandra Świętoń (19 pkt). Skuteczność ataku 50%:63%, asy 7:10, blok 11:14. Wrocław: Bjelica 25, Stautz 20, Dróżdż 8. Sokół: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "titleEn": "Sokół win 3–2, first victory",
+            "titleTr": "Sokół 3-2 kazandı, ilk zafer",
+            "textEn": "#VolleyWrocław – Sokół & Hagric Mogilno 2–3 (19:25, 25:21, 25:23, 19:25, 6:15). Hala Orbita, 330 fans. MVP: Sandra Świętoń (19 pts). Attack 50% to 63%, aces 7–10, blocks 11–14. Wrocław: Bjelica 25, Stautz 20, Dróżdż 8. Sokół: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "textTr": "#VolleyWrocław – Sokół & Hagric Mogilno 2-3 (19:25, 25:21, 25:23, 19:25, 6:15). Hala Orbita, 330 seyirci. MVP: Sandra Świętoń (19 sayı). Hücum %50 - %63, servis ası 7-10, blok 11-14. Wrocław: Bjelica 25, Stautz 20, Dróżdż 8. Sokół: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "homeTop": [
+              {
+                "n": "Ana Bjelica",
+                "p": 25
+              },
+              {
+                "n": "Antonina Stautz",
+                "p": 20
+              },
+              {
+                "n": "Natalia Dróżdż",
+                "p": 8
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 29
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 19
+              },
+              {
+                "n": "Aleksandra Cygan",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105037.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-20T22:25:58Z"
           }
         },
         {
