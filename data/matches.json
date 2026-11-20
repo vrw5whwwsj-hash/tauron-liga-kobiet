@@ -3314,13 +3314,78 @@
           "home": "mie",
           "away": "bks",
           "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              20,
+              25
+            ],
+            [
+              18,
+              25
+            ],
+            [
+              28,
+              26
+            ],
+            [
+              17,
+              25
+            ]
+          ],
+          "score": [
+            1,
+            3
+          ],
           "preview": {
             "headline": "Stal — BKS",
             "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała, poniedziałek 20:30. Stal (10., 4 pkt) punktowała tylko w tie-breakach z Wrocławiem i w Radomiu, a u siebie przegrała 0:3 z Pałacem i DevelopResem; w ataku Weronika Sobiczewska, Anna Bączyńska i Aleksandra Adamczyk. BKS (9., 5 pkt) przegrał trzy ostatnie mecze, ostatnio 0:3 w Radomiu, i wciąż gra bez Kertu Laak (zerwane więzadła w kolanie); punkty zdobywają Martyna Podlaska, Iris Vos i Iga Wasilewska. Prognoza: BKS 3:2.",
             "prediction": "3:2",
             "confidence": "niska"
+          },
+          "mvp": "Iris Vos",
+          "recap": {
+            "title": "BKS 3:1 w Mielcu",
+            "text": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1:3 (20:25, 18:25, 28:26, 17:25). MVP: Iris Vos (29 pkt). MOSiR Mielec, 670 widzów. Stal wygrała trzeci set na przewagi, ale BKS był wyraźnie lepszy w ataku i bloku. Najskuteczniejsze: Sobiczewska 22, Bączyńska 16, Adamczyk 11; Vos 29, Miilen 18, Podlaska 13.",
+            "titleEn": "BKS win 3–1 in Mielec",
+            "titleTr": "BKS Mielec'te 3-1 kazandı",
+            "textEn": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1–3 (20:25, 18:25, 28:26, 17:25). MVP: Iris Vos (29 pts). 670 fans at MOSiR Mielec. Stal took the third set on extras, but BKS were clearly better in attack and block. Top scorers: Sobiczewska 22, Bączyńska 16, Adamczyk 11; Vos 29, Miilen 18, Podlaska 13.",
+            "textTr": "ITA TOOLS Stal Mielec – BKS ZGO Bielsko-Biała 1-3 (20:25, 18:25, 28:26, 17:25). MVP: Iris Vos (29 sayı). Salon: MOSiR Mielec, 670 seyirci. Stal üçüncü seti uzatmada aldı, ancak BKS hücum ve blokta açıkça daha iyiydi. En skorerler: Sobiczewska 22, Bączyńska 16, Adamczyk 11; Vos 29, Miilen 18, Podlaska 13.",
+            "homeTop": [
+              {
+                "n": "Weronika Sobiczewska",
+                "p": 22
+              },
+              {
+                "n": "Anna Bączyńska",
+                "p": 16
+              },
+              {
+                "n": "Aleksandra Adamczyk",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 29
+              },
+              {
+                "n": "Kristiine Miilen",
+                "p": 18
+              },
+              {
+                "n": "Martyna Podlaska",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105031.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-20T17:20:00Z"
           }
         }
       ]
