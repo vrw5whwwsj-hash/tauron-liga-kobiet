@@ -3393,8 +3393,8 @@
     {
       "round": 8,
       "label": "8. kolejka",
-      "window": "18.11–23.11.2026",
-      "status": "zaplanowana",
+      "window": "20–23 listopada 2026",
+      "status": "w trakcie",
       "matches": [
         {
           "id": "r8m1",
@@ -3436,7 +3436,8 @@
           "preview": {
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m4",
@@ -3450,12 +3451,13 @@
           "preview": {
             "headline": "NETLAND — MOYA",
             "text": "NETLAND MKS Kalisz — MOYA Radomka Radom, 22.11.2026, godzina 15:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m5",
           "date": "2026-11-21",
-          "time": "19:00",
+          "time": "18:50",
           "home": "byd",
           "away": "lks",
           "venue": "Bydgoszcz",
@@ -3469,7 +3471,7 @@
         {
           "id": "r8m6",
           "date": "2026-11-23",
-          "time": null,
+          "time": "17:30",
           "home": "che",
           "away": "mie",
           "venue": "Police",
@@ -3478,7 +3480,8 @@
           "preview": {
             "headline": "LOTTO — ITA",
             "text": "LOTTO Chemik Police — ITA TOOLS Stal Mielec, 23.11.2026, godzina do potwierdzenia."
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -3505,7 +3508,7 @@
         {
           "id": "r9m2",
           "date": "2026-11-27",
-          "time": null,
+          "time": "17:30",
           "home": "mie",
           "away": "kal",
           "venue": "Mielec",
@@ -3519,7 +3522,7 @@
         {
           "id": "r9m3",
           "date": "2026-11-28",
-          "time": null,
+          "time": "19:00",
           "home": "mog",
           "away": "bud",
           "venue": "Mogilno",
@@ -3533,7 +3536,7 @@
         {
           "id": "r9m4",
           "date": "2026-11-29",
-          "time": null,
+          "time": "20:30",
           "home": "dev",
           "away": "byd",
           "venue": "Rzeszów",
@@ -3547,7 +3550,7 @@
         {
           "id": "r9m5",
           "date": "2026-11-29",
-          "time": null,
+          "time": "18:00",
           "home": "rad",
           "away": "opo",
           "venue": "Radom",
@@ -3561,7 +3564,7 @@
         {
           "id": "r9m6",
           "date": "2026-11-30",
-          "time": null,
+          "time": "19:00",
           "home": "bks",
           "away": "che",
           "venue": "Bielsko-Biała",
