@@ -1,1 +1,64 @@
-TOO_LARGE
+{
+  "rounds": [
+    {
+      "round": 8,
+      "label": "8. kolejka",
+      "window": "18.11–23.11.2026",
+      "status": "w toku",
+      "matches": [
+        {
+          "id": "r8m1",
+          "date": "2026-11-20",
+          "time": "20:30",
+          "home": "dev",
+          "away": "opo",
+          "venue": "Rzeszów",
+          "sets": [[22, 25], [25, 15], [25, 19], [25, 21]],
+          "score": [3, 1],
+          "preview": {
+            "headline": "KS — UNI",
+            "text": "KS DevelopRes Rzeszów — UNI Opole, 20.11.2026, godzina 20:30."
+          },
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:1",
+            "text": "KS DevelopRes Rzeszów – UNI Opole 3:1 (22:25, 25:15, 25:19, 25:21). MVP: Taylor Mims. Hala Podpromie, 1820 widzów.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105035.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "by": "grok",
+            "checkedAt": "2026-11-21T11:13:00Z"
+          }
+        },
+        {
+          "id": "r8m2",
+          "date": "2026-11-20",
+          "time": "19:00",
+          "home": "wro",
+          "away": "mog",
+          "venue": "Wrocław",
+          "sets": [[19, 25], [25, 21], [25, 23], [19, 25], [6, 15]],
+          "score": [2, 3],
+          "preview": {
+            "headline": "#VolleyWrocław — Sokół",
+            "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina 19:00."
+          },
+          "mvp": "Sandra Świętoń",
+          "recap": {
+            "title": "Sokół 3:2",
+            "text": "#VolleyWrocław – Sokół & Hagric Mogilno 2:3 (19:25, 25:21, 25:23, 19:25, 6:15). MVP: Sandra Świętoń. Hala Orbita, 330 widzów.",
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105037.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "by": "grok",
+            "checkedAt": "2026-11-21T11:13:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}
