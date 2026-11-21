@@ -3394,7 +3394,7 @@
       "round": 8,
       "label": "8. kolejka",
       "window": "18.11–23.11.2026",
-      "status": "zaplanowana",
+      "status": "w trakcie",
       "matches": [
         {
           "id": "r8m1",
@@ -3403,11 +3403,76 @@
           "home": "dev",
           "away": "opo",
           "venue": "Rzeszów",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              21
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "KS — UNI",
             "text": "KS DevelopRes Rzeszów — UNI Opole, 20.11.2026, godzina 20:30."
+          },
+          "mvp": "Taylor Mims",
+          "recap": {
+            "title": "DevelopRes 3:1",
+            "text": "KS DevelopRes Rzeszów – UNI Opole 3:1 (22:25, 25:15, 25:19, 25:21). MVP: Taylor Mims (22 pkt). Hala Podpromie, 1820 widzów. Skuteczność ataku ~48%:42%, blok 12:8, asy 5:4. DevelopRes: Mims 22, Centka-Tietianiec 15, Piasecka 14. Opole: Pavlyk 18, Palazzolo 11, Kępa 10.",
+            "titleEn": "DevelopRes beat Opole 3–1",
+            "titleTr": "DevelopRes, Opole karşısında 3-1 kazandı",
+            "textEn": "KS DevelopRes Rzeszów – UNI Opole 3–1 (22:25, 25:15, 25:19, 25:21). MVP: Taylor Mims (22 pts). 1820 fans at Hala Podpromie. Attack ~48% to 42%, blocks 12–8, aces 5–4. DevelopRes: Mims 22, Centka-Tietianiec 15, Piasecka 14. Opole: Pavlyk 18, Palazzolo 11, Kępa 10.",
+            "textTr": "KS DevelopRes Rzeszów – UNI Opole 3-1 (22:25, 25:15, 25:19, 25:21). MVP: Taylor Mims (22 sayı). Salon: Hala Podpromie, 1820 seyirci. Hücum ~%48 - %42, blok 12-8, servis ası 5-4. DevelopRes: Mims 22, Centka-Tietianiec 15, Piasecka 14. Opole: Pavlyk 18, Palazzolo 11, Kępa 10.",
+            "homeTop": [
+              {
+                "n": "Taylor Mims",
+                "p": 22
+              },
+              {
+                "n": "Weronika Centka-Tietianiec",
+                "p": 15
+              },
+              {
+                "n": "Julita Piasecka",
+                "p": 14
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Andriana Pavlyk",
+                "p": 18
+              },
+              {
+                "n": "Sydney Palazzolo",
+                "p": 11
+              },
+              {
+                "n": "Iga Kępa",
+                "p": 10
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105035.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-21T19:00:00Z"
           }
         },
         {
@@ -3417,11 +3482,80 @@
           "home": "wro",
           "away": "mog",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "#VolleyWrocław — Sokół",
             "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina 19:00."
+          },
+          "mvp": "Sandra Świętoń",
+          "recap": {
+            "title": "Sokół 3:2",
+            "text": "#VolleyWrocław – Sokół & Hagric Mogilno 2:3 (19:25, 25:21, 25:23, 19:25, 6:15). MVP: Sandra Świętoń (19 pkt). Hala Orbita, 330 widzów. Atak 50:63 pkt, blok 11:14, asy 7:10. Wrocław: Bjelica 25, Strautz 20. Mogilno: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "titleEn": "Sokół beat Wrocław 3–2",
+            "titleTr": "Sokół, Wrocław karşısında 3-2 kazandı",
+            "textEn": "#VolleyWrocław – Sokół & Hagric Mogilno 2–3 (19:25, 25:21, 25:23, 19:25, 6:15). MVP: Sandra Świętoń (19 pts). 330 fans at Hala Orbita. Attack points 50–63, blocks 11–14, aces 7–10. Wrocław: Bjelica 25, Strautz 20. Mogilno: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "textTr": "#VolleyWrocław – Sokół & Hagric Mogilno 2-3 (19:25, 25:21, 25:23, 19:25, 6:15). MVP: Sandra Świętoń (19 sayı). Salon: Hala Orbita, 330 seyirci. Hücum puanı 50-63, blok 11-14, servis ası 7-10. Wrocław: Bjelica 25, Strautz 20. Mogilno: Drużkowska 29, Świętoń 19, Cygan 12.",
+            "homeTop": [
+              {
+                "n": "Ana Bjelica",
+                "p": 25
+              },
+              {
+                "n": "Maja Strautz",
+                "p": 20
+              },
+              {
+                "n": "Natalia Dróżdż",
+                "p": 8
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Karolina Drużkowska",
+                "p": 29
+              },
+              {
+                "n": "Sandra Świętoń",
+                "p": 19
+              },
+              {
+                "n": "Aleksandra Cygan",
+                "p": 12
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105037.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-21T19:00:00Z"
           }
         },
         {
@@ -3431,11 +3565,72 @@
           "home": "bud",
           "away": "bks",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              25,
+              20
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
+          },
+          "mvp": "Aleksandra Kazała",
+          "recap": {
+            "title": "Budowlani 3:0",
+            "text": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 pkt). Sport Arena, 1520 widzów. Skuteczność ataku ~45%:36%, blok 9:6, asy 6:3. Budowlani: Kazała 19, Buterez 16, Planinšec 11. BKS: Vos 18, Wasilewska 14, Podlaska 9.",
+            "titleEn": "Budowlani beat BKS 3–0",
+            "titleTr": "Budowlani, BKS karşısında 3-0 kazandı",
+            "textEn": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3–0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 pts). 1520 fans at Sport Arena. Attack ~45% to 36%, blocks 9–6, aces 6–3. Budowlani: Kazała 19, Buterez 16, Planinšec 11. BKS: Vos 18, Wasilewska 14, Podlaska 9.",
+            "textTr": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3-0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 sayı). Salon: Sport Arena, 1520 seyirci. Hücum ~%45 - %36, blok 9-6, servis ası 6-3. Budowlani: Kazała 19, Buterez 16, Planinšec 11. BKS: Vos 18, Wasilewska 14, Podlaska 9.",
+            "homeTop": [
+              {
+                "n": "Aleksandra Kazała",
+                "p": 19
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 16
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iris Vos",
+                "p": 18
+              },
+              {
+                "n": "Iga Wasilewska",
+                "p": 14
+              },
+              {
+                "n": "Martyna Podlaska",
+                "p": 9
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105032.html"
+          },
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-21T19:00:00Z"
           }
         },
         {
