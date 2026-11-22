@@ -3431,11 +3431,68 @@
           "home": "bud",
           "away": "bks",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              25,
+              20
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
+          },
+          "recap": {
+            "title": "Budowlani 3:0",
+            "text": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 pkt). Sport Arena, 1520 widzów. Budowlani: Kazała 19, Buterez 16, Planinšec 11. BKS: Wasilewska, Vos, Piotrowska.",
+            "titleEn": "Budowlani beat BKS 3–0",
+            "titleTr": "Budowlani, BKS karşısında 3-0 kazandı",
+            "textEn": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3–0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 pts). 1520 fans at Sport Arena. Budowlani: Kazała 19, Buterez 16, Planinšec 11.",
+            "textTr": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3-0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 sayı). Salon: Sport Arena, 1520 seyirci. Budowlani: Kazała 19, Buterez 16, Planinšec 11.",
+            "homeTop": [
+              {
+                "n": "Aleksandra Kazała",
+                "p": 19
+              },
+              {
+                "n": "Rodica Buterez",
+                "p": 16
+              },
+              {
+                "n": "Saša Planinšec",
+                "p": 11
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Iga Wasilewska",
+                "p": 0
+              },
+              {
+                "n": "Iris Vos",
+                "p": 0
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105032.html"
+          },
+          "mvp": "Aleksandra Kazała",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-22T19:00:00Z"
           }
         },
         {
@@ -3445,11 +3502,60 @@
           "home": "kal",
           "away": "rad",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              25,
+              19
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "NETLAND — MOYA",
             "text": "NETLAND MKS Kalisz — MOYA Radomka Radom, 22.11.2026, godzina 15:00."
+          },
+          "recap": {
+            "title": "Kalisz 3:1",
+            "text": "NETLAND MKS Kalisz – MOYA Radomka Radom 3:1 (19:25, 25:19, 25:22, 25:19). MVP: Sonia Kubacka. Arena Kalisz, 1416 widzów.",
+            "titleEn": "Kalisz beat Radomka 3–1",
+            "titleTr": "Kalisz, Radomka karşısında 3-1 kazandı",
+            "textEn": "NETLAND MKS Kalisz – MOYA Radomka Radom 3–1 (19:25, 25:19, 25:22, 25:19). MVP: Sonia Kubacka. 1416 fans at Arena Kalisz.",
+            "textTr": "NETLAND MKS Kalisz – MOYA Radomka Radom 3-1 (19:25, 25:19, 25:22, 25:19). MVP: Sonia Kubacka. Salon: Arena Kalisz, 1416 seyirci.",
+            "homeTop": [
+              {
+                "n": "Sonia Kubacka",
+                "p": 0
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Aleksandra Dudek",
+                "p": 0
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105034.html"
+          },
+          "mvp": "Sonia Kubacka",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-22T19:00:00Z"
           }
         },
         {
@@ -3459,11 +3565,64 @@
           "home": "byd",
           "away": "lks",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              27,
+              29
+            ],
+            [
+              21,
+              25
+            ],
+            [
+              9,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Metalkas — ŁKS",
             "text": "Metalkas Pałac Bydgoszcz — ŁKS Commercecon Łódź, 21.11.2026, godzina 19:00."
+          },
+          "recap": {
+            "title": "ŁKS 3:0",
+            "text": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0:3 (27:29, 21:25, 9:25). MVP: Karla Antunović. HSW Immobile Łuczniczka, 1000 widzów. Pałac: Makarewicz 13. ŁKS: Kokkonen 16, Dambrink 13, Milenko 13.",
+            "titleEn": "ŁKS beat Pałac 3–0",
+            "titleTr": "ŁKS, Pałac karşısında 3-0 kazandı",
+            "textEn": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0–3 (27:29, 21:25, 9:25). MVP: Karla Antunović. 1000 fans at HSW Immobile Łuczniczka. Pałac: Makarewicz 13. ŁKS: Kokkonen 16, Dambrink 13, Milenko 13.",
+            "textTr": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0-3 (27:29, 21:25, 9:25). MVP: Karla Antunović. Salon: HSW Immobile Łuczniczka, 1000 seyirci. Pałac: Makarewicz 13. ŁKS: Kokkonen 16, Dambrink 13, Milenko 13.",
+            "homeTop": [
+              {
+                "n": "Wiktoria Makarewicz",
+                "p": 13
+              }
+            ],
+            "awayTop": [
+              {
+                "n": "Suvi Kokkonen",
+                "p": 16
+              },
+              {
+                "n": "Elles Dambrink",
+                "p": 13
+              },
+              {
+                "n": "Oleksandra Milenko",
+                "p": 13
+              }
+            ],
+            "source": "https://www.tauronligakobiet.pl/games/action/show/id/1105036.html"
+          },
+          "mvp": "Karla Antunović",
+          "verify": {
+            "status": "confirmed",
+            "pls": true,
+            "polsat": true,
+            "by": "grok",
+            "checkedAt": "2026-11-22T19:00:00Z"
           }
         },
         {

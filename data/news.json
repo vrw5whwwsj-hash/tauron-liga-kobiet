@@ -1,6 +1,36 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "items": [
+    {
+      "d": "2026-11-22",
+      "t": "Kalisz 3:1 z Radomką. MVP Kubacka",
+      "te": "Kalisz beat Radomka 3–1. MVP Kubacka",
+      "tt": "Kalisz, Radomka'yı 3-1 yendi. MVP Kubacka",
+      "b": "NETLAND MKS Kalisz – MOYA Radomka Radom 3:1 (19:25, 25:19, 25:22, 25:19). Arena Kalisz, 1416 widzów. MVP: Sonia Kubacka. Link: https://www.tauronligakobiet.pl/games/action/show/id/1105034.html",
+      "be": "NETLAND MKS Kalisz – MOYA Radomka Radom 3–1 (19:25, 25:19, 25:22, 25:19). Arena Kalisz, 1416 fans. MVP: Sonia Kubacka.",
+      "bt": "NETLAND MKS Kalisz – MOYA Radomka Radom 3-1 (19:25, 25:19, 25:22, 25:19). Arena Kalisz, 1416 seyirci. MVP: Sonia Kubacka.",
+      "link": "https://www.tauronligakobiet.pl/games/action/show/id/1105034.html"
+    },
+    {
+      "d": "2026-11-21",
+      "t": "Budowlani 3:0 z BKS. MVP Kazała",
+      "te": "Budowlani beat BKS 3–0. MVP Kazała",
+      "tt": "Budowlani, BKS'yi 3-0 yendi. MVP Kazała",
+      "b": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). Sport Arena, 1520 widzów. MVP: Aleksandra Kazała (19 pkt). Link: https://www.tauronligakobiet.pl/games/action/show/id/1105032.html",
+      "be": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3–0 (25:23, 26:24, 25:20). Sport Arena, 1520 fans. MVP: Aleksandra Kazała (19 pts).",
+      "bt": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3-0 (25:23, 26:24, 25:20). Sport Arena, 1520 seyirci. MVP: Aleksandra Kazała (19 sayı).",
+      "link": "https://www.tauronligakobiet.pl/games/action/show/id/1105032.html"
+    },
+    {
+      "d": "2026-11-21",
+      "t": "ŁKS 3:0 z Pałacem. MVP Antunović",
+      "te": "ŁKS beat Pałac 3–0. MVP Antunović",
+      "tt": "ŁKS, Pałac'ı 3-0 yendi. MVP Antunović",
+      "b": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0:3 (27:29, 21:25, 9:25). HSW Immobile Łuczniczka, 1000 widzów. MVP: Karla Antunović. Najskuteczniejsze: Kokkonen 16. Link: https://www.tauronligakobiet.pl/games/action/show/id/1105036.html",
+      "be": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0–3 (27:29, 21:25, 9:25). HSW Immobile Łuczniczka, 1000 fans. MVP: Karla Antunović.",
+      "bt": "Metalkas Pałac Bydgoszcz – ŁKS Commercecon Łódź 0-3 (27:29, 21:25, 9:25). HSW Immobile Łuczniczka, 1000 seyirci. MVP: Karla Antunović.",
+      "link": "https://www.tauronligakobiet.pl/games/action/show/id/1105036.html"
+    },
     {
       "d": "2026-11-16",
       "t": "BKS 3:1 w Mielcu. MVP Vos",
