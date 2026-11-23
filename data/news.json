@@ -1,6 +1,94 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "items": [
+    {
+      "d": "2026-11-23",
+      "t": "Bartłomiej Dąbrowski: Nasza młoda drużyna potrzebuje czasu",
+      "te": "Bartłomiej Dąbrowski: Our young team needs time",
+      "tt": "Bartłomiej Dąbrowski: Genç takımımız zamana ihtiyaç duyuyor",
+      "b": "Trener UNI Opole po meczu z DevelopResem podkreśla, że młody zespół potrzebuje czasu, aby nabrać doświadczenia w TAURON Lidze Kobiet.",
+      "be": "UNI Opole coach after the match against DevelopRes stresses that the young team needs time to gain experience in TAURON Liga Kobiet.",
+      "bt": "UNI Opole antrenörü DevelopRes maçından sonra genç takımın TAURON Liga Kobiet'te deneyim kazanmak için zamana ihtiyacı olduğunu vurguluyor.",
+      "u": "https://www.tauronligakobiet.pl/news,bartlomiej-dabrowski-nasza-mloda-druzyna-potrzebuje-czasu.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-22",
+      "t": "Jelena Blagojević: Pokazałyśmy charakter",
+      "te": "Jelena Blagojević: We showed character",
+      "tt": "Jelena Blagojević: Karakter gösterdik",
+      "b": "Trenerka DevelopResu po wygranej 3:1 z UNI Opole chwali zespół za charakter i ósme zwycięstwo z rzędu.",
+      "be": "DevelopRes coach after the 3:1 win over UNI Opole praises the team for character and the eighth consecutive victory.",
+      "bt": "DevelopRes antrenörü UNI Opole'ye karşı 3:1 galibiyet sonrası takımı karakter ve üst üste sekizinci zafer için övüyor.",
+      "u": "https://www.tauronligakobiet.pl/news,jelena-blagojevic-pokazalysmy-charakter.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-22",
+      "t": "Sydney Palazzolo: Tego co jest w Polsce pragnie każdy sportowiec",
+      "te": "Sydney Palazzolo: What is in Poland every athlete desires",
+      "tt": "Sydney Palazzolo: Polonya'da olan her sporcunun arzuladığı şey",
+      "b": "Amerykańska przyjmująca UNI Opole chwali warunki w polskiej lidze i klubie.",
+      "be": "American receiver of UNI Opole praises the conditions in the Polish league and club.",
+      "bt": "UNI Opole'nin Amerikalı pasör çaprazı Polonya ligindeki ve kulüpteki koşulları övüyor.",
+      "u": "https://www.tauronligakobiet.pl/news,sydney-palazzolo-tego-co-jest-w-polsce-pragnie-kazdy-sportowiec.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-21",
+      "t": "Vasja Filipović: Nie spodziewałam się, że będzie mi tutaj aż tak dobrze",
+      "te": "Vasja Filipović: I didn't expect it to be so good here",
+      "tt": "Vasja Filipović: Burada bu kadar iyi olacağını beklemiyordum",
+      "b": "Przyjmująca UNI Opole pozytywnie ocenia początek sezonu w TAURON Lidze Kobiet.",
+      "be": "UNI Opole receiver positively assesses the start of the season in TAURON Liga Kobiet.",
+      "bt": "UNI Opole pasör çaprazı TAURON Liga Kobiet'teki sezon başlangıcını olumlu değerlendiriyor.",
+      "u": "https://www.tauronligakobiet.pl/news,vasja-filipovic-nie-spodziewalam-sie-ze-bedzie-mi-tutaj-az-tak-dobrze.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-21",
+      "t": "Siódma wygrana z rzędu ŁKS-u Commercecon",
+      "te": "ŁKS Commercecon seventh consecutive win",
+      "tt": "ŁKS Commercecon üst üste yedinci galibiyet",
+      "b": "ŁKS Commercecon Łódź pokonał Metalkas Pałac Bydgoszcz 3:0 i przedłużył serię zwycięstw do siedmiu.",
+      "be": "ŁKS Commercecon Łódź beat Metalkas Pałac Bydgoszcz 3:0 and extended their winning streak to seven.",
+      "bt": "ŁKS Commercecon Łódź, Metalkas Pałac Bydgoszcz'i 3:0 yendi ve galibiyet serisini yediye çıkardı.",
+      "u": "https://www.tauronligakobiet.pl/news,siodma-wygrana-z-rzedu-lks-u-commercecon.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-21",
+      "t": "Mistrzynie Polski przedłużyły zwycięską serię",
+      "te": "Polish champions extended winning streak",
+      "tt": "Polonya şampiyonları galibiyet serisini uzattı",
+      "b": "PGE Budowlani Łódź pokonali BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). Czwarte zwycięstwo z rzędu bez straty seta. MVP Aleksandra Kazała.",
+      "be": "PGE Budowlani Łódź beat BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). Fourth consecutive win without dropping a set. MVP Aleksandra Kazała.",
+      "bt": "PGE Budowlani Łódź, BKS ZGO Bielsko-Biała'yı 3:0 (25:23, 26:24, 25:20) yendi. Set vermeden üst üste dördüncü galibiyet. MVP Aleksandra Kazała.",
+      "u": "https://www.tauronligakobiet.pl/news,mistrzynie-polski-przedluzyly-zwycieska-serie.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Ósma wygrana KS DevelopResu Rzeszów",
+      "te": "Eighth win for KS DevelopRes Rzeszów",
+      "tt": "KS DevelopRes Rzeszów sekizinci galibiyet",
+      "b": "KS DevelopRes Rzeszów pokonał UNI Opole 3:1 (22:25, 25:15, 25:19, 25:21) i pozostaje niepokonany. MVP Taylor Mims.",
+      "be": "KS DevelopRes Rzeszów beat UNI Opole 3:1 (22:25, 25:15, 25:19, 25:21) and remain unbeaten. MVP Taylor Mims.",
+      "bt": "KS DevelopRes Rzeszów, UNI Opole'yi 3:1 (22:25, 25:15, 25:19, 25:21) yendi ve yenilgisiz kalıyor. MVP Taylor Mims.",
+      "u": "https://www.tauronligakobiet.pl/news,osme-zwyciestwo-ks-developresu-rzeszow.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Pierwsze zwycięstwo Sokoła&Hagric Mogilno",
+      "te": "First win for Sokół&Hagric Mogilno",
+      "tt": "Sokół&Hagric Mogilno ilk galibiyet",
+      "b": "Sokół&Hagric Mogilno pokonał #VolleyWrocław 3:2 (25:19, 21:25, 23:25, 25:19, 15:6) i odniósł pierwsze zwycięstwo w sezonie. MVP Sandra Świętoń (19 pkt).",
+      "be": "Sokół&Hagric Mogilno beat #VolleyWrocław 3:2 (25:19, 21:25, 23:25, 25:19, 15:6) for their first win of the season. MVP Sandra Świętoń (19 pts).",
+      "bt": "Sokół&Hagric Mogilno, #VolleyWrocław'u 3:2 (25:19, 21:25, 23:25, 25:19, 15:6) yendi ve sezonun ilk galibiyetini aldı. MVP Sandra Świętoń (19 sayı).",
+      "u": "https://www.tauronligakobiet.pl/news,pierwsze-zwyciestwo-sokolaamphagric-mogilno-w-sezonie.html",
+      "un": "TAURON Liga Kobiet"
+    },
     {
       "d": "2026-11-16",
       "t": "BKS 3:1 w Mielcu. MVP Vos",

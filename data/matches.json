@@ -3394,7 +3394,7 @@
       "round": 8,
       "label": "8. kolejka",
       "window": "18.11–23.11.2026",
-      "status": "zaplanowana",
+      "status": "w trakcie",
       "matches": [
         {
           "id": "r8m1",
@@ -3403,12 +3403,33 @@
           "home": "dev",
           "away": "opo",
           "venue": "Rzeszów",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              22,
+              25
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              21
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "KS — UNI",
             "text": "KS DevelopRes Rzeszów — UNI Opole, 20.11.2026, godzina 20:30."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m2",
@@ -3417,12 +3438,37 @@
           "home": "wro",
           "away": "mog",
           "venue": "Wrocław",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              21
+            ],
+            [
+              25,
+              23
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              6,
+              15
+            ]
+          ],
+          "score": [
+            2,
+            3
+          ],
           "preview": {
             "headline": "#VolleyWrocław — Sokół",
             "text": "#VolleyWrocław — Sokół & Hagric Mogilno, 20.11.2026, godzina 19:00."
-          }
+          },
+          "tv": "Polsat Sport Extra 3"
         },
         {
           "id": "r8m3",
@@ -3431,12 +3477,29 @@
           "home": "bud",
           "away": "bks",
           "venue": "Łódź",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              25,
+              23
+            ],
+            [
+              26,
+              24
+            ],
+            [
+              25,
+              20
+            ]
+          ],
+          "score": [
+            3,
+            0
+          ],
           "preview": {
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m4",
@@ -3445,31 +3508,69 @@
           "home": "kal",
           "away": "rad",
           "venue": "Kalisz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              22
+            ],
+            [
+              25,
+              19
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "NETLAND — MOYA",
             "text": "NETLAND MKS Kalisz — MOYA Radomka Radom, 22.11.2026, godzina 15:00."
-          }
+          },
+          "tv": "Polsat Sport 1"
         },
         {
           "id": "r8m5",
           "date": "2026-11-21",
-          "time": "19:00",
+          "time": "18:50",
           "home": "byd",
           "away": "lks",
           "venue": "Bydgoszcz",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              27,
+              29
+            ],
+            [
+              21,
+              25
+            ],
+            [
+              9,
+              25
+            ]
+          ],
+          "score": [
+            0,
+            3
+          ],
           "preview": {
             "headline": "Metalkas — ŁKS",
             "text": "Metalkas Pałac Bydgoszcz — ŁKS Commercecon Łódź, 21.11.2026, godzina 19:00."
-          }
+          },
+          "tv": "Polsat Box Go"
         },
         {
           "id": "r8m6",
           "date": "2026-11-23",
-          "time": null,
+          "time": "17:30",
           "home": "che",
           "away": "mie",
           "venue": "Police",
@@ -3478,7 +3579,8 @@
           "preview": {
             "headline": "LOTTO — ITA",
             "text": "LOTTO Chemik Police — ITA TOOLS Stal Mielec, 23.11.2026, godzina do potwierdzenia."
-          }
+          },
+          "tv": "Polsat Sport 1"
         }
       ]
     },
@@ -3490,8 +3592,8 @@
       "matches": [
         {
           "id": "r9m1",
-          "date": "2026-11-27",
-          "time": null,
+          "date": "2027-01-06",
+          "time": "12:00",
           "home": "lks",
           "away": "wro",
           "venue": "Łódź",
@@ -3505,7 +3607,7 @@
         {
           "id": "r9m2",
           "date": "2026-11-27",
-          "time": null,
+          "time": "17:30",
           "home": "mie",
           "away": "kal",
           "venue": "Mielec",
@@ -3519,7 +3621,7 @@
         {
           "id": "r9m3",
           "date": "2026-11-28",
-          "time": null,
+          "time": "19:00",
           "home": "mog",
           "away": "bud",
           "venue": "Mogilno",
@@ -3533,7 +3635,7 @@
         {
           "id": "r9m4",
           "date": "2026-11-29",
-          "time": null,
+          "time": "20:30",
           "home": "dev",
           "away": "byd",
           "venue": "Rzeszów",
@@ -3547,7 +3649,7 @@
         {
           "id": "r9m5",
           "date": "2026-11-29",
-          "time": null,
+          "time": "18:00",
           "home": "rad",
           "away": "opo",
           "venue": "Radom",
@@ -3561,7 +3663,7 @@
         {
           "id": "r9m6",
           "date": "2026-11-30",
-          "time": null,
+          "time": "19:00",
           "home": "bks",
           "away": "che",
           "venue": "Bielsko-Biała",
