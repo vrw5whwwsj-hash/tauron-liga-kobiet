@@ -3278,16 +3278,16 @@
           "venue": "Mogilno",
           "sets": [
             [
-              0,
-              0
+              20,
+              25
             ],
             [
-              0,
-              0
+              13,
+              25
             ],
             [
-              0,
-              0
+              22,
+              25
             ]
           ],
           "score": [
@@ -3300,10 +3300,10 @@
             "prediction": "3:1",
             "confidence": "średnia"
           },
-          "mvp": null,
+          "mvp": "Wiktoria Makarewicz",
           "recap": {
             "title": "Pałac 3:0 w Mogilnie",
-            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0:3. Wynik ze strony ligi, sety do potwierdzenia.",
+            "text": "Sokół & Hagric Mogilno – Metalkas Pałac Bydgoszcz 0:3 (20:25, 13:25, 22:25).",
             "source": "https://www.tauronligakobiet.pl/games.html"
           }
         },
@@ -3499,7 +3499,13 @@
             "headline": "PGE — BKS",
             "text": "PGE Budowlani Łódź — BKS ZGO Bielsko-Biała, 21.11.2026, godzina 12:00."
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Aleksandra Kazała",
+          "recap": {
+            "title": "Budowlani 3:0 z BKS",
+            "text": "PGE Budowlani Łódź – BKS ZGO Bielsko-Biała 3:0 (25:23, 26:24, 25:20). MVP: Aleksandra Kazała (19 pkt).",
+            "source": "https://www.polsatsport.pl/wiadomosc/2026-11-21/budowlani-bielsko-wynik-meczu/"
+          }
         },
         {
           "id": "r8m4",
@@ -3574,13 +3580,43 @@
           "home": "che",
           "away": "mie",
           "venue": "Police",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              18,
+              25
+            ],
+            [
+              20,
+              25
+            ],
+            [
+              25,
+              19
+            ],
+            [
+              25,
+              15
+            ],
+            [
+              15,
+              11
+            ]
+          ],
+          "score": [
+            3,
+            2
+          ],
           "preview": {
             "headline": "LOTTO — ITA",
             "text": "LOTTO Chemik Police — ITA TOOLS Stal Mielec, 23.11.2026, godzina do potwierdzenia."
           },
-          "tv": "Polsat Sport 1"
+          "tv": "Polsat Sport 1",
+          "mvp": "Maja Koput",
+          "recap": {
+            "title": "Chemik 3:2 ze Stalą. Od 0:2",
+            "text": "LOTTO Chemik Police – ITA TOOLS Stal Mielec 3:2 (18:25, 20:25, 25:19, 25:15, 15:11). MVP: Maja Koput. Chemik odrobił straty z 0:2.",
+            "source": "https://www.polsatsport.pl/wiadomosc/2026-11-23/chemik-police-stal-mielec-siatkowka-wynik-meczu-kto-wygral/"
+          }
         }
       ]
     },
