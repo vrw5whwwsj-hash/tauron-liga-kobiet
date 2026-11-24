@@ -14,35 +14,35 @@
         {
           "rank": "1",
           "name": "Wiktoria Makarewicz",
-          "team": "",
+          "team": "Pałac",
           "mvp": 4,
           "pts": 4
         },
         {
           "rank": "2",
           "name": "Iris Vos",
-          "team": "",
+          "team": "BKS",
           "mvp": 3,
           "pts": 3
         },
         {
           "rank": "2",
           "name": "Karla Antunović",
-          "team": "",
+          "team": "ŁKS",
           "mvp": 3,
           "pts": 3
         },
         {
           "rank": "4",
           "name": "Maja Storck",
-          "team": "",
+          "team": "Budowlani",
           "mvp": 2,
           "pts": 2
         },
         {
           "rank": "4",
           "name": "Oliwia Sieradzka",
-          "team": "",
+          "team": "Chemik",
           "mvp": 2,
           "pts": 2
         }
@@ -57,7 +57,7 @@
         {
           "rank": "1",
           "name": "Wiktoria Makarewicz",
-          "team": "",
+          "team": "Pałac",
           "matches": 8,
           "sets": 28,
           "pts": 152,
@@ -66,7 +66,7 @@
         {
           "rank": "2",
           "name": "Karolina Drużkowska",
-          "team": "",
+          "team": "Mogilno",
           "matches": 8,
           "sets": 30,
           "pts": 136,
@@ -75,7 +75,7 @@
         {
           "rank": "3",
           "name": "Iris Vos",
-          "team": "",
+          "team": "BKS",
           "matches": 8,
           "sets": 29,
           "pts": 135,
@@ -84,7 +84,7 @@
         {
           "rank": "4",
           "name": "Antonia Stautz",
-          "team": "",
+          "team": "Wrocław",
           "matches": 8,
           "sets": 34,
           "pts": 133,
@@ -93,7 +93,7 @@
         {
           "rank": "4",
           "name": "Elles Dambrink",
-          "team": "",
+          "team": "ŁKS",
           "matches": 8,
           "sets": 32,
           "pts": 133,
@@ -110,7 +110,7 @@
         {
           "rank": "1",
           "name": "Wiktoria Makarewicz",
-          "team": "",
+          "team": "Pałac",
           "matches": 8,
           "sets": 28,
           "att": 297,
@@ -120,7 +120,7 @@
         {
           "rank": "2",
           "name": "Elles Dambrink",
-          "team": "",
+          "team": "ŁKS",
           "matches": 8,
           "sets": 32,
           "att": 294,
@@ -130,7 +130,7 @@
         {
           "rank": "3",
           "name": "Suvi Kokkonen",
-          "team": "",
+          "team": "ŁKS",
           "matches": 8,
           "sets": 31,
           "att": 260,
@@ -140,7 +140,7 @@
         {
           "rank": "4",
           "name": "Antonia Stautz",
-          "team": "",
+          "team": "Wrocław",
           "matches": 8,
           "sets": 34,
           "att": 375,
@@ -150,7 +150,7 @@
         {
           "rank": "5",
           "name": "Karolina Drużkowska",
-          "team": "",
+          "team": "Mogilno",
           "matches": 8,
           "sets": 30,
           "att": 313,
@@ -168,7 +168,7 @@
         {
           "rank": "1",
           "name": "Saša Planinšec",
-          "team": "",
+          "team": "Budowlani",
           "matches": 8,
           "sets": 27,
           "block": 33,
@@ -177,7 +177,7 @@
         {
           "rank": "2",
           "name": "Natalia Dróżdż",
-          "team": "",
+          "team": "Chemik",
           "matches": 8,
           "sets": 34,
           "block": 32,
@@ -186,7 +186,7 @@
         {
           "rank": "3",
           "name": "Kateryna Zhylinska",
-          "team": "",
+          "team": "Radomka",
           "matches": 8,
           "sets": 31,
           "block": 31,
@@ -195,7 +195,7 @@
         {
           "rank": "4",
           "name": "Natalia Kecher",
-          "team": "",
+          "team": "Opole",
           "matches": 8,
           "sets": 32,
           "block": 29,
@@ -204,7 +204,7 @@
         {
           "rank": "4",
           "name": "Weronika Centka-Tietianiec",
-          "team": "",
+          "team": "DevelopRes",
           "matches": 8,
           "sets": 30,
           "block": 29,
@@ -221,7 +221,7 @@
         {
           "rank": "1",
           "name": "Natalia Mędrzyk",
-          "team": "",
+          "team": "Chemik",
           "matches": 7,
           "sets": 28,
           "ace": 13,
@@ -230,7 +230,7 @@
         {
           "rank": "2",
           "name": "Brigitta Petrenkó",
-          "team": "",
+          "team": "Kalisz",
           "matches": 8,
           "sets": 31,
           "ace": 12,
@@ -239,7 +239,7 @@
         {
           "rank": "3",
           "name": "Sandra Świętoń",
-          "team": "",
+          "team": "Mogilno",
           "matches": 8,
           "sets": 29,
           "ace": 11,
@@ -248,7 +248,7 @@
         {
           "rank": "3",
           "name": "Andriana Pavlyk",
-          "team": "",
+          "team": "Opole",
           "matches": 8,
           "sets": 31,
           "ace": 11,
@@ -257,7 +257,7 @@
         {
           "rank": "5",
           "name": "Kateryna Zhylinska",
-          "team": "",
+          "team": "Radomka",
           "matches": 8,
           "sets": 31,
           "ace": 10,
@@ -274,7 +274,7 @@
         {
           "rank": "1",
           "name": "Marrit Jasper",
-          "team": "",
+          "team": "DevelopRes",
           "matches": 7,
           "sets": 27,
           "n": "101",
@@ -284,7 +284,7 @@
         {
           "rank": "2",
           "name": "Anna Pawłowska",
-          "team": "",
+          "team": "DevelopRes",
           "matches": 8,
           "sets": 32,
           "n": "68",
@@ -294,7 +294,7 @@
         {
           "rank": "3",
           "name": "Justyna Łysiak",
-          "team": "",
+          "team": "Budowlani",
           "matches": 8,
           "sets": 27,
           "n": "84",
@@ -304,7 +304,7 @@
         {
           "rank": "4",
           "name": "Pola Nowakowska",
-          "team": "",
+          "team": "ŁKS",
           "matches": 7,
           "sets": 14,
           "n": "73",
@@ -314,7 +314,7 @@
         {
           "rank": "5",
           "name": "Marta Fedyk",
-          "team": "",
+          "team": "Radomka",
           "matches": 8,
           "sets": 26,
           "n": "128",
@@ -332,7 +332,7 @@
         {
           "rank": "1",
           "name": "Julia Mazur",
-          "team": "",
+          "team": "DevelopRes",
           "matches": 8,
           "sets": 34,
           "digs": 161,
@@ -341,7 +341,7 @@
         {
           "rank": "2",
           "name": "Agata Nowak",
-          "team": "",
+          "team": "Chemik",
           "matches": 8,
           "sets": 31,
           "digs": 136,
@@ -350,7 +350,7 @@
         {
           "rank": "3",
           "name": "Krystyna Niemtseva",
-          "team": "",
+          "team": "Wrocław",
           "matches": 8,
           "sets": 31,
           "digs": 131,
@@ -359,7 +359,7 @@
         {
           "rank": "4",
           "name": "Anna Pawłowska",
-          "team": "",
+          "team": "DevelopRes",
           "matches": 8,
           "sets": 32,
           "digs": 120,
@@ -368,7 +368,7 @@
         {
           "rank": "5",
           "name": "Alika Lutsenko",
-          "team": "",
+          "team": "Stal",
           "matches": 7,
           "sets": 29,
           "digs": 112,
