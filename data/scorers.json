@@ -16,35 +16,50 @@
           "name": "Wiktoria Makarewicz",
           "team": "Pałac",
           "mvp": 4,
-          "pts": 4
+          "pts": 4,
+          "matches": "—",
+          "sets": "—",
+          "perSet": "—"
         },
         {
           "rank": "2",
           "name": "Iris Vos",
           "team": "BKS",
           "mvp": 3,
-          "pts": 3
+          "pts": 3,
+          "matches": "—",
+          "sets": "—",
+          "perSet": "—"
         },
         {
           "rank": "2",
           "name": "Karla Antunović",
           "team": "ŁKS",
           "mvp": 3,
-          "pts": 3
+          "pts": 3,
+          "matches": "—",
+          "sets": "—",
+          "perSet": "—"
         },
         {
           "rank": "4",
           "name": "Maja Storck",
           "team": "Budowlani",
           "mvp": 2,
-          "pts": 2
+          "pts": 2,
+          "matches": "—",
+          "sets": "—",
+          "perSet": "—"
         },
         {
           "rank": "4",
           "name": "Oliwia Sieradzka",
           "team": "Chemik",
           "mvp": 2,
-          "pts": 2
+          "pts": 2,
+          "matches": "—",
+          "sets": "—",
+          "perSet": "—"
         }
       ]
     },
