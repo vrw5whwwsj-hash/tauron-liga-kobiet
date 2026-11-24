@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
-  "updated": "2026-11-19",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. UNI Opole: 26.11 vs Mulhouse (18:00), 02.12 u Asterix (19:00 lokalnie), 17.12 u VakıfBank (19:00), 12.01 vs Asterix (18:00), 27.01 u Mulhouse (20:30), 03.02 vs VakıfBank (20:30).",
+  "updated": "2026-11-24",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. UNI Opole: 26.11 vs Mulhouse (18:00).",
   "sources": [
     {
       "name": "CEV Champions League",
@@ -731,5 +731,46 @@
       "leg": 2
     }
   ],
-  "results": {}
+  "results": {
+    "fener-vasas": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          18
+        ],
+        [
+          25,
+          20
+        ],
+        [
+          25,
+          20
+        ]
+      ]
+    },
+    "eczaci-tent": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          18
+        ],
+        [
+          25,
+          16
+        ],
+        [
+          25,
+          19
+        ]
+      ]
+    }
+  }
 }
