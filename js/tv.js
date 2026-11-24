@@ -44,7 +44,15 @@ const TV_MAP = {
   r8m3: "Polsat Sport 1",
   r8m4: "Polsat Sport 1",
   r8m5: "Polsat Box Go",
-  r8m6: "Polsat Sport 1"
+  r8m6: "Polsat Sport 1",
+  r9m2: "Polsat Sport 1",
+  r9m4: "Polsat Sport 1",
+  r9m5: "Polsat Sport 1",
+  r10m1: "Polsat Sport 2",
+  r10m2: "Polsat Sport 1",
+  r10m3: "Polsat Sport 1",
+  r10m4: "Polsat Sport 1",
+  r10m5: "Polsat Sport 1"
 };
 function tvLine(m) {
   const ch = (m && (m.tv || TV_MAP[m.id])) || "";
