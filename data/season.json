@@ -3,8 +3,8 @@
   "league": "TAURON Liga Kobiet",
   "organizer": "PLS SA",
   "officialSite": "https://www.tauronligakobiet.pl",
-  "updatedAt": "2026-11-23T21:30:00Z",
-  "status": "8. kolejka zakończona. Chemik 3:2 Stal (MVP Koput). DevelopRes niepokonany.",
+  "updatedAt": "2026-11-25T20:00:00Z",
+  "status": "8. kolejka zakończona. DevelopRes niepokonany (23 pkt). Sokół pierwsze zwycięstwo. #VolleyWrocław nadal bez wygranej. 9. kolejka od 27.11.",
   "championDefending": "PGE Budowlani Łódź",
   "previousSeason": {
     "champion": "PGE Budowlani Łódź",
@@ -35,8 +35,8 @@
       "name": "KS DevelopRes Rzeszów",
       "city": "Rzeszów",
       "coach": "Jelena Blagojević",
-      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu.",
-      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season.",
+      "note": "Wicemistrzynie. Nowa kapitan: Alicja Grabka. Gryka (ACL) poza składem na początek sezonu. Lider po 8 kolejkach.",
+      "noteEn": "Runners-up. New captain: Alicja Grabka. Gryka (ACL) out for the start of the season. Leaders after 8 rounds.",
       "color": "#7c2d12"
     },
     {
@@ -45,8 +45,8 @@
       "name": "UNI Opole",
       "city": "Opole",
       "coach": "Bartłomiej Dąbrowski",
-      "note": "Brąz 2025/26. Stabilny projekt.",
-      "noteEn": "Bronze in 2025/26. Stable project.",
+      "note": "Brąz 2025/26. Debiut w Lidze Mistrzyń.",
+      "noteEn": "Bronze in 2025/26. Champions League debut.",
       "color": "#1e3a8a"
     },
     {
@@ -65,8 +65,8 @@
       "name": "ŁKS Commercecon Łódź",
       "city": "Łódź",
       "coach": "Adrian Chyliński",
-      "note": "Rewolucja kadrowa. Jurczyk: 5 pkt w 1. kolejce (DevelopRes) oraz 11 pkt i MVP w derbach z Budowlanymi (2. kolejka), na strefie 3 przez cztery sety.",
-      "noteEn": "Roster overhaul. Jurczyk scored 5 in round 1 (DevelopRes) and 11 plus MVP in the Budowlani derby (round 2), zone 3 in all four sets.",
+      "note": "Rewolucja kadrowa. 7 zwycięstw z rzędu.",
+      "noteEn": "Roster overhaul. 7 consecutive wins.",
       "color": "#9a3412"
     },
     {
@@ -75,8 +75,8 @@
       "name": "LOTTO Chemik Police",
       "city": "Police",
       "coach": "",
-      "note": "Duże zmiany kadrowe i nowe ambicje.",
-      "noteEn": "Major roster changes and renewed ambition.",
+      "note": "Duże zmiany kadrowe. Odrabianie 0:2 w 8. kolejce.",
+      "noteEn": "Major roster changes. Comeback from 0:2 in round 8.",
       "color": "#0f766e"
     },
     {
@@ -115,8 +115,8 @@
       "name": "NETLAND MKS Kalisz",
       "city": "Kalisz",
       "coach": "",
-      "note": "Beniaminek. Inauguracja sezonu u siebie.",
-      "noteEn": "Promoted side. Hosts the season opener.",
+      "note": "Beniaminek. Trzecie zwycięstwo w 8. kolejce.",
+      "noteEn": "Promoted side. Third win in round 8.",
       "color": "#4338ca"
     },
     {
@@ -125,8 +125,8 @@
       "name": "Sokół & Hagric Mogilno",
       "city": "Mogilno",
       "coach": "Dawid Michor",
-      "note": "Cel: najwaleczniejsza drużyna ligi. Trzeci sezon w elicie.",
-      "noteEn": "Aim: toughest team in the league. Third season in the elite.",
+      "note": "Pierwsze zwycięstwo sezonu w 8. kolejce (3:2 z Wrocławiem).",
+      "noteEn": "First win of the season in round 8 (3:2 over Wrocław).",
       "color": "#166534"
     },
     {
@@ -135,8 +135,8 @@
       "name": "#VolleyWrocław",
       "city": "Wrocław",
       "coach": "",
-      "note": "Wzmocniony skład, ambicje wyżej niż rok temu.",
-      "noteEn": "Reinforced roster, aiming higher than last year.",
+      "note": "Nadal bez zwycięstwa po 8 kolejkach.",
+      "noteEn": "Still winless after 8 rounds.",
       "color": "#9f1239"
     }
   ],
@@ -176,9 +176,9 @@
     {
       "player": "Anastazja Hryszczuk",
       "team": "#VolleyWrocław",
-      "note": "Uraz mięśniowy, przerwa na kilka tygodni (stan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
+      "note": "Uraz mięśniowy, przerwa na kilka tygodki (stan z 16.10). Nie zagrała w meczu z Radomką 13.10.",
       "noteEn": "Muscle injury, out for a few weeks (as of 16 Oct). Missed the match with Radomka on 13 Oct.",
-      "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı.",
+      "noteTr": "Kas sakatlığı, birkaç hafta ara (16 Ekim itibarıyla). 13 Ekim'de Radomka maçında oynamadı. Dönüş tarihi açıklanmadı.",
       "updated": "2026-10-16"
     },
     {
@@ -207,13 +207,14 @@
     }
   ],
   "verification": {
-    "lastChecked": "2026-11-08T20:10:37+01:00",
+    "lastChecked": "2026-11-25T20:00:00+01:00",
     "checkedBy": "grok",
     "sources": [
       "tauronligakobiet.pl",
       "polsatsport.pl",
-      "siatka.org"
+      "siatka.org",
+      "volleytime.pl"
     ],
-    "notes": "r6m1–r6m5 potwierdzone na kartach ligi (wynik, sety, MVP) i raportach Volleystation (homeTop/awayTop). r6m6 Opole–Mogilno 9.11 20:30 Stegu Arena — nie rozegrany. Godziny 7. kolejki z kart ligi: 12.11 17:30 Radomka–Chemik, 14.11 12:00 ŁKS–Opole, 14.11 19:00 DevelopRes–Kalisz, 15.11 20:30 Wrocław–Budowlani, 16.11 17:30 Mogilno–Pałac, 16.11 20:30 Stal–BKS."
+    "notes": "8. kolejka zakończona. Terminy i TV 9. kolejki z kafelków ligi i VolleyTime. Brak fikcyjnych wyników."
   }
 }
