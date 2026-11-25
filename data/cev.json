@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
   "updated": "2026-11-25",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. UNI Opole: 26.11 vs Mulhouse (18:00).",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. Wyniki 25.11: VakıfBank 3:0 Asterix, Milano 3:0 Levallois, Scandicci 3:1 Turan, Budowlani 1:3 Galatasaray, Suhl 3:2 Voluntari. UNI Opole: 26.11 vs Mulhouse (18:00).",
   "sources": [
     {
       "name": "CEV Champions League",
@@ -761,7 +761,27 @@
       "sets": [
         [
           25,
-          18
+          19
+        ],
+        [
+          25,
+          19
+        ],
+        [
+          25,
+          10
+        ]
+      ]
+    },
+    "vakif-qa": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          22
         ],
         [
           25,
@@ -769,7 +789,103 @@
         ],
         [
           25,
+          14
+        ]
+      ]
+    },
+    "milano-levallois": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          20
+        ],
+        [
+          25,
           19
+        ],
+        [
+          25,
+          11
+        ]
+      ]
+    },
+    "scandicci-qd": {
+      "score": [
+        3,
+        1
+      ],
+      "sets": [
+        [
+          25,
+          21
+        ],
+        [
+          25,
+          10
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          16
+        ]
+      ]
+    },
+    "budowlani-gala": {
+      "score": [
+        1,
+        3
+      ],
+      "sets": [
+        [
+          25,
+          23
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          21,
+          25
+        ]
+      ]
+    },
+    "suhl-voluntari": {
+      "score": [
+        3,
+        2
+      ],
+      "sets": [
+        [
+          19,
+          25
+        ],
+        [
+          25,
+          16
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          25,
+          19
+        ],
+        [
+          15,
+          12
         ]
       ]
     }
