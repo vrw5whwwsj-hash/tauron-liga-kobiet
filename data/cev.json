@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
   "updated": "2026-11-25",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. UNI Opole: 26.11 vs Mulhouse (18:00).",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24–25.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent, VakıfBank 3:0 Asterix, Scandicci 3:1 Turan, Budowlani 1:3 Galatasaray. Mecze w toku (nie wpisane): Milano–Levallois, Suhl–Voluntari. UNI Opole: 26.11 vs Mulhouse (18:00).",
   "sources": [
     {
       "name": "CEV Champions League",
@@ -548,9 +548,10 @@
       "id": "qd-eczaci",
       "home": "qd",
       "away": "eczaci",
-      "date": "TBD",
-      "time": "TBD",
-      "leg": 1
+      "date": "2027-01-13",
+      "time": "19:00",
+      "leg": 2,
+      "venue": "TOVUZ Olympic Hall"
     },
     {
       "id": "eczaci-scandicci",
@@ -574,10 +575,10 @@
       "id": "eczaci-qd",
       "home": "eczaci",
       "away": "qd",
-      "date": "2027-01-12",
-      "time": "18:00",
+      "date": "2026-12-02",
+      "time": "19:30",
       "venue": "Eczacibasi Spor Salonu ISTANBUL",
-      "leg": 2
+      "leg": 1
     },
     {
       "id": "scandicci-tent",
@@ -601,9 +602,10 @@
       "id": "qd-scandicci",
       "home": "qd",
       "away": "scandicci",
-      "date": "TBD",
-      "time": "TBD",
-      "leg": 2
+      "date": "2027-01-27",
+      "time": "19:00",
+      "leg": 2,
+      "venue": "TOVUZ Olympic Hall"
     },
     {
       "id": "scandicci-eczaci",
@@ -761,7 +763,27 @@
       "sets": [
         [
           25,
-          18
+          19
+        ],
+        [
+          25,
+          19
+        ],
+        [
+          25,
+          10
+        ]
+      ]
+    },
+    "vakif-qa": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          22
         ],
         [
           25,
@@ -769,7 +791,55 @@
         ],
         [
           25,
-          19
+          14
+        ]
+      ]
+    },
+    "scandicci-qd": {
+      "score": [
+        3,
+        1
+      ],
+      "sets": [
+        [
+          25,
+          21
+        ],
+        [
+          25,
+          10
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          16
+        ]
+      ]
+    },
+    "budowlani-gala": {
+      "score": [
+        1,
+        3
+      ],
+      "sets": [
+        [
+          25,
+          23
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          21,
+          25
         ]
       ]
     }
