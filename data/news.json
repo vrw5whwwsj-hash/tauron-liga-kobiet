@@ -1,6 +1,61 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "items": [
+    {
+      "d": "2026-11-26",
+      "t": "Rozczarowani wynikiem, ale nie bez pozytywów. Komentarze po porażce PGE Budowlanych z Galatasaray",
+      "te": "Disappointed with the result, but not without positives. Comments after PGE Budowlani defeat to Galatasaray",
+      "tt": "Sonuçtan hayal kırıklığı, ama olumlu yanlar da var. PGE Budowlani’nin Galatasaray mağlubiyeti sonrası yorumlar",
+      "b": "Siatkarki PGE Budowlanych Łódź przegrały z Galatasaray Daikin w pierwszym meczu Ligi Mistrzyń, ale widać było pozytywy w grze mistrzyń Polski.",
+      "be": "PGE Budowlani Łódź lost to Galatasaray Daikin in their first Champions League match, but positives were visible in the Polish champions’ play.",
+      "bt": "PGE Budowlani Łódź, Şampiyonlar Ligi’ndeki ilk maçında Galatasaray Daikin’e yenildi, ancak Polonya şampiyonlarının oyununda olumlu yanlar görüldü.",
+      "u": "https://www.tauronligakobiet.pl/news,rozczarowani-wynikiem-ale-nie-bez-pozytywow-komentarze-po-porazce-pge-budowlanych-lodz-z-galatasaray.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-26",
+      "t": "BKS ZGO Bielsko-Biała blisko kolejnej rundy Pucharu CEV",
+      "te": "BKS ZGO Bielsko-Biała close to next round of CEV Cup",
+      "tt": "BKS ZGO Bielsko-Biała CEV Kupası’nda bir sonraki tura yakın",
+      "b": "BKS ZGO Bielsko-Biała jest blisko awansu do kolejnej rundy Pucharu CEV po meczu z Puijo Wolley.",
+      "be": "BKS ZGO Bielsko-Biała is close to advancing to the next round of the CEV Cup after the match against Puijo Wolley.",
+      "bt": "BKS ZGO Bielsko-Biała, Puijo Wolley maçının ardından CEV Kupası’nda bir sonraki tura çıkmaya yakın.",
+      "u": "https://www.tauronligakobiet.pl/news,bks-zgo-bielsko-biala-blisko-kolejnej-rundy-pucharu-cev.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-25",
+      "t": "Liga Mistrzyń. Tylko jeden wygrany set PGE Budowlanych z Galatasaray",
+      "te": "Champions League. Only one set won by PGE Budowlani against Galatasaray",
+      "tt": "Şampiyonlar Ligi. PGE Budowlani Galatasaray’a karşı sadece bir set kazandı",
+      "b": "PGE Budowlani Łódź uległy Galatasaray Daikin Stambuł w pierwszym meczu fazy grupowej Ligi Mistrzyń, wygrywając tylko jednego seta.",
+      "be": "PGE Budowlani Łódź lost to Galatasaray Daikin Istanbul in their first group stage Champions League match, winning only one set.",
+      "bt": "PGE Budowlani Łódź, Şampiyonlar Ligi grup aşamasındaki ilk maçında Galatasaray Daikin İstanbul’a yenildi ve sadece bir set kazandı.",
+      "u": "https://www.tauronligakobiet.pl/news,liga-mistrzyn-tylko-jeden-wygrany-set-pge-budowlanych-z-galatasaray.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-25",
+      "t": "Mistrzowski set z Marką KRISHOME: Pięć polskich drużyn rozpoczyna walkę w Europie",
+      "te": "Championship set with KRISHOME brand: Five Polish teams start European campaign",
+      "tt": "KRISHOME markasıyla şampiyonluk seti: Beş Polonya takımı Avrupa mücadelesine başlıyor",
+      "b": "Pięć drużyn z TAURON Ligi Kobiet rozpoczyna zmagania w europejskich pucharach: Liga Mistrzyń, Puchar CEV i Challenge Cup.",
+      "be": "Five teams from TAURON Liga Kobiet start their European campaigns in the Champions League, CEV Cup and Challenge Cup.",
+      "bt": "TAURON Liga Kobiet’ten beş takım Şampiyonlar Ligi, CEV Kupası ve Challenge Cup’ta Avrupa macerasına başlıyor.",
+      "u": "https://www.tauronligakobiet.pl/news,mistrzowski-set-z-marka-krishome-piec-polskich-druzyn-rozpoczyna-walke-w-europie.html",
+      "un": "TAURON Liga Kobiet"
+    },
+    {
+      "d": "2026-11-25",
+      "t": "W TAURON Lidze Kobiet już tylko jeden zespół bez zwycięstwa. Oto drużyna 8. kolejki",
+      "te": "Only one team without a win in TAURON Liga Kobiet. Here is the team of round 8",
+      "tt": "TAURON Liga Kobiet’te artık sadece bir takım galibiyetsiz. İşte 8. haftanın takımı",
+      "b": "Po 8. kolejce tylko #VolleyWrocław nadal nie ma zwycięstwa w sezonie. Oficjalna drużyna kolejki została ogłoszona.",
+      "be": "After round 8 only #VolleyWrocław still has no win this season. The official team of the round has been announced.",
+      "bt": "8. haftadan sonra sezonda hala galibiyeti olmayan tek takım #VolleyWrocław. Haftanın resmi takımı açıklandı.",
+      "u": "https://www.tauronligakobiet.pl/news,w-tauron-lidze-kobiet-nie-ma-juz-zespolu-bez-zwyciestwa-oto-druzyna-8-kolejki.html",
+      "un": "TAURON Liga Kobiet"
+    },
     {
       "d": "2026-11-23",
       "t": "ECO wspiera UNI Opole przed debiutem w Lidze Mistrzyń",

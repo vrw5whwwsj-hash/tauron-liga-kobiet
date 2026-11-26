@@ -3394,7 +3394,7 @@
       "round": 8,
       "label": "8. kolejka",
       "window": "18.11–23.11.2026",
-      "status": "w trakcie",
+      "status": "zakończona",
       "matches": [
         {
           "id": "r8m1",
@@ -3637,7 +3637,7 @@
           "score": null,
           "preview": {
             "headline": "ŁKS — #VolleyWrocław",
-            "text": "ŁKS Commercecon Łódź — #VolleyWrocław, 27.11.2026, godzina do potwierdzenia."
+            "text": "ŁKS Commercecon Łódź — #VolleyWrocław przełożony na 6.01.2027."
           }
         },
         {
@@ -3651,8 +3651,9 @@
           "score": null,
           "preview": {
             "headline": "ITA — NETLAND",
-            "text": "ITA TOOLS Stal Mielec — NETLAND MKS Kalisz, 27.11.2026, godzina do potwierdzenia."
-          }
+            "text": "ITA TOOLS Stal Mielec — NETLAND MKS Kalisz, 27.11.2026, 17:30."
+          },
+          "tv": "Polsat Sport 1, Polsat Sport Extra 2, Polsat Box Go"
         },
         {
           "id": "r9m3",
@@ -3665,8 +3666,9 @@
           "score": null,
           "preview": {
             "headline": "Sokół — PGE",
-            "text": "Sokół & Hagric Mogilno — PGE Budowlani Łódź, 28.11.2026, godzina do potwierdzenia."
-          }
+            "text": "Sokół & Hagric Mogilno — PGE Budowlani Łódź, 28.11.2026, 19:00."
+          },
+          "tv": "Polsat Sport Extra 4, Polsat Box Go"
         },
         {
           "id": "r9m4",
@@ -3679,7 +3681,7 @@
           "score": null,
           "preview": {
             "headline": "KS — Metalkas",
-            "text": "KS DevelopRes Rzeszów — Metalkas Pałac Bydgoszcz, 29.11.2026, godzina do potwierdzenia."
+            "text": "KS DevelopRes Rzeszów — Metalkas Pałac Bydgoszcz, 29.11.2026, 20:30."
           }
         },
         {
@@ -3693,7 +3695,7 @@
           "score": null,
           "preview": {
             "headline": "MOYA — UNI",
-            "text": "MOYA Radomka Radom — UNI Opole, 29.11.2026, godzina do potwierdzenia."
+            "text": "MOYA Radomka Radom — UNI Opole, 29.11.2026, 18:00."
           }
         },
         {
@@ -3707,7 +3709,7 @@
           "score": null,
           "preview": {
             "headline": "BKS — LOTTO",
-            "text": "BKS ZGO Bielsko-Biała — LOTTO Chemik Police, 30.11.2026, godzina do potwierdzenia."
+            "text": "BKS ZGO Bielsko-Biała — LOTTO Chemik Police, 30.11.2026, 19:00."
           }
         }
       ]
