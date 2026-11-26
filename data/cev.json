@@ -1,7 +1,7 @@
 {
   "season": "2026/27",
   "updated": "2026-11-26",
-  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. Wyniki 25.11: VakıfBank 3:0 Asterix, Milano 3:0 Levallois, Scandicci 3:1 Turan, Budowlani 1:3 Galatasaray, Suhl 3:2 Voluntari. Wyniki 26.11: UNI Opole 3:0 Mulhouse. Mecze w toku (nie wpisane): Conegliano–Novara, DevelopRes–Dresden.",
+  "note": "Faza grupowa 24.11.2026–03.02.2027. Wyniki 24.11: Fenerbahçe 3:0 Vasas, Eczacıbaşı 3:0 Tent. Wyniki 25.11: VakıfBank 3:0 Asterix, Milano 3:0 Levallois, Scandicci 3:1 Turan, Budowlani 1:3 Galatasaray, Suhl 3:2 Voluntari. Wyniki 26.11: UNI Opole 3:0 Mulhouse, Conegliano 2:3 Novara, DevelopRes 3:0 Dresden.",
   "sources": [
     {
       "name": "CEV Champions League",
@@ -900,6 +900,54 @@
         [
           29,
           27
+        ],
+        [
+          25,
+          19
+        ],
+        [
+          25,
+          22
+        ]
+      ]
+    },
+    "conegliano-novara": {
+      "score": [
+        2,
+        3
+      ],
+      "sets": [
+        [
+          25,
+          18
+        ],
+        [
+          25,
+          20
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          13,
+          15
+        ]
+      ]
+    },
+    "rzeszow-dresden": {
+      "score": [
+        3,
+        0
+      ],
+      "sets": [
+        [
+          25,
+          19
         ],
         [
           25,
