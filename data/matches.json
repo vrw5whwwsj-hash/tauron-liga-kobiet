@@ -3721,7 +3721,7 @@
         {
           "id": "r10m1",
           "date": "2026-12-03",
-          "time": null,
+          "time": "20:30",
           "home": "byd",
           "away": "rad",
           "venue": "Bydgoszcz",
@@ -3729,13 +3729,13 @@
           "score": null,
           "preview": {
             "headline": "Metalkas — MOYA",
-            "text": "Metalkas Pałac Bydgoszcz — MOYA Radomka Radom, 03.12.2026, godzina do potwierdzenia."
+            "text": "Metalkas Pałac Bydgoszcz — MOYA Radomka Radom, 03.12.2026, 20:30."
           }
         },
         {
           "id": "r10m2",
           "date": "2026-12-05",
-          "time": null,
+          "time": "18:00",
           "home": "opo",
           "away": "mie",
           "venue": "Opole",
@@ -3743,13 +3743,13 @@
           "score": null,
           "preview": {
             "headline": "UNI — ITA",
-            "text": "UNI Opole — ITA TOOLS Stal Mielec, 05.12.2026, godzina do potwierdzenia."
+            "text": "UNI Opole — ITA TOOLS Stal Mielec, 05.12.2026, 18:00."
           }
         },
         {
           "id": "r10m3",
           "date": "2026-12-06",
-          "time": null,
+          "time": "18:00",
           "home": "wro",
           "away": "dev",
           "venue": "Wrocław",
@@ -3757,13 +3757,13 @@
           "score": null,
           "preview": {
             "headline": "#VolleyWrocław — KS",
-            "text": "#VolleyWrocław — KS DevelopRes Rzeszów, 06.12.2026, godzina do potwierdzenia."
+            "text": "#VolleyWrocław — KS DevelopRes Rzeszów, 06.12.2026, 18:00."
           }
         },
         {
           "id": "r10m4",
-          "date": "2026-12-06",
-          "time": null,
+          "date": "2026-12-05",
+          "time": "12:00",
           "home": "mog",
           "away": "lks",
           "venue": "Mogilno",
@@ -3771,13 +3771,13 @@
           "score": null,
           "preview": {
             "headline": "Sokół — ŁKS",
-            "text": "Sokół & Hagric Mogilno — ŁKS Commercecon Łódź, 06.12.2026, godzina do potwierdzenia."
+            "text": "Sokół & Hagric Mogilno — ŁKS Commercecon Łódź, 05.12.2026, 12:00."
           }
         },
         {
           "id": "r10m5",
           "date": "2026-12-07",
-          "time": null,
+          "time": "17:30",
           "home": "bud",
           "away": "che",
           "venue": "Łódź",
@@ -3785,13 +3785,13 @@
           "score": null,
           "preview": {
             "headline": "PGE — LOTTO",
-            "text": "PGE Budowlani Łódź — LOTTO Chemik Police, 07.12.2026, godzina do potwierdzenia."
+            "text": "PGE Budowlani Łódź — LOTTO Chemik Police, 07.12.2026, 17:30."
           }
         },
         {
           "id": "r10m6",
           "date": "2026-12-07",
-          "time": null,
+          "time": "20:30",
           "home": "kal",
           "away": "bks",
           "venue": "Kalisz",
@@ -3799,7 +3799,7 @@
           "score": null,
           "preview": {
             "headline": "NETLAND — BKS",
-            "text": "NETLAND MKS Kalisz — BKS ZGO Bielsko-Biała, 07.12.2026, godzina do potwierdzenia."
+            "text": "NETLAND MKS Kalisz — BKS ZGO Bielsko-Biała, 07.12.2026, 20:30."
           }
         }
       ]
