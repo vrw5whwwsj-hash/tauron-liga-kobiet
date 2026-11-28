@@ -3624,7 +3624,7 @@
       "round": 9,
       "label": "9. kolejka",
       "window": "27.11–30.11.2026",
-      "status": "zaplanowana",
+      "status": "w toku",
       "matches": [
         {
           "id": "r9m1",
@@ -3647,11 +3647,35 @@
           "home": "mie",
           "away": "kal",
           "venue": "Mielec",
-          "sets": null,
-          "score": null,
+          "sets": [
+            [
+              19,
+              25
+            ],
+            [
+              28,
+              26
+            ],
+            [
+              25,
+              18
+            ],
+            [
+              25,
+              20
+            ]
+          ],
+          "score": [
+            3,
+            1
+          ],
           "preview": {
             "headline": "ITA — NETLAND",
             "text": "ITA TOOLS Stal Mielec — NETLAND MKS Kalisz, 27.11.2026, godzina do potwierdzenia."
+          },
+          "recap": {
+            "title": "Stal 3:1 z Kaliszem",
+            "text": "ITA TOOLS Stal Mielec – NETLAND MKS Kalisz 3:1 (19:25, 28:26, 25:18, 25:20). Pierwsze zwycięstwo Stali w 9. kolejce."
           }
         },
         {
